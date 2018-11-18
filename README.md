@@ -15,7 +15,7 @@ mkdir <projectname>
 
 ### Clone the Vlocity build Repo to your local directory
 ```bash
-git remove set-url origin git@gihub.com:<username>/<repositoryname>.git
+git remote set-url origin git@gihub.com:<username>/<repositoryname>.git
 ```
 
 ### Reset the Git Remote URL
