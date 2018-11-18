@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2017;2018;2019",
+    "FilterName__c": "Network Name",
+    "FilterValue__c": "California Care HMO;Prudent Buyer PPO;Select HMO;Select PPO",
+    "IsAttribute__c": false,
+    "Name": "DF-4198",
+    "Order__c": 3,
+    "Ordered_Filter_Value__c": "California Care HMO;Prudent Buyer PPO;Select HMO;Select PPO",
+    "Producttype__c": "Medical",
+    "Property__c": "Network",
+    "State__c": "CA",
+    "UserType__c": "External User/Broker",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4198"
+}

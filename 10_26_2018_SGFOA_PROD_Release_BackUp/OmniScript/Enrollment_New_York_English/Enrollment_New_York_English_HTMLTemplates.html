@@ -1,0 +1,200 @@
+<style>
+.via-slds .vlc-slds-radio-control div[horizontalmode=true]>label.slds-radio
+{
+    margin: .5rem 2rem 1rem 14px;
+}
+.via-slds .vlc-slds-radio-control div[horizontalmode=false]>label.slds-radio
+{
+    margin: 0.5rem 1rem 0.5rem 14px;
+}
+.via-slds .slds-modal__container .slds-modal__content #docusign-frame iframe {
+    display: block !important;
+}
+.via-slds .slds-modal__container .slds-modal__content #docusign-frame iframe {
+        display: block !important;
+}
+#docusign-frame #iframeDummy {
+    display: none;
+}
+ng-form#NewEligible-20170 a, ng-form#NewEligible-20180 a{
+    float: right;
+    margin-left: 5px;
+}
+#NewEligible-20170 .vlc-slds--tooltip, #NewEligible-20180 .vlc-slds--tooltip {
+    right: 0;
+    left: auto;
+    top: -10px;
+}
+
+#NewEligible-20170 .slds-nubbin--top-left:after, #NewEligible-20170 .slds-nubbin--top-left:before, #NewEligible-20180 .slds-nubbin--top-left:after, #NewEligible-20180 .slds-nubbin--top-left:before{
+  right: 0;
+  top: -.5rem;
+}
+
+#NewEligible-20170 .slds-nubbin--top-left:before, #NewEligible-20180 .slds-nubbin--top-left:before{
+  top: -.5rem;
+  left: auto;
+  margin-right: .7rem;
+}
+
+#NewEligible-20170 .slds-nubbin--top-left:after, #NewEligible-20180 .slds-nubbin--top-left:after{
+  top: -.5rem;
+  left: auto;
+  margin-right: .7rem;
+}
+.custom-zipcode span:before{
+    color : red !important;
+}
+
+.custom-zipcode.go-green span:before{
+    color : #50e3c2 !important;
+}
+</style>
+
+<!--<script type="text/ng-template" id="customValidation.html">
+
+<ng-form ng-repeat='control in child.eleArray' name='loopform' class='col-md-{{::control.propSetMap.controlWidth}} col-sm-{{::control.propSetMap.controlWidth}} vlc-form-group has-feedback vlc-validation-form' ng-class='{ "has-success": validForm, "has-error": invalidForm }'>
+    <label class='field-label' ng-if='::!control.propSetMap.hideLabel'>{{::control.propSetMap.label}}
+    </label>
+    <input id='{{::control.name}}' type='text' name='loopname' ng-show='performValidate(this, control)' ng-model='control.response' class='form-control' readonly/>
+
+    <div class='vlc-validation-field' ng-repeat='msg in ::control.propSetMap.messages' ng-if='msg.active === true && control.response !== null && control.response === msg.value'>
+        <div class='vlc-validation-info' ng-if="msg.type === 'Comment' && control.displayMsg">
+            <i class='icon-v-information- vlc-error-input form-control-feedback'></i>
+            <small class='prop-error form-control-feedback'>{{control.displayMsg}}</small>
+        </div>
+        <div class='vlc-validation-success' ng-if="msg.type === 'Success' && control.displayMsg">
+            <i class='icon-v-check-circle vlc-error-input form-control-feedback'></i>
+            <small class='prop-error form-control-feedback'>{{control.displayMsg}}</small>
+        </div>
+        <div class='vlc-validation-warning' ng-if="msg.type === 'Warning' && control.displayMsg">
+            <i class='icon-v-claim vlc-error-input form-control-feedback'></i>
+            <small class='prop-error form-control-feedback'>{{control.displayMsg}}</small>
+        </div>
+        <div class='vlc-validation-error' ng-if="msg.type === 'Requirement' && control.displayMsg">
+            <i class='icon-v-close-circle vlc-error-input form-control-feedback'></i>
+            <small class='prop-error form-control-feedback'>{{control.displayMsg}}</small>
+        </div>
+    </div>
+</ng-form>
+</script>-->
+
+<style>
+.vlocity ng-form.vlc-validation-form{
+   min-height: 0px !important;
+}
+</style>
+
+<script type="text/ng-template" id="SaveSession.html">
+            <div class='panel panel-default review'>
+                <div class='panel-heading'>
+                    Your Enrollment Application has been saved.
+                </div>
+
+            </div>
+     </script>
+
+     <script type="text/ng-template" id="ApplicationConfirmation.html">
+            <div class='panel panel-default review'>
+                <div class='panel-heading'>
+                   Application has been submitted successfully. Please click "Done" to exit screen
+                </div>
+                <div class='panel-body'>
+                </div>
+            </div>
+</script>
+
+<script type="text/ng-template" id="vlcRemoteAction.html" >
+<div id='{{::child.name}}'
+     class="slds-box vlc-slds-remote-action__container"
+     ng-if='child.ui.show && child.ui.error'>
+
+    <div class="vlc-slds-remote-action__content" ng-if='!loading && child.ui.error'>
+
+        <p>{{::child.propSetMap.label}}</p>
+        <p ng-if='child.ui.preTransform'>{{::customLabels.OmniPreTransform}}</p>
+        <p ng-if='child.ui.postTransform'>{{::customLabels.OmniPostTransform}}</p>
+        <h2 style="font-weight:bold; font-size:18px;">Something Went Wrong!</h2>
+        <!--<p>{{child.ui.errorMessage}}</p>-->
+
+        <p>
+            <button class="slds-button slds-button--neutral"
+                    ng-if='child.ui.error'
+                    confirmed-click='cancel()'
+                    ng-confirm-click='{{::child.propSetMap.failureAbortMessage}}'>
+                {{::child.propSetMap.failureAbortLabel}}
+            </button>
+
+            <!--<button class="slds-button slds-button--neutral"
+                    ng-if='child.ui.error && child.bHasNext'
+                    ng-click='nextRepeater(child.nextIndex, child.indexInParent)'>
+                {{::child.propSetMap.failureNextLabel}}
+            </button>-->
+        </p>
+
+
+
+    </div>
+</div>
+</script>
+<script type="text/ng-template" id="TextBillingCheck.html" >
+ <div class="slds-form-element__control" ng-init="baseCtrl.onload(this)">
+
+            <div class="vlc-control-wrapper" help="false">
+
+                <input id="BillingZip" type="text" name="loopname" ng-disabled="control.ro" ng-required="control.req" ng-model="billingzipcode" ng-change="baseCtrl.onenter(this)" ng-blur="baseCtrl.onenter(this)" ng-focus="baseCtrl.onenter(this)" ng-model-options="{ updateOn: 'default focusout blur', debounce: { 'default': control.propSetMap.debounceValue, 'focusout': 0, 'blur': 0 } }" class="slds-input ng-pristine ng-valid-minlength ng-valid-maxlength ng-empty ng-valid ng-valid-required" maxlength="5" required="required" ng-touched">
+
+                <label for="BillingZip" class="slds-form-element__label ng-binding custom-zipcode" ng-class="{'go-green': billingzipcode.length > 0 }">Billing Zip
+                    <span class="vlc-asterix icon-v-asterix">
+                    </span>
+                </label>
+
+                <!-- tooltip template -->
+                
+
+            </div>
+
+            <!-- this is the error block -->
+            <!-- ngInclude: ::errHTMLId --><div ng-include="::errHTMLId" class="ng-scope"><div class="vlc-slds-error-block ng-scope">
+
+    <div class="error ng-hide" ng-show="control.srvErr">
+        <small class="description ng-binding"></small>
+    </div>
+
+    <!-- ngIf: loopform.loopname.$error && loopform.loopname.$dirty -->
+</div>
+</div>
+
+        </div>
+</script>
+
+<script type="text/ng-template" id="TextMailingCheck.html" >
+ <div class="slds-form-element__control" ng-init="baseCtrl.onload(this)">
+
+            <div class="vlc-control-wrapper" help="false">
+
+                <input id="MailingZip" type="text" name="loopname" ng-disabled="control.ro" ng-required="control.req" ng-model="mailingzipcode" ng-change="baseCtrl.onenter(this)" ng-blur="baseCtrl.onenter(this)" ng-focus="baseCtrl.onenter(this)" ng-model-options="{ updateOn: 'default focusout blur', debounce: { 'default': control.propSetMap.debounceValue, 'focusout': 0, 'blur': 0 } }" class="slds-input ng-pristine ng-valid-minlength ng-valid-maxlength ng-empty ng-valid ng-valid-required" maxlength="5" required="required" ng-touched">
+
+                <label for="MailingZip" class="slds-form-element__label ng-binding custom-zipcode" ng-class="{'go-green': mailingzipcode.length > 0 }">Mailing Zip
+                    <span class="vlc-asterix icon-v-asterix" >
+                    </span>
+                </label>
+
+                <!-- tooltip template -->
+                
+
+            </div>
+
+            <!-- this is the error block -->
+            <!-- ngInclude: ::errHTMLId --><div ng-include="::errHTMLId" class="ng-scope"><div class="vlc-slds-error-block ng-scope">
+
+    <div class="error ng-hide" ng-show="control.srvErr">
+        <small class="description ng-binding"></small>
+    </div>
+
+    <!-- ngIf: loopform.loopname.$error && loopform.loopname.$dirty -->
+</div>
+</div>
+
+        </div>
+</script>

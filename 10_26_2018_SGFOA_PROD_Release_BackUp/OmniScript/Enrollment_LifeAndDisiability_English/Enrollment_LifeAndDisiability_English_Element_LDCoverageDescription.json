@@ -1,0 +1,87 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 3,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "AllStateLifeandDisabilityStepDetatils",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/LifeAndDisiability/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 2,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Enrollment/LifeAndDisiability/English",
+        "Name": "LDLifeDisabilityWaiveBlock",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/LifeAndDisiability/English/LDLifeDisabilityWaiveBlock",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "LDLifeDisabilityWaiveBlock",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "Example: Life, Short Term Disability, Long Term Disability, etc.",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Coverage Description",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "DisabilityPrdShort",
+                "value": "Short Term Disability"
+            },
+            {
+                "name": "DisabilityPrdLong",
+                "value": "Long Term Disability"
+            },
+            {
+                "name": "DisabilityPrdVoluntaryShort",
+                "value": "Voluntary Short Term Disability"
+            },
+            {
+                "name": "DisabilityPrdVoluntaryLong",
+                "value": "Voluntary Long Term Disability"
+            },
+            {
+                "name": "LDPrdBasicLife",
+                "value": "Basic Life and AD&D"
+            },
+            {
+                "name": "LDPrdBasicDependent",
+                "value": "Basic Dependent Life"
+            },
+            {
+                "name": "LDPrdOptionalLife",
+                "value": "Optional Supplemental/Voluntary Life and AD&D"
+            },
+            {
+                "name": "LDPrdOptionalDependent",
+                "value": "Optional Supplemental/Voluntary Dependent Life"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": true,
+        "show": null,
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "LDCoverageDescription",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/LifeAndDisiability/English/LDCoverageDescription"
+}

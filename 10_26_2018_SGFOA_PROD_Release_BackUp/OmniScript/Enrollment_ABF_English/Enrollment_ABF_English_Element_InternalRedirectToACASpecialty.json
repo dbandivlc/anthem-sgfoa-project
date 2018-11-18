@@ -1,0 +1,55 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__InternalNotes__c": "This Done action handles the use case when OS is launched from Internal USers and user clicks \"Enroll in Specialty\" at end of OS to redirect to ACA Specialty flow.",
+    "%vlocity_namespace%__Level__c": 1,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ABF Enrollment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 6,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English",
+        "Name": "SpecialtyEnrollment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English/SpecialtyEnrollment",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "SpecialtyEnrollment",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "RedirectInternalToACASpecialty.html",
+        "consoleTabLabel": "New",
+        "controlWidth": 6,
+        "disOnTplt": false,
+        "label": "Enroll in Specialty",
+        "message": {
+        },
+        "redirectPageName": "mobileDone",
+        "redirectTemplateUrl": "vlcMobileConfirmation.html",
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "Anthem SG Broker",
+                        "field": "BrokerProfile"
+                    }
+                ]
+            }
+        },
+        "source": "%ContextId%",
+        "ssm": false,
+        "type": "Redirect",
+        "validationRequired": null,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Done Action",
+    "Name": "InternalRedirectToACASpecialty",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English/InternalRedirectToACASpecialty"
+}

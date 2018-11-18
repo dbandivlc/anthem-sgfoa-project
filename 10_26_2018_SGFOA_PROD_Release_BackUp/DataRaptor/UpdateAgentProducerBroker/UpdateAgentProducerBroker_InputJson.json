@@ -1,0 +1,1649 @@
+{
+    "AgencyName": "Broker Steve",
+    "Agent/Producer/BrokerCert": {
+        "AgencyIDNo1": "12345",
+        "AgencyIDNo2": "1234",
+        "AgencyName1": "Paid Agency Account",
+        "AgencyName2": "xxx",
+        "Agent/producer/brokerIDno": "12345",
+        "Agent/producer/brokerIDno.1": "JMDGQSKPMZ",
+        "Agent/producer/brokerIDno.2": "xxxx",
+        "Agentproducer/brokername1": "Margaret White",
+        "Agentproducer/brokername2": "secondbroker",
+        "CheckPayablePercent": 100,
+        "GeneralAgencyCity": "generalagen",
+        "GeneralAgencyEmail": "generalagen@test.com",
+        "GeneralAgencyState": "IN",
+        "GeneralAgencyZIPCode": "10001",
+        "GeneralAgentStreetaddress": "generalagen",
+        "Generalagent/producer/brokername": "General Agency Account",
+        "Payable/sub-agent/producer/brokerIDno.ifdifferent1": "xxxx",
+        "Payable/sub-agent/producer/brokerIDno.ifdifferent2": "xxxx",
+        "SplitCommission": "Yes",
+        "Writer1City": "Washington",
+        "Writer1Email": "margaret.sheedy@tstemail.com",
+        "Writer1Faxno.": "9999999999",
+        "Writer1Phone": "9999999999",
+        "Writer1State": "NY",
+        "Writer1Streetaddress": "123 Sample Street",
+        "Writer1ZipCode": "22079",
+        "Writer2City": "Waterford",
+        "Writer2Email": "xxx@aol.com",
+        "Writer2Faxno.": "9999999999",
+        "Writer2Phone": "9999999999",
+        "Writer2State": "WI",
+        "Writer2Streetaddress": "123 Sample Way",
+        "Writer2ZipCode": "53045",
+        "WritingPayablePercent1": 50,
+        "WritingPayablePercent2": 50
+    },
+    "ApplicationAccountId": "001Q0000014BelWIAS",
+    "Brand": "EBC",
+    "BrokerId": "003Q000001C6wM3IAJ",
+    "CompanyInformation": {
+        "AddiitonalContactPhone": "9595959595",
+        "AdditionalContact": "xxx",
+        "AdditionalContactEmail": "additionacontact@aol.com",
+        "AdditionalContactFax": "4848484848",
+        "AdditionalContactTitle": "xxx",
+        "Billing Address": {
+            "BillingCity": "Billing",
+            "BillingState": "NY",
+            "BillingStreet": "123 Billing Way",
+            "BillingZip": "53045"
+        },
+        "BillingAddress": "No",
+        "BrokerProfile": "System Administrator",
+        "City": "Waterford",
+        "CompanyContactName": "Bob",
+        "CompanyName": "Account Testrwe545",
+        "CompanyStreetAddress": "123 Sample Way",
+        "CoverageOptionsIncludesDental": true,
+        "DoingBusinessAs": null,
+        "EmailAddress": "xxx@aol.com",
+        "FrmNotQualifyAsSingleEmployer": false,
+        "FrmQualifyAsSingleEmployer": true,
+        "Mailing Address": {
+            "MailingCity": "Mailing",
+            "MailingState": "NY",
+            "MailingStreet": "123 Mailing",
+            "MailingZip": "53045"
+        },
+        "MailingAddress": "No",
+        "PrimaryFax": "3949494949",
+        "PrimaryPhone": "3434443444",
+        "QualifyAsSingleEmployer": "Yes",
+        "QualifyAsSingleEmployerExplanation": "xxxxxx",
+        "SICCode": "7373",
+        "State": "NY",
+        "TaxIdNumber": "565656666",
+        "Title": "CIO",
+        "Zip": "12209"
+    },
+    "CompanyInformation:Billing Address:BillingCity": "Billing",
+    "CompanyInformation:Billing Address:BillingState": "NY",
+    "CompanyInformation:Billing Address:BillingStreet": "123 Billing Way",
+    "CompanyInformation:Billing Address:BillingZip": "53045",
+    "ContextId": "001Q0000014BelWIAS",
+    "CoverageOptions": "Medical;Dental;Vision",
+    "CoverageOptionsFromQuote": "Medical;Dental;Vision",
+    "DRId_%vlocity_namespace%__Application__c": "a20Q0000001jmaKIAQ",
+    "DRId_Account": "001Q0000014BelWIAS",
+    "DentalCoverage": {
+        "DentalAccounts": [
+            {
+                "C1_Total_EE_Ch__c": 0,
+                "C1_Total_EE_Family__c": 0,
+                "C1_Total_EE__c": 280.7,
+                "Id": "01t31000007XZKvAAO",
+                "Name": "Voluntary Prime NY-4D",
+                "ProductCode": "1R2P",
+                "vlcSelected": true
+            },
+            {
+                "C1_Total_EE_Ch__c": 0,
+                "C1_Total_EE_Family__c": 0,
+                "C1_Total_EE__c": 257.4,
+                "Id": "01t31000007XZLLAA4",
+                "Name": "Value Complete NY-1C",
+                "ProductCode": "1R2J",
+                "vlcSelected": true
+            }
+        ],
+        "DentalContractCode1": "1R2P",
+        "DentalContractCode2": "1R2J",
+        "FrmDentalBasePremium": false,
+        "FrmDentalBundledPremium": false,
+        "FrmReplaceDentalPremium": true,
+        "FrmReplaceNoDentalPremium": false,
+        "NoDentalCoverage": false,
+        "ReplaceDentalPremium": "Yes",
+        "ReplaceExistingCoverage": {
+            "DentalEffectiveDate1": "2017-06-06T05:00:00.000Z",
+            "DentalEffectiveDate2": "2017-06-05T05:00:00.000Z",
+            "DentalInsurer1": "xxx",
+            "DentalInsurer2": "xxx",
+            "DentalTerminationDate1": "2017-06-05T05:00:00.000Z",
+            "DentalTerminationDate2": "2017-06-07T05:00:00.000Z",
+            "DentalTypeofPlan1": "xxx",
+            "DentalTypeofPlan2": "xxx"
+        },
+        "TotalDental": 2
+    },
+    "DocumentsToSend-EBC": "Employer Application;HRA Form;Initial Payment Form",
+    "Eligibility": {
+        "COBRA": "Federal COBRA",
+        "CurrentYear": "Yes",
+        "DependentCoverage": "No",
+        "DomesticPartnerCoverage": "No",
+        "Frm1MonthNew": true,
+        "Frm1MonthRehired": false,
+        "Frm1stAfterHireNew": false,
+        "Frm1stAfterRehired": true,
+        "Frm2MonthsNew": false,
+        "Frm2MonthsRehired": false,
+        "Frm30DaysNew": false,
+        "Frm30DaysRehired": false,
+        "Frm60DaysNew": false,
+        "Frm60DaysRehired": false,
+        "Frm90DaysNew": false,
+        "Frm90DaysRehired": false,
+        "FrmCOBRA": true,
+        "FrmCurrentYear": true,
+        "FrmCurrentYearNo": false,
+        "FrmDayFollowingCompletion": false,
+        "FrmDependentCoverageNo": true,
+        "FrmDependentCoverageYes": false,
+        "FrmDomesticPartnerCovNo": true,
+        "FrmDomesticPartnerCovYes": false,
+        "FrmLastYear": true,
+        "FrmLastYearNo": false,
+        "FrmNYContinuation": false,
+        "FrmNewEligible1stOfMonth": true,
+        "FrmNoneWaitingPeriodNew": false,
+        "FrmNoneWaitingRehired": false,
+        "FrmTEFRAEligible": true,
+        "FrmTEFRAEligibleNo": false,
+        "LastYear": "Yes",
+        "NewEligible": "First of month following completion of waiting period/probationary period",
+        "NoEligibleEmployees": "10",
+        "NoEmployees": "10",
+        "NoEmployeesCurYr": "34",
+        "NoEmployeesLastYr": "34",
+        "NoEnrolling": "10",
+        "NoIneligibleEmployees": "10",
+        "TEFRAEligible": "Yes",
+        "WaitingPeriodNew": "1 month",
+        "WaitingPeriodRehired": "First of month after hire date"
+    },
+    "GeneralAgencyId": "001Q00000154lebIAA",
+    "IsDentalSelected": true,
+    "IsMedicalSelected": true,
+    "IsVisionSelected": true,
+    "MedicalCoverage": {
+        "ContractCode1": "2FM4",
+        "ContractCode2": "1ZYH",
+        "ContractCode3": "",
+        "ForHSAPlans": null,
+        "FrmForHSAPlanWithEmpire": false,
+        "FrmForHSAPlanWithoutEmpire": false,
+        "MedClass1": 0,
+        "MedClass2": 0,
+        "MedClass3": 0,
+        "MedicalAccounts": [
+            {
+                "C1_Total_EE_Ch__c": 0,
+                "C1_Total_EE_Family__c": 0,
+                "C1_Total_EE_Sp__c": 0,
+                "C1_Total_EE__c": 4789,
+                "C2_Total_EE__c": 0,
+                "C3_Total_EE__c": 0,
+                "Id": "01t31000007XZIOAA4",
+                "Name": "Empire Bronze EPO 5500/20%/6550 w/HSA",
+                "ProductCode": "2FM4",
+                "vlcSelected": true
+            },
+            {
+                "C1_Total_EE_Ch__c": 0,
+                "C1_Total_EE_Family__c": 0,
+                "C1_Total_EE_Sp__c": 0,
+                "C1_Total_EE__c": 4763.1,
+                "C2_Total_EE__c": 0,
+                "C3_Total_EE__c": 0,
+                "Id": "01t31000007XZIuAAO",
+                "Name": "Empire Bronze EPO 5300/50%/6550 w/HSA",
+                "ProductCode": "1ZYH",
+                "vlcSelected": true
+            }
+        ],
+        "PercentEmpAndSpouse": 10,
+        "PercentEmployeeAndChildren": 10,
+        "PercentEmployeeOnly": 10,
+        "PercentFamily": 10,
+        "TotalMedical": 0
+    },
+    "NewEnrollment": true,
+    "PaidAgencyId": "001Q00000154leRIAQ",
+    "PartyAccountId": "a3kQ0000000lzOSIAY",
+    "Print/ElectronicSignature": {
+        "Task": "Print"
+    },
+    "PrintSignNow": {
+        "SignNowRecipient": "xxx"
+    },
+    "QuoteAccountId": "001Q0000014BelWIAS",
+    "QuoteContactId": "003Q000001CAcywIAD",
+    "QuoteId": "0Q0Q0000000RHU7KAO",
+    "QuoteOpportunityId": "006Q000000FAvACIA1",
+    "RequestedEffectiveDateEnText": "2017-02-01",
+    "SelectProducts": {
+        "Product": [
+            {
+                "C1_Annual_Total_Premium__c": 57468,
+                "C1_Total_EE_Ch__c": 0,
+                "C1_Total_EE_Family__c": 0,
+                "C1_Total_EE_Sp__c": 0,
+                "C1_Total_EE__c": 4789,
+                "Id": "0QLQ0000000fhRbOAI",
+                "Product2": {
+                    "%vlocity_namespace%__Type__c": "Medical",
+                    "Id": "01t31000007XZIOAA4",
+                    "Name": "Empire Bronze EPO 5500/20%/6550 w/HSA",
+                    "ProductCode": "2FM4",
+                    "RecordTypeId": "012310000016Cy0AAE"
+                },
+                "Product2Id": "01t31000007XZIOAA4",
+                "attributes": [
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PLAN",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8tIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Benefit Period",
+                        "%vlocity_namespace%__CategoryName__c": "Plan",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "PDF",
+                        "%vlocity_namespace%__Value__c": "PY",
+                        "Id": "a25Q0000000VWfqIAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "INN Deductible Combined",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Card Only",
+                        "%vlocity_namespace%__Value__c": "$5,500 per Individual or $11,000 per Family",
+                        "Id": "a25Q0000000VWfrIAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PLAN",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8tIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Metal Level",
+                        "%vlocity_namespace%__CategoryName__c": "Plan",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "Bronze",
+                        "Id": "a25Q0000000VWfsIAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "INN Deductible Single",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "$5,500",
+                        "Id": "a25Q0000000VWftIAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PLAN",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8tIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "INN Coinsurance",
+                        "%vlocity_namespace%__CategoryName__c": "Plan",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Card Only",
+                        "%vlocity_namespace%__Value__c": "20%",
+                        "Id": "a25Q0000000VWfuIAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "INN Deductible Family",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "$11,000",
+                        "Id": "a25Q0000000VWfvIAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PLAN",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8tIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "OON Coinsurance",
+                        "%vlocity_namespace%__CategoryName__c": "Plan",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Card Only",
+                        "%vlocity_namespace%__Value__c": "NA",
+                        "Id": "a25Q0000000VWfwIAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "OON Deductible Combined",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Card Only",
+                        "%vlocity_namespace%__Value__c": "$0",
+                        "Id": "a25Q0000000VWfxIAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "OON Deductible Single",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "$0",
+                        "Id": "a25Q0000000VWfyIAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "OON Deductible Family",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "$0",
+                        "Id": "a25Q0000000VWfzIAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "INN OOP Combined",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Card Only",
+                        "%vlocity_namespace%__Value__c": "$6,550 per Individual or $13,100 per Family",
+                        "Id": "a25Q0000000VWg0IAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "INN OOP Single",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "$6,550",
+                        "Id": "a25Q0000000VWg1IAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "INN OOP Family",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "$13,100",
+                        "Id": "a25Q0000000VWg2IAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "OON OOP Combined",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Card Only",
+                        "%vlocity_namespace%__Value__c": "NA",
+                        "Id": "a25Q0000000VWg3IAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "OON OOP Single",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "$0",
+                        "Id": "a25Q0000000VWg4IAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "OON OOP Family",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "$0",
+                        "Id": "a25Q0000000VWg5IAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "OFF",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8yIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "PCP Visit",
+                        "%vlocity_namespace%__CategoryName__c": "Office Visits",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "$50 after deductible",
+                        "Id": "a25Q0000000VWg6IAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "OFF",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8yIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Specialist Visit",
+                        "%vlocity_namespace%__CategoryName__c": "Office Visits",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "$75 after deductible",
+                        "Id": "a25Q0000000VWg7IAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "OFF",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8yIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "PCP Specialist Combined",
+                        "%vlocity_namespace%__CategoryName__c": "Office Visits",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "PDF",
+                        "%vlocity_namespace%__Value__c": "$50 / $75",
+                        "Id": "a25Q0000000VWg8IAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "OFF",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8yIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Urgent Care",
+                        "%vlocity_namespace%__CategoryName__c": "Office Visits",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "$75 after deductible",
+                        "Id": "a25Q0000000VWg9IAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "RXDRUGS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8xIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Rx Combined",
+                        "%vlocity_namespace%__CategoryName__c": "Prescription Drugs",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Card Only",
+                        "%vlocity_namespace%__Value__c": "$15 / $50 / $90 - NA",
+                        "Id": "a25Q0000000VWgAIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "RXDRUGS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8xIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Rx Deductible",
+                        "%vlocity_namespace%__CategoryName__c": "Prescription Drugs",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "$0",
+                        "Id": "a25Q0000000VWgBIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "RXDRUGS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8xIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Rx Tier 1",
+                        "%vlocity_namespace%__CategoryName__c": "Prescription Drugs",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "$15",
+                        "Id": "a25Q0000000VWgCIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "RXDRUGS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8xIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Rx Tier 2",
+                        "%vlocity_namespace%__CategoryName__c": "Prescription Drugs",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "$50",
+                        "Id": "a25Q0000000VWgDIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "RXDRUGS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8xIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Rx Tier 3",
+                        "%vlocity_namespace%__CategoryName__c": "Prescription Drugs",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "$90",
+                        "Id": "a25Q0000000VWgEIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "RXDRUGS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8xIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Formulary",
+                        "%vlocity_namespace%__CategoryName__c": "Prescription Drugs",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "National",
+                        "Id": "a25Q0000000VWgFIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "HOSP",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8rIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Inpatient Hospital",
+                        "%vlocity_namespace%__CategoryName__c": "Hospital",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "$500 after deductible",
+                        "Id": "a25Q0000000VWgGIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "HOSP",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8rIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Emergency Room",
+                        "%vlocity_namespace%__CategoryName__c": "Hospital",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "$350 after deductible",
+                        "Id": "a25Q0000000VWgHIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "HOSP",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8rIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "ER / Urgent Care Combined",
+                        "%vlocity_namespace%__CategoryName__c": "Hospital",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "PDF",
+                        "%vlocity_namespace%__Value__c": "$350 / $75",
+                        "Id": "a25Q0000000VWgIIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDDENTAL",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8uIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Pediatric Dental",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Dental",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Card Only",
+                        "%vlocity_namespace%__Value__c": "Included",
+                        "Id": "a25Q0000000VWgJIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDDENTAL",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8uIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Pediatric Dental Deductible",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Dental",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "Combined with Medical",
+                        "Id": "a25Q0000000VWgKIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDDENTAL",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8uIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Pediatric Preventive Dental Care",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Dental",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "0% after deducitble",
+                        "Id": "a25Q0000000VWgLIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDDENTAL",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8uIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Pediatric Routine Dental Care",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Dental",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "0% after deducitble",
+                        "Id": "a25Q0000000VWgMIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDDENTAL",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8uIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Pediatric Dental Major Services",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Dental",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "50% after deducitble",
+                        "Id": "a25Q0000000VWgNIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDDENTAL",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8uIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Pediatric Medically Necessary Orthodontia",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Dental",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "50% after deductible",
+                        "Id": "a25Q0000000VWgOIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDDENTAL",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8uIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Pediatric Cosmetic Orthodontia",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Dental",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "Not Covered",
+                        "Id": "a25Q0000000VWgPIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDVISION",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8vIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Pediatric Vision",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Vision",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Card Only",
+                        "%vlocity_namespace%__Value__c": "Included",
+                        "Id": "a25Q0000000VWgQIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDVISION",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8vIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Ped Vision Exam Copay and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Vision",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "$0 once every benefit period",
+                        "Id": "a25Q0000000VWgRIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDVISION",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8vIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Ped Vision Lens Copay and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Vision",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "$0 once every benefit period",
+                        "Id": "a25Q0000000VWgSIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDVISION",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8vIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Ped Vision Frame Benefit and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Vision",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "$0 once every benefit period",
+                        "Id": "a25Q0000000VWgTIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDVISION",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8vIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Ped Vision Contact Lens Benefit and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Vision",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "$0 once every benefit period",
+                        "Id": "a25Q0000000VWgUIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "ADULTVISION",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8wIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Adult Vision Exam Copay and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Adult Vision",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "$20 once every benefit period",
+                        "Id": "a25Q0000000VWgVIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "ADULTVISION",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8wIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Adult Vision Lens Copay and Frequenccy",
+                        "%vlocity_namespace%__CategoryName__c": "Adult Vision",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "$20 once every 2 benefit periods",
+                        "Id": "a25Q0000000VWgWIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "ADULTVISION",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8wIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Adult Vision Frame Benefit and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Adult Vision",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "$130 allowance every 2 benefit periods",
+                        "Id": "a25Q0000000VWgXIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "ADULTVISION",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8wIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Adult Vision Contact Lens Benefit and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Adult Vision",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "%vlocity_namespace%__Value__c": "$80 allowance every 2 benefit periods",
+                        "Id": "a25Q0000000VWgYIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "RIDERS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8nIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Dependent Age 29 Rider",
+                        "%vlocity_namespace%__CategoryName__c": "Riders",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIOAA4",
+                        "Id": "a25Q0000000VWgZIAW"
+                    }
+                ]
+            },
+            {
+                "C1_Annual_Total_Premium__c": 57157.2,
+                "C1_Total_EE_Ch__c": 0,
+                "C1_Total_EE_Family__c": 0,
+                "C1_Total_EE_Sp__c": 0,
+                "C1_Total_EE__c": 4763.1,
+                "Id": "0QLQ0000000fhRcOAI",
+                "Product2": {
+                    "%vlocity_namespace%__Type__c": "Medical",
+                    "Id": "01t31000007XZIuAAO",
+                    "Name": "Empire Bronze EPO 5300/50%/6550 w/HSA",
+                    "ProductCode": "1ZYH",
+                    "RecordTypeId": "012310000016Cy0AAE"
+                },
+                "Product2Id": "01t31000007XZIuAAO",
+                "attributes": [
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PLAN",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8tIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Benefit Period",
+                        "%vlocity_namespace%__CategoryName__c": "Plan",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "PDF",
+                        "%vlocity_namespace%__Value__c": "PY",
+                        "Id": "a25Q0000000VWZuIAO"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "INN Deductible Combined",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Card Only",
+                        "%vlocity_namespace%__Value__c": "$5,300 per Individual or $10,600 per Family",
+                        "Id": "a25Q0000000VWZvIAO"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PLAN",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8tIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Metal Level",
+                        "%vlocity_namespace%__CategoryName__c": "Plan",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "Bronze",
+                        "Id": "a25Q0000000VWZwIAO"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "INN Deductible Single",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "$5,300",
+                        "Id": "a25Q0000000VWZxIAO"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PLAN",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8tIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "INN Coinsurance",
+                        "%vlocity_namespace%__CategoryName__c": "Plan",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Card Only",
+                        "%vlocity_namespace%__Value__c": "50%",
+                        "Id": "a25Q0000000VWZyIAO"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "INN Deductible Family",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "$10,600",
+                        "Id": "a25Q0000000VWZzIAO"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PLAN",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8tIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "OON Coinsurance",
+                        "%vlocity_namespace%__CategoryName__c": "Plan",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Card Only",
+                        "%vlocity_namespace%__Value__c": "NA",
+                        "Id": "a25Q0000000VWa0IAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "OON Deductible Combined",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Card Only",
+                        "%vlocity_namespace%__Value__c": "$0",
+                        "Id": "a25Q0000000VWa1IAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "OON Deductible Single",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "$0",
+                        "Id": "a25Q0000000VWa2IAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "OON Deductible Family",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "$0",
+                        "Id": "a25Q0000000VWa3IAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "INN OOP Combined",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Card Only",
+                        "%vlocity_namespace%__Value__c": "$6,550 per Individual or $13,100 per Family",
+                        "Id": "a25Q0000000VWa4IAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "INN OOP Single",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "$6,550",
+                        "Id": "a25Q0000000VWa5IAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "INN OOP Family",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "$13,100",
+                        "Id": "a25Q0000000VWa6IAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "OON OOP Combined",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Card Only",
+                        "%vlocity_namespace%__Value__c": "NA",
+                        "Id": "a25Q0000000VWa7IAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "OON OOP Single",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "$0",
+                        "Id": "a25Q0000000VWa8IAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8sIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "OON OOP Family",
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "$0",
+                        "Id": "a25Q0000000VWa9IAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "OFF",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8yIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "PCP Visit",
+                        "%vlocity_namespace%__CategoryName__c": "Office Visits",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "50.00% after deductible",
+                        "Id": "a25Q0000000VWaAIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "OFF",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8yIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Specialist Visit",
+                        "%vlocity_namespace%__CategoryName__c": "Office Visits",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "50.00% after deductible",
+                        "Id": "a25Q0000000VWaBIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "OFF",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8yIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "PCP Specialist Combined",
+                        "%vlocity_namespace%__CategoryName__c": "Office Visits",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "PDF",
+                        "%vlocity_namespace%__Value__c": "50% / 50%",
+                        "Id": "a25Q0000000VWaCIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "OFF",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8yIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Urgent Care",
+                        "%vlocity_namespace%__CategoryName__c": "Office Visits",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "50% after deductible",
+                        "Id": "a25Q0000000VWaDIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "RXDRUGS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8xIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Rx Combined",
+                        "%vlocity_namespace%__CategoryName__c": "Prescription Drugs",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Card Only",
+                        "%vlocity_namespace%__Value__c": "50% / 50% / 50% - NA",
+                        "Id": "a25Q0000000VWaEIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "RXDRUGS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8xIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Rx Deductible",
+                        "%vlocity_namespace%__CategoryName__c": "Prescription Drugs",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "$0",
+                        "Id": "a25Q0000000VWaFIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "RXDRUGS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8xIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Rx Tier 1",
+                        "%vlocity_namespace%__CategoryName__c": "Prescription Drugs",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "50%",
+                        "Id": "a25Q0000000VWaGIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "RXDRUGS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8xIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Rx Tier 2",
+                        "%vlocity_namespace%__CategoryName__c": "Prescription Drugs",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "50%",
+                        "Id": "a25Q0000000VWaHIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "RXDRUGS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8xIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Rx Tier 3",
+                        "%vlocity_namespace%__CategoryName__c": "Prescription Drugs",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "50%",
+                        "Id": "a25Q0000000VWaIIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "RXDRUGS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8xIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Formulary",
+                        "%vlocity_namespace%__CategoryName__c": "Prescription Drugs",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "National",
+                        "Id": "a25Q0000000VWaJIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "HOSP",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8rIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Inpatient Hospital",
+                        "%vlocity_namespace%__CategoryName__c": "Hospital",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "50% after deductible",
+                        "Id": "a25Q0000000VWaKIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "HOSP",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8rIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Emergency Room",
+                        "%vlocity_namespace%__CategoryName__c": "Hospital",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "50% after deductible",
+                        "Id": "a25Q0000000VWaLIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "HOSP",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8rIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "ER / Urgent Care Combined",
+                        "%vlocity_namespace%__CategoryName__c": "Hospital",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "PDF",
+                        "%vlocity_namespace%__Value__c": "50% / 50%",
+                        "Id": "a25Q0000000VWaMIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDDENTAL",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8uIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Pediatric Dental",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Dental",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Card Only",
+                        "%vlocity_namespace%__Value__c": "Included",
+                        "Id": "a25Q0000000VWaNIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDDENTAL",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8uIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Pediatric Dental Deductible",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Dental",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "Combined with Medical",
+                        "Id": "a25Q0000000VWaOIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDDENTAL",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8uIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Pediatric Preventive Dental Care",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Dental",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "0% after deducitble",
+                        "Id": "a25Q0000000VWaPIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDDENTAL",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8uIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Pediatric Routine Dental Care",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Dental",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "0% after deducitble",
+                        "Id": "a25Q0000000VWaQIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDDENTAL",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8uIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Pediatric Dental Major Services",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Dental",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "50% after deducitble",
+                        "Id": "a25Q0000000VWaRIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDDENTAL",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8uIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Pediatric Medically Necessary Orthodontia",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Dental",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "50% after deductible",
+                        "Id": "a25Q0000000VWaSIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDDENTAL",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8uIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Pediatric Cosmetic Orthodontia",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Dental",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "Not Covered",
+                        "Id": "a25Q0000000VWaTIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDVISION",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8vIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Pediatric Vision",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Vision",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Card Only",
+                        "%vlocity_namespace%__Value__c": "Included",
+                        "Id": "a25Q0000000VWaUIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDVISION",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8vIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Ped Vision Exam Copay and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Vision",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "$0 once every benefit period",
+                        "Id": "a25Q0000000VWaVIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDVISION",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8vIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Ped Vision Lens Copay and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Vision",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "$0 once every benefit period",
+                        "Id": "a25Q0000000VWaWIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDVISION",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8vIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Ped Vision Frame Benefit and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Vision",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "$0 once every benefit period",
+                        "Id": "a25Q0000000VWaXIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "PEDVISION",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8vIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Ped Vision Contact Lens Benefit and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Pediatric Vision",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "$0 once every benefit period",
+                        "Id": "a25Q0000000VWaYIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "ADULTVISION",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8wIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Adult Vision Exam Copay and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Adult Vision",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "$20 once every benefit period",
+                        "Id": "a25Q0000000VWaZIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "ADULTVISION",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8wIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Adult Vision Lens Copay and Frequenccy",
+                        "%vlocity_namespace%__CategoryName__c": "Adult Vision",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "$20 once every 2 benefit periods",
+                        "Id": "a25Q0000000VWaaIAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "ADULTVISION",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8wIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Adult Vision Frame Benefit and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Adult Vision",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "$130 allowance every 2 benefit periods",
+                        "Id": "a25Q0000000VWabIAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "ADULTVISION",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8wIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Adult Vision Contact Lens Benefit and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Adult Vision",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "%vlocity_namespace%__Value__c": "$80 allowance every 2 benefit periods",
+                        "Id": "a25Q0000000VWacIAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "RIDERS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8nIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Dependent Age 29 Rider",
+                        "%vlocity_namespace%__CategoryName__c": "Riders",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZIuAAO",
+                        "Id": "a25Q0000000VWadIAG"
+                    }
+                ]
+            },
+            {
+                "C1_Annual_Total_Premium__c": 3368.4,
+                "C1_Total_EE_Ch__c": 0,
+                "C1_Total_EE_Family__c": 0,
+                "C1_Total_EE_Sp__c": 0,
+                "C1_Total_EE__c": 280.7,
+                "Id": "0QLQ0000000fhRdOAI",
+                "Product2": {
+                    "%vlocity_namespace%__Type__c": "Dental",
+                    "Id": "01t31000007XZKvAAO",
+                    "Name": "Voluntary Prime NY-4D",
+                    "ProductCode": "1R2P",
+                    "RecordTypeId": "012310000016Cy0AAE"
+                },
+                "Product2Id": "01t31000007XZKvAAO",
+                "attributes": [
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALDED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8oIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Deductible",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZKvAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "$50 per Individual or $150 per Family",
+                        "Id": "a25Q0000000VVDRIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALPLAN",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8zIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Annual Maximum",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Plan",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZKvAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "$1,000",
+                        "Id": "a25Q0000000VVDSIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALPLAN",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8zIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Ortho Lifetime Maximum",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Plan",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZKvAAO",
+                        "%vlocity_namespace%__Value__c": "Not Covered",
+                        "Id": "a25Q0000000VVDTIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALPLAN",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8zIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Annual Maximum Carryover",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Plan",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZKvAAO",
+                        "%vlocity_namespace%__Value__c": "No",
+                        "Id": "a25Q0000000VVDUIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALPLAN",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8zIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "OON Reimbursement",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Plan",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZKvAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "Maximum Allowable Charge",
+                        "Id": "a25Q0000000VVDVIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALSERVICES",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8pIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Diagnostic &amp; Preventive",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZKvAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "100% / 80%",
+                        "Id": "a25Q0000000VVDWIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALSERVICES",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8pIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Basic Services",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZKvAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "50% / 50%",
+                        "Id": "a25Q0000000VVDXIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALSERVICES",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8pIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Major Services",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZKvAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "50% / 50%",
+                        "Id": "a25Q0000000VVDYIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALSERVICES",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8pIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Endodontic, Periodontic and Oral Surgery",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZKvAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "50% / 50%",
+                        "Id": "a25Q0000000VVDZIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALSERVICES",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8pIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Child Orthodontics",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZKvAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "Not Covered",
+                        "Id": "a25Q0000000VVDaIAO"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALSERVICES",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8pIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Dental Implants",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZKvAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "Covered",
+                        "Id": "a25Q0000000VVDbIAO"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALSERVICES",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8pIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Waiting Period - Major",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZKvAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "12 months",
+                        "Id": "a25Q0000000VVDcIAO"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALSERVICES",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8pIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Waiting Period - Ortho",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZKvAAO",
+                        "%vlocity_namespace%__Value__c": "None",
+                        "Id": "a25Q0000000VVDdIAO"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALSERVICES",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8pIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Posterior Composites",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZKvAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "Benefit as Amalgam",
+                        "Id": "a25Q0000000VVDeIAO"
+                    }
+                ]
+            },
+            {
+                "C1_Annual_Total_Premium__c": 3088.8,
+                "C1_Total_EE_Ch__c": 0,
+                "C1_Total_EE_Family__c": 0,
+                "C1_Total_EE_Sp__c": 0,
+                "C1_Total_EE__c": 257.4,
+                "Id": "0QLQ0000000fhReOAI",
+                "Product2": {
+                    "%vlocity_namespace%__Type__c": "Dental",
+                    "Id": "01t31000007XZLLAA4",
+                    "Name": "Value Complete NY-1C",
+                    "ProductCode": "1R2J",
+                    "RecordTypeId": "012310000016Cy0AAE"
+                },
+                "Product2Id": "01t31000007XZLLAA4",
+                "attributes": [
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALDED",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8oIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Deductible",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZLLAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "$50 per Individual or $150 per Family",
+                        "Id": "a25Q0000000VVCJIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALPLAN",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8zIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Annual Maximum",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Plan",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZLLAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "$1,000",
+                        "Id": "a25Q0000000VVCKIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALPLAN",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8zIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Ortho Lifetime Maximum",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Plan",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZLLAA4",
+                        "%vlocity_namespace%__Value__c": "Not Covered",
+                        "Id": "a25Q0000000VVCLIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALPLAN",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8zIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Annual Maximum Carryover",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Plan",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZLLAA4",
+                        "%vlocity_namespace%__Value__c": "No",
+                        "Id": "a25Q0000000VVCMIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALPLAN",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8zIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "OON Reimbursement",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Plan",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZLLAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "90th Percentile",
+                        "Id": "a25Q0000000VVCNIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALSERVICES",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8pIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Diagnostic &amp; Preventive",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZLLAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "100% / 100%",
+                        "Id": "a25Q0000000VVCOIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALSERVICES",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8pIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Basic Services",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZLLAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "Not Covered",
+                        "Id": "a25Q0000000VVCPIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALSERVICES",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8pIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Major Services",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZLLAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "Not Covered",
+                        "Id": "a25Q0000000VVCQIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALSERVICES",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8pIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Endodontic, Periodontic and Oral Surgery",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZLLAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "80% / 80%",
+                        "Id": "a25Q0000000VVCRIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALSERVICES",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8pIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Child Orthodontics",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZLLAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "Not Covered",
+                        "Id": "a25Q0000000VVCSIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALSERVICES",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8pIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Dental Implants",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZLLAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "Not Covered",
+                        "Id": "a25Q0000000VVCTIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALSERVICES",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8pIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Waiting Period - Major",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZLLAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "None",
+                        "Id": "a25Q0000000VVCUIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALSERVICES",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8pIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Waiting Period - Ortho",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZLLAA4",
+                        "%vlocity_namespace%__Value__c": "None",
+                        "Id": "a25Q0000000VVCVIA4"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "DENTALSERVICES",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8pIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Posterior Composites",
+                        "%vlocity_namespace%__CategoryName__c": "Dental Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZLLAA4",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "Benefit as Amalgam",
+                        "Id": "a25Q0000000VVCWIA4"
+                    }
+                ]
+            },
+            {
+                "C1_Annual_Total_Premium__c": 417.6,
+                "C1_Total_EE_Ch__c": 0,
+                "C1_Total_EE_Family__c": 0,
+                "C1_Total_EE_Sp__c": 0,
+                "C1_Total_EE__c": 34.8,
+                "Id": "0QLQ0000000fhRfOAI",
+                "Product2": {
+                    "%vlocity_namespace%__Type__c": "Vision",
+                    "Id": "01t31000007XZQhAAO",
+                    "Name": "Blue View Vision C6",
+                    "ProductCode": "1FC1",
+                    "RecordTypeId": "012310000016Cy0AAE"
+                },
+                "Product2Id": "01t31000007XZQhAAO",
+                "attributes": [
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "VISSVCS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8qIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Exam Copay and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Vision Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZQhAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "$20 copay once per calendar year",
+                        "Id": "a25Q0000000VV4XIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "VISSVCS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8qIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Prescription Lens Copay and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Vision Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZQhAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "$20 copay once every other calendar year",
+                        "Id": "a25Q0000000VV4YIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "VISSVCS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8qIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Frame Benefit and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Vision Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZQhAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "$100 once every other calendar year",
+                        "Id": "a25Q0000000VV4ZIAW"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "VISSVCS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8qIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Contact Lens Benefit and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Vision Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZQhAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "$100 once every other calendar year",
+                        "Id": "a25Q0000000VV4aIAG"
+                    }
+                ]
+            },
+            {
+                "C1_Annual_Total_Premium__c": 432,
+                "C1_Total_EE_Ch__c": 0,
+                "C1_Total_EE_Family__c": 0,
+                "C1_Total_EE_Sp__c": 0,
+                "C1_Total_EE__c": 36,
+                "Id": "0QLQ0000000fhRgOAI",
+                "Product2": {
+                    "%vlocity_namespace%__Type__c": "Vision",
+                    "Id": "01t31000007XZQiAAO",
+                    "Name": "Blue View Vision C7",
+                    "ProductCode": "1FC2",
+                    "RecordTypeId": "012310000016Cy0AAE"
+                },
+                "Product2Id": "01t31000007XZQiAAO",
+                "attributes": [
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "VISSVCS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8qIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Exam Copay and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Vision Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZQiAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "$20 copay once per calendar year",
+                        "Id": "a25Q0000000VV4bIAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "VISSVCS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8qIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Prescription Lens Copay and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Vision Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZQiAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "$20 copay once every other calendar year",
+                        "Id": "a25Q0000000VV4cIAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "VISSVCS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8qIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Frame Benefit and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Vision Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZQiAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "$130 once every other calendar year",
+                        "Id": "a25Q0000000VV4dIAG"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryCode__c": "VISSVCS",
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a27Q0000000mC8qIAE",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Contact Lens Benefit and Frequency",
+                        "%vlocity_namespace%__CategoryName__c": "Vision Services",
+                        "%vlocity_namespace%__ObjectId__c": "01t31000007XZQiAAO",
+                        "%vlocity_namespace%__ValueDescription__c": "Both",
+                        "%vlocity_namespace%__Value__c": "$80 once every other calendar year",
+                        "Id": "a25Q0000000VV4eIAG"
+                    }
+                ]
+            }
+        ]
+    },
+    "SelectedQuoteDetails": {
+        "CreatedDate": "2017-06-24T02:00:50.000Z",
+        "EffectiveDate": "2017-02-01",
+        "Members": "10",
+        "Quote": "Account Testrwe545 Quote Number:00004217 6/23/2017",
+        "QuoteId": "0Q0Q0000000RHU7KAO",
+        "QuoteNumber": "00004217"
+    },
+    "ShowUploadDocuments": "Yes",
+    "VisionCoverage": {
+        "AmtContributionPerDependent": 10,
+        "AmtContributionPerEmployee": 10,
+        "ContractCode": "1FC1",
+        "EmployerPiadGreaterthan50Percent": null,
+        "FrmVisionOptionEmpSpPlans": false,
+        "FrmVisionOptionNoCoverage": true,
+        "FrmVisionOptionVoluntaryPlans": false,
+        "TotalVision": 0,
+        "VisionAccounts": [
+            {
+                "C1_Total_EE_Ch__c": 0,
+                "C1_Total_EE_Family__c": 0,
+                "C1_Total_EE_Sp__c": 0,
+                "C1_Total_EE__c": 34.8,
+                "Id": "01t31000007XZQhAAO",
+                "Name": "Blue View Vision C6",
+                "ProductCode": "1FC1",
+                "vlcSelected": true
+            }
+        ],
+        "VisionOptions": "No vision coverage"
+    },
+    "applicationId": "a20Q0000001jmaKIAQ",
+    "applicationRefNumber": null,
+    "error": "OK",
+    "id": "a3ZQ0000001IhxMMAS",
+    "qState": "NY",
+    "sInstanceId": "a3YQ0000001hRRUMA2",
+    "testContextId": "001Q0000014BelWIAS",
+    "textNode": "% and 100%",
+    "textNode2": "% and 49%",
+    "textNode3": "%",
+    "timeStamp": "2017-06-26T12:41:52.073Z",
+    "userId": "005Q000000PPpXvIAL",
+    "userName": "jbridges@vlocity.com.isg.config",
+    "userProfile": "System Administrator",
+    "verticalmode": true,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Agent/Producer/BrokerCert": 71092,
+        "CompanyInformation": 87334,
+        "DRExtractGetQuoteContactInfo": 770,
+        "DRExtractGetQuoteOptyInfo": 507,
+        "DataRaptor Post Action 1": 3638,
+        "DentalCoverage": 28614,
+        "Eligibility": 27321,
+        "EnrollmentQuote": 4815,
+        "ExtractBroker": 898,
+        "ExtractGeneralAgency": 567,
+        "ExtractPaidAgency": 580,
+        "GeneralAgreement": 2718,
+        "GetQuoteAccountId": 624,
+        "GetSelectedDentalPlans": 1013,
+        "GetSelectedMedicalPlans": 727,
+        "GetSelectedVisionPlans": 1352,
+        "MedicalCoverage": 8392,
+        "OmniScriptSessionToken": "072aae6a-df0f-44f8-8cae-4ed60ab8c7dd",
+        "PopulateBillingAddressFields": 14,
+        "Post to Object Action 1": 3035,
+        "PrefillEmployerApp": 569,
+        "Print/ElectronicSignature": 5220,
+        "PrintSignNow": 7606,
+        "QuoteLineItem": 346,
+        "SelectQuote": 24097,
+        "Set Values 1": 2,
+        "Set Values 10": 0,
+        "Set Values 12": 1,
+        "Set Values 16": 9,
+        "Set Values 3": 1,
+        "Set Values 6": 0,
+        "SetCoveragOptions": 1,
+        "SetState": 1,
+        "TriggerUploadDocuments": 3,
+        "VisionCoverage": 22418
+    }
+}

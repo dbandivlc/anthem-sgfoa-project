@@ -1,0 +1,41 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "productContractCodeList:contractCode",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "contractCodeList:AllRenewals:contractCode",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformRenewalsContractCodesCustom20",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformRenewalsContractCodes",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "productContractCodeList:contractCode",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "contractCodeList:AlternateRenewals:contractCode",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformRenewalsContractCodesCustom2904",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformRenewalsContractCodes",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "productContractCodeList:contractCode",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "contractCodeList:CurrentRenewals:contractCode",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformRenewalsContractCodesCustom4524",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformRenewalsContractCodes",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

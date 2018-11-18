@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2019",
+    "FilterName__c": "Product Type",
+    "FilterValue__c": "All;Dental PPO;DHMO",
+    "IsAttribute__c": false,
+    "Name": "DF-4322",
+    "Order__c": 3,
+    "Ordered_Filter_Value__c": "All;Dental PPO;DHMO",
+    "Producttype__c": "Dental",
+    "Property__c": "ProductType",
+    "State__c": "CA",
+    "UserType__c": "External User/Broker",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4322"
+}

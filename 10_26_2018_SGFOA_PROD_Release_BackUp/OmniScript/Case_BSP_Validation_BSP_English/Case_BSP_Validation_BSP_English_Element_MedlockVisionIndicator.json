@@ -1,0 +1,58 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 3,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "GroupLoad",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Case_BSP/Validation_BSP/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 2,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Case_BSP/Validation_BSP/English",
+        "Name": "Vision",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Case_BSP/Validation_BSP/English/Vision",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Vision",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "disOnTplt": false,
+        "help": true,
+        "helpText": "CA-Vision Medlock only available prior to 6/1/18  CO-Vision Medlock only available prior to 12/1/18  NV-Vision Medlock Available",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Medlock Vision Indicator",
+        "optionSource": {
+            "source": "%vlocity_namespace%__Application__c.Medlock_Vision_Indicator__c",
+            "type": "SObject"
+        },
+        "options": [
+            {
+                "name": "",
+                "value": ""
+            }
+        ],
+        "readOnly": true,
+        "repeat": false,
+        "repeatClone": false,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Select",
+    "Name": "MedlockVisionIndicator",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Case_BSP/Validation_BSP/English/MedlockVisionIndicator"
+}

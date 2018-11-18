@@ -1,0 +1,16 @@
+{
+    "AccountId": "Text",
+    "ContactId": "Text",
+    "DRId_Account": "Text",
+    "DRId_Opportunity": "Text",
+    "account": {
+        "businessName": "Text"
+    },
+    "contact": {
+        "email": "Text",
+        "extension": "Text",
+        "firstName": "Text",
+        "lastName": "Text",
+        "phone": "Text"
+    }
+}

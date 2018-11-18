@@ -1,0 +1,53 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "Field that captures Number Eligible. Uses Pattern Matching (Regex) to ensure the value must be between 0 and 100",
+    "%vlocity_namespace%__Level__c": 2,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Quoting - Non NY",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/SG Quoting/Non-NY/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 4,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/SG Quoting/Non-NY/English",
+        "Name": "Eligibility",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SG Quoting/Non-NY/English/Eligibility",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Eligibility",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 4,
+        "debounceValue": 0,
+        "disOnTplt": false,
+        "documentNames": [
+            "Green"
+        ],
+        "help": true,
+        "helpText": "5 acceptable forms of waiver: Medicaid, Medicare, Spousal, Veterans, Parental coverage",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "# of Valid Waivers",
+        "mask": null,
+        "maxLength": 255,
+        "minLength": 0,
+        "pattern": "^(?:100|[1-9]?[0-9])$",
+        "ptrnErrText": "Number must be between 0-100",
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": true,
+        "show": null,
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Number",
+    "Name": "ValidWaivers",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SG Quoting/Non-NY/English/ValidWaivers"
+}

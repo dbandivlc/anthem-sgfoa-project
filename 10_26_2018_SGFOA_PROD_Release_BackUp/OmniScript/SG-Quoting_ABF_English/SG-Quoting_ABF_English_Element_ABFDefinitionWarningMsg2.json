@@ -1,0 +1,98 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "Messaging component which uses the EligibleFormula field to display an error message if the number eligible is not greater than number enrolling. Users cannot proceed without correcting this error",
+    "%vlocity_namespace%__Level__c": 2,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Quoting -ABF",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/SG Quoting/ABF/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 12,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/SG Quoting/ABF/English",
+        "Name": "ABFEligibility",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SG Quoting/ABF/English/ABFEligibility",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "ABFEligibility",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "hideLabel": true,
+        "label": null,
+        "messages": [
+            {
+                "active": true,
+                "text": "Please be advised that your group size may be too small or too large to qualify for Small Group in this state. Please contact your Anthem Representative for more information.",
+                "type": "Warning",
+                "value": true
+            },
+            {
+                "active": false,
+                "text": "",
+                "type": "Requirement",
+                "value": false
+            }
+        ],
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "ABFNumberEligible"
+                    },
+                    {
+                        "group": {
+                            "operator": "OR",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "MO",
+                                    "field": "SelectedState"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "KY",
+                                    "field": "SelectedState"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "VA",
+                                    "field": "SelectedState"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "validateExpression": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "condition": "<",
+                        "data": "2",
+                        "field": "ABFNumberEligible"
+                    },
+                    {
+                        "condition": ">",
+                        "data": "50",
+                        "field": "ABFNumberEligible"
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Validation",
+    "Name": "ABFDefinitionWarningMsg2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SG Quoting/ABF/English/ABFDefinitionWarningMsg2"
+}

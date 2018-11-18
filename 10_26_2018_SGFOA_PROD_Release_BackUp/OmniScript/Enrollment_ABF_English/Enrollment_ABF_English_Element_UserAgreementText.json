@@ -1,0 +1,35 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 1,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ABF Enrollment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 7,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English",
+        "Name": "GeneralAgreement",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English/GeneralAgreement",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "GeneralAgreement",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "show": null,
+        "text": "<h3><strong>User Agreement between Anthem and End User of Anthem Application</strong></h3>\n<p>In consideration of Anthem providing my organization (&ldquo;Employer&rdquo;) or its group benefit plan (the &ldquo;Employer Plan&rdquo;) with access to the EmployerAccess website and related applications (collectively, the &ldquo;Anthem System&rdquo;), I hereby represent that I am an officer or otherwise duly-authorized representative of the Employer or the Employer Plan and have the authority to bind the Employer and the Employer Plan, including its Plan Sponsor(s) and Plan Administrator(s), to the terms of this Usage Agreement. I represent that I am not an agent, broker, producer or other individual acting in any way on behalf of Anthem or any Anthem affiliate or subcontractor in relation to the Employer Plan.</p>\n<p><strong>The Employer and Employer Plan agree:</strong></p>\n<ol>\n<li>To conduct certain transactions electronically, as described and facilitated within the Anthem System, including but not limited to entering and updating eligibility information of those participating in the Employer Plan and receiving, reviewing and paying for invoiced amounts due and other notices given under the group insurance policy or administrative services agreement between Anthem and the Employer or Employer Plan (the &ldquo;Group Agreement&rdquo;).</li>\n<li>That at any time, either the Employer or Employer Plan may terminate its consent and conduct such future transactions in paper format, by terminating this Usage Agreement and contacting Anthem&rsquo;s assigned account manager. Terminating this agreement or otherwise requesting paper transactions shall in no way delay or relieve the Employer or Employer Plan from its obligations under its Group Agreement.</li>\n<li>That the transactions under this Usage Agreement do not represent a HIPAA 834 or other HIPAA transaction, and that the transactions will be made in accordance with the Group Agreement.</li>\n<li>To use the application, enrollment, waiver, arbitration (where applicable) and related forms then in use by Anthem and not use any non-standard forms without the prior written consent of Anthem.</li>\n<li>To retain, in a secure format capable of being readily audited, reproduced and read, all applications, waivers, arbitration provisions (where applicable), forms, and correspondence related to or supporting the transactions submitted under this Usage Agreement and to furnish to Anthem, promptly upon Anthem&rsquo;s demand and at no expense to Anthem, copies of such forms and correspondence, whether written or electronic as Anthem may reasonably require.</li>\n<li>To appoint one Site Administrator responsible for administering the transactions, designations and user authorizations made by or on behalf of Employer and Employer Plan under this Usage Agreement. I understand that I may, but am never required to, appoint a person who has access to more than one employer&rsquo;s plan (&ldquo;Designated Agent&rdquo;)</li>\n<li>To be legally bound by and solely responsible for, the actions of any Site Administrator or other User given access to the Anthem System hereunder, and for the actions of any Designated Agent as that Designated Agent&rsquo;s activities pertain to the Employer or Employer Plan.</li>\n<li>To immediately, and in no event later than the next business day, notify Anthem of any change in the identity, contact information, employment or access rights of any Site Administrator, Designated Agent or User given access under this Usage Agreement and of any act or omission which may compromise the privacy or security of any of its login credentials, authorizations or information within the Anthem System.</li>\n<li>To implement and enforce adequate policies and procedures to protect the confidentiality of membership and eligibility information of those applying, waiving or participating in the Employer Plan and to limit the access to the Anthem System to only those authorized and only as is the minimum necessary for the operation of the Employer Plan and to comply with all applicable requirements of HIPAA and related privacy laws or regulations.</li>\n<li>To indemnify and hold Anthem and its employees, agents, parents and affiliates harmless from, any claim of loss or harm by any third party arising from any act, error, delay or omission resulting from the use of the Anthem System by it or those on its behalf. This includes but is not limited to the costs of claims or benefit payments made in connection with those incorrectly enrolled or misrepresented as eligible for participation in the Employer Plan.</li>\n<li>That the Anthem System is provided &ldquo;AS IS&rdquo; and without warranties of any kind and all implied warranties are disclaimed by Anthem to the fullest extent permitted by law, that access to the Anthem System may be revoked by Anthem at any time and for any reason.</li>\n<li>That the terms of this Usage Agreement may be modified by Anthem by posting the modifications separately or within the Anthem System. I agree to read any such updated or modified terms and, regardless of whether I have read them, I agree that any subsequent use of the Anthem System constitutes by acceptance by Employer and Employer Plan to those modified terms.</li>\n</ol>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "UserAgreementText",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English/UserAgreementText"
+}

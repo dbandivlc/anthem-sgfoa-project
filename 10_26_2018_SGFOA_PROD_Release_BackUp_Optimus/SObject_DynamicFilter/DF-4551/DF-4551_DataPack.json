@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2017;2018",
+    "FilterName__c": "Orthodontics",
+    "FilterValue__c": "50% / 50%;50% / 50% Adults included;Not Covered",
+    "IsAttribute__c": true,
+    "Name": "DF-4551",
+    "Order__c": 10,
+    "Ordered_Filter_Value__c": "50% / 50%;50% / 50% Adults included;Not Covered",
+    "Producttype__c": "Dental",
+    "Property__c": "Child Orthodontics",
+    "State__c": "WI",
+    "UserType__c": "External User/Broker",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4551"
+}

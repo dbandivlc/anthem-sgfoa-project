@@ -1,0 +1,49 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__Level__c": 1,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Enrollment-WI_CT_NV_ME_NH",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/WI_CT_NV_ME_NH/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 22,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Enrollment/WI_CT_NV_ME_NH/English",
+        "Name": "DentalCoverage",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/WI_CT_NV_ME_NH/English/DentalCoverage",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "DentalCoverage",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "documentNames": [
+            "VlocityLogoDocumentUploads"
+        ],
+        "label": null,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "CO",
+                        "field": "qState"
+                    }
+                ]
+            }
+        },
+        "text": "<h3><strong>Participation Requirements&nbsp;</strong></h3>\n<p><strong>Voluntary participation&nbsp;</strong><br />2-100 Eligible Employees: A minimum of five employees must enroll (there is not participation-percentage requirement for our voluntary plans). Dual Option is not available for voluntary plans.<br /><br /><strong>Value, Classic, and Enhanced participation&nbsp;</strong><br />2-4 Eligible Employees: 100%textNode% of eligible employees (and a minimum of two employees) not covered under another dental plan are required to enroll.<br /><br />5-100 Eligible Employees: A minimum of 70%textNode% of net eligible employees must enroll for groups size 5 -19. A minimum of 60%textNode% of net eligible employees must enroll for groups sized 20 -100. For orthodontia, a minimum of 5 employees must enroll. Dual Option (employer can select two plan to offer to employees) is available for groups with at least 15 net eligible employees. A minimum of five employees must enroll in each of the two dental plans and the two plans offered must have at least a 10%textNode% premium differential.</p>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "ParticipationRequirementsDentalCO",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/WI_CT_NV_ME_NH/English/ParticipationRequirementsDentalCO"
+}

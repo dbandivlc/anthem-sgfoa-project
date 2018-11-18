@@ -1,0 +1,32 @@
+<div class="vloc-plans-container slds-box slds-theme--shade slds-m-vertical--small slds-p-around--small" ng-repeat="product in record.quoteLines.records">
+  <div class="slds-grid slds-size--1-of-1 slds-p-bottom--medium">
+      <div class="slds-col slds-size--1-of-2 slds-text-heading--medium slds-p-verticle--large">{{product['Product2.Name'].value}} <a class="slds-text--link slds-p-horizontal--small slds-text-body--regular">More Details</a>
+       <div class="slds-text-heading--small slds-p-verticle--large">    {{product['Product2.%vlocity_namespace%__SubType__c'].value}}
+       </div>
+      </div>
+      <div class="slds-colslds-size--1-of-2  slds-text-heading--medium slds-p-verticle--large slds-text-align--right">{{product['Total Cost'] | currency }}</div>
+  </div>
+  <div class="vloc-plan-grid slds-grid slds-size--1-of-1">
+     <div class="vloc-plan-col slds-col slds-truncate slds-p-vertical--small">
+             <div class="slds-text-title slds-size--1-of-1 slds-p-right--small slds-truncate"> Employer Cost</div>
+             <div class="slds-size--1-of-1 slds-p-right--small slds-truncate"> {{product['Employer Cost'] | currency}} </div>
+      </div>
+       <div class="vloc-plan-col  slds-col slds-truncate slds-p-vertical--small">
+             <div class="slds-text-title slds-size--1-of-1 slds-p-right--small slds-truncate"> Employee Cost</div> 
+             <div class="slds-size--1-of-1 slds-p-right--small slds-truncate">{{product['Employee Cost'] | currency}}</div>
+      </div>
+        <div class="vloc-plan-col slds-col slds-truncate slds-p-vertical--small" ng-repeat="field in cards[1].states[0].fields">
+             <div class="slds-text-title slds-size--1-of-1 slds-p-right--small slds-truncate">{{field.label}}</div> 
+             <div class="slds-size--1-of-1 slds-p-right--small slds-truncate"> {{product | getter: field | picker: field.type}}
+              <span class="slds-text-align--center" ng-if="!(product | getter: field | picker: field.type)"> -- </span>
+             </div>
+      </div>
+  </div>
+  <div class="vloc-plan-grid slds-grid slds-size--1-of-1 slds-border--top slds-p-top--small slds-m-top--medium">
+      <div class="slds-size--1-of-4" ng-repeat="action in cards[1].states[0].definedActions.actions">
+           <a href="#" ng-click="performAction(action)" hotkey-card-action>
+               <span>{{action.displayName}}</span>
+          </a>
+      </div>
+  </div>
+</div>

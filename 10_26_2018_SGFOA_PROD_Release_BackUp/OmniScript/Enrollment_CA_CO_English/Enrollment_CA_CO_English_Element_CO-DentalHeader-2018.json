@@ -1,0 +1,51 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 1,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Enrollment-CA_CO",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/CA_CO/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 3,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Enrollment/CA_CO/English",
+        "Name": "DentalCoverageNQ",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/CA_CO/English/DentalCoverageNQ",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "DentalCoverageNQ",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "CO",
+                        "field": "qState"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "2018",
+                        "field": "EffectiveDateYear"
+                    }
+                ]
+            }
+        },
+        "text": "<p><span style=\"color: #db4f09;\">To apply the Medical Lock (packaged enrollment) discount, all members enrolled in an Anthem medical plan must enroll in Anthem Dental Prime and Dental Complete. Dental tiering must be identical on the medical and dental plans. Example: Enrollees with Single medical coverage must also have Single dental coverage; enrollees with Family medical coverage must also have Family dental coverage.</span></p>\n<p><span style=\"color: #db4f09;\">To apply the bundled discount, Dental must be purchased with one or more new Anthem qualifying specialty products such as vision, life or disability.</span></p>\n<p>Anthem Dental Family and Anthem Dental Family Enhanced plans include certified pediatric dental essential health benefits. All other&nbsp;plans including Anthem Dental Prime and Anthem Dental Complete with product families including Value, Classic, Enhanced, and&nbsp;Voluntary do not include certified pediatric dental essential health benefits.</p>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "CO-DentalHeader-2018",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/CA_CO/English/CO-DentalHeader-2018"
+}

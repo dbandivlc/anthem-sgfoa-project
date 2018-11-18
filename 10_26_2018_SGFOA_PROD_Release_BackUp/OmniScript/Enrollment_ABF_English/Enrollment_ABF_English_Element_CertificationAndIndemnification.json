@@ -1,0 +1,35 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 1,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "ABF Enrollment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 10,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English",
+        "Name": "GeneralAgreement",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English/GeneralAgreement",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "GeneralAgreement",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "show": null,
+        "text": "<h3><strong>Certification and Indemnification</strong></h3>\n<p>The Employer certifies and acknowledges that no attempt will be made to re-identify the individuals that are the subjects of the data provided as a result of a request for De-identified1 or Summary Health Information2. In addition, the Employer further certifies that it will require any downstream vendors or other parties that may receive De-identified and/or Summary Health Information at the request of the Employer to certify that they will also make no attempt to re-identify the individuals that are subject to the data provided. Any attempt by a Recipient to re-identify the data could constitute the use, disclosure, or maintenance of protected health information under HIPAA which would require Recipient to meet all requirements for safeguarding protected health information and/or personal information set out in federal and/or state law. Recipient will indemnify and hold harmless Anthem Blue Cross and Blue Shield (Anthem) and any Anthem affiliate, officer, director, employee or agent from and against any claim, cause of action, liability, damage, cost or expense, including attorneys&rsquo; fees and court or proceeding costs, arising out of or in connection with any nonpermitted or prohibited use or disclosure of re-identified protected health information by Recipient or any subcontractor, agent, person or entity under Recipient&rsquo;s control.</p>\n<ol>\n<li>&nbsp;De-identified Data has all 18 identifiers removed as required by HIPAA (&sect;164.514) and that cannot be used alone or in combination with other information to re-identify individual(s) who are subjects of that data.</li>\n<li>Summary Health Information summarizes claim data for an employer group to meet the requirements of De-identified Data that is aggregated to a five-digit ZIP code.</li>\n</ol>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "CertificationAndIndemnification",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ABF/English/CertificationAndIndemnification"
+}

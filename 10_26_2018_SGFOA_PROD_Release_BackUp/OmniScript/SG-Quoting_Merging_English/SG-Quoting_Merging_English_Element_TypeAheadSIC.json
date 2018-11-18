@@ -1,0 +1,78 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "Type Ahead that allows the user to search for SIC code using a formula field which has both SIC and SIC description. SIC information is contained in a custom object called SIC__c",
+    "%vlocity_namespace%__Level__c": 1,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Quoting -ABFMerging",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/SG Quoting/Merging/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 11,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/SG Quoting/Merging/English",
+        "Name": "MinInfo",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SG Quoting/Merging/English/MinInfo",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "MinInfo",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "callFrequency": 700,
+        "conditionType": "Optional if False",
+        "controlWidth": 4,
+        "dataJsonPath": "",
+        "dataProcessorFunction": "",
+        "debounceValue": 0,
+        "documentNames": [
+            "Green"
+        ],
+        "editMode": false,
+        "enableGoogleMapsAutocomplete": false,
+        "enableLookup": false,
+        "googleAddressCountry": "all",
+        "googleMapsAPIKey": "",
+        "googleTransformation": {
+            "administrative_area_level_1": "",
+            "country": "",
+            "locality": "",
+            "postal_code": "",
+            "street": ""
+        },
+        "help": true,
+        "helpText": "SIC Code is required only when a quote includes Dental coverage",
+        "hideEditButton": true,
+        "hideMap": true,
+        "inputWidth": 12,
+        "label": "SIC  Code",
+        "maxLength": 255,
+        "minLength": 0,
+        "newItemLabel": "",
+        "readOnly": false,
+        "required": true,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "DentalPlanType"
+                    }
+                ]
+            }
+        },
+        "showInputWidth": false,
+        "typeAheadKey": "SmallGroupSIC",
+        "useDataJson": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Type Ahead Block",
+    "Name": "TypeAheadSIC",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SG Quoting/Merging/English/TypeAheadSIC"
+}

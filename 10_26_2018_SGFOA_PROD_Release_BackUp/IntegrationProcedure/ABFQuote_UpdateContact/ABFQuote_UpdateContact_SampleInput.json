@@ -1,0 +1,721 @@
+{
+    "ABFCensusId": "a313B000000FrdXQAS",
+    "ABFFilters": [
+        {
+            "categories": [
+                {
+                    "$$hashKey": "object:4506",
+                    "isAttribute": false,
+                    "name": "Plan Type",
+                    "order": 1,
+                    "property": "SubType",
+                    "tooltip": null,
+                    "value": "PPO;HMO;POS;",
+                    "values": [
+                        {
+                            "$$hashKey": "object:4514",
+                            "name": "PPO",
+                            "tooltip": null
+                        },
+                        {
+                            "$$hashKey": "object:4515",
+                            "name": "HMO",
+                            "tooltip": null
+                        },
+                        {
+                            "$$hashKey": "object:4516",
+                            "name": "POS",
+                            "tooltip": null
+                        }
+                    ]
+                }
+            ],
+            "productType": "ABF",
+            "state": null
+        }
+    ],
+    "ABFMinInfo": {
+        "ABFEligibility": {
+            "ABFCensusEnrollFormula": false,
+            "ABFDefinitionWarningMsg": false,
+            "ABFDefinitionWarningMsg1": null,
+            "ABFDefinitionWarningMsg2": null,
+            "ABFEligibleFormula": true,
+            "ABFEligibleGreaterthanEnrolling": true,
+            "ABFNumbEligFormula": "TenToTwentyFive",
+            "ABFNumbEnrollFormulaVision": "TenToFifty",
+            "ABFNumberEligible": 25,
+            "ABFNumberEligibleFormula": false,
+            "ABFNumberEnrolling": 25,
+            "ABFParticipation": 1.0869565217391304,
+            "ABFParticipationMessage": null,
+            "ABFValidWaivers": 2
+        },
+        "ABFTypeAheadSIC-Block": {
+            "ABFTypeAheadSIC": "8021 OFFICES AND CLINICS OF DENTISTS",
+            "SIC_TXT_ABF": "8021"
+        },
+        "InvalidSIC_ABF": true,
+        "SelectedSICIs8021_ABF": true
+    },
+    "ABFQuoteCreatedDate": "09/18/2018",
+    "ABFQuoteNumber": "00028535",
+    "ABFScreen": {
+        "ABFEffectiveDateFormula": "2019-10-01",
+        "ABFEnrollingNo": 25,
+        "ABFLargeNumberError": null,
+        "ABFRequestedCoverageEffectiveDate": "Oct 1 2019",
+        "ABFeligibilityMsg": true,
+        "LargeGroupABFEnroll": false,
+        "MinimumABFEnroll": true,
+        "StateWiseLargeMinEnrollNo": 101,
+        "StateWiseMinEnrollNo": 25
+    },
+    "ABFTypeAheadSIC-Block": {
+        "SICName_ABF": "OFFICES AND CLINICS OF DENTISTS",
+        "SIC_NO_ABF": 8021
+    },
+    "ABF_QuoteId": "0Q03B000000Eyn0SAC",
+    "ABFcensusEmpCount": 0,
+    "AbfEndDate": "2019-12-31",
+    "AccountId": "0013B00000V08hoQAB",
+    "ActionButton": "abfquote",
+    "ActiveStatesEnrollment": [
+        "CA"
+    ],
+    "ActiveStatesQuoting": [
+        "KY",
+        "OH",
+        "WI",
+        "NH",
+        "NY"
+    ],
+    "AssociationSelect": "No",
+    "BenefitPeriod": "CalendarYear",
+    "BrokerContactId": "0033B00000In3S5QAJ",
+    "BrokerUserId": "BLANK",
+    "CensusId": "a313B000000FrdXQAS",
+    "CensusName": "a313B000000FrdX",
+    "CheckAccountTeamMemberUserId": "BLANK",
+    "Class1NumberofEE+Children": 0,
+    "Class1NumberofEE+Spouse": 0,
+    "Class1NumberofFamily": 0,
+    "Class1NumberofSingles(EE)": 0,
+    "Class2NumberofEE+Children": 0,
+    "Class2NumberofEE+Spouse": 0,
+    "Class2NumberofFamily": 0,
+    "Class2NumberofSingles(EE)": 0,
+    "Class3NumberofEE+Children": 0,
+    "Class3NumberofEE+Spouse": 0,
+    "Class3NumberofFamily": 0,
+    "Class3NumberofSingles (EE)": 0,
+    "ClassDistinction": "No",
+    "CompositeStates": true,
+    "ContextId": "",
+    "County1": "JEFFERSON",
+    "CountyCd": "059",
+    "DRId_Account": "0013B00000V08hoQAB",
+    "DRId_Opportunity": "0063B000007aWvHQAU",
+    "DRId_Quote": "0Q03B000000Eyn0SAC",
+    "DRId_QuoteLineItem": "0QL3B000000FK9tWAG",
+    "DRId_SGA_QuoteEnrollmentStage__c": "a8B3B000000D0BUUA0",
+    "DentalPriorCoverage": "X",
+    "DentalRateGuarantee": "X",
+    "EffectiveDate": "2018-09-18",
+    "FinalProdSelection": {
+        "ABFUpto3Plans": true,
+        "FinalProdCount": 2,
+        "FinalProds": [
+            {
+                "$$hashKey": "object:5686",
+                "Attributes": null,
+                "FundingType": null,
+                "Name": "Anthem Balanced PPO 6350/30%/7150",
+                "ProductCode": "S0AE",
+                "ProductId": "01t3B000002KUN2QAO",
+                "SubType": "PPO",
+                "Type": "Medical",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:5692",
+                "Attributes": null,
+                "FundingType": null,
+                "Name": "Anthem Balanced PPO 250/20%/4000",
+                "ProductCode": "S0A5",
+                "ProductId": "01t3B000002KUNBQA4",
+                "SubType": "PPO",
+                "Type": "Medical",
+                "vlcSelected": true
+            }
+        ],
+        "MinOneFinalPlan": true
+    },
+    "GRQPage": {
+        "ExternalQuote": "No",
+        "PrelimQuote": "Yes"
+    },
+    "GeneralAgencyContactId": "BLANK",
+    "GeneralAgencyContactUserId": "BLANK",
+    "GroupSpef": "SMALLGROUP",
+    "IHQPage": {
+        "AllIHQs": "Yes",
+        "AllIhqsNoMsg": null,
+        "ClaimIhq": "No"
+    },
+    "LCBrokerTypeAhead-Block": {
+        "Broker": "REVA HAWK",
+        "BrokerId": "0033B00000In3S5QAJ",
+        "BrokerTIN": "676736776"
+    },
+    "LCValidation": {
+        "ActiveEnrollmentStates": false,
+        "ActiveQuotingStates": false,
+        "BrokerProfile": "System Administrator",
+        "BrokerRequiredMessage": true,
+        "CheckZipCode": 1,
+        "County": "JEFFERSON",
+        "County_Select": null,
+        "ExtractState": "CO",
+        "InvalidZipMsg": true,
+        "LCBrokerTypeAhead-Block": {
+            "LCBrokerETIN": "676736776",
+            "LCBrokerId": "0033B00000In3S5QAJ",
+            "LCBrokerName": "REVA HAWK",
+            "LCBrokerTypeAhead": "REVA HAWK 676736776"
+        },
+        "LCZipCode": "80001",
+        "MultipleCountyMsg": null,
+        "Other Reason Description": null,
+        "QuoteErrMsg": null,
+        "QuotingonbehalfofaBroker?": "Yes",
+        "Reason": "Broker not Appointed",
+        "RestrictABFForStates": true,
+        "RestrictEnrollWithoutQuote": null,
+        "Sizecheck": 1,
+        "TypeAHeadEmployee-Block": {
+            "EmployeeId": null,
+            "TypeAHeadEmployee": null
+        },
+        "VAErrorMsg": null,
+        "VAWarningmsg": null
+    },
+    "LicenseStatus": "Valid",
+    "LoadCACOEnroll": false,
+    "LoadNYEnroll": false,
+    "MemberStates": false,
+    "MinCounty": "JEFFERSON",
+    "MinState": "CO",
+    "NumberClasses": "One",
+    "Object_Id": "0013B00000V08hoQAB",
+    "OmniScriptState": "regular",
+    "PQProdSelection": {
+        "ABFMinOneInitialPlan": true,
+        "InitialProdCount": 1,
+        "InitialProds": [
+            {
+                "$$hashKey": "object:3843",
+                "Attributes": null,
+                "FundingType": null,
+                "Name": "Anthem Balanced PPO 6350/30%/7150",
+                "ProductCode": "S0AE",
+                "ProductId": "01t3B000002KUN2QAO",
+                "SubType": "PPO",
+                "Type": "Medical",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "PaidAgencyContactId": "BLANK",
+    "PaidAgencyContactUserId": "BLANK",
+    "ProductLicense": "Health & Life",
+    "QuoteCreatedDate": "2018-09-18T15:40:50.000Z",
+    "QuoteGenerationComplete": false,
+    "QuotePreparedFor_ABF": {
+        "qCloseDateText_ABF": "2019-09-25",
+        "qCloseDate_ABF": "2019-09-25T18:30:00.000Z",
+        "qContactName_ABF": "gfdgfdgh",
+        "qContactTitle_ABF": "test con",
+        "qEmail_ABF": "testcon@et.in",
+        "qPhone_ABF": "1252565981",
+        "qReqEffectiveDate_ABF": "2019-09-30T18:30:00.000Z",
+        "qUpdatedQuoteName_ABF": "Testabf acc18 00028535 9/18/2018",
+        "quote_name_blk_ABF": {
+            "Address_blk_ABF": {
+                "qCityTown_ABF": null,
+                "qState_ABF": null,
+                "qStreetAddress_ABF": null,
+                "qZipCode_ABF": null
+            },
+            "qGroupName_ABF": "Testabf acc18",
+            "qPrimaryPhone_ABF": null
+        }
+    },
+    "QuotingonbehalfofaBroker?": "Yes",
+    "SecondProdSelection": {
+        "MinOneSecondaryPlan": true,
+        "SecondaryCount": 2,
+        "SecondaryProds": [
+            {
+                "$$hashKey": "object:5094",
+                "Attributes": null,
+                "FundingType": null,
+                "Name": "Anthem Balanced PPO 6350/30%/7150",
+                "ProductCode": "S0AE",
+                "ProductId": "01t3B000002KUN2QAO",
+                "SubType": "PPO",
+                "Type": "Medical",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:5097",
+                "Attributes": null,
+                "FundingType": null,
+                "Name": "Anthem Balanced Pathway HMO 1000/20%/4500",
+                "ProductCode": "S0A6",
+                "ProductId": "01t3B000002KUN7QAO",
+                "SubType": "HMO",
+                "Type": "Medical",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "SelectedState": "CO",
+    "SetProdSelectionTRorFL": false,
+    "ShowNYEnrollCategory": false,
+    "State1": "CO",
+    "Step": {
+        "AccountCreateMessage": null,
+        "AnthemBrand": "",
+        "CloseDatePrelim": "2018-09-17T18:30:00.000Z",
+        "ContextIdFormula": 1,
+        "CreateAcctCheckbox": true,
+        "CreateNewAccFormula": true,
+        "ETINFormula": null,
+        "ExistingAccount_Id": null,
+        "FormulaCounty": "JEFFERSON",
+        "FormulaState": "CO",
+        "FormulaZip": null,
+        "GeneralAgencyMessage": null,
+        "GroupName": "Testabf acc18",
+        "GroupROFormula": null,
+        "InitialQuoteName": "Testabf acc18 9/18/2018",
+        "IsPreExistingAccount": false,
+        "NYEnrollCheck": false,
+        "PaidAgencyMessage": null,
+        "TaxID": "112565665",
+        "Today": "2018-09-17T18:30:00.000Z",
+        "TypeAheadAccount-Block": {
+            "ExistingAccountId": null,
+            "ExistingAccountName": null,
+            "GroupETIN": null,
+            "TypeAheadAccount": null
+        },
+        "TypeAheadAssociations-Block": null,
+        "TypeAheadBroker-Block": {
+            "Broker": "REVA HAWK",
+            "BrokerId": "0033B00000In3S5QAJ",
+            "BrokerTIN": "676736776",
+            "TypeAheadBroker": null
+        },
+        "TypeAheadETINRO": null,
+        "TypeAheadGeneralAgency-Block": {
+            "GeneralAgency": null,
+            "GeneralAgencyId": null,
+            "GeneralAgencyTIN": null,
+            "TypeAheadGeneralAgency": null
+        },
+        "TypeAheadPaidAgency-Block": {
+            "PaidAgency": null,
+            "PaidAgencyId": null,
+            "PaidAgencyTIN": null,
+            "TypeAheadPaidAgency": null
+        },
+        "ZipCode1": "80001",
+        "qOpportunityName": "Testabf acc18 Opportunity 9/18/2018"
+    },
+    "VisionRateGuarantee": "24 Months",
+    "ZipCode": "80001",
+    "ZipCode3": "80001",
+    "ZipCodeList": [
+        {
+            "Brand": "ABCBS",
+            "CountyCode": "059",
+            "MinCounty": "JEFFERSON",
+            "MinState": "CO",
+            "ZipCode": "80001"
+        }
+    ],
+    "ZipCodeListLength": 1,
+    "abfoutput": [
+        {
+            "Attributes": [
+                {
+                    "Category": "Plan",
+                    "CategoryDisplaySequence": 1,
+                    "Description": null,
+                    "DisplaySequence": 1,
+                    "Id": "ATTRIBUTE-070",
+                    "Name": "INN Coinsurance",
+                    "Value": "30%",
+                    "ValueDataType": "Text"
+                },
+                {
+                    "Category": "Plan",
+                    "CategoryDisplaySequence": 1,
+                    "Description": null,
+                    "DisplaySequence": 1,
+                    "Id": "ATTRIBUTE-102",
+                    "Name": "OON Coinsurance",
+                    "Value": "0%",
+                    "ValueDataType": "Text"
+                },
+                {
+                    "Category": "Deductible",
+                    "CategoryDisplaySequence": 2,
+                    "Description": null,
+                    "DisplaySequence": 1,
+                    "Id": "ATTRIBUTE-078",
+                    "Name": "INN OOP",
+                    "Value": "$7150 per Individual or $14300 per Family.",
+                    "ValueDataType": "Text"
+                },
+                {
+                    "Category": "Deductible",
+                    "CategoryDisplaySequence": 2,
+                    "Description": null,
+                    "DisplaySequence": 1,
+                    "Id": "ATTRIBUTE-080",
+                    "Name": "INN OOP Family",
+                    "Value": "$14,300",
+                    "ValueDataType": "Text"
+                },
+                {
+                    "Category": "Deductible",
+                    "CategoryDisplaySequence": 2,
+                    "Description": null,
+                    "DisplaySequence": 1,
+                    "Id": "ATTRIBUTE-079",
+                    "Name": "INN OOP Single",
+                    "Value": "$7,150",
+                    "ValueDataType": "Text"
+                },
+                {
+                    "Category": "Office Visits",
+                    "CategoryDisplaySequence": 3,
+                    "Description": null,
+                    "DisplaySequence": 1,
+                    "Id": "ATTRIBUTE-086",
+                    "Name": "PCP / Specialist",
+                    "Value": "$35 / $35",
+                    "ValueDataType": "Text"
+                },
+                {
+                    "Category": "Office Visits",
+                    "CategoryDisplaySequence": 3,
+                    "Description": null,
+                    "DisplaySequence": 1,
+                    "Id": "ATTRIBUTE-084",
+                    "Name": "PCP Visit",
+                    "Value": "35",
+                    "ValueDataType": "Text"
+                },
+                {
+                    "Category": "Office Visits",
+                    "CategoryDisplaySequence": 3,
+                    "Description": null,
+                    "DisplaySequence": 1,
+                    "Id": "ATTRIBUTE-085",
+                    "Name": "Specialist Visit",
+                    "Value": "35",
+                    "ValueDataType": "Text"
+                },
+                {
+                    "Category": "Office Visits",
+                    "CategoryDisplaySequence": 3,
+                    "Description": null,
+                    "DisplaySequence": 1,
+                    "Id": "ATTRIBUTE-087",
+                    "Name": "Urgent Care",
+                    "Value": "NA",
+                    "ValueDataType": "Text"
+                },
+                {
+                    "Category": "Hospital",
+                    "CategoryDisplaySequence": 5,
+                    "Description": null,
+                    "DisplaySequence": 1,
+                    "Id": "ATTRIBUTE-097",
+                    "Name": "Emergency Room",
+                    "Value": "0%",
+                    "ValueDataType": "Text"
+                }
+            ],
+            "FundingType": null,
+            "Name": "Anthem Balanced Pathway HMO 6350/30%/7150",
+            "ProductCode": "S0AC",
+            "ProductId": "01t3B000002KUN1QAO",
+            "SubType": "HMO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced PPO 6350/30%/7150",
+            "ProductCode": "S0AE",
+            "ProductId": "01t3B000002KUN2QAO",
+            "SubType": "PPO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced Pathway HMO 3000/20%/7150",
+            "ProductCode": "S09X",
+            "ProductId": "01t3B000002KUN4QAO",
+            "SubType": "HMO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced PPO 3000/20%/7150",
+            "ProductCode": "S09Z",
+            "ProductId": "01t3B000002KUN5QAO",
+            "SubType": "PPO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced Pathway HMO 1000/20%/4500",
+            "ProductCode": "S0A6",
+            "ProductId": "01t3B000002KUN7QAO",
+            "SubType": "HMO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced PPO 1000/20%/4500",
+            "ProductCode": "S0A8",
+            "ProductId": "01t3B000002KUN8QAO",
+            "SubType": "PPO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced Pathway HMO 250/20%/4000",
+            "ProductCode": "S0A3",
+            "ProductId": "01t3B000002KUNAQA4",
+            "SubType": "HMO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced PPO 250/20%/4000",
+            "ProductCode": "S0A5",
+            "ProductId": "01t3B000002KUNBQA4",
+            "SubType": "PPO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced Pathway HMO 2250/50%/7900",
+            "ProductCode": "S09A",
+            "ProductId": "01t3B000002KUNDQA4",
+            "SubType": "HMO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced PPO 2250/50%/7900",
+            "ProductCode": "S09C",
+            "ProductId": "01t3B000002KUNEQA4",
+            "SubType": "PPO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced Pathway HMO 4500/0%/4500 w/HSA",
+            "ProductCode": "S0A0",
+            "ProductId": "01t3B000002KUNbQAO",
+            "SubType": "HMO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced PPO 4500/0%/4500 w/HSA",
+            "ProductCode": "S0A2",
+            "ProductId": "01t3B000002KUNcQAO",
+            "SubType": "PPO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced Pathway HMO 4500/30%/7150",
+            "ProductCode": "S09G",
+            "ProductId": "01t3B000002KUdpQAG",
+            "SubType": "HMO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced PPO 4500/30%/7150",
+            "ProductCode": "S09J",
+            "ProductId": "01t3B000002KUdqQAG",
+            "SubType": "PPO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced Pathway HMO 6650/0%/6650 w/HSA",
+            "ProductCode": "S09K",
+            "ProductId": "01t3B000002KUdsQAG",
+            "SubType": "HMO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced PPO 6650/0%/6650 w/HSA",
+            "ProductCode": "S09M",
+            "ProductId": "01t3B000002KUdtQAG",
+            "SubType": "PPO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced Pathway HMO 6675/0%/7900",
+            "ProductCode": "S09N",
+            "ProductId": "01t3B000002KUdvQAG",
+            "SubType": "HMO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced PPO 6675/0%/7900",
+            "ProductCode": "S09Q",
+            "ProductId": "01t3B000002KUdwQAG",
+            "SubType": "PPO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced Pathway HMO 2000/20%/4000",
+            "ProductCode": "S09R",
+            "ProductId": "01t3B000002KUdyQAG",
+            "SubType": "HMO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced PPO 2000/20%/4000",
+            "ProductCode": "S09T",
+            "ProductId": "01t3B000002KUdzQAG",
+            "SubType": "PPO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced Pathway HMO 6800/40%/7900",
+            "ProductCode": "S09U",
+            "ProductId": "01t3B000002KUe1QAG",
+            "SubType": "HMO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced PPO 6800/40%/7900",
+            "ProductCode": "S09W",
+            "ProductId": "01t3B000002KUe2QAG",
+            "SubType": "PPO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced Pathway HMO 2250/0%/2250 HSA",
+            "ProductCode": "S09D",
+            "ProductId": "01t3B000002KUe4QAG",
+            "SubType": "HMO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced PPO 2250/0%/2250 HSA",
+            "ProductCode": "S09F",
+            "ProductId": "01t3B000002KUe5QAG",
+            "SubType": "PPO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced Pathway HMO 3950/0%/3950 w/HSA",
+            "ProductCode": "S0A9",
+            "ProductId": "01t3B000002KUe7QAG",
+            "SubType": "HMO",
+            "Type": "Medical"
+        },
+        {
+            "Attributes": null,
+            "FundingType": null,
+            "Name": "Anthem Balanced PPO 3950/0%/3950 w/HSA",
+            "ProductCode": "S0AB",
+            "ProductId": "01t3B000002KUe8QAG",
+            "SubType": "PPO",
+            "Type": "Medical"
+        }
+    ],
+    "callDentalEligibility": true,
+    "callMedicalEligibility": true,
+    "callVisionEligibility": true,
+    "disableRightPanel": false,
+    "enableRightPanel": true,
+    "error": "OK",
+    "id": "a3Z3B000000LSXAUA4",
+    "insertQli": "Yes",
+    "isABFPlansFetched": true,
+    "isBroker": false,
+    "isDentalPlansFetched": false,
+    "isMedicalPlansFetched": false,
+    "isVisionPlansFetched": false,
+    "layout": "lightning",
+    "noResultsError": false,
+    "qGroupName_ABF": "",
+    "result": {
+        "error": "Attempt to de-reference a null object",
+        "errorCode": "INVOKE-500"
+    },
+    "sInstanceId": "a3Y3B000000EXtbUAG",
+    "success": false,
+    "targetSystem": "SALES",
+    "timeStamp": "2018-09-18T15:39:35.943Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053B000001HdoeQAC",
+    "userName": "keerthi.thoutireddy@accenture.com.sgapsdev2",
+    "userProfile": "System Administrator",
+    "userTimeZone": null,
+    "userType": "External",
+    "verticalMode": false,
+    "vlcPersistentComponent": {
+    },
+    "zipCodeLength": 5
+}

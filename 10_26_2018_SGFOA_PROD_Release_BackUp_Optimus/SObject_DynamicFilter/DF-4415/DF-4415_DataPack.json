@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2017;2018;2019",
+    "FilterName__c": "Network Name",
+    "FilterValue__c": "Access Blue NE HMO;HMO Blue New England;Preferred Blue PPO",
+    "IsAttribute__c": false,
+    "Name": "DF-4415",
+    "Order__c": 4,
+    "Ordered_Filter_Value__c": "Access Blue NE HMO;HMO Blue New England;Preferred Blue PPO",
+    "Producttype__c": "Medical",
+    "Property__c": "Network",
+    "State__c": "NH",
+    "UserType__c": "External User/Broker",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4415"
+}

@@ -1,0 +1,70 @@
+<div ng-init="importedScope.vlocQuote.setProducts(record.Id, record.quoteLines.records, cards[1].states[0].fields); classIndex = $parent.$index">
+<div class="vloc-plans-container slds-box slds-theme--shade slds-m-vertical--small slds-p-around--small" ng-repeat="product in importedScope.vlocQuote.productMap[record.Id]">
+  <div class="vloc-plan-grid-header slds-grid slds-size--1-of-1 slds-p-bottom--medium">
+      <div class="slds-col slds-size--1-of-2 vloc-product-heading slds-text-heading--medium slds-p-verticle--large">{{product['Product2.Name'].value}} 
+        <a ng-click="importedScope.vlocQuote.launchDetailsModal(product)" class="vloc-details-icon-label slds-text--link slds-p-horizontal--small slds-text-body--regular">
+            More Details
+        </a>
+       <div class="vloc-product-heading slds-text-heading--small slds-p-verticle--large">    {{product['Product2.%vlocity_namespace%__SubType__c'].value}}
+       </div>
+      </div>
+      <div class="vloc-product-heading slds-colslds-size--1-of-2  slds-text-heading--medium slds-p-verticle--large slds-text-align--right">{{product['Total Cost'] | currency }}</div>
+  </div>
+  <div class="vloc-plan-grid slds-grid slds-wrap  slds-size--1-of-1">
+     <div class="vloc-plan-col slds-col slds-truncate slds-p-vertical--small slds-size--1-of-2 slds-medium-size--1-of-3 slds-large-size--1-of-6 slds-small-size--1-of-2" ng-if="product['Employer Cost']"> 
+             <div class="slds-text-title slds-size--1-of-1 slds-p-right--small slds-truncate"> Employer Cost</div>
+             <div class="slds-size--1-of-1 slds-p-right--small slds-truncate"> {{product['Employer Cost'] | currency}} </div>
+      </div>
+       <div class="vloc-plan-col  slds-col slds-truncate slds-p-vertical--small slds-size--1-of-2 slds-medium-size--1-of-3 slds-large-size--1-of-6 slds-small-size--1-of-2 " ng-if="product['Employee Cost']">
+             <div class="slds-text-title slds-size--1-of-1 slds-p-right--small slds-truncate"> Employee Cost</div> 
+             <div class="slds-size--1-of-1 slds-p-right--small slds-truncate">{{product['Employee Cost'] | currency}}</div>
+      </div>
+      <div class="vloc-plan-col  slds-col slds-truncate slds-p-vertical--small slds-size--1-of-2 slds-medium-size--1-of-3 slds-large-size--1-of-6 slds-small-size--1-of-2 " ng-if="product['Enrolled Employee']">
+             <div class="slds-text-title slds-size--1-of-1 slds-p-right--small slds-truncate"> Enrolled Employee</div>
+             <div class="slds-size--1-of-1 slds-p-right--small slds-truncate">{{product['Enrolled Employee']}}</div>
+      </div>
+            <div class="vloc-plan-col  slds-col slds-truncate slds-p-vertical--small slds-size--1-of-2 slds-medium-size--1-of-3 slds-large-size--1-of-6 slds-small-size--1-of-2 " ng-if="product['Enrolled Dependent']">
+             <div class="slds-text-title slds-size--1-of-1 slds-p-right--small slds-truncate"> Enrolled Dependent </div>
+             <div class="slds-size--1-of-1 slds-p-right--small slds-truncate">{{product['Enrolled Dependent']}}</div>
+      </div>
+      <div ng-repeat="attr in importedScope.vlocQuote.attrMap[product.quoteLineId]" class="vloc-plan-col  slds-col slds-truncate slds-p-vertical--small slds-size--1-of-2 slds-medium-size--1-of-3 slds-large-size--1-of-6  slds-small-size--1-of-2" ng-if="!attr.hiddenByRule" ins-rules-evaluate="attr" ins-rules-product="product">
+          <div class="slds-text-title slds-size--1-of-1 slds-p-right--small slds-truncate">{{attr.cardLabel}}</div>
+          <div class="slds-size--1-of-1 slds-p-right--small slds-truncate">
+              <span ng-if="attr.dataType !== 'currency' && attr.dataType !== 'percentage'">
+                  {{attr.userValues}}
+              </span> 
+              <span ng-if="attr.dataType === 'currency'">
+                  {{attr.userValues | currency}}
+              </span>
+              <span ng-if="attr.dataType === 'percentage'">
+                  {{attr.userValues}}%
+              </span>
+              <span ng-if="attr.userValues === null"> 
+                --
+              </span>
+
+          </div>
+      </div>
+  </div>
+  <div class="vloc-plan-grid slds-grid slds-size--1-of-1 slds-border--top slds-p-top--small slds-m-top--medium">
+    <div class="slds-size--1-of-4">
+          <a href="#" ng-click="importedScope.vlocQuote.removeQLI(record.Id, product.quoteLineId, $index, product['Product2.Name'].value)">
+               <span>Remove</span>
+          </a>
+      </div>
+       <div class="slds-size--1-of-4" ng-if="$root.renewalId">
+          <a href="#" ng-click="importedScope.vlocQuote.replaceQLI(product, record, classIndex, '')">
+               <span>Replace</span>
+          </a>
+      </div>
+      <div class="slds-size--1-of-4" ng-if="product['Product2.' + importedScope.nsPrefix + 'IsConfigurable__c'].value">
+          <a href="#" ng-click="importedScope.vlocQuote.editQLI(product, record.Id); importedScope.vlocQuote.currentIndex = $index; importedScope.vlocQuote.currentRecord = record.Id">
+               <span>Edit</span>
+          </a>
+      </div>
+  </div>
+</div>
+<div class="slds-m-around--small slds-text-align--center" ng-if="record.quoteLines.records.length < 1">
+  There are no selected plans for this class.   
+</div>
+</div>

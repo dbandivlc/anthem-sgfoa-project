@@ -1,0 +1,124 @@
+<div class="slds-grid slds-wrap slds-size--1-of-1">
+<div ng-init="$root.isLoaded = true; importedScope.insFn.setData(obj['coverages'])" ng-class="{'slds-size--5-of-8 slds-p-right--small' : $root.config.attr, 'slds-size--1-of-1' : !$root.config.attr}">
+<ul class="existing-data draggable-items" dnd-list="importedScope.insVar.obj" dnd-dragover="importedScope.startDragging(event)">
+  <li class="slds-card via-slds-card--horiz slds-m-bottom--small" data-card="{{uniqueLayoutId}}-card-{{cardIndex}}" ng-class="{selected:isSelected(cardIndex)}" data-popover-flyout="true" ng-repeat="obj in importedScope.insVar.obj" ng-show="importedScope.insFn.filter(obj.Name)" dnd-draggable="obj" dnd-effect-allowed="move" dnd-moved="importedScope.reorderSequences($index)" add-hover-class="true">
+    <div class="slds-card__header via-slds-card__header slds-grid vloc-card-header">
+      <div class="slds-media slds-media--center slds-has-flexi-truncate">
+        <div class="slds-media__figure">
+            <vloc-card-icon data="data" obj="obj" size="'medium'"></vloc-card-icon>
+        </div>
+        <div class="slds-media__body slds-truncate">
+          <a href="javascript:void(0);" class="slds-text-link--reset" tooltip-placement="bottom" tooltip="{{data.title}}">
+            <span class="slds-text-heading--small">{{obj.Name}}</span>
+          </a>
+          <br />
+        </div>
+      </div>
+      <div class="slds-no-flex">
+          <div>
+          <label class=" slds-text-heading--label">Optional</label>
+          </div>
+          <div class="slds-text-align--center">
+           <span class="slds-checkbox">
+              <input type="checkbox" name="opt-attrs-{{$index}}" id="opt-attrs-{{$index}}" ng-model="obj.IsOptional"/>
+              <label class="slds-checkbox__label slds-m-around--none" for="opt-attrs-{{$index}}">
+                  <span class="slds-checkbox--faux vloc-check"></span>
+              </label>
+          </span>
+          </div>
+      </div>
+    </div>
+    <div class="vloc-card-body slds-small-show via-slds-card__body slds-grid slds-grid--vertical slds-theme--default" ng-if="!$root.dragging">
+        <!--Atributes: --> 
+      <div class="vloc-attr-grid">
+          <div class="slds-grid slds-wrap slds-size--1-of-1 slds-border--top slds-border--bottom">
+            <div class="slds-small-show vloc-attr-cell slds-size--1-of-{{data.fields.length}}" ng-repeat="field in data.fields" ng-show="key != 'attributes'">
+              <div class="vloc-attr-table-header slds-col slds-grid slds-wrap slds-grid--align-spread">
+                 <div class="slds-small-show vloc-attr-cell slds-size--1-of-1" ng-show="key != 'attributes'">
+                  <div class="vloc-attr-title-cell slds-truncate slds-text-heading--label slds-p-around--x-small slds-p-vertical--small" ng-class="{'slds-p-left--x-large slds-m-left--xx-small' : $index === 0}" title="{{field.label}}"> 
+                      <div class="vloc-attrs-header-label slds-truncate">
+                        {{field.label}}
+                    </div>
+                  </div>
+                </div>
+               </div>
+              </div>
+            </div>
+            <div class="vloc-attr-row vloc-attr-data-cell slds-grid slds-wrap slds-grid--align-spread" ng-repeat="row in obj.AttributeAssignmentList | orderBy : $root.nsPrefix + 'CategoryName__c'" ng-click="importedScope.insFn.setAttr(row);" ng-class="{'selected' : row.Id === $root.config.attr.Id, 'can-hover' : row[$root.nsPrefix + 'IsConfigurable__c']}">
+                <div class="slds-small-show vloc-attr-cell slds-size--1-of-{{data.fields.length}}" ng-repeat="field in data.fields" ng-show="key != 'attributes'">
+                    <div class="vloc-attr-data-cell slds-truncate slds-p-around--xx-small">
+                     <span ng-if="$index === 0" class="slds-p-horizontal--small"> {{$parent.$parent.$index + 1}} </span>
+                    <span ng-if="field.label !== 'Value' && field.type !== 'BOOLEAN'"> {{row | getter: field | picker: field.type}}</span>
+                     <span ng-if="field.label === 'Value'"> 
+                          <span ng-if="row.valueType !== 'percent'"> {{row | getter: field | picker: row.valueType}}</span>
+                          <span ng-if="row.valueType === 'percent'"> {{row[$root.nsPrefix + 'Value__c']}}%</span>
+                    </span>
+
+                      <div class="slds-form-element__control slds-text-align--left" ng-if="field.type === 'BOOLEAN'">
+                            <span class="slds-checkbox">
+                                <input type="checkbox" name="attrs-{{$index}}" id="attrs-{{$index}}" ng-model="row[field.name]" ng-disabled="!field.isUpdateable"/>
+                                <label class="slds-checkbox__label slds-m-around--none" for="attrs-{{$index}}">
+                                    <span class="slds-checkbox--faux vloc-check"></span>
+                                </label>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+              </div>
+      </div>
+    </div>
+    <button class="vloc-card-body slds-button slds-button--link  slds-m-horizontal--small slds-p-horizontal--medium" ng-click="importedScope.insFn.saveItem(obj.Id, obj.IsOptional, obj.AttributeAssignmentList, obj.MinQuantity,  obj.MaxQuantity, 'coverage')" ng-if="!$root.dragging">Save</button>
+    <button class="vloc-card-body slds-button slds-button--link  slds-m-horizontal--small slds-p-horizontal--medium" ng-click="importedScope.insFn.deleteCoverage(obj.Id, $index)" ng-if="!$root.dragging">Remove</button>
+    <div class="embed-flyout slds-p-left--medium slds-p-right--medium"></div>
+    <div class="slds-x-small-show-only via-slds-x-small-card__body slds-card__body slds-grid slds-grid--vertical slds-theme--default">
+      <div class="slds-size--1-of-1 slds-x-small-show-only" ng-repeat="field in data.fields.slice(1, 6)" ng-show="key != 'attributes'">
+        <div class="slds-grid via-slds-grid slds-p-around--small">
+            <div class="slds-col slds-size--1-of-2">
+                <p class="slds-text-align--left slds-truncate slds-text-heading--label" title="{{field.label}}">{{field.label}}&nbsp;</p>
+            </div>
+            <div class="slds-col slds-size--1-of-2" ng-if="!obj[field.relationshipName]">
+                <p class="slds-text-align--right slds-truncate" >{{obj | getter: field | picker: field.type}}&nbsp;</p>
+            </div>
+            <div class="slds-col slds-size--1-of-2" ng-if="obj[field.relationshipName]">
+                <p class="slds-text-align--right slds-truncate" >{{obj[field.relationshipName]['Name']}}&nbsp;</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="slds-card__footer slds-x-small-show-only">
+      <button class="slds-button" ng-click="performFlyout(uniqueLayoutId + '-card-'+ cardIndex);">
+        <span ng-if="!isSelected(cardIndex)">{{::$root.vlocity.getCustomLabel('ViewMore', 'View More')}}</span>
+        <span ng-if="isSelected(cardIndex)">{{::$root.vlocity.getCustomLabel('ViewLess', 'View Less')}}</span>
+      </button>
+    </div>
+  </li>
+  </ul>
+  <div class="vloc-addslds-p-around--small slds-text-align--center" ng-if=" importedScope.insVar.obj.length < 1">There are no coverages associated with this product</div>
+  <button class="vloc-attr-add-new slds-button slds-button--link slds-p-left--small" ng-class="{'slds-size--1-of-1 slds-text-align--center' :  importedScope.insVar.obj.length < 1}" ng-click="importedScope.insFn.launchCoverageModal()">Add New</button>
+</div>
+<div class="vloc-attr-config-container slds-size--3-of-8 slds-border--left slds-border--right slds-border--top slds-border--bottom" ng-if="$root.config.show">
+      <div class="vloc-attr-config-header slds-p-bottom--small slds-border--bottom slds-p-around--small"> 
+            <div class="slds-text-heading--medium slds-size--2-of-3 slds-truncate">
+              <span ng-if="$root.config.attr">{{$root.config.attr.Name}} </span>
+              <span ng-if="!$root.config.attr">New Attribute</span>
+             </div>
+            <div class="vloc-attr-config-close slds-m-horizontal--small">
+              <slds-button-svg-icon sprite="'utility'" icon="'close'" no-hint="true" ng-click="$root.config.show = false; $root.config.attr = null"></slds-button-svg-icon>
+            </div>
+            <div class="vloc-attr-actions-container">
+              <span class="vloc-attr-rules slds-m-right--xx-small" ng-if="$root.config.attr.Id" ng-click="importedScope.insFn.showRules()">
+                  <span class="number">{{$root.config.attr.rules.length}}</span>
+                  <slds-button-svg-icon sprite="'custom'" icon="'custom90'" no-hint="true" extra-classes="'slds-button__icon--large'">
+                  </slds-button-svg-icon>
+              </span>
+              <button class="slds-button slds-button--neutral" ng-click="showJson = !showJson">
+              <span ng-if="showJson"> Hide </span> JSON
+              </button>
+            </div>
+      </div>
+  <vloc-layout records="attrs" layout-name="ins-coverages-attributes-config" ng-if="!showJson"></vloc-layout> 
+  <div ng-if="showJson" class="vloc-attr-json slds-p-vertical--small slds-p-left--x-small">
+    <pre>{{$root.config.attr | json}}</pre>
+  </div>
+</div>
+</div>

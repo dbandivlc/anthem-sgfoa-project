@@ -1,0 +1,35 @@
+<div class="slds-size--1-of-1 slds-grid slds-wrap slds-border--bottom">
+ <div class="slds-truncate slds-size--1-of-8 slds-border--right slds-text-align--center slds-p-vertical--x-small slds-text-title_caps vloc-card-checkbox-container" data-label="Is Selected">
+        <div class="slds-truncate" title="Cloudhub">
+            Selected
+        </div>
+    </div>
+     <div class="slds-size--3-of-8 slds-text-align--center  slds-border--right slds-p-vertical--x-small slds-text-title_caps">
+        Class Name
+     </div>
+     <div class="slds-size--3-of-8 slds-text-align--center  slds-p-vertical--x-small slds-text-title_caps">
+        Class Code
+     </div>
+</div>
+<div class="slds-size--1-of-1 slds-grid slds-wrap slds-border--bottom vloc-card-modal-row" ng-repeat="record in records.records | orderBy : '-isSelected'" ng-class="{'slds-theme--shade':record.isSelected}">
+    <div class="slds-truncate slds-size--1-of-8 slds-border--right slds-p-vertical--xx-small vloc-card-checkbox-container" data-label="Is Selected">
+        <div class="slds-truncate" title="Cloudhub">
+           <span class="slds-checkbox vloc-checkbox slds-m-top--x-small">
+        <input type="checkbox" name="opt-{{$index}}" id="opt-{{$index}}" ng-model="record.isSelected" value="{{record.isSelected}}"/>
+    <label class="slds-checkbox__label slds-m-around--none" for="opt-{{$index}}">
+        <span class="slds-checkbox--faux vloc-check"></span>
+    </label>
+        </span>
+        </div>
+    </div>
+     <div class="slds-size--3-of-8 slds-p-left--small slds-border--right slds-p-vertical--xx-small" data-label="Close Date">
+        <div class="slds-truncate vloc-class-name" title="{{record.Name}}">
+            {{record.Name}}
+        </div>
+     </div>
+     <div class="slds-size--3-of-8 slds-p-left--small slds-p-vertical--xx-small">
+          <div class="slds-truncate vloc-class-name" title="{{record[$root.nsPrefix + 'ClassCode__c']}}">
+            {{record[$root.nsPrefix + 'ClassCode__c']}}
+        </div>
+     </div>
+</div>

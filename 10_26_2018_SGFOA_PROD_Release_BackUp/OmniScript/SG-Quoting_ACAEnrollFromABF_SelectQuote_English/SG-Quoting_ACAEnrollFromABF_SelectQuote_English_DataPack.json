@@ -1,0 +1,24 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "All States Select Quote from ABF to ACA Specialty",
+    "%vlocity_namespace%__Element__c": [
+        "SG-Quoting_ACAEnrollFromABF_SelectQuote_English_Element_CoverageOptions.json",
+        "SG-Quoting_ACAEnrollFromABF_SelectQuote_English_Element_DisplayMessage.json",
+        "SG-Quoting_ACAEnrollFromABF_SelectQuote_English_Element_EnrollmentQuote.json",
+        "SG-Quoting_ACAEnrollFromABF_SelectQuote_English_Element_NoQuotesErrMessageForQuoteMandatory.json",
+        "SG-Quoting_ACAEnrollFromABF_SelectQuote_English_Element_NoQuotesErrMessageForQuoteOptional.json",
+        "SG-Quoting_ACAEnrollFromABF_SelectQuote_English_Element_QuoteSelectMessage.json",
+        "SG-Quoting_ACAEnrollFromABF_SelectQuote_English_Element_QuoteSelectableItem.json",
+        "SG-Quoting_ACAEnrollFromABF_SelectQuote_English_Element_SelectQuote.json"
+    ],
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": true,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "SG-Quoting_ACAEnrollFromABF_SelectQuote_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "ACAEnrollFromABF_SelectQuote",
+    "%vlocity_namespace%__Type__c": "SG Quoting",
+    "Name": "ACAEnrollFromABF_SelectQuote",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/SG Quoting/ACAEnrollFromABF_SelectQuote/English"
+}

@@ -1,0 +1,111 @@
+{
+    "ContextId": null,
+    "GroupLoad": {
+        "ApplicationInformation": {
+            "ApplicationOwner": null,
+            "ApplicationStatus": null,
+            "BrokerWritingAgentETIN1": null,
+            "BrokerWritingAgentETIN2": null,
+            "BrokerWritingAgentName1": null,
+            "BrokerWritingAgentName2": null,
+            "CobraIndicator": null,
+            "CommissionPercent1": null,
+            "CommissionPercent2": null,
+            "DomesticPartnerIndicator": null,
+            "EffectiveDate": null,
+            "EligiblePartTimeEmployees": null,
+            "FomIndicator": null,
+            "GroupNotes": null,
+            "MedicarePrimary": null,
+            "MinWeeklyHoursForPartTime": null,
+            "MonthOfMedicalLeaveAbsence": null,
+            "MonthsOfPersonalLeaveAbsence": null,
+            "ParentETIN1": null,
+            "ParentETIN2": null,
+            "PartTimeCount": null,
+            "PartTimeIndicator": null,
+            "SeasonalEmployeesCovered": null,
+            "StaffLevelCode1": null,
+            "StaffLevelCode2": null,
+            "WaitingMonths1": null,
+            "WaitingMonths2": null
+        },
+        "ApplicationProdCoverageInfo": {
+            "Dental": {
+                "BundlingDiscount": null,
+                "DentalCompositeRating": null,
+                "DentalContribution": null,
+                "DentalContributionType": null,
+                "DentalEligibleEmployees": null,
+                "DentalPlans": {
+                    "ContractCodeDental": null,
+                    "DentalPlanName": null,
+                    "DentalProductStatus": null
+                },
+                "DentalRateType": null,
+                "PriorDentalCoverage": null,
+                "RateBank": null
+            },
+            "LifeDisability": {
+                "LifeCompositeRating": null,
+                "LifeEnrollingEmployees": null,
+                "LifeRateType": null,
+                "PriorLifeCoverage": null
+            },
+            "Medical": {
+                "MedicalCompositeRating": null,
+                "MedicalContribution": null,
+                "MedicalContributionType": null,
+                "MedicalEnrollingEmployees": null,
+                "MedicalPlans": {
+                    "ContractCodeMed": null,
+                    "MedicalPlanName": null,
+                    "MedicalProdStatus": null
+                },
+                "MedicalRateType": null
+            },
+            "Vision": {
+                "VisionCompositeRating": null,
+                "VisionContribution": null,
+                "VisionContributionType": null,
+                "VisionEnrollingEmployees": null,
+                "VisionPlans": {
+                    "ContractCodeVision": null,
+                    "ProdVision": null,
+                    "VisionProductStatus": null
+                },
+                "VisionRateGuaranteeMonths": null,
+                "VisionRateType": null
+            }
+        },
+        "CompanyInformation": {
+            "BillingAddress": null,
+            "EmailAddress": null,
+            "EmployerETIN": null,
+            "Fax": null,
+            "GroupAdmin": null,
+            "GroupName": null,
+            "OfficePhone": null,
+            "PhysicalAddress": null,
+            "SICCodeIndustry": null
+        },
+        "SaveAndSubmitButtons": null,
+        "SaveAndSubmitButtons1": null,
+        "Text27": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorPostAction1": null,
+        "GroupLoad": null,
+        "Prefill": null,
+        "SetErrors2": null,
+        "SetValues2": null,
+        "SetValues3": null
+    }
+}

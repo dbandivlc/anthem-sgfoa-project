@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2019",
+    "FilterName__c": "Product Type",
+    "FilterValue__c": "All;Dental PPO;Managed Care",
+    "IsAttribute__c": false,
+    "Name": "DF-4186",
+    "Order__c": 3,
+    "Ordered_Filter_Value__c": "All;Dental PPO;Managed Care",
+    "Producttype__c": "Dental",
+    "Property__c": "ProductType",
+    "State__c": "NY",
+    "UserType__c": "Internal User",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4186"
+}

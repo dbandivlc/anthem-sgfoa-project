@@ -1,0 +1,54 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Questionnaire",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CDHP/Questionnaire/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 29,
+    "%vlocity_namespace%__PropertySet__c": {
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "CommuterDetails_Commuter_First_Payroll_Date": "= IF(%CommuterDetails_Commuter_First_Payroll_Date% = NULL & %HSADetails_HSA_Date_of_First_Contribution% <> NULL & %varShow_Section_B% , %HSADetails_HSA_Date_of_First_Contribution%,%CommuterDetails_Commuter_First_Payroll_Date%) ",
+            "CommuterDetails_Commuter_Parking_Debit_Card_Access": "=IF(%CommuterDetails_Commuter_Termed_Emp_Claim_RunOut_Deadlin% = null, 'Debit Card',%CommuterDetails_Commuter_Parking_Debit_Card_Access%)",
+            "CommuterDetails_Commuter_Parking_Payroll_Contrib_Method": "= IF(%CommuterDetails_Commuter_Parking_Payroll_Contrib_Method% = NULL & %HSADetails_Method_of_Providing_Payroll_Contribution% <> NULL & %varShow_Section_B% , %HSADetails_Method_of_Providing_Payroll_Contribution%,%CommuterDetails_Commuter_Parking_Payroll_Contrib_Method%) ",
+            "CommuterDetails_Commuter_Payroll_Frequency": "= IF(%CommuterDetails_Commuter_Payroll_Frequency% = NULL & %HSADetails_HSA_Payroll_Frequency% <> NULL & %varShow_Section_B% , %HSADetails_HSA_Payroll_Frequency%,%CommuterDetails_Commuter_Payroll_Frequency%)",
+            "CommuterDetails_Commuter_Termed_Emp_Claim_RunOut_Deadlin": "=IF(%CommuterDetails_Commuter_Termed_Emp_Claim_RunOut_Deadlin% = null, '90 Days (Standard)',%CommuterDetails_Commuter_Termed_Emp_Claim_RunOut_Deadlin%)",
+            "CommuterDetails_Commuter_Transit_Debit_Card_Access": "=IF(%CommuterDetails_Commuter_Termed_Emp_Claim_RunOut_Deadlin% = null, 'Debit Card',%CommuterDetails_Commuter_Transit_Debit_Card_Access%)",
+            "CommuterDetails_Commuter_Transit_Payroll_Contrib_Method": "= IF(%CommuterDetails_Commuter_Transit_Payroll_Contrib_Method% = NULL & %HSADetails_Method_of_Providing_Payroll_Contribution% <> NULL & %varShow_Section_B% , %HSADetails_Method_of_Providing_Payroll_Contribution%,%CommuterDetails_Commuter_Transit_Payroll_Contrib_Method%) ",
+            "CommuterDetails_Max_Monthly_Election_Parking": "=IF(%CommuterDetails_Commuter_Termed_Emp_Claim_RunOut_Deadlin% = null, 260,%CommuterDetails_Max_Monthly_Election_Parking%)",
+            "CommuterDetails_Max_Monthly_Election_Transit": "=IF(%CommuterDetails_Commuter_Termed_Emp_Claim_RunOut_Deadlin% = null, 260,%CommuterDetails_Max_Monthly_Election_Transit%)"
+        },
+        "label": "SetValuesD",
+        "message": {
+        },
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "varShow_Section_D"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetValuesD",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/CDHP/Questionnaire/English/SetValuesD"
+}

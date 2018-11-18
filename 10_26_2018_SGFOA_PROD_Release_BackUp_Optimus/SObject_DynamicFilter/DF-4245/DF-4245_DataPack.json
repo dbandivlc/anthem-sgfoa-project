@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2017;2018;2019",
+    "FilterName__c": "Network Name",
+    "FilterValue__c": "Pathway;Blue Choice PPO",
+    "IsAttribute__c": false,
+    "Name": "DF-4245",
+    "Order__c": 4,
+    "Ordered_Filter_Value__c": "Pathway;Blue Choice PPO",
+    "Producttype__c": "Medical",
+    "Property__c": "Network",
+    "State__c": "ME",
+    "UserType__c": "Internal User",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4245"
+}

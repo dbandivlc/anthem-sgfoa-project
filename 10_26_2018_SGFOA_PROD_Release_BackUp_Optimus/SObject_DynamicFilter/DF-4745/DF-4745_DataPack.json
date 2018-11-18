@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2019",
+    "FilterName__c": "Product Design",
+    "FilterValue__c": "All;Classic;Enhanced;Value;Voluntary;Enhanced Care PLUS A;Enhanced Care PLUS B;Enhanced Care PLUS C;Enhanced Care PLUS D;Enhanced Care PLUS Voluntary C;Enhanced Care PLUS Voluntary D",
+    "IsAttribute__c": false,
+    "Name": "DF-4745",
+    "Order__c": 3,
+    "Ordered_Filter_Value__c": "All;Classic;Enhanced;Value;Voluntary;Enhanced Care PLUS A;Enhanced Care PLUS B;Enhanced Care PLUS C;Enhanced Care PLUS D;Enhanced Care PLUS Voluntary C;Enhanced Care PLUS Voluntary D",
+    "Producttype__c": "Dental",
+    "Property__c": "ProductDesignCheckBox_Type",
+    "State__c": "NY",
+    "UserType__c": "Internal User",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4745"
+}

@@ -1,0 +1,230 @@
+{
+    "ElapsedTime": 170,
+    "Input": {
+        "ExtractedResponse": {
+            "ProductToAgeRateBandSheetMember": [
+            ],
+            "QuoteID": [
+                {
+                    "CreatedDate": "2018-08-09T10:27:00.000+0000",
+                    "Id": "0Q00R0000000MuhSAE",
+                    "Name": "Test20_7 00027140 8/9/2018 Per Member Rating",
+                    "QuoteNumber": "00027140",
+                    "attributes": {
+                        "type": "Quote",
+                        "url": "/services/data/v43.0/sobjects/Quote/0Q00R0000000MuhSAE"
+                    }
+                },
+                {
+                    "CreatedDate": "2018-08-09T10:27:00.000+0000",
+                    "Id": "0Q00R0000000MuiSAE",
+                    "Name": "Test20_7 00027141 8/9/2018 ACA Composite Rating",
+                    "QuoteNumber": "00027141",
+                    "attributes": {
+                        "type": "Quote",
+                        "url": "/services/data/v43.0/sobjects/Quote/0Q00R0000000MuiSAE"
+                    }
+                }
+            ],
+            "SRQVERSION": "SRQ Version 7.2.11",
+            "productToGroupPlanSummaryList": [
+            ],
+            "productToMemberRateSheetRecordList": [
+            ],
+            "productToQuoteLineItemMap": [
+                {
+                    "Class_1_Total__c": 115.5,
+                    "Enrolling_Employees__c": 11,
+                    "L_D_ADD_Premium__c": 22,
+                    "L_D_ADD_Rate__c": 0.04,
+                    "L_D_ADD_Volume__c": 550000,
+                    "L_D_C1_SOB_AD_D__c": "Equal to Term Life",
+                    "L_D_C1_SOB_Dependent_Life__c": "N/A",
+                    "L_D_C1_SOB_STD__c": "N/A",
+                    "L_D_C1_SOB_Term_Life__c": "$50,000",
+                    "L_D_Rate__c": 0.21,
+                    "L_D_Volume__c": 550000,
+                    "QuoteLineItemId": "0QL0R0000000AD2WAM"
+                },
+                {
+                    "Class_1_Total__c": 115.5,
+                    "Enrolling_Employees__c": 11,
+                    "L_D_ADD_Premium__c": 22,
+                    "L_D_ADD_Rate__c": 0.04,
+                    "L_D_ADD_Volume__c": 550000,
+                    "L_D_C1_SOB_AD_D__c": "Equal to Term Life",
+                    "L_D_C1_SOB_Dependent_Life__c": "N/A",
+                    "L_D_C1_SOB_STD__c": "N/A",
+                    "L_D_C1_SOB_Term_Life__c": "$50,000",
+                    "L_D_Rate__c": 0.21,
+                    "L_D_Volume__c": 550000,
+                    "QuoteLineItemId": "0QL0R0000000AD3WAM"
+                }
+            ],
+            "productTobenifitPlanHighlightsList": [
+                {
+                    "Benefit_Highlight__c": "- Employee eligibility is defined as permanent full-time employees working a minimum of 30 hours per week.",
+                    "Name": "01",
+                    "QuoteLineItemId": "0QL0R0000000AD2WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- The proposed Guaranteed Issue amounts cannot exceed the prior carrier's Guaranteed Issue amounts. A copy of the prior carrier's certificate will be required.",
+                    "Name": "02",
+                    "QuoteLineItemId": "0QL0R0000000AD2WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Term Life Guaranteed Issue Limit is $50,000 for all ages.",
+                    "Name": "03",
+                    "QuoteLineItemId": "0QL0R0000000AD2WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Accelerated Death Benefit standard: Benefit may be up to 75% of the Group Term Life face amount to a maximum of $250,000.",
+                    "Name": "04",
+                    "QuoteLineItemId": "0QL0R0000000AD2WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Premiums can be waived for employees who become totally disabled before age 60, after the 6 month elimination period. Coverage terminates at age 65 or retirement, whichever is earlier.",
+                    "Name": "05",
+                    "QuoteLineItemId": "0QL0R0000000AD2WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Term Life benefits include conversion.",
+                    "Name": "06",
+                    "QuoteLineItemId": "0QL0R0000000AD2WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Reduction Schedule for class(es) 1: Term Life and AD&D benefits reduce by the following percents: 35% at age 65; 50% at age 70. Benefits terminate at retirement.",
+                    "Name": "07",
+                    "QuoteLineItemId": "0QL0R0000000AD2WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- The Term Life rate provided is based on a non-contributory plan. However, if the coverage is contributory, 75% participation will be required of those eligible to enroll, and the rate may need to be adjusted.",
+                    "Name": "08",
+                    "QuoteLineItemId": "0QL0R0000000AD2WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- AD&D benefits include Seat Belt benefit, Airbag benefit, Child Education benefit, Repatriation benefit, Common Carrier and Coma.",
+                    "Name": "09",
+                    "QuoteLineItemId": "0QL0R0000000AD2WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Employees whose wages are reported on Form 1099 in lieu of Form W-2 are not eligible for coverage.",
+                    "Name": "10",
+                    "QuoteLineItemId": "0QL0R0000000AD2WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Employees must be actively at work, at least 15 years of age and working in the United States, in order to become insured. Employees not actively at work on their effective date will become eligible for insurance after completing the waiting period specified in the policy unless otherwise noted on the schedule of benefits.",
+                    "Name": "11",
+                    "QuoteLineItemId": "0QL0R0000000AD2WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- The Resource Advisor phone/web member assistance program is included in this proposal.",
+                    "Name": "12",
+                    "QuoteLineItemId": "0QL0R0000000AD2WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Travel Assistance is included in this proposal.",
+                    "Name": "13",
+                    "QuoteLineItemId": "0QL0R0000000AD2WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Open enrollment for any line of coverage is not permitted.",
+                    "Name": "14",
+                    "QuoteLineItemId": "0QL0R0000000AD2WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Term Life and AD&D Rate(s) are guaranteed for 2 years.",
+                    "Name": "15",
+                    "QuoteLineItemId": "0QL0R0000000AD2WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Rates have been calculated using standard Underwriting guidelines.  Insurer reserves the right to review rates and costs based on final enrollment data, effective date and plan indicated on your signed enrollment materials.",
+                    "Name": "16",
+                    "QuoteLineItemId": "0QL0R0000000AD2WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Employee eligibility is defined as permanent full-time employees working a minimum of 30 hours per week.",
+                    "Name": "01",
+                    "QuoteLineItemId": "0QL0R0000000AD3WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- The proposed Guaranteed Issue amounts cannot exceed the prior carrier's Guaranteed Issue amounts. A copy of the prior carrier's certificate will be required.",
+                    "Name": "02",
+                    "QuoteLineItemId": "0QL0R0000000AD3WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Term Life Guaranteed Issue Limit is $50,000 for all ages.",
+                    "Name": "03",
+                    "QuoteLineItemId": "0QL0R0000000AD3WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Accelerated Death Benefit standard: Benefit may be up to 75% of the Group Term Life face amount to a maximum of $250,000.",
+                    "Name": "04",
+                    "QuoteLineItemId": "0QL0R0000000AD3WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Premiums can be waived for employees who become totally disabled before age 60, after the 6 month elimination period. Coverage terminates at age 65 or retirement, whichever is earlier.",
+                    "Name": "05",
+                    "QuoteLineItemId": "0QL0R0000000AD3WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Term Life benefits include conversion.",
+                    "Name": "06",
+                    "QuoteLineItemId": "0QL0R0000000AD3WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Reduction Schedule for class(es) 1: Term Life and AD&D benefits reduce by the following percents: 35% at age 65; 50% at age 70. Benefits terminate at retirement.",
+                    "Name": "07",
+                    "QuoteLineItemId": "0QL0R0000000AD3WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- The Term Life rate provided is based on a non-contributory plan. However, if the coverage is contributory, 75% participation will be required of those eligible to enroll, and the rate may need to be adjusted.",
+                    "Name": "08",
+                    "QuoteLineItemId": "0QL0R0000000AD3WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- AD&D benefits include Seat Belt benefit, Airbag benefit, Child Education benefit, Repatriation benefit, Common Carrier and Coma.",
+                    "Name": "09",
+                    "QuoteLineItemId": "0QL0R0000000AD3WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Employees whose wages are reported on Form 1099 in lieu of Form W-2 are not eligible for coverage.",
+                    "Name": "10",
+                    "QuoteLineItemId": "0QL0R0000000AD3WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Employees must be actively at work, at least 15 years of age and working in the United States, in order to become insured. Employees not actively at work on their effective date will become eligible for insurance after completing the waiting period specified in the policy unless otherwise noted on the schedule of benefits.",
+                    "Name": "11",
+                    "QuoteLineItemId": "0QL0R0000000AD3WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- The Resource Advisor phone/web member assistance program is included in this proposal.",
+                    "Name": "12",
+                    "QuoteLineItemId": "0QL0R0000000AD3WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Travel Assistance is included in this proposal.",
+                    "Name": "13",
+                    "QuoteLineItemId": "0QL0R0000000AD3WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Open enrollment for any line of coverage is not permitted.",
+                    "Name": "14",
+                    "QuoteLineItemId": "0QL0R0000000AD3WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Term Life and AD&D Rate(s) are guaranteed for 2 years.",
+                    "Name": "15",
+                    "QuoteLineItemId": "0QL0R0000000AD3WAM"
+                },
+                {
+                    "Benefit_Highlight__c": "- Rates have been calculated using standard Underwriting guidelines.  Insurer reserves the right to review rates and costs based on final enrollment data, effective date and plan indicated on your signed enrollment materials.",
+                    "Name": "16",
+                    "QuoteLineItemId": "0QL0R0000000AD3WAM"
+                }
+            ]
+        }
+    },
+    "Status": true,
+    "Type": "DataRaptor Post Action"
+}

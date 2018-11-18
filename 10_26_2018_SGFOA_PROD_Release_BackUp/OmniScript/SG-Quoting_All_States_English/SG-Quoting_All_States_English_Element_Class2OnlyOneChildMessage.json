@@ -1,0 +1,110 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "Message that displays to user if total number of Employee+Children is greater than Employee with One Child Only",
+    "%vlocity_namespace%__Level__c": 2,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Quoting - All_States",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/SG Quoting/All_States/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 44,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/SG Quoting/All_States/English",
+        "Name": "Class1and2",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SG Quoting/All_States/English/Class1and2",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Class1and2",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "currencySymbol": "$",
+        "dateFormat": "MM-dd-yyyy",
+        "disOnTplt": false,
+        "hide": false,
+        "hideGroupSep": false,
+        "hideLabel": true,
+        "label": null,
+        "messages": [
+            {
+                "active": false,
+                "text": "Success",
+                "type": "Success",
+                "value": true
+            },
+            {
+                "active": true,
+                "text": "The # of Employee with only one Child must be less than or equal to Total of # of Employee & Children in Benefit Level 1 and Benefit Level 2 you've entered on the census. Please check your Employee & Children count and try again.",
+                "type": "Requirement",
+                "value": false
+            }
+        ],
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "<>",
+                                    "data": null,
+                                    "field": "Class1NumberofEE+Children"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": null,
+                                    "field": "Class2NumberofEE+Children"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": null,
+                                    "field": "EmpWithOnlyOneChild"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "Two",
+                                    "field": "NumberClasses"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": "2018",
+                                    "field": "ReqEffDtFormula-Year"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "validateExpression": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "Class2OnlyOneChildValid"
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Validation",
+    "Name": "Class2OnlyOneChildMessage",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SG Quoting/All_States/English/Class2OnlyOneChildMessage"
+}

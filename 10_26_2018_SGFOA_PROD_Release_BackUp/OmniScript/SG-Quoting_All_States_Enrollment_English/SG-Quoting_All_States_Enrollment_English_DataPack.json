@@ -1,0 +1,33 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "All States Enrollment except NY",
+    "%vlocity_namespace%__Element__c": [
+        "SG-Quoting_All_States_Enrollment_English_Element_AllStatesEnrollment_Broker.json",
+        "SG-Quoting_All_States_Enrollment_English_Element_AllStatesEnrollment_Internal.json",
+        "SG-Quoting_All_States_Enrollment_English_Element_CheckQuoteSelected.json",
+        "SG-Quoting_All_States_Enrollment_English_Element_CoverageOptions.json",
+        "SG-Quoting_All_States_Enrollment_English_Element_EnrollmentBrokerRedirectWithoutQuote.json",
+        "SG-Quoting_All_States_Enrollment_English_Element_EnrollmentInternalRedirectWithoutQuote.json",
+        "SG-Quoting_All_States_Enrollment_English_Element_EnrollmentLicenseCheck.json",
+        "SG-Quoting_All_States_Enrollment_English_Element_EnrollmentQuote.json",
+        "SG-Quoting_All_States_Enrollment_English_Element_LicenseCheck.json",
+        "SG-Quoting_All_States_Enrollment_English_Element_LineBreak1.json",
+        "SG-Quoting_All_States_Enrollment_English_Element_ProductLicenseCheck.json",
+        "SG-Quoting_All_States_Enrollment_English_Element_QuoteSelectMessage.json",
+        "SG-Quoting_All_States_Enrollment_English_Element_QuoteSelectableItem.json",
+        "SG-Quoting_All_States_Enrollment_English_Element_SaveActionParamOnAccount.json",
+        "SG-Quoting_All_States_Enrollment_English_Element_SelectQuote.json",
+        "SG-Quoting_All_States_Enrollment_English_Element_SetValues2.json",
+        "SG-Quoting_All_States_Enrollment_English_Element_ZipCode.json"
+    ],
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "SG-Quoting_All_States_Enrollment_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "All_States_Enrollment",
+    "%vlocity_namespace%__Type__c": "SG Quoting",
+    "Name": "All_States_Enrollment",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/SG Quoting/All_States_Enrollment/English"
+}

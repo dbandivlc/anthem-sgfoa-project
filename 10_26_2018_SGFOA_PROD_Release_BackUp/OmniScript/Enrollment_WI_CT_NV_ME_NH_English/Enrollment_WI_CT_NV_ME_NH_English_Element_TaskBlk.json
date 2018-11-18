@@ -1,0 +1,37 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 1,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Enrollment-WI_CT_NV_ME_NH",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/WI_CT_NV_ME_NH/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 1,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Enrollment/WI_CT_NV_ME_NH/English",
+        "Name": "Print/ElectronicSignature",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/WI_CT_NV_ME_NH/English/Print/ElectronicSignature",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Print/ElectronicSignature",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "controlWidth": 12,
+        "dataJSON": false,
+        "documentNames": [
+            "CABIADCJA1df5d015bef244b49e1aa5c19ba9dd16",
+            "CABIADCJA04cac2bc73b14b40b316d4646e7495e4"
+        ],
+        "label": null,
+        "show": null,
+        "text": "<h3>Please select one of the following DocuSign Options</h3>\n<ul>\n<li>\n<h3>Select <strong>Send document via DocuSign</strong>&nbsp;then <strong>Next</strong> to send the application to client (Initial Payment Form) &nbsp;via DocuSign / Email</h3>\n</li>\n</ul>\n<h3>&nbsp; &nbsp; &nbsp; &nbsp; OR</h3>\n<ul>\n<li>\n<h3>Select&nbsp;<strong>Print / Sign Now </strong>then<strong> Next </strong>to open a new window and complete the application via DocuSign Now (online) or to print a pdf version of the application.</h3>\n</li>\n</ul>\n<h3>&nbsp;</h3>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "TaskBlk",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/WI_CT_NV_ME_NH/English/TaskBlk"
+}

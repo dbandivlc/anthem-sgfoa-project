@@ -1,0 +1,43 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "The date selected is converted to a value so it can be used by the pricing procedures. This formula field also combines the output of the 2 Request Coverage Effective Date fields into 1",
+    "%vlocity_namespace%__Level__c": 1,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG License Validation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/License/Validation/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 37,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/License/Validation/English",
+        "Name": "CategorySelection",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/License/Validation/English/CategorySelection",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "CategorySelection",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "currencySymbol": "$",
+        "dataType": "Text",
+        "dateFormat": "MM-dd-yyyy",
+        "disOnTplt": false,
+        "expression": "IF(%BrokerProfile% = 'Anthem SG Broker', (CONCATENATE(SPLIT(%RequestedCoverageEffectiveDate%, ' ', 3)[0] , '_', SPLIT(%RequestedCoverageEffectiveDate%, ' ', 3)[2])).toUpperCase(), (CONCATENATE(SPLIT(%RequestedCoverageNonBrokerDates%, ' ', 3)[0] , '_', SPLIT(%RequestedCoverageNonBrokerDates%, ' ', 3)[2])).toUpperCase())",
+        "hide": true,
+        "hideGroupSep": false,
+        "inputWidth": 12,
+        "label": null,
+        "mask": null,
+        "show": null,
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Formula",
+    "Name": "ReqEffDtFormula-Monthly",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/License/Validation/English/ReqEffDtFormula-Monthly"
+}

@@ -1,0 +1,25 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "SG Kingslayers Copy",
+    "%vlocity_namespace%__CustomJavaScript__c": "Rating_MedicalIntegration_SampleInput.json",
+    "%vlocity_namespace%__Element__c": [
+        "Rating_MedicalIntegration_Element_AggreGateMemberRates.json",
+        "Rating_MedicalIntegration_Element_MakeRESTAPICall.json",
+        "Rating_MedicalIntegration_Element_RemoteAction2.json",
+        "Rating_MedicalIntegration_Element_TransformAPSRatingInput.json",
+        "Rating_MedicalIntegration_Element_TransformCompositeRatingOutput.json",
+        "Rating_MedicalIntegration_Element_TransformMemberRatingOutput.json",
+        "Rating_MedicalIntegration_Element_TransformSGRatingInput.json"
+    ],
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "Rating_MedicalIntegration",
+    "%vlocity_namespace%__PropertySet__c": "Rating_MedicalIntegration_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "MedicalIntegration",
+    "%vlocity_namespace%__Type__c": "Rating",
+    "Name": "MedicalRatingIntegration",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Rating/MedicalIntegration/Procedure"
+}

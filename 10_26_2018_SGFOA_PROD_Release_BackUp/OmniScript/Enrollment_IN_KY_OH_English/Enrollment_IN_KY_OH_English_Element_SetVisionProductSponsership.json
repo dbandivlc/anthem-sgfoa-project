@@ -1,0 +1,54 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Enrollment-IN_KY_OH",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/IN_KY_OH/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 26,
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataRaptor Input Parameters": [
+        ],
+        "disOnTplt": false,
+        "elementValueMap": {
+            "EmployerCheck": "=IF(OR(%VisionCoverage:VisionAccounts:FundingType% == \"Employer Paid\",AND(%isVoluntaryPlanVision% ==false,%WithQuote% ==false,%CoverageVisionCheck%==\"Vision\")),true,false)",
+            "VisionEmployeecheck": "=IF(%VisionPlanType% = \"EmployerSponsored\", true,false)",
+            "VisionEmployerSponsership": "=IF(AND(%VoluntaryProductVision% != NULL,%VoluntaryProductVision% != \"\",%VoluntaryProductVision% = \"N\"),true,false)",
+            "VisionVoluntaryCheck": "=IF(%VisionPlanType% = \"Voluntary\", true, false)",
+            "VisionVoluntaryProduct": "=IF(AND(%VoluntaryProductVision% != NULL,%VoluntaryProductVision% != \"\",%VoluntaryProductVision% = \"N\"),false,IF(AND(%VoluntaryProductVision% != NULL,%VoluntaryProductVision% != \"\",%VoluntaryProductVision% = \"Y\"),true,false))",
+            "Volcheck": "=IF(OR(%VisionCoverage:VisionAccounts:FundingType% == \"Voluntary\",%isVoluntaryPlanVision% ==true), true,false)"
+        },
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "label": null,
+        "message": {
+        },
+        "postMessage": "Done",
+        "redirectNextLabel": "Next",
+        "redirectNextWidth": 3,
+        "redirectPreviousLabel": "Previous",
+        "redirectPreviousWidth": 3,
+        "redirectTemplateUrl": "vlcAcknowledge.html",
+        "remoteTimeout": 30000,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetVisionProductSponsership",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/IN_KY_OH/English/SetVisionProductSponsership"
+}

@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2017;2018;2019",
+    "FilterName__c": "Network Name",
+    "FilterValue__c": "Anthem PPO;Pathway",
+    "IsAttribute__c": false,
+    "Name": "DF-4179",
+    "Order__c": 3,
+    "Ordered_Filter_Value__c": "Anthem PPO;Pathway",
+    "Producttype__c": "Medical",
+    "Property__c": "Network",
+    "State__c": "CO",
+    "UserType__c": "External User/Broker",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4179"
+}

@@ -1,0 +1,55 @@
+{
+    "ClassDistinction": "No",
+    "ContextId": "",
+    "CoverageOptions": "Medical;Dental;Vision",
+    "MinInfo": {
+        "DentalPlansNotAvailableInSIC8021": false,
+        "GroupName": "XXX",
+        "InvalidSIC": true,
+        "InvalidZipMsg": true,
+        "Today": "2016-09-04T05:00:00.000Z",
+        "Type Ahead SIC-Block": {
+            "SIC_TXT": "7373",
+            "Type Ahead SIC": "7373 COMPUTER INTERGRATED SYSTEMS D"
+        },
+        "Type Ahead Zip-Block": {
+            "MinCounty": "NEW YORK",
+            "MinState": "10001",
+            "Type Ahead Zip": "10001 - NEW YORK",
+            "ZipCode": "10001"
+        },
+        "TypeAheadBroker-Block": {
+            "Broker": "Benjamin Candelaria",
+            "BrokerId": "0035500000ECMQbAAP",
+            "BrokerTIN": null,
+            "TypeAheadBroker": "Candelaria, Benjamin"
+        },
+        "TypeAheadGeneralAgency-Block": {
+            "GeneralAgency": "ROHAN S**ਠટनટਮଙ&\\䷿701!",
+            "GeneralAgencyId": "0013100001btxDkAAI",
+            "GeneralAgencyTIN": "BFHKHMPKTZ",
+            "TypeAheadGeneralAgency": "BFHKHMPKTZ"
+        },
+        "TypeAheadPaidAgency-Block": {
+            "PaidAgency": "LLOYD C**ळરઘરডમગ&\\丿001!",
+            "PaidAgencyId": "0013100001btxDjAAI",
+            "PaidAgencyTIN": "BFHKHMKQRZ",
+            "TypeAheadPaidAgency": "BFHKHMKQRZ"
+        }
+    },
+    "Type Ahead SIC-Block": {
+        "SICName": "COMPUTER INTERGRATED SYSTEMS D",
+        "SIC_NO": 7373
+    },
+    "Type Ahead Zip-Block": {
+        "Brand": "EBCBS",
+        "MappedCode": "101",
+        "RatingArea": 4
+    },
+    "id": "a2t550000004bkxAAA",
+    "timeStamp": "2016-09-05T01:47:41.648Z",
+    "userName": "jbridges@anthem.isg.isgfull",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    }
+}

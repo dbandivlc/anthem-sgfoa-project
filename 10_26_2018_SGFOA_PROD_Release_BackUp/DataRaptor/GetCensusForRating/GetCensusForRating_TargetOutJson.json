@@ -1,0 +1,22 @@
+{
+    "dependent": [
+        {
+            "age": "38",
+            "birthDate": "11-11-1979",
+            "inTobaccoWellness": "1",
+            "isTobaccoUser": "1",
+            "memberRelationshipTypeCode": "SPOUS",
+            "memberUniqueId": "1"
+        }
+    ],
+    "member": {
+        "age": "18",
+        "birthDate": "11-11-1999",
+        "dentalTier": "EMP",
+        "enrollmentTypeCode": "ESP",
+        "inTobaccoWellness": "1",
+        "isTobaccoUser": "1",
+        "memberRelationshipTypeCode": "SCRBR",
+        "memberUniqueId": "Sub1"
+    }
+}

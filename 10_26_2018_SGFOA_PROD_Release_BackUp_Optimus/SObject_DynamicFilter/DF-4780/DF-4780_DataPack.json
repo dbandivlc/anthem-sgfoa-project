@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2017;2018;2019",
+    "FilterName__c": "CDHP Indicator",
+    "FilterValue__c": "CDHP Indicator",
+    "IsAttribute__c": false,
+    "Name": "DF-4780",
+    "Order__c": 11,
+    "Ordered_Filter_Value__c": "CDHP Indicator",
+    "Producttype__c": "Medical",
+    "Property__c": "CDHP Indicator",
+    "State__c": "VA",
+    "UserType__c": "External User/Broker",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4780"
+}

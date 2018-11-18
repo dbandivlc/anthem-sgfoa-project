@@ -1,0 +1,1346 @@
+{
+    "": "",
+    "ApplicationType": {
+        "NewEnrollment": false,
+        "RequestedEffectiveDateEn": null,
+        "RequestedEffectiveDateEnText": null,
+        "RequestedEffectiveNonBrokerDatesEn": null
+    },
+    "CompanyInformation": {
+        "AddiitonalContactPhone": "8888888888",
+        "AdditionalContact": "xxx",
+        "AdditionalContactEmail": "xxx@aol.com",
+        "AdditionalContactFax": "8888888888",
+        "AdditionalContactTitle": "xxxx",
+        "Billing Address": null,
+        "BillingAddress": "Yes",
+        "City": "xxx",
+        "CompanyContactName": "xxx",
+        "CompanyName": "xxx",
+        "CompanyStreetAddress": "xxx",
+        "DoingBusinessAs": "xxx",
+        "EmailAddress": "xxx@aol.com",
+        "PrimaryFax": "9999999999",
+        "PrimaryPhone": "9999999999",
+        "QualifyAsSingleEmployer": null,
+        "QualifyAsSingleEmployerExplanation": null,
+        "SICCode": "xxxxxx",
+        "State": "xxx",
+        "TaxIdNumber": null,
+        "Title": "xxx",
+        "Zip": "xxx",
+        "today": "2016-05-22T05:00:00.000Z"
+    },
+    "ContextId": "",
+    "Eligibility": {
+        "COBRA": null,
+        "CurrentYear": null,
+        "DependentCoverage": null,
+        "DomesticPartnerCoverage": null,
+        "LastYear": null,
+        "NewEligible": null,
+        "NoEligibleEmployees": "11",
+        "NoEmployees": "11",
+        "NoEmployeesCurYr": null,
+        "NoEmployeesLastYr": null,
+        "NoEnrolling": "11",
+        "NoIneligibleEmployees": "11",
+        "TEFRAEligible": null,
+        "WaitingPeriodNew": null,
+        "WaitingPeriodRehired": null
+    },
+    "MedicalCoverage": {
+        "ContractCode1": "xxx",
+        "ContractCode2": "xxx",
+        "ContractCode3": "xxx",
+        "ForHSAPlans": null,
+        "PercentEmpAndSpouse": "23",
+        "PercentEmployeeAndChildren": "23",
+        "PercentEmployeeOnly": "23",
+        "PercentFamily": "23"
+    },
+    "MinInfo": {
+        "Class1and2": null,
+        "ClassDistinction": null,
+        "County": null,
+        "CoverageOptions": "Medical",
+        "Eligibility": {
+            "IncludeL&D": null,
+            "NumberEligible": 10,
+            "NumberEnrolling": 10,
+            "Participation": 2,
+            "ParticipationMessage": false,
+            "ValidWaivers": 5,
+            "VisionMessage": false
+        },
+        "GroupName": "xxx",
+        "MinState": "MA",
+        "MinZipCode": "53185",
+        "Mini-Census": null,
+        "NumberClasses": null,
+        "RequestedCoverageEffectiveDate": "6/15/2016",
+        "SICCode": "5714 DRAPERY & UPHOLSTERY STORES",
+        "StateReturn": true,
+        "StateValidation1": true,
+        "StateValidationMessage": true,
+        "ZipValidation": true,
+        "today": "2016-05-22T05:00:00.000Z"
+    },
+    "QuoteDeliveryOptions": {
+        "MailBlock": {
+            "ContinuewithEnrollment": "Yes",
+            "MailEmail": "By Email",
+            "Messaging 18": null,
+            "options": null
+        }
+    },
+    "QuoteOptionCustomerInfo": {
+        "email_quote": {
+            "qAddEmail": "xxx@aol.com",
+            "qEmail": "xxx@aol.com"
+        },
+        "quote_name_blk": {
+            "Address_blk": {
+                "Countyforquote": "xxx",
+                "qCityTown": "xx",
+                "qState": "MA",
+                "qStreetAddress": "xx",
+                "qZipCode": "34344"
+            },
+            "qFirstName": "xxx",
+            "qLastName": "xx",
+            "qMiddleName": "xx",
+            "qPrefix": null
+        }
+    },
+    "SelectDentalPlans": {
+        "output3": [
+            {
+                "BestSelling": null,
+                "ID": "0",
+                "MarketSegment": "Small Group",
+                "MetalLevel": null,
+                "PlanID": "NY-2F",
+                "ProductId": "01t55000000KkvtAAC",
+                "ProductName": "Classic Complete NY-2F",
+                "ProductSubType": null,
+                "ProductType": "Dental",
+                "SmallGroupV2__TotalPrice": 34.12,
+                "attributes": [
+                    {
+                        "attributeDisplaySequence": 6,
+                        "categoryDisplaySequence": 10,
+                        "categoryName": "Deductibles",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Single",
+                        "value": "$25"
+                    },
+                    {
+                        "attributeDisplaySequence": 7,
+                        "categoryDisplaySequence": 10,
+                        "categoryName": "Deductibles",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Family",
+                        "value": "$75"
+                    },
+                    {
+                        "attributeDisplaySequence": 5,
+                        "categoryDisplaySequence": 20,
+                        "categoryName": "Maximums",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Annual Benefit",
+                        "value": "$1000"
+                    },
+                    {
+                        "attributeDisplaySequence": 6,
+                        "categoryDisplaySequence": 20,
+                        "categoryName": "Maximums",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Annual Carryover",
+                        "value": "No"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 120,
+                        "categoryName": "Service Coverage",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Diagnostic and Preventive - In Network",
+                        "value": "100%"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 120,
+                        "categoryName": "Service Coverage",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Basic Services - In Network",
+                        "value": "80%"
+                    },
+                    {
+                        "attributeDisplaySequence": 3,
+                        "categoryDisplaySequence": 120,
+                        "categoryName": "Service Coverage",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Major Services - In Network",
+                        "value": "50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 4,
+                        "categoryDisplaySequence": 120,
+                        "categoryName": "Service Coverage",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Endontics, Periodontics, Oral Surgery - In Network",
+                        "value": "80%"
+                    },
+                    {
+                        "attributeDisplaySequence": 5,
+                        "categoryDisplaySequence": 120,
+                        "categoryName": "Service Coverage",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Diagnostic and Preventive - Out of Network",
+                        "value": "100%"
+                    },
+                    {
+                        "attributeDisplaySequence": 6,
+                        "categoryDisplaySequence": 120,
+                        "categoryName": "Service Coverage",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Basic Services - Out of Network",
+                        "value": "80%"
+                    },
+                    {
+                        "attributeDisplaySequence": 7,
+                        "categoryDisplaySequence": 120,
+                        "categoryName": "Service Coverage",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Major Services - Out of Network",
+                        "value": "50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 8,
+                        "categoryDisplaySequence": 120,
+                        "categoryName": "Service Coverage",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Endontics, Periodontics, Oral Surgery - Out of Network",
+                        "value": "80%"
+                    },
+                    {
+                        "attributeDisplaySequence": 9,
+                        "categoryDisplaySequence": 120,
+                        "categoryName": "Service Coverage",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Waiting Period - Major Services",
+                        "value": "No Waiting Period"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 130,
+                        "categoryName": "Orthodontia",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Coinsurance - In Network",
+                        "value": "50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 130,
+                        "categoryName": "Orthodontia",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Coinsurance - Out of Network",
+                        "value": "50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 3,
+                        "categoryDisplaySequence": 130,
+                        "categoryName": "Orthodontia",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Maximum",
+                        "value": "$1000"
+                    },
+                    {
+                        "attributeDisplaySequence": 4,
+                        "categoryDisplaySequence": 130,
+                        "categoryName": "Orthodontia",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Waiting Period - Orthodontia",
+                        "value": "No Waiting Period"
+                    },
+                    {
+                        "attributeDisplaySequence": 5,
+                        "categoryDisplaySequence": 130,
+                        "categoryName": "Orthodontia",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Coverage",
+                        "value": "Dependent children only, ages 8-18"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 140,
+                        "categoryName": "Additional Features",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Dependent Age",
+                        "value": "Children to Age 26"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 140,
+                        "categoryName": "Additional Features",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Out of Network Reimbursement",
+                        "value": "90th"
+                    },
+                    {
+                        "attributeDisplaySequence": 3,
+                        "categoryDisplaySequence": 140,
+                        "categoryName": "Additional Features",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Dental Implants",
+                        "value": "Yes"
+                    },
+                    {
+                        "attributeDisplaySequence": 4,
+                        "categoryDisplaySequence": 140,
+                        "categoryName": "Additional Features",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Posterior Composites",
+                        "value": "Benefit as Amalgam"
+                    },
+                    {
+                        "attributeDisplaySequence": 5,
+                        "categoryDisplaySequence": 140,
+                        "categoryName": "Additional Features",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Brush Biopsy",
+                        "value": "Yes"
+                    },
+                    {
+                        "attributeDisplaySequence": 6,
+                        "categoryDisplaySequence": 140,
+                        "categoryName": "Additional Features",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Additional Cleaning - Pregnant/Diabetic",
+                        "value": "Yes"
+                    }
+                ],
+                "vlcSelected": true
+            },
+            {
+                "BestSelling": null,
+                "ID": "1",
+                "MarketSegment": "Small Group",
+                "MetalLevel": null,
+                "PlanID": "NY-2G",
+                "ProductId": "01t55000000KkvyAAC",
+                "ProductName": "Classic Complete NY-2G",
+                "ProductSubType": null,
+                "ProductType": "Dental",
+                "SmallGroupV2__TotalPrice": 56.17,
+                "attributes": [
+                    {
+                        "attributeDisplaySequence": 6,
+                        "categoryDisplaySequence": 10,
+                        "categoryName": "Deductibles",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Single",
+                        "value": "$50"
+                    },
+                    {
+                        "attributeDisplaySequence": 7,
+                        "categoryDisplaySequence": 10,
+                        "categoryName": "Deductibles",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Family",
+                        "value": "$100"
+                    },
+                    {
+                        "attributeDisplaySequence": 5,
+                        "categoryDisplaySequence": 20,
+                        "categoryName": "Maximums",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Annual Benefit",
+                        "value": "$1000"
+                    },
+                    {
+                        "attributeDisplaySequence": 6,
+                        "categoryDisplaySequence": 20,
+                        "categoryName": "Maximums",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Annual Carryover",
+                        "value": "No"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 120,
+                        "categoryName": "Service Coverage",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Diagnostic and Preventive - In Network",
+                        "value": "100%"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 120,
+                        "categoryName": "Service Coverage",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Basic Services - In Network",
+                        "value": "80%"
+                    },
+                    {
+                        "attributeDisplaySequence": 3,
+                        "categoryDisplaySequence": 120,
+                        "categoryName": "Service Coverage",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Major Services - In Network",
+                        "value": "50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 4,
+                        "categoryDisplaySequence": 120,
+                        "categoryName": "Service Coverage",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Endontics, Periodontics, Oral Surgery - In Network",
+                        "value": "80%"
+                    },
+                    {
+                        "attributeDisplaySequence": 5,
+                        "categoryDisplaySequence": 120,
+                        "categoryName": "Service Coverage",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Diagnostic and Preventive - Out of Network",
+                        "value": "100%"
+                    },
+                    {
+                        "attributeDisplaySequence": 6,
+                        "categoryDisplaySequence": 120,
+                        "categoryName": "Service Coverage",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Basic Services - Out of Network",
+                        "value": "80%"
+                    },
+                    {
+                        "attributeDisplaySequence": 7,
+                        "categoryDisplaySequence": 120,
+                        "categoryName": "Service Coverage",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Major Services - Out of Network",
+                        "value": "50%"
+                    },
+                    {
+                        "attributeDisplaySequence": 8,
+                        "categoryDisplaySequence": 120,
+                        "categoryName": "Service Coverage",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Endontics, Periodontics, Oral Surgery - Out of Network",
+                        "value": "80%"
+                    },
+                    {
+                        "attributeDisplaySequence": 9,
+                        "categoryDisplaySequence": 120,
+                        "categoryName": "Service Coverage",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Waiting Period - Major Services",
+                        "value": "No Waiting Period"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 130,
+                        "categoryName": "Orthodontia",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Coinsurance - In Network",
+                        "value": "Not Covered"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 130,
+                        "categoryName": "Orthodontia",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Coinsurance - Out of Network",
+                        "value": "Not Covered"
+                    },
+                    {
+                        "attributeDisplaySequence": 3,
+                        "categoryDisplaySequence": 130,
+                        "categoryName": "Orthodontia",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Maximum",
+                        "value": "Not Covered"
+                    },
+                    {
+                        "attributeDisplaySequence": 4,
+                        "categoryDisplaySequence": 130,
+                        "categoryName": "Orthodontia",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Waiting Period - Orthodontia",
+                        "value": "No Waiting Period"
+                    },
+                    {
+                        "attributeDisplaySequence": 5,
+                        "categoryDisplaySequence": 130,
+                        "categoryName": "Orthodontia",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Coverage",
+                        "value": "N/A"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 140,
+                        "categoryName": "Additional Features",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Dependent Age",
+                        "value": "Children to Age 26"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 140,
+                        "categoryName": "Additional Features",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Out of Network Reimbursement",
+                        "value": "90th"
+                    },
+                    {
+                        "attributeDisplaySequence": 3,
+                        "categoryDisplaySequence": 140,
+                        "categoryName": "Additional Features",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Dental Implants",
+                        "value": "Yes"
+                    },
+                    {
+                        "attributeDisplaySequence": 4,
+                        "categoryDisplaySequence": 140,
+                        "categoryName": "Additional Features",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Posterior Composites",
+                        "value": "Benefit as Amalgam"
+                    },
+                    {
+                        "attributeDisplaySequence": 5,
+                        "categoryDisplaySequence": 140,
+                        "categoryName": "Additional Features",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Brush Biopsy",
+                        "value": "Yes"
+                    },
+                    {
+                        "attributeDisplaySequence": 6,
+                        "categoryDisplaySequence": 140,
+                        "categoryName": "Additional Features",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Additional Cleaning - Pregnant/Diabetic",
+                        "value": "Yes"
+                    }
+                ],
+                "vlcSelected": true
+            }
+        ]
+    },
+    "SelectMedicalCoverage": {
+        "output2": [
+            {
+                "BestSelling": null,
+                "ID": "2",
+                "MarketSegment": null,
+                "MetalLevel": null,
+                "PlanID": "R2fS10",
+                "ProductId": "01t55000000KkI8AAK",
+                "ProductName": "Empire Silver Pathway EPO 1500/30%/5500 Plus",
+                "ProductSubType": "EPO",
+                "ProductType": "Medical",
+                "SmallGroupV2__TotalPrice": 576.12,
+                "attributes": [
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 10,
+                        "categoryName": "Deductibles",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "HRA-DF Upfront Single",
+                        "value": "NA"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 10,
+                        "categoryName": "Deductibles",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "In Network Single",
+                        "value": "$1500"
+                    },
+                    {
+                        "attributeDisplaySequence": 3,
+                        "categoryDisplaySequence": 10,
+                        "categoryName": "Deductibles",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "In Network Family",
+                        "value": "$3000"
+                    },
+                    {
+                        "attributeDisplaySequence": 4,
+                        "categoryDisplaySequence": 10,
+                        "categoryName": "Deductibles",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Out of Network Single",
+                        "value": "NA"
+                    },
+                    {
+                        "attributeDisplaySequence": 5,
+                        "categoryDisplaySequence": 10,
+                        "categoryName": "Deductibles",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Out of Network Family",
+                        "value": "NA"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 20,
+                        "categoryName": "Maximums",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "In Network Single",
+                        "value": "$5500"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 20,
+                        "categoryName": "Maximums",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "In Network Family",
+                        "value": "$11000"
+                    },
+                    {
+                        "attributeDisplaySequence": 3,
+                        "categoryDisplaySequence": 20,
+                        "categoryName": "Maximums",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Out of Network Single",
+                        "value": "NA"
+                    },
+                    {
+                        "attributeDisplaySequence": 4,
+                        "categoryDisplaySequence": 20,
+                        "categoryName": "Maximums",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Out of Network Family",
+                        "value": "NA"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 30,
+                        "categoryName": "Office Visits",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "PCP Copay",
+                        "value": "$35"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 30,
+                        "categoryName": "Office Visits",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "PCP Coinsurance",
+                        "value": "30%"
+                    },
+                    {
+                        "attributeDisplaySequence": 3,
+                        "categoryDisplaySequence": 30,
+                        "categoryName": "Office Visits",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "SPC Copay",
+                        "value": "$35"
+                    },
+                    {
+                        "attributeDisplaySequence": 4,
+                        "categoryDisplaySequence": 30,
+                        "categoryName": "Office Visits",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "SPC Coinsurance",
+                        "value": "30%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 40,
+                        "categoryName": "Inpatient Services",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "In Network Coinsurance",
+                        "value": "30%"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 40,
+                        "categoryName": "Inpatient Services",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Out of Network Coinsurance",
+                        "value": null
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 50,
+                        "categoryName": "Emergency Services",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Emergency Room Visit Copay",
+                        "value": "NA"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 50,
+                        "categoryName": "Emergency Services",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Emergency Room Visit Coinsurance",
+                        "value": "30%"
+                    },
+                    {
+                        "attributeDisplaySequence": 3,
+                        "categoryDisplaySequence": 50,
+                        "categoryName": "Emergency Services",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Urgent Care Copay",
+                        "value": "NA"
+                    },
+                    {
+                        "attributeDisplaySequence": 4,
+                        "categoryDisplaySequence": 50,
+                        "categoryName": "Emergency Services",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Urgent Care Coinsurance",
+                        "value": "30%"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 60,
+                        "categoryName": "Tiers",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Tier 1 Copay",
+                        "value": "$15"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 60,
+                        "categoryName": "Tiers",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Tier 1 Coinsurance",
+                        "value": "0"
+                    },
+                    {
+                        "attributeDisplaySequence": 3,
+                        "categoryDisplaySequence": 60,
+                        "categoryName": "Tiers",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Tier 2 Copay",
+                        "value": "$40"
+                    },
+                    {
+                        "attributeDisplaySequence": 4,
+                        "categoryDisplaySequence": 60,
+                        "categoryName": "Tiers",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Tier 2 Coinsurance",
+                        "value": "0"
+                    },
+                    {
+                        "attributeDisplaySequence": 5,
+                        "categoryDisplaySequence": 60,
+                        "categoryName": "Tiers",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Tier 3 Copay",
+                        "value": "$80"
+                    },
+                    {
+                        "attributeDisplaySequence": 6,
+                        "categoryDisplaySequence": 60,
+                        "categoryName": "Tiers",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Tier 3 Coinsurance",
+                        "value": "30%"
+                    },
+                    {
+                        "attributeDisplaySequence": 7,
+                        "categoryDisplaySequence": 60,
+                        "categoryName": "Tiers",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Tier 4 Copay",
+                        "value": null
+                    },
+                    {
+                        "attributeDisplaySequence": 8,
+                        "categoryDisplaySequence": 60,
+                        "categoryName": "Tiers",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Tier 4 Coinsurance",
+                        "value": null
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 70,
+                        "categoryName": "Prescriptions",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Prescription Deductible",
+                        "value": "$500"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 70,
+                        "categoryName": "Prescriptions",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Per Prescription Maximum",
+                        "value": "$500"
+                    },
+                    {
+                        "attributeDisplaySequence": 3,
+                        "categoryDisplaySequence": 70,
+                        "categoryName": "Prescriptions",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Formulary",
+                        "value": "Select"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 80,
+                        "categoryName": "Other",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "PY/CY",
+                        "value": "PY"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 80,
+                        "categoryName": "Other",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Contraceptive Opt Out",
+                        "value": null
+                    },
+                    {
+                        "attributeDisplaySequence": 3,
+                        "categoryDisplaySequence": 80,
+                        "categoryName": "Other",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Infertility Coverage",
+                        "value": null
+                    },
+                    {
+                        "attributeDisplaySequence": 4,
+                        "categoryDisplaySequence": 80,
+                        "categoryName": "Other",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Association / Alliance / Chamber",
+                        "value": null
+                    },
+                    {
+                        "attributeDisplaySequence": 5,
+                        "categoryDisplaySequence": 80,
+                        "categoryName": "Other",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "SNF 365",
+                        "value": null
+                    },
+                    {
+                        "attributeDisplaySequence": 6,
+                        "categoryDisplaySequence": 80,
+                        "categoryName": "Other",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Dependent Age Change Rider",
+                        "value": null
+                    },
+                    {
+                        "attributeDisplaySequence": 7,
+                        "categoryDisplaySequence": 80,
+                        "categoryName": "Other",
+                        "dataType": "Text",
+                        "description": null,
+                        "isKey": false,
+                        "name": "Public Entity Abortion Exclusion",
+                        "value": null
+                    }
+                ],
+                "vlcSelected": true
+            }
+        ]
+    },
+    "SelectVisionPlans": {
+        "QuoteEnroll": "Finalize Quote",
+        "output4": [
+            {
+                "BestSelling": null,
+                "ID": "1",
+                "MarketSegment": "Small Group",
+                "MetalLevel": null,
+                "PlanID": "A2",
+                "ProductId": "01t55000000KkwDAAS",
+                "ProductName": "BV A2",
+                "ProductSubType": null,
+                "ProductType": "Vision",
+                "SmallGroupV2__TotalPrice": 3.45,
+                "attributes": [
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 90,
+                        "categoryName": "Service Frequency",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Eye Exam Frequency",
+                        "value": "Once every 12 months"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 90,
+                        "categoryName": "Service Frequency",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Lens Frequency",
+                        "value": "Once every 12 months"
+                    },
+                    {
+                        "attributeDisplaySequence": 3,
+                        "categoryDisplaySequence": 90,
+                        "categoryName": "Service Frequency",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Frame Frequency",
+                        "value": "Once every 12 months"
+                    },
+                    {
+                        "attributeDisplaySequence": 4,
+                        "categoryDisplaySequence": 90,
+                        "categoryName": "Service Frequency",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Contacts Frequency",
+                        "value": "Once every 12 months"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 100,
+                        "categoryName": "Copayments",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Eye Exam Copay",
+                        "value": "$15"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 100,
+                        "categoryName": "Copayments",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Prescription Lens Copay",
+                        "value": "$0"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 110,
+                        "categoryName": "Allowances",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Frame Benefit",
+                        "value": "$120"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 110,
+                        "categoryName": "Allowances",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Contact Lens Benefit",
+                        "value": "$115"
+                    }
+                ],
+                "vlcSelected": true
+            },
+            {
+                "BestSelling": null,
+                "ID": "2",
+                "MarketSegment": "Small Group",
+                "MetalLevel": null,
+                "PlanID": "B1",
+                "ProductId": "01t55000000KkwIAAS",
+                "ProductName": "BV B1",
+                "ProductSubType": null,
+                "ProductType": "Vision",
+                "SmallGroupV2__TotalPrice": 6.54,
+                "attributes": [
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 90,
+                        "categoryName": "Service Frequency",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Eye Exam Frequency",
+                        "value": "Once every 12 months"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 90,
+                        "categoryName": "Service Frequency",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Lens Frequency",
+                        "value": "Once every 12 months"
+                    },
+                    {
+                        "attributeDisplaySequence": 3,
+                        "categoryDisplaySequence": 90,
+                        "categoryName": "Service Frequency",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Frame Frequency",
+                        "value": "Once every 24 months"
+                    },
+                    {
+                        "attributeDisplaySequence": 4,
+                        "categoryDisplaySequence": 90,
+                        "categoryName": "Service Frequency",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Contacts Frequency",
+                        "value": "Once every 12 months"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 100,
+                        "categoryName": "Copayments",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Eye Exam Copay",
+                        "value": "$10"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 100,
+                        "categoryName": "Copayments",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Prescription Lens Copay",
+                        "value": "$0"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 110,
+                        "categoryName": "Allowances",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Frame Benefit",
+                        "value": "$130"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 110,
+                        "categoryName": "Allowances",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Contact Lens Benefit",
+                        "value": "$130"
+                    }
+                ],
+                "vlcSelected": true
+            },
+            {
+                "BestSelling": null,
+                "ID": "3",
+                "MarketSegment": "Small Group",
+                "MetalLevel": null,
+                "PlanID": "B2",
+                "ProductId": "01t55000000KkwNAAS",
+                "ProductName": "BV B2",
+                "ProductSubType": null,
+                "ProductType": "Vision",
+                "SmallGroupV2__TotalPrice": 12.45,
+                "attributes": [
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 90,
+                        "categoryName": "Service Frequency",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Eye Exam Frequency",
+                        "value": "Once every 12 months"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 90,
+                        "categoryName": "Service Frequency",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Lens Frequency",
+                        "value": "Once every 12 months"
+                    },
+                    {
+                        "attributeDisplaySequence": 3,
+                        "categoryDisplaySequence": 90,
+                        "categoryName": "Service Frequency",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Frame Frequency",
+                        "value": "Once every 24 months"
+                    },
+                    {
+                        "attributeDisplaySequence": 4,
+                        "categoryDisplaySequence": 90,
+                        "categoryName": "Service Frequency",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Contacts Frequency",
+                        "value": "Once every 12 months"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 100,
+                        "categoryName": "Copayments",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Eye Exam Copay",
+                        "value": "$10"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 100,
+                        "categoryName": "Copayments",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Prescription Lens Copay",
+                        "value": "$20"
+                    },
+                    {
+                        "attributeDisplaySequence": 1,
+                        "categoryDisplaySequence": 110,
+                        "categoryName": "Allowances",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Frame Benefit",
+                        "value": "$100"
+                    },
+                    {
+                        "attributeDisplaySequence": 2,
+                        "categoryDisplaySequence": 110,
+                        "categoryName": "Allowances",
+                        "dataType": "Text",
+                        "description": "Key",
+                        "isKey": false,
+                        "name": "Contact Lens Benefit",
+                        "value": "$100"
+                    }
+                ],
+                "vlcSelected": true
+            }
+        ]
+    },
+    "VisionCoverage": {
+        "AmtContributionPerDependent": "222",
+        "AmtContributionPerEmployee": "222",
+        "ContractCode": "xxx"
+    },
+    "error": "OK",
+    "plan": [
+        {
+            "PlanID": "A1",
+            "ProductId": "01t55000000Kkw8AAC"
+        },
+        {
+            "PlanID": "A2",
+            "ProductId": "01t55000000KkwDAAS"
+        },
+        {
+            "PlanID": "B1",
+            "ProductId": "01t55000000KkwIAAS"
+        },
+        {
+            "PlanID": "B2",
+            "ProductId": "01t55000000KkwNAAS"
+        },
+        {
+            "PlanID": "C1",
+            "ProductId": "01t55000000KkwSAAS"
+        },
+        {
+            "PlanID": "C2",
+            "ProductId": "01t55000000KkwXAAS"
+        }
+    ],
+    "timeStamp": "2016-05-23T02:33:47.946Z",
+    "userName": "jbridges@anthem.isg.isgfull",
+    "userProfile": "System Administrator",
+    "vlcPersistentComponent": {
+    }
+}

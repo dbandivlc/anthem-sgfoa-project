@@ -1,0 +1,64 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "Selectable item which displays priced vision plans returned by the calculation procedure.",
+    "%vlocity_namespace%__Level__c": 1,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Quoting-New York",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/SG Quoting/New_York/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 5,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/SG Quoting/New_York/English",
+        "Name": "SelectVisionPlans",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SG Quoting/New_York/English/SelectVisionPlans",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "SelectVisionPlans",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "vlcSmallGroupGridTemplate-Vision-filterable.html",
+        "accessibleInFutureSteps": true,
+        "controlWidth": 12,
+        "dataJSON": true,
+        "documentNames": [
+            "Green"
+        ],
+        "elementErrorMap": {
+        },
+        "itemsKey": "recSet",
+        "label": null,
+        "maxCompareSize": 3,
+        "modalConfigurationSetting": {
+            "modalController": "ModalProductCtrl",
+            "modalHTMLTemplateId": "vlcProductConfig.html",
+            "modalSize": "sm"
+        },
+        "modalController": "CompareModalCtrl",
+        "modalHTMLTemplateId": "vlcCompareModalVision.html",
+        "modalSize": "lg",
+        "postTransformBundle": "",
+        "preTransformBundle": "",
+        "remoteClass": "%vlocity_namespace%.PricingMatrixCalculationService",
+        "remoteMethod": "calculate",
+        "remoteOptions": {
+            "postTransformBundle": "",
+            "preTransformBundle": ""
+        },
+        "remoteTimeout": 30000,
+        "selectMode": "Multi",
+        "show": null,
+        "showPersistentComponent": [
+            false
+        ],
+        "validationRequired": "Step"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Selectable Items",
+    "Name": "output4",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SG Quoting/New_York/English/output4"
+}

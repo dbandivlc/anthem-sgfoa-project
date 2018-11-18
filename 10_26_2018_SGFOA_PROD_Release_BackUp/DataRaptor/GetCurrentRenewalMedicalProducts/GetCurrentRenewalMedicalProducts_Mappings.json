@@ -1,0 +1,60 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "CurrentRenewalsProduct",
+        "%vlocity_namespace%__FilterGroup__c": 0,
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__FilterValue__c": "CurrentRenewals:contractCode",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ProductCode",
+        "%vlocity_namespace%__InterfaceObjectLookupOrder__c": 1,
+        "%vlocity_namespace%__InterfaceObjectName__c": "Product2",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "GetCurrentRenewalMedicalProductsCustoma2c0R000000SRHZQA4Item2",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "GetCurrentRenewalMedicalProducts",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "CurrentRenewalsMedicalPlans:Name",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "CurrentRenewalsProduct:Name",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "GetCurrentRenewalMedicalProductsCustoma2c0R000000SRHZQA4Item9",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "GetCurrentRenewalMedicalProducts",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "CurrentRenewalsMedicalPlans:ProductCode",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "CurrentRenewalsProduct:ProductCode",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "GetCurrentRenewalMedicalProductsCustoma2c0R000000SRHZQA4Item10",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "GetCurrentRenewalMedicalProducts",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DefaultValue__c": "'Current Plan'",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "CurrentRenewalsMedicalPlans:RenewalType",
+        "%vlocity_namespace%__DomainObjectFieldType__c": "String",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "GetCurrentRenewalMedicalProductsCustoma2c0R000000SRHZQA4Item11",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "GetCurrentRenewalMedicalProducts",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

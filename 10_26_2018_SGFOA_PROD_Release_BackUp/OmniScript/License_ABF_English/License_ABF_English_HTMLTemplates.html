@@ -1,0 +1,119 @@
+<style>
+    .vlocity ng-form.vlc-validation-form{
+       min-height: 0px !important;
+    }
+    </style>
+    
+    <style>
+    
+    .vlocity .field-label,
+    .vlocity .vlc-block-heading,
+    .vlocity .form-control,
+    .vlocity .steps-chart .vlc-omni-step,
+    .vlocity .steps-chart .vlc-omni-step label {
+        color: #000;
+    }
+    
+    .custom-zipcode span:before{
+        color : red !important;
+    }
+    
+    .custom-zipcode.go-green span:before{
+        color : #50e3c2 !important;
+    }
+    
+    #MinInfo .via-slds small {
+            font-size: 12px;
+    }
+    </style>
+    
+    
+    <script type="text/ng-template" id="vlcAutoSFLRevMsg.html">
+                <div class='v-col-md-{{bpW}}'>
+                    <div ng-if='bpTree.resumeURL'>
+                        <label class="vlc-auto-sfl-msg">{{::OmniScriptResumeLink}}
+                        Your quote is being automatically saved
+                        </label>
+                    </div>
+                </div>
+            </script>
+    
+    <script type="text/ng-template" id="customSorting.html">
+    <ng-form ng-repeat='control in child.eleArray' name='loopform' class='col-md-{{::control.propSetMap.controlWidth}} col-sm-{{::control.propSetMap.controlWidth}} vlc-form-group has-feedback custom-sorting' ng-class='{ "has-success": validForm, "has-error": invalidForm, "is-disabled": control.ro }'>
+        <i ng-click='removeItem(this, child, $index)' ng-if='child.eleArray.length > 1' class='vlc-minus icon-v-minus-circle'></i>
+        <label class='field-label'>{{::control.propSetMap.label}} <span class='form-control-feedback text-danger' ng-class='{ "has-success": validForm, "has-error": invalidForm}' ng-show='control.req'></span>
+            <i class='icon-v-question-circle-line vlc-question-tooltip' ng-show='::control.propSetMap.help' data-placement='right' bs-tooltip='::control.propSetMap.helpText'></i>
+            <i ng-if='::control.propSetMap.repeat' ng-click='baseCtrl.addItem(this, child, $index)' class='vlc-plus icon-v-plus-circle'></i>
+        </label>
+    
+        <button id='{{::control.name}}' ng-disabled='control.ro' placeholder="{{::control.propSetMap.placeholder}}" ng-change='aggregate(this, control.index, control.indexInParent, true, -1)' name='loopname' ng-init='init(this, control)' ng-if='ngInitValidation(this, control)' ng-required='control.req' type="button" class="btn btn-default form-control vlc-lookup" ng-model="control.response" data-html="1" bs-options="option.name as option.value for option in control.propSetMap.options track by option.name" bs-select ng-focus="resetSrvErr(control) ; getLookupOptions(control, this)"/>
+        <div class='vlc-sub-block' ng-include="::errHTMLId"></div>
+        {{validForm = (loopform.loopname.$valid && control.req && !control.srvErr);""}}
+        {{invalidForm = ((loopform.loopname.$invalid  && !control.req) || (loopform.loopname.$invalid && loopform.loopname.$dirty && control.req) || (control.srvErr));""}}
+    </ng-form>
+    </script>
+    
+    <script type="text/ng-template" id="TextCheck.html" >
+     <div class="slds-form-element__control" ng-init="baseCtrl.onload(this)">
+    
+                <div class="vlc-control-wrapper" help="false">
+    
+                    <input id="ZipCode1" type="text" name="loopname" ng-disabled="control.ro" ng-required="control.req" ng-model="zipcode" ng-change="baseCtrl.onenter(this)" ng-blur="baseCtrl.onenter(this)" ng-focus="baseCtrl.onenter(this)" ng-model-options="{ updateOn: 'default focusout blur', debounce: { 'default': control.propSetMap.debounceValue, 'focusout': 0, 'blur': 0 } }" class="slds-input ng-pristine ng-valid-minlength ng-valid-maxlength ng-empty ng-valid ng-valid-required" maxlength="5" required="required" ng-touched">
+    
+                    <label for="ZipCode1" class="slds-form-element__label ng-binding custom-zipcode" ng-class="{'go-green': zipcode.length > 0 }">ZipCode
+                        <span class="vlc-asterix icon-v-asterix">
+                        </span>
+                    </label>
+    
+                    <!-- tooltip template -->
+                    
+    
+                </div>
+    
+                <!-- this is the error block -->
+                <!-- ngInclude: ::errHTMLId --><div ng-include="::errHTMLId" class="ng-scope"><div class="vlc-slds-error-block ng-scope">
+    
+        <div class="error ng-hide" ng-show="control.srvErr">
+            <small class="description ng-binding"></small>
+        </div>
+    
+        <!-- ngIf: loopform.loopname.$error && loopform.loopname.$dirty -->
+    </div>
+    </div>
+    
+            </div>
+    </script>
+    
+    <script type="text/ng-template" id="vlcRemoteAction.html" >
+    <div id='{{::child.name}}'
+         class="slds-box vlc-slds-remote-action__container"
+         ng-if='child.ui.show && child.ui.error'>
+    
+        <div class="vlc-slds-remote-action__content" ng-if='!loading && child.ui.error'>
+    
+            <p>{{::child.propSetMap.label}}</p>
+            <p ng-if='child.ui.preTransform'>{{::customLabels.OmniPreTransform}}</p>
+            <p ng-if='child.ui.postTransform'>{{::customLabels.OmniPostTransform}}</p>
+            <h2 style="font-weight:bold; font-size:18px;">Something Went Wrong!</h2>
+            <p>{{child.ui.errorMessage}}</p>
+    
+            <p>
+                <button class="slds-button slds-button--neutral"
+                        ng-if='child.ui.error'
+                        confirmed-click='cancel()'
+                        ng-confirm-click='{{::child.propSetMap.failureAbortMessage}}'>
+                    {{::child.propSetMap.failureAbortLabel}}
+                </button>
+    
+                <button class="slds-button slds-button--neutral"
+                        ng-if='child.ui.error && child.bHasNext'
+                        ng-click='nextRepeater(child.nextIndex, child.indexInParent)'>
+                    {{::child.propSetMap.failureNextLabel}}
+                </button>
+            </p>
+    
+    
+    
+        </div>
+    </div>
+    </script>

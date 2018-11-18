@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2017;2018;2019",
+    "FilterName__c": "Deductible",
+    "FilterValue__c": "$50 per Individual or $150 per Family",
+    "IsAttribute__c": true,
+    "Name": "DF-4315",
+    "Order__c": 6,
+    "Ordered_Filter_Value__c": "$50 per Individual or $150 per Family",
+    "Producttype__c": "Dental",
+    "Property__c": "Deductible",
+    "State__c": "CA",
+    "UserType__c": "External User/Broker",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4315"
+}

@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Added Modular Line Items Creation",
+    "%vlocity_namespace%__Element__c": [
+        "Quote_Insert_Element_AddModularLineItems.json",
+        "Quote_Insert_Element_CreateQuoteAndLineItems.json",
+        "Quote_Insert_Element_DeactivatingQuotes.json",
+        "Quote_Insert_Element_Extract-Quote-Records.json",
+        "Quote_Insert_Element_ResponseAction1.json",
+        "Quote_Insert_Element_updateQuoteBrokerInformation.json"
+    ],
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "Quote_Insert",
+    "%vlocity_namespace%__PropertySet__c": "Quote_Insert_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "Insert",
+    "%vlocity_namespace%__Type__c": "Quote",
+    "Name": "Quote Creation",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Quote/Insert/Procedure"
+}

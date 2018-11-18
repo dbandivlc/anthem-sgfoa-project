@@ -1,0 +1,686 @@
+{
+    "ABFMedicalProdsTypeAhead-Block": {
+        "ABFMedicalProdsTypeAhead": null,
+        "ContractCode": "L0BC",
+        "Name": "Anthem Balanced Pathway CT PPO Tiered 5250/0%/7900",
+        "ProdId": "01t3B000002KUKqQAO"
+    },
+    "ABFMedproducts": {
+        "ContractCodes": [
+            {
+                "ContractCode": "L0B9"
+            },
+            {
+                "ContractCode": "L0AN"
+            },
+            {
+                "ContractCode": "L0AP"
+            },
+            {
+                "ContractCode": "L0AF"
+            },
+            {
+                "ContractCode": "L0BD"
+            },
+            {
+                "ContractCode": "L0AL"
+            },
+            {
+                "ContractCode": "L0AH"
+            },
+            {
+                "ContractCode": "L0BH"
+            },
+            {
+                "ContractCode": "L0BJ"
+            },
+            {
+                "ContractCode": "L0BK"
+            },
+            {
+                "ContractCode": "L0BL"
+            },
+            {
+                "ContractCode": "L0B1"
+            },
+            {
+                "ContractCode": "L0BA"
+            },
+            {
+                "ContractCode": "L0BB"
+            },
+            {
+                "ContractCode": "L0AG"
+            },
+            {
+                "ContractCode": "L0BE"
+            },
+            {
+                "ContractCode": "L0BF"
+            },
+            {
+                "ContractCode": "L0AK"
+            },
+            {
+                "ContractCode": "L0AJ"
+            },
+            {
+                "ContractCode": "L0BG"
+            },
+            {
+                "ContractCode": "L0AR"
+            },
+            {
+                "ContractCode": "L0B2"
+            },
+            {
+                "ContractCode": "L0B3"
+            },
+            {
+                "ContractCode": "L0B4"
+            },
+            {
+                "ContractCode": "L0B5"
+            },
+            {
+                "ContractCode": "L0B6"
+            },
+            {
+                "ContractCode": "L0AS"
+            },
+            {
+                "ContractCode": "L0AT"
+            },
+            {
+                "ContractCode": "L0AV"
+            },
+            {
+                "ContractCode": "L0AU"
+            },
+            {
+                "ContractCode": "L0AW"
+            },
+            {
+                "ContractCode": "L0AX"
+            },
+            {
+                "ContractCode": "L0AY"
+            },
+            {
+                "ContractCode": "L0AZ"
+            },
+            {
+                "ContractCode": "L0B0"
+            },
+            {
+                "ContractCode": "L0AM"
+            },
+            {
+                "ContractCode": "L0AQ"
+            },
+            {
+                "ContractCode": "L0B7"
+            },
+            {
+                "ContractCode": "L0B8"
+            },
+            {
+                "ContractCode": "L0BC"
+            }
+        ],
+        "ProductsDetails": [
+            {
+                "ContractCode": "L0B9",
+                "Name": "Anthem Balanced Pathway CT PPO 5000/20%/7900",
+                "ProdId": "01t3B000002KUK2QAO"
+            },
+            {
+                "ContractCode": "L0AN",
+                "Name": "Anthem Balanced Pathway CT HMO 25/10%/7900",
+                "ProdId": "01t3B000002KUK4QAO"
+            },
+            {
+                "ContractCode": "L0AP",
+                "Name": "Anthem Balanced Pathway CT PPO Tiered 20/0%/7900",
+                "ProdId": "01t3B000002KUK5QAO"
+            },
+            {
+                "ContractCode": "L0AF",
+                "Name": "Anthem Balanced Pathway CT PPO 1500/30%/7900",
+                "ProdId": "01t3B000002KUK6QAO"
+            },
+            {
+                "ContractCode": "L0BD",
+                "Name": "Anthem Balanced Pathway CT PPO 3500/30%/7900",
+                "ProdId": "01t3B000002KUK7QAO"
+            },
+            {
+                "ContractCode": "L0AL",
+                "Name": "Anthem Balanced Pathway CT PPO 5500/20%/6700 w/HSA",
+                "ProdId": "01t3B000002KUK8QAO"
+            },
+            {
+                "ContractCode": "L0AH",
+                "Name": "Anthem Balanced Pathway PPO 6700/0%/6700 w/HSA",
+                "ProdId": "01t3B000002KUK9QAO"
+            },
+            {
+                "ContractCode": "L0BH",
+                "Name": "Anthem Balanced Pathway CT PPO Tiered 5500/20%/6700 w/HSA",
+                "ProdId": "01t3B000002KUKAQA4"
+            },
+            {
+                "ContractCode": "L0BJ",
+                "Name": "Anthem Balanced Pathway CT PPO Tiered 6000/0%/6700 w/HSA",
+                "ProdId": "01t3B000002KUKBQA4"
+            },
+            {
+                "ContractCode": "L0BK",
+                "Name": "Anthem Balanced Pathway CT Tiered PPO 5500/20%/6700 w/HSA",
+                "ProdId": "01t3B000002KUKCQA4"
+            },
+            {
+                "ContractCode": "L0BL",
+                "Name": "Anthem Balanced Pathway CT PPO Tiered 6000/0%/6700 w/HSA",
+                "ProdId": "01t3B000002KUKDQA4"
+            },
+            {
+                "ContractCode": "L0B1",
+                "Name": "Anthem Balanced Pathway CT PPO 2700/10%/6700 w/HSA",
+                "ProdId": "01t3B000002KUKEQA4"
+            },
+            {
+                "ContractCode": "L0BA",
+                "Name": "Anthem Balanced Pathway CT PPO 3000/10%/6700 w/HSA",
+                "ProdId": "01t3B000002KUKFQA4"
+            },
+            {
+                "ContractCode": "L0BB",
+                "Name": "Anthem Balanced Pathway CT PPO 5000/10%/6700 w/HSA",
+                "ProdId": "01t3B000002KUKGQA4"
+            },
+            {
+                "ContractCode": "L0AG",
+                "Name": "Anthem Balanced Pathway CT PPO Tiered 3200/0%/6700 w/HSA",
+                "ProdId": "01t3B000002KUKHQA4"
+            },
+            {
+                "ContractCode": "L0BE",
+                "Name": "Anthem Balanced Pathway CT PPO Tiered 3000/20%/6700 w/HSA",
+                "ProdId": "01t3B000002KUKIQA4"
+            },
+            {
+                "ContractCode": "L0BF",
+                "Name": "Anthem Balanced Pathway CT PPO Tiered 3200/0%/6700 w/HSA",
+                "ProdId": "01t3B000002KUKJQA4"
+            },
+            {
+                "ContractCode": "L0AK",
+                "Name": "Anthem Balanced Pathway CT PPO 5000/30%/6700 w/HSA",
+                "ProdId": "01t3B000002KUKKQA4"
+            },
+            {
+                "ContractCode": "L0AJ",
+                "Name": "Anthem Balanced Pathway CT PPO 3000/20%/6700 w/HSA",
+                "ProdId": "01t3B000002KUKLQA4"
+            },
+            {
+                "ContractCode": "L0BG",
+                "Name": "Anthem Balanced Pathway CT PPO Tiered 3000/20%/6700 w/HSA",
+                "ProdId": "01t3B000002KUKMQA4"
+            },
+            {
+                "ContractCode": "L0AR",
+                "Name": "Anthem Balanced Pathway CT PPO 2500/10%/7900",
+                "ProdId": "01t3B000002KUKNQA4"
+            },
+            {
+                "ContractCode": "L0B2",
+                "Name": "Anthem Balanced Pathway CT PPO 1000/20%/7900",
+                "ProdId": "01t3B000002KUKOQA4"
+            },
+            {
+                "ContractCode": "L0B3",
+                "Name": "Anthem Balanced Pathway CT PPO 1500/20%/7900",
+                "ProdId": "01t3B000002KUKPQA4"
+            },
+            {
+                "ContractCode": "L0B4",
+                "Name": "Anthem Balanced Pathway CT PPO 3000/20%/7900",
+                "ProdId": "01t3B000002KUKQQA4"
+            },
+            {
+                "ContractCode": "L0B5",
+                "Name": "Anthem Balanced Pathway CT PPO 1000/20%/7900",
+                "ProdId": "01t3B000002KUKRQA4"
+            },
+            {
+                "ContractCode": "L0B6",
+                "Name": "Anthem Balanced Pathway CT PPO 3000/20%/7900",
+                "ProdId": "01t3B000002KUKSQA4"
+            },
+            {
+                "ContractCode": "L0AS",
+                "Name": "Anthem Balanced Pathway CT PPO 3000/10%/7900",
+                "ProdId": "01t3B000002KUKTQA4"
+            },
+            {
+                "ContractCode": "L0AT",
+                "Name": "Anthem Balanced Pathway CT PPO 5000/20%/7900",
+                "ProdId": "01t3B000002KUKUQA4"
+            },
+            {
+                "ContractCode": "L0AV",
+                "Name": "Anthem Balanced Pathway CT HMO 1500/10%/7900",
+                "ProdId": "01t3B000002KUKVQA4"
+            },
+            {
+                "ContractCode": "L0AU",
+                "Name": "Anthem Balanced Pathway CT PPO 1500/10%/7900",
+                "ProdId": "01t3B000002KUKgQAO"
+            },
+            {
+                "ContractCode": "L0AW",
+                "Name": "Anthem Balanced Pathway CT PPO 1500/20%/7900",
+                "ProdId": "01t3B000002KUKhQAO"
+            },
+            {
+                "ContractCode": "L0AX",
+                "Name": "Anthem Balanced Pathway CT PPO 1000/20%/7900",
+                "ProdId": "01t3B000002KUKiQAO"
+            },
+            {
+                "ContractCode": "L0AY",
+                "Name": "Anthem Balanced Pathway CT PPO 1000/10%/7900",
+                "ProdId": "01t3B000002KUKjQAO"
+            },
+            {
+                "ContractCode": "L0AZ",
+                "Name": "Anthem Balanced Pathway CT PPO 1000/10%/7900",
+                "ProdId": "01t3B000002KUKkQAO"
+            },
+            {
+                "ContractCode": "L0B0",
+                "Name": "Anthem Balanced Pathway CT PPO 1500/10%/7900",
+                "ProdId": "01t3B000002KUKlQAO"
+            },
+            {
+                "ContractCode": "L0AM",
+                "Name": "Anthem Balanced Pathway CT PPO 1000/20%/7900",
+                "ProdId": "01t3B000002KUKmQAO"
+            },
+            {
+                "ContractCode": "L0AQ",
+                "Name": "Anthem Balanced Pathway CT PPO Tiered 2500/0%/7900",
+                "ProdId": "01t3B000002KUKnQAO"
+            },
+            {
+                "ContractCode": "L0B7",
+                "Name": "Anthem Balanced Pathway CT PPO 4500/25%/7900",
+                "ProdId": "01t3B000002KUKoQAO"
+            },
+            {
+                "ContractCode": "L0B8",
+                "Name": "Anthem Balanced Pathway CT PPO 5000/25%/7900",
+                "ProdId": "01t3B000002KUKpQAO"
+            },
+            {
+                "ContractCode": "L0BC",
+                "Name": "Anthem Balanced Pathway CT PPO Tiered 5250/0%/7900",
+                "ProdId": "01t3B000002KUKqQAO"
+            }
+        ]
+    },
+    "ABFQteReqEffectiveDate": "",
+    "ABFSICCode": "",
+    "ABFState": "CT",
+    "AccZip": "06001",
+    "AccountId": "0013B00000WIiVSQA1",
+    "ActionButton": "abfenroll",
+    "ApplicationAccountId": "0013B00000WIiVSQA1",
+    "ApplicationCreationSuccess": true,
+    "ApplicationInfo": {
+        "EmpNoForHealth": "",
+        "EmpNoForSponsorHealth": ""
+    },
+    "Brand": "",
+    "BroAccZip": "60654",
+    "BroQuoteZip": "",
+    "BrokerAccountId1": "0013B00000IvC1BQAV",
+    "BrokerContactId": "0033B00000In3S5QAJ",
+    "BrokerContactId1": "0033B00000In3S5QAJ",
+    "BrokerId": "0033B00000In3S5QAJ",
+    "BrokerSalesInformation": {
+        "BrokerCity": "CHICAGO",
+        "BrokerContactNo": "(475) 675-6555",
+        "BrokerEmail": "gayathri.talakokula@accenture.com",
+        "BrokerName": "REVA HAWK",
+        "BrokerState": "NY",
+        "BrokerStreetAddress": "214 W HURON",
+        "BrokerTaxID": 676736776,
+        "BrokerZipCode": 60654
+    },
+    "BrokerTaxID": "676736776",
+    "BrokerTaxId": 676736776,
+    "BrokerZipCode": "60654",
+    "ContactGroupAdminId": "",
+    "ContactId": "0033B00000In3S5QAJ",
+    "ContextId": "",
+    "CountyCode": "09003",
+    "CoverageBenefitDesign": {
+        "CafePlanSection125": "No",
+        "DependentContribution1": "66",
+        "DependentContribution2": "89",
+        "DependentContribution3": "99",
+        "DomesticCoverage": "No",
+        "ERISA": "No",
+        "EmployeeContribution1": "66",
+        "EmployeeContribution2": "89",
+        "EmployeeContribution3": "99",
+        "FullTimeEmpHours": "5",
+        "GroupSelfFund": "No",
+        "HSAProductCheck": false,
+        "HSAQualifiedPlan": null,
+        "Max3PlansMsg": true,
+        "MedBenefitDesign1": "Anthem Balanced Pathway CT PPO 5000/20%/7900",
+        "MedBenefitDesign2": "Anthem Balanced Pathway CT PPO Tiered 5500/20%/6700 w/HSA",
+        "MedBenefitDesign3": "Anthem Balanced Pathway CT PPO Tiered 5250/0%/7900",
+        "Min1PlanMsg": true,
+        "PartTimeEmpHours": "5",
+        "SelectABFMedicalNQ": {
+            "InnerSelectABFMedical": [
+                {
+                    "Contractcode": "L0B9",
+                    "Name": "Anthem Balanced Pathway CT PPO 5000/20%/7900",
+                    "ProdId": "01t3B000002KUK2QAO",
+                    "SelectMedProductCodeLookup": "L0B9-01t3B000002KUK2QAO-Anthem Balanced Pathway CT PPO 5000/20%/7900"
+                },
+                {
+                    "Contractcode": "L0BH",
+                    "Name": "Anthem Balanced Pathway CT PPO Tiered 5500/20%/6700 w/HSA",
+                    "ProdId": "01t3B000002KUKAQA4",
+                    "SelectMedProductCodeLookup": "L0BH-01t3B000002KUKAQA4-Anthem Balanced Pathway CT PPO Tiered 5500/20%/6700 w/HSA"
+                },
+                {
+                    "Contractcode": "L0BC",
+                    "Name": "Anthem Balanced Pathway CT PPO Tiered 5250/0%/7900",
+                    "ProdId": "01t3B000002KUKqQAO",
+                    "SelectMedProductCodeLookup": "L0BC-01t3B000002KUKqQAO-Anthem Balanced Pathway CT PPO Tiered 5250/0%/7900"
+                }
+            ],
+            "InnerSelectMedicalABF": [
+                {
+                    "ABFMedicalProdsTypeAhead": {
+                        "ContractCode": "L0B9",
+                        "Name": "Anthem Balanced Pathway CT PPO 5000/20%/7900",
+                        "ProdId": "01t3B000002KUK2QAO"
+                    }
+                },
+                {
+                    "ABFMedicalProdsTypeAhead": {
+                        "ContractCode": "L0BH",
+                        "Name": "Anthem Balanced Pathway CT PPO Tiered 5500/20%/6700 w/HSA",
+                        "ProdId": "01t3B000002KUKAQA4"
+                    }
+                },
+                {
+                    "ABFMedicalProdsTypeAhead": {
+                        "ContractCode": "L0BC",
+                        "Name": "Anthem Balanced Pathway CT PPO Tiered 5250/0%/7900",
+                        "ProdId": "01t3B000002KUKqQAO"
+                    }
+                }
+            ]
+        },
+        "SelectedABFProducts": null,
+        "SelectedPlanCount": null,
+        "SelectedPlanCountNQ": 3,
+        "SelfFundNumber": null
+    },
+    "DRId_%vlocity_namespace%__Application__c": "a203B000000jmUNQAY",
+    "DRId_Account": "0013B00000WIiVSQA1",
+    "DRId_Contact": "0033B00000OL29WQAT",
+    "DocuSignEnvelopeAction-CT": [
+        {
+            "envelopeId": "eaf1e9f5-3b8c-4e84-9a2e-087aae4ca155",
+            "status": "sent"
+        }
+    ],
+    "EmployerInformation": {
+        "ABFQuoteSICCodeFormula": null,
+        "ABFQuoteSICExists": false,
+        "ABFenrollingempeligibilityMsg": true,
+        "AdminForEmployerTool": "Group administrator",
+        "AffiliateEmpNo1": null,
+        "AffiliateEmpNo2": null,
+        "AffiliateEmpNo3": null,
+        "AffiliateLocation1": null,
+        "AffiliateLocation2": null,
+        "AffiliateLocation3": null,
+        "AffiliateSubsidiaryName1": null,
+        "AffiliateSubsidiaryName2": null,
+        "AffiliateSubsidiaryName3": null,
+        "AppEffectiveDateFormula": "03/01/2019",
+        "ApplicationDate": "2018-11-07",
+        "ApplicationType": "Transfer from different Anthem plan",
+        "AuthorizedName1": null,
+        "AuthorizedName2": null,
+        "AuthorizedName3": null,
+        "AuthorizedTitle1": null,
+        "AuthorizedTitle2": null,
+        "AuthorizedTitle3": null,
+        "BillingContactEmail": "n.malleswari.sonti@accenture.com",
+        "BillingContactName": "fgfg",
+        "BillingContactPhoneNo": "4545454545",
+        "BusinessEmail": "n.malleswari.sonti@accenture.com",
+        "BusinessNature": "56",
+        "BusinessPhoneNo": "5656565565",
+        "BusinessStreetAddress": "sdsd",
+        "City": "sdsd",
+        "EffectiveEndDate": "2019-12-31",
+        "EmployerLegalName": "Countyacc12oct",
+        "FaxNo": null,
+        "FormulaReqEffectiveDate": "2019-03-01",
+        "GroupAdminEmail": "dfjfghfj@kjsk.com",
+        "GroupAdminName": "fgfg",
+        "GroupAdminPhone": "5545454545",
+        "InvalidSIC": true,
+        "LargeGroupABFEnroll": "LARGEGROUP",
+        "NoOFenrolllingMinCheck": true,
+        "NumberOfEnrollingEmployees": 88,
+        "OrganizationType": "Partnership",
+        "OrganizationTypeOther": null,
+        "ReqEffectiveDate-Block": {
+            "ReqEffectiveDate": "Mar 1 2019"
+        },
+        "ResponsibleForAdditionalForms": "Billing contact",
+        "ResponsibleForTransactions": "Broker",
+        "SICFormula": "2656",
+        "State": "CT",
+        "StateWiseLargeMinEnrollNo": 51,
+        "StateWiseMinEnrollNo": 5,
+        "TaxID": "788789788",
+        "TypeAheadSIC-Block": {
+            "SIC_TXT": "2656",
+            "TypeAheadSIC": "2656 SANITARY FOOD CONTAINERS"
+        },
+        "YearsinBusiness": 56,
+        "ZIPCode": "06001"
+    },
+    "GATeamMemberId": "",
+    "GeneralContactId": "",
+    "HRAProductIds": [
+    ],
+    "HRAProducts": {
+    },
+    "Industry": "",
+    "MatchingApp1Id": "a203B000000jmSvQAI",
+    "MatchingApp1Name": "Small Group ABF Application for Countyacc12oct Effective: Jun 1 2019",
+    "MatchingApp1Status": "Signatures & Documents Requested",
+    "MatchingApp2Id": "a203B000000jS2EQAU",
+    "MatchingApp2Name": "Small Group Application ABF For Countyacc12oct Effective:",
+    "MatchingApp2Status": "Group Created",
+    "MedicalPlanNQ1": "Anthem Balanced Pathway CT PPO 5000/20%/7900",
+    "MedicalPlanNQ2": "Anthem Balanced Pathway CT PPO Tiered 5500/20%/6700 w/HSA",
+    "MedicalPlanNQ3": "Anthem Balanced Pathway CT PPO Tiered 5250/0%/7900",
+    "MemberEnrollmentType": {
+        "MmbrEnrollTypPicklst": null,
+        "MmbrEnrollTypPicklstformula": null
+    },
+    "Object_Id": "0013B00000WIiVSQA1",
+    "OmniScriptState": "regular",
+    "PATeamMemberId": "",
+    "PaidAgencyId": "",
+    "PartyAccountId": "a3k3B000000Ti03QAC",
+    "PrintElectronicSignature": {
+        "Task": "Send"
+    },
+    "Ptgsymbol": "%",
+    "QuoteAccountId": "0013B00000WIiVSQA1",
+    "QuoteBrokerAgentAccId": "",
+    "QuoteBrokerAgentContactId": "",
+    "QuoteContactId": "",
+    "QuoteGeneralAgencyETIN": "",
+    "QuoteGeneralAgencyId": "",
+    "QuoteName": "",
+    "QuoteNumber": "",
+    "QuoteOpportunityId": "",
+    "QuotePaidAgencyId": "",
+    "QuoteZip": "",
+    "ReqEffectiveDate-Block": {
+        "value": "Mar 1 2019"
+    },
+    "ReqEffectiveDateWOQuote": "",
+    "RequestedEffectiveDateEnText": "",
+    "SelectedABFMedicalPlanName": "Anthem Balanced Pathway CT PPO 5000/20%/7900",
+    "SendDocuSign": {
+        "DocuSignRecipientBlk": {
+            "DcoumentsToSend-CACO": "Employer Application",
+            "DocuSignEmail": "n.malleswari.sonti@accenture.com",
+            "DocuSignRecipient": "wewewe"
+        }
+    },
+    "SpecialtyEnrollment": {
+        "ABFAPPStatus": null,
+        "ABFApplicationDateUpdated": null,
+        "EnrollSpecialty": null
+    },
+    "TaxId": 788789788,
+    "TechCoverageEffectiveDate": "",
+    "TechCoverageOptions": "",
+    "TypeAheadSIC-Block": {
+        "SICName": "SANITARY FOOD CONTAINERS",
+        "SIC_NO": 2656
+    },
+    "WithQuote": false,
+    "YEAR": "",
+    "abfPlansBlocksCount_VF": 3,
+    "applicationId": "a203B000000jmUNQAY",
+    "error": "OK",
+    "id": "a3Z3B000000LYKkUAO",
+    "isDuplicatePlanABFMed": false,
+    "isEmployerApplicationPrintSign": "",
+    "isEmployerApplicationSelected": true,
+    "oneABFMedPlanSelected": true,
+    "options": [
+        {
+            "name": "Jan 1 2019",
+            "value": "Jan 1 2019"
+        },
+        {
+            "name": "Feb 1 2019",
+            "value": "Feb 1 2019"
+        },
+        {
+            "name": "Mar 1 2019",
+            "value": "Mar 1 2019"
+        },
+        {
+            "name": "Apr 1 2019",
+            "value": "Apr 1 2019"
+        },
+        {
+            "name": "May 1 2019",
+            "value": "May 1 2019"
+        },
+        {
+            "name": "Jun 1 2019",
+            "value": "Jun 1 2019"
+        },
+        {
+            "name": "Jul 1 2019",
+            "value": "Jul 1 2019"
+        },
+        {
+            "name": "Aug 1 2019",
+            "value": "Aug 1 2019"
+        },
+        {
+            "name": "Sep 1 2019",
+            "value": "Sep 1 2019"
+        },
+        {
+            "name": "Oct 1 2019",
+            "value": "Oct 1 2019"
+        },
+        {
+            "name": "Nov 1 2019",
+            "value": "Nov 1 2019"
+        },
+        {
+            "name": "Dec 1 2019",
+            "value": "Dec 1 2019"
+        },
+        {
+            "name": "Jan 1 2020",
+            "value": "Jan 1 2020"
+        },
+        {
+            "name": "Feb 1 2020",
+            "value": "Feb 1 2020"
+        },
+        {
+            "name": "Mar 1 2020",
+            "value": "Mar 1 2020"
+        },
+        {
+            "name": "Apr 1 2020",
+            "value": "Apr 1 2020"
+        }
+    ],
+    "paidAgencyAccId": "",
+    "qState": "CT",
+    "requestedEffectiveDate1": "",
+    "sInstanceId": "a3Y3B000000EokSUAS",
+    "selectedABFMedPlansCnt": 3,
+    "stageId": "a8B3B000000D3JbUAK",
+    "timeStamp": "2018-11-05T07:39:31.423Z",
+    "userCurrencyCode": "USD",
+    "userId": "005310000086OCkAAM",
+    "userName": "n.malleswari.souti@anthem.isg.sgapsdev2",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "validABFPlansSelected_VF": true,
+    "verticalmode": true,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AppValues": 39,
+        "CoverageBenefitDesign": 33007,
+        "CreateABFApplication": 2706,
+        "CreateApplicationRemote": 2690,
+        "EmployerInformation": 36637,
+        "FetchABFEnrollProducts": 494,
+        "GetABFEnrollEffectiveDates": 416,
+        "GetABFSelectedProducts": 784,
+        "InitialDataExtract-IP": 2877,
+        "OmniScriptSessionToken": "75a6b7af-52ee-4e6e-8f3f-cbcb0d673477",
+        "PrintElectronicSignature": 2570,
+        "SendDocuSign": 4226,
+        "SetTechFieldsonApplication": 27,
+        "SetValues4": 202,
+        "TransformABFMedicalProducts": 576,
+        "UpdateApplicationAfterDocusign": 1971,
+        "ZipCodeTaxIdSetValues": 68
+    }
+}

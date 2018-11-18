@@ -1,0 +1,55 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG License Validation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/License/Merging/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 44,
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "consoleTabLabel": "New",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "label": null,
+        "message": {
+        },
+        "redirectPageName": "mobileDone",
+        "redirectTemplateUrl": "vlcMobileConfirmation.html",
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "NY",
+                        "field": "SelectedState"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "enroll",
+                        "field": "ActionButton"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "false",
+                        "field": "isBroker"
+                    }
+                ]
+            }
+        },
+        "source": "../../apex/AnthemEnrollment_NY?ContextId=%AccountId%#/OmniScriptType/SG Quoting/OmniScriptSubType/Enrollment/OmniScriptLang/English/ContextId/%AccountId%/PrefillDataRaptorBundle//true",
+        "ssm": false,
+        "type": "URL",
+        "validationRequired": "Submit",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Done Action",
+    "Name": "NYEnrollInternal",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/License/Merging/English/NYEnrollInternal"
+}

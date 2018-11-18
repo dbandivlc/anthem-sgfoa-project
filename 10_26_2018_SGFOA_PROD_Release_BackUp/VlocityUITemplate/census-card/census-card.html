@@ -1,0 +1,79 @@
+<tr
+    data-card="{{uniqueLayoutId}}-card-{{cardIndex}}"
+    ng-controller="censusMemberController as vm" 
+    ng-class="{'slds-theme--shade slds-theme--alert-texture': vm.isDeleted, 'is-edit-state': vm.editState}"
+    ng-dblclick="vm.enterEditState()"
+    ng-form="vm.form">
+    <td data-label="{{field.label}}" ng-repeat="field in data.fields" ng-show="key != 'attributes'" ng-if="::vm.getFieldVisibility(field, params)">
+        <div class="slds-grid slds-grid--vertical-align-center">
+            <slds-svg-icon ng-if="$first && obj.%vlocity_namespace%__IsPrimaryMember__c == false" style="transform: rotate(90deg)" sprite="'utility'" icon="'level_up'" size="'small'" extra-classes="'slds-icon-text-default slds-col slds-no-flex slds-p-top--small'"></slds-svg-icon>
+            <span ng-show="!vm.editState">{{obj | getter:field | picker:field.type}}</span> 
+            <div class="slds-form-element" ng-show="vm.editState">
+                <label class="slds-form-element__label slds-assistive-text" for="{{field.name}}-{{data.cardIndex}}"></label>
+                <div class="slds-form-element__control">
+                    <ap-input
+                        type="{{field.type}}"
+                        autofocus
+                        ctrl-id="{{field.name}}-{{data.cardIndex}}"
+                        ctrl-name="{{field.name}}"
+                        placeholder="{{field.label}}"
+                        ng-if="$first"
+                        ng-model="vm.inputs[field.name]"
+                        field="field"
+                    />
+                    <ap-input
+                        type="{{field.type}}"
+                        id="{{field.name}}-{{data.cardIndex}}"
+                        ctrl-name="{{field.name}}"
+                        placeholder="{{field.label}}"
+                        ng-if="!$first"
+                        ng-model="vm.inputs[field.name]"
+                        field="field"
+                    />
+                    <div class="prime-error-message" ng-show="vm.form[field.name].$touched" role="alert">
+                      <span ng-show="vm.form[field.name].$error.required">Required</span>
+                    </div>
+                    <div class="prime-error-message" ng-repeat="error in field.errorMessages" role="alert">
+                      <span>{{error}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </td>
+    <td class="slds-cell-shrink slds-text-align--right" data-label="Actions" style="overflow: visible">
+        <div class="slds-grid slds-grid--align-end slds-grid--vertical-align-center">
+            <button 
+                ng-show="vm.editState"
+                class="slds-button" 
+                title="Cancel"
+                ng-click="vm.exitEditState()"
+            >Cancel</button>
+            
+            <button 
+                ng-disabled="vm.form.$dirty == false"
+                ng-show="vm.editState"
+                class="slds-button slds-button--neutral"
+                title="Save"
+                ng-click="vm.save()"
+            >Save</button>
+            
+            <button 
+                ng-show="!vm.editState"
+                ng-if="obj.%vlocity_namespace%__IsPrimaryMember__c == true"
+                class="slds-button"
+                title="Add Dependent"
+                ng-click="vm.addDependent(data.cardIndex + 1)"
+            >
+                <span class="fa fa-plus-circle"></span>
+            </button>
+        
+            <button 
+                class="slds-button slds-button--danger" 
+                title="Delete"
+                ng-click="vm.deleteMember()">
+                <span class="fa fa-trash"></span>
+            </button>
+            <slds-dropdown content="data.actions" ng-if="data.actions.length > 0" icon-attribute="vlocityIcon" label-attribute="displayName" action-function="vm.performAction(item)"></slds-dropdown>
+        </div>
+    </td>
+</tr>

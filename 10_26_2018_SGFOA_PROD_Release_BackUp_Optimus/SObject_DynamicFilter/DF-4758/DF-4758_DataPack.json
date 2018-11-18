@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2019",
+    "FilterName__c": "Endo/Perio/Oral Surgery",
+    "FilterValue__c": "All;Basic Service;Major Service",
+    "IsAttribute__c": false,
+    "Name": "DF-4758",
+    "Order__c": 5,
+    "Ordered_Filter_Value__c": "All;Basic Service;Major Service",
+    "Producttype__c": "Dental",
+    "Property__c": "Endo/Perio/Oral",
+    "State__c": "NY",
+    "UserType__c": "Internal User",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4758"
+}

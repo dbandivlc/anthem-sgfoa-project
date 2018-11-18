@@ -1,0 +1,45 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Enrollment-WI_CT_NV_ME_NH",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/WI_CT_NV_ME_NH/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 16,
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 0,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "CompanyInformation:Billing Address:BillingCity": "=IF(%CompanyInformation:BillingCity% != NULL && %CompanyInformation:BillingAddress% == \"No\", %CompanyInformation:BillingCity%, %City%)",
+            "CompanyInformation:Billing Address:BillingCounty": "=%FormulaBillingCounty%",
+            "CompanyInformation:Billing Address:BillingState": "=IF(%CompanyInformation:BillingState% != NULL && %CompanyInformation:BillingAddress% == \"No\", %CompanyInformation:BillingState%, %State%)",
+            "CompanyInformation:Billing Address:BillingStreet": "=IF(%CompanyInformation:BillingStreet% != NULL && %CompanyInformation:BillingAddress% == \"No\", %CompanyInformation:BillingStreet%, %CompanyStreetAddress%)",
+            "CompanyInformation:Billing Address:BillingZip": "=%FormulaBillingZip%",
+            "CompanyInformation:Mailing Address:MailingCity": "=IF(%CompanyInformation:MailingCity% != NULL && %CompanyInformation:MailingAddress% == \"No\", %CompanyInformation:MailingCity%, %City%)",
+            "CompanyInformation:Mailing Address:MailingCounty": "=%FormulaMailingCounty%",
+            "CompanyInformation:Mailing Address:MailingState": "=IF(%CompanyInformation:MailingState% != NULL && %CompanyInformation:MailingAddress% == \"No\", %CompanyInformation:MailingState%, %State%)",
+            "CompanyInformation:Mailing Address:MailingStreet": "=IF(%CompanyInformation:MailingStreet% != NULL && %CompanyInformation:MailingAddress% == \"No\", %CompanyInformation:MailingStreet%, %CompanyStreetAddress%)",
+            "CompanyInformation:Mailing Address:MailingZip": "=%FormulaMailingZip%"
+        },
+        "label": null,
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "PopulateBillingAddressFields",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/WI_CT_NV_ME_NH/English/PopulateBillingAddressFields"
+}

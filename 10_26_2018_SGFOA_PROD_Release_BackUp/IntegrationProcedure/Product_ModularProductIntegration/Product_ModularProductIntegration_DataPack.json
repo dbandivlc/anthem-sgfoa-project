@@ -1,0 +1,16 @@
+{
+    "%vlocity_namespace%__CustomJavaScript__c": "{}",
+    "%vlocity_namespace%__Element__c": "Product_ModularProductIntegration_Element_GetModularProducts.json",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "Product_ModularProductIntegration",
+    "%vlocity_namespace%__PropertySet__c": "Product_ModularProductIntegration_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "ModularProductIntegration",
+    "%vlocity_namespace%__Type__c": "Product",
+    "Name": "LDProductIntegration",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Product/ModularProductIntegration/Procedure"
+}

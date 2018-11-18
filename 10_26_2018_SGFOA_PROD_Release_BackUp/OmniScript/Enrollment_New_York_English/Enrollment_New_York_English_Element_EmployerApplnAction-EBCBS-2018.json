@@ -1,0 +1,124 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "Envelope action for Employer application if brand = EBC",
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Enrollment-New York",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/New_York/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 74,
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "cancelLabel": "Cancel",
+        "cancelMessage": "Are you sure?",
+        "completeLabel": "Complete",
+        "completeMessage": "Are you sure you want to complete the script?",
+        "conditionType": "Hide if False",
+        "controlWidth": 4,
+        "dateFormat": "",
+        "dateTimeFormat": "",
+        "docuSignTemplatesGroup": [
+            {
+                "docuSignTemplate": "375de668-547e-43a0-a1f2-06f974ce2d75",
+                "includeToSend": true,
+                "sendJSONNode": "",
+                "sendJSONPath": "",
+                "signerList": [
+                    {
+                        "routingOrder": "",
+                        "signerEmail": "%DocuSignEmail%",
+                        "signerName": "%DocuSignRecipient%",
+                        "templateRole": "Signer"
+                    }
+                ],
+                "templateRoleName": {
+                    "roles": [
+                        {
+                            "name": "Signer"
+                        },
+                        {
+                            "name": "Receives a copy"
+                        }
+                    ]
+                },
+                "transformBundle": "Employer_EBCBS_Send-2018"
+            }
+        ],
+        "emailBody": "Here is the completed employer application for your signature.",
+        "emailSubject": "Employer Application EBC",
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "knowledgeOptions": {
+            "dataCategoryCriteria": "",
+            "keyword": "",
+            "language": "English",
+            "publishStatus": "Online",
+            "remoteTimeout": 30000
+        },
+        "label": "Send Small Group Application",
+        "nextLabel": "Next",
+        "nextWidth": 3,
+        "postMessage": "Done",
+        "previousLabel": "Previous",
+        "previousWidth": 3,
+        "redirectNextLabel": "Next",
+        "redirectNextWidth": 3,
+        "redirectPageName": "",
+        "redirectPreviousLabel": "Previous",
+        "redirectPreviousWidth": 3,
+        "redirectTemplateUrl": "vlcAcknowledge.html",
+        "remoteOptions": {
+        },
+        "remoteTimeout": 30000,
+        "saveLabel": "Save for later",
+        "saveMessage": "Are you sure you want to save it for later?",
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "EmployerCheckBox"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "2018",
+                        "field": "SetQuoteYear"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "DocuSignRecipient"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "DocuSignEmail"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "EBCBS",
+                        "field": "Brand"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "timeFormat": "",
+        "validationRequired": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "DocuSign Envelope Action",
+    "Name": "EmployerApplnAction-EBCBS-2018",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/New_York/English/EmployerApplnAction-EBCBS-2018"
+}

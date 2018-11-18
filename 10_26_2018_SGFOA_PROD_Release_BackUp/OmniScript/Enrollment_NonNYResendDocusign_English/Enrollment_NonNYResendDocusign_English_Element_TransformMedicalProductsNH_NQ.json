@@ -1,0 +1,77 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Non CACONY Resend Employer application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/NonNYResendDocusign/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 10,
+    "%vlocity_namespace%__PropertySet__c": {
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "extraPayload": {
+        },
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "label": "TransformMedicalProductsNH",
+        "message": {
+        },
+        "postMessage": "Done",
+        "redirectNextLabel": "Next",
+        "redirectNextWidth": 3,
+        "redirectPreviousLabel": "Previous",
+        "redirectPreviousWidth": 3,
+        "redirectTemplateUrl": "vlcAcknowledge.html",
+        "remoteClass": "SGA_AP88_TransformValues",
+        "remoteMethod": "transformNHMedProducts",
+        "remoteOptions": {
+            "NH_MED_CCODE1": "%MedicalCoverageNQ:SelectMedicalNH:ProdNameContractCode|1:MedicalContractCode%",
+            "NH_MED_CCODE2": "%MedicalCoverageNQ:SelectMedicalNH:ProdNameContractCode|2:MedicalContractCode%",
+            "NH_MED_CCODE3": "%MedicalCoverageNQ:SelectMedicalNH:ProdNameContractCode|3:MedicalContractCode%",
+            "NH_MED_CCODE4": "%MedicalCoverageNQ:SelectMedicalNH:ProdNameContractCode|4:MedicalContractCode%",
+            "NH_MED_PROD1": "%MedicalCoverageNQ:SelectMedicalNH:ProdNameContractCode|1:MedicalProductName%",
+            "NH_MED_PROD2": "%MedicalCoverageNQ:SelectMedicalNH:ProdNameContractCode|2:MedicalProductName%",
+            "NH_MED_PROD3": "%MedicalCoverageNQ:SelectMedicalNH:ProdNameContractCode|3:MedicalProductName%",
+            "NH_MED_PROD4": "%MedicalCoverageNQ:SelectMedicalNH:ProdNameContractCode|4:MedicalProductName%",
+            "TaskType": "%Task%",
+            "postTransformBundle": "",
+            "preTransformBundle": "",
+            "qState": "%qState%"
+        },
+        "remoteTimeout": 30000,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "NH",
+                        "field": "companyState"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "WithQuote"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Remote Action",
+    "Name": "TransformMedicalProductsNH_NQ",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/NonNYResendDocusign/English/TransformMedicalProductsNH_NQ"
+}

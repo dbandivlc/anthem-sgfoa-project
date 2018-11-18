@@ -1,0 +1,94 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 1,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Non CACONY Resend Employer application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/NonNYResendDocusign/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 7,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Enrollment/NonNYResendDocusign/English",
+        "Name": "PrintSignNow",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/NonNYResendDocusign/English/PrintSignNow",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "PrintSignNow",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 6,
+        "dateFormat": "",
+        "dateTimeFormat": "",
+        "docuSignReturnUrl": "",
+        "docuSignTemplatesGroupSig": [
+            {
+                "docuSignTemplate": "ac51a902-d8e9-4dde-a445-59cddc50c25b",
+                "includeToSend": true,
+                "sendJSONNode": "",
+                "sendJSONPath": "",
+                "templateRole": "Signer",
+                "templateRoleName": {
+                    "roles": [
+                        {
+                            "name": "Signer"
+                        }
+                    ]
+                },
+                "transformBundle": "GAEmployerApplicationDR"
+            }
+        ],
+        "emailSubject": "",
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "label": "Sign Now",
+        "message": {
+        },
+        "postMessage": "Done",
+        "remoteTimeout": 30000,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "GA",
+                        "field": "companyState"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "Anthem SG Broker",
+                        "field": "userProfile"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "2019",
+                        "field": "EffectiveDateYear"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "signerInformation": {
+            "signerEmail": "DocuSign@anthem.com",
+            "signerName": "%SignNowRecipient%"
+        },
+        "ssm": false,
+        "timeFormat": "",
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "DocuSign Signature Action",
+    "Name": "InternalDocuSignSignatureAction-GA2019",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/NonNYResendDocusign/English/InternalDocuSignSignatureAction-GA2019"
+}

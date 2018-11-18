@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Element__c": [
+        "Member_EnrollmentType_English_Element_EDITextBlock.json",
+        "Member_EnrollmentType_English_Element_MemberEnrollmentType.json",
+        "Member_EnrollmentType_English_Element_MmbrEnrollTypPicklst.json",
+        "Member_EnrollmentType_English_Element_MmbrEnrollTypPicklstformula.json",
+        "Member_EnrollmentType_English_Element_OnlineCensusTextBlock.json",
+        "Member_EnrollmentType_English_Element_PaperTextBlock.json",
+        "Member_EnrollmentType_English_Element_Real-TimeTextBlock.json",
+        "Member_EnrollmentType_English_Element_UpdateMembrEnrollment.json"
+    ],
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": true,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "Member_EnrollmentType_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "EnrollmentType",
+    "%vlocity_namespace%__Type__c": "Member",
+    "Name": "MemberEnrollmentType",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Member/EnrollmentType/English"
+}

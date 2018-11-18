@@ -1,0 +1,100 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "Envelope action for SG Electronic Debit Form. (Initial Payment Form)",
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Enrollment-New York",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/New_York/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 77,
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 4,
+        "dateFormat": "",
+        "dateTimeFormat": "",
+        "disOnTplt": false,
+        "docuSignTemplatesGroup": [
+            {
+                "docuSignTemplate": "c9782ccb-7f79-49fe-8a19-252bd6eb1366",
+                "includeToSend": true,
+                "sendJSONNode": "",
+                "sendJSONPath": "",
+                "signerList": [
+                    {
+                        "routingOrder": "",
+                        "signerEmail": "%DocuSignEmail%",
+                        "signerName": "%DocuSignRecipient%",
+                        "templateRole": "Signer"
+                    }
+                ],
+                "templateRoleName": {
+                    "roles": [
+                        {
+                            "name": "Signer"
+                        },
+                        {
+                            "name": "Receives a copy"
+                        }
+                    ]
+                },
+                "transformBundle": "GenerateDocusignElectronicDebit"
+            }
+        ],
+        "documentNames": [
+            "CABIADCJA1df5d015bef244b49e1aa5c19ba9dd16",
+            "CABIADCJA04cac2bc73b14b40b316d4646e7495e4",
+            "VlocityLogoDocumentUploads"
+        ],
+        "emailBody": "Here is the Electronic Debit form for you to complete and for your signature.",
+        "emailSubject": "SG Electronic Debit Form",
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "label": "Send Initial Payment Form",
+        "postMessage": "Done",
+        "redirectNextLabel": "Next",
+        "redirectNextWidth": 3,
+        "redirectPageName": "",
+        "redirectPreviousLabel": "Previous",
+        "redirectPreviousWidth": 3,
+        "redirectTemplateUrl": "vlcAcknowledge.html",
+        "remoteTimeout": 30000,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "PaymentCheckBox"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "DocuSignRecipient"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "DocuSignEmail"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "timeFormat": "",
+        "validationRequired": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "DocuSign Envelope Action",
+    "Name": "PaymentAction",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/New_York/English/PaymentAction"
+}

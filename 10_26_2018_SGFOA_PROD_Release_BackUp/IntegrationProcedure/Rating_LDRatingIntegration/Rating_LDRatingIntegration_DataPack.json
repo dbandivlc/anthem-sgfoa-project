@@ -1,0 +1,21 @@
+{
+    "%vlocity_namespace%__CustomJavaScript__c": "Rating_LDRatingIntegration_SampleInput.json",
+    "%vlocity_namespace%__Element__c": [
+        "Rating_LDRatingIntegration_Element_AgeRateTransformationData.json",
+        "Rating_LDRatingIntegration_Element_CensusRemote.json",
+        "Rating_LDRatingIntegration_Element_MakeRESTAPICall.json",
+        "Rating_LDRatingIntegration_Element_TransformData.json"
+    ],
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "Rating_LDRatingIntegration",
+    "%vlocity_namespace%__PropertySet__c": "Rating_LDRatingIntegration_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "LDRatingIntegration",
+    "%vlocity_namespace%__Type__c": "Rating",
+    "Name": "LDRatingIntegration",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Rating/LDRatingIntegration/Procedure"
+}

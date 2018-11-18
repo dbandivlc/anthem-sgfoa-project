@@ -1,0 +1,1 @@
+jQuery( function() { jQuery('body').on('click', '#BillingAddress', function() { jQuery('#BillingStreet').val('').change(); scope.bpTree.response.CompanyInformation.BillingStreet = null; var scope = angular.element(jQuery('#BillingStreet')).scope(); scope.$apply( function() { scope.selectValue = ''; }); }); });

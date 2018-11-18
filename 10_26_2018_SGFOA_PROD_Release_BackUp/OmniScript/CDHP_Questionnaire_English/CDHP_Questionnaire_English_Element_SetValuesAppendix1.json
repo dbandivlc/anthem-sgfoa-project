@@ -1,0 +1,40 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Questionnaire",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CDHP/Questionnaire/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 81,
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "HSADetails_Employer_Name_on_Agreement": "=IF(%varShow_Appendix_1% & %HSADetails_Employer_Name_on_Agreement% = null,  %ParentDetails_Employer_Name% ,  %HSADetails_Employer_Name_on_Agreement%  )",
+            "HSADetails_HSA_Agreement_Day": "=IF(%varShow_Appendix_1% & %HSADetails_HSA_Agreement_Day% = null, DAYOFMONTH(%ParentDetails_Effective_Date%)+'' , %HSADetails_HSA_Agreement_Day% )",
+            "HSADetails_HSA_Agreement_Month": "=IF(%varShow_Appendix_1% & %HSADetails_HSA_Agreement_Month% = null,IF(MONTH(%ParentDetails_Effective_Date%)=1,'January',IF(MONTH(%ParentDetails_Effective_Date%)=2,'Feburay' ,IF(MONTH(%ParentDetails_Effective_Date%)=3,'March' ,IF(MONTH(%ParentDetails_Effective_Date%)=4,'April' ,IF(MONTH(%ParentDetails_Effective_Date%)=5,'May' ,IF(MONTH(%ParentDetails_Effective_Date%)=6,'June' ,IF(MONTH(%ParentDetails_Effective_Date%)=7,'July' ,IF(MONTH(%ParentDetails_Effective_Date%)=8,'August' ,IF(MONTH(%ParentDetails_Effective_Date%)=9,'September' ,IF(MONTH(%ParentDetails_Effective_Date%)=10,'October' ,IF(MONTH(%ParentDetails_Effective_Date%)=11,'November' ,IF(MONTH(%ParentDetails_Effective_Date%)=12,'December' )))))))))))),  %HSADetails_HSA_Agreement_Month%)",
+            "HSADetails_HSA_Agreement_Year": "=IF(%varShow_Appendix_1% & %HSADetails_HSA_Agreement_Year% = null, YEAR(%ParentDetails_Effective_Date%)+'',  %HSADetails_HSA_Agreement_Year%  )",
+            "zzz_not_populate_for_now_HSADetails_Company_Address_on_Agreement": "=IF(%varShow_Appendix_1% & %Account2_BillingStreet% <> ''& %HSADetails_Company_Address_on_Agreement% = null,  %Account2_BillingStreet% + ', '+%Account2_BillingCity% + ', '+ %Account2_BillingState% + ' '+%Account2_BillingPostalCode% ,%HSADetails_Company_Address_on_Agreement%  )"
+        },
+        "label": "SetValues8",
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetValuesAppendix1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/CDHP/Questionnaire/English/SetValuesAppendix1"
+}

@@ -1,0 +1,31 @@
+<div class="slds-spinner_container vloc-spinner_container vloc-show-loader" ng-show="!$root.isLoaded">
+    <div class="slds-spinner--brand slds-spinner slds-spinner--medium" aria-hidden="false" role="alert">
+        <div class="slds-spinner__dot-a"></div>
+        <div class="slds-spinner__dot-b"></div>
+    </div>
+</div>
+<div class="slds-notify_container" ng-show="$root.notification.active">
+    <div class="slds-notify slds-notify--alert slds-theme--alert-texture" role="alert" ng-class="{'slds-theme--success': $root.notification.type === 'success', 'slds-theme--error': $root.notification.type === 'error'}">
+        <button class="slds-button slds-button--icon-inverse slds-notify__close" ng-click="$root.notification.active = false">
+            <slds-button-svg-icon sprite="'utility'" icon="'close'" ></slds-button-svg-icon>
+            <span class="slds-assistive-text">Close</span>
+        </button>
+        <span class="slds-assistive-text">Info</span>
+        <h2 ng-bind-html="$root.notification.message"></h2>
+    </div>
+</div>
+<div class="slds-grid slds-wrap vloc-broker-wrapper" ng-class="{'plan-selection-view': $root.showProductSelection}">
+    <vloc-layout ng-if="$root.showQuoteOverview" layout-name="ins-quote-container" params-id="{{$root.showQuoteOverview}}" style="width: 100%;"></vloc-layout>
+    <div ng-if="!$root.showQuoteOverview" class="vloc-broker-app-col slds-size--1-of-1">
+<div class="vloc-broker-left-col-container slds-border--bottom slds-p-around--medium" ng-class="{'plan-selection-view': $root.showProductSelection}">
+    <div class="vloc-broker-left-col-planSelect-header">
+        <h1 class="vloc-title slds-m-bottom--small">Get a Quote</h1>
+        <div class="vloc-section-header vloc-title-border-container">
+            <hr class="vloc-title-border"/>
+        </div>
+    </div>
+    <div class="slds-m-horizontal--medium">
+        <vloc-layout layout-name="ins-product-selection-grid" ctrl="InsProductSelectionController" view="brokerPortal"></vloc-layout>
+    </div>
+</div>
+</div>

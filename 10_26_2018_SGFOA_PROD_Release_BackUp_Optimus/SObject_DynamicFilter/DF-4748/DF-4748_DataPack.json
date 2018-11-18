@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2017;2018;2019",
+    "FilterName__c": "Riders",
+    "FilterValue__c": "Contraceptive Opt Out;HB 153 -Public entity abortion exclution",
+    "IsAttribute__c": true,
+    "Name": "DF-4748",
+    "Order__c": 6,
+    "Ordered_Filter_Value__c": "Contraceptive Opt Out;HB 153 -Public entity abortion exclution",
+    "Producttype__c": "Medical",
+    "Property__c": "Rider_SPL",
+    "State__c": "OH",
+    "UserType__c": "External User/Broker",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4748"
+}

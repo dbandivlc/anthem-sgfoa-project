@@ -1,0 +1,594 @@
+{
+    "MakeRESTAPICall": {
+        "AccountId": "0013B00000KFOYdQAP",
+        "Brand": "ABCBS",
+        "ContextId": "",
+        "MemberContractRates": {
+            "Rating": [
+                {
+                    "ContractCode": "2V5C",
+                    "TotalPrice": 6455.06
+                },
+                {
+                    "ContractCode": "2V5D",
+                    "TotalPrice": 8017.52
+                },
+                {
+                    "ContractCode": "2UXP",
+                    "TotalPrice": 9895.29
+                },
+                {
+                    "ContractCode": "2UWP",
+                    "TotalPrice": 9125.8
+                },
+                {
+                    "ContractCode": "2UY4",
+                    "TotalPrice": 8490.49
+                }
+            ]
+        },
+        "MemberRates": [
+            {
+                "MemberId": "a300R0000004ehpQAA",
+                "Rates": [
+                    {
+                        "ContractCode": "2V5C",
+                        "MemberPrice": 782.43
+                    },
+                    {
+                        "ContractCode": "2V5D",
+                        "MemberPrice": 971.82
+                    },
+                    {
+                        "ContractCode": "2UXP",
+                        "MemberPrice": 1199.43
+                    },
+                    {
+                        "ContractCode": "2UWP",
+                        "MemberPrice": 1106.16
+                    },
+                    {
+                        "ContractCode": "2UY4",
+                        "MemberPrice": 1029.15
+                    }
+                ]
+            },
+            {
+                "MemberId": "a300R0000004e4JQAQ",
+                "Rates": [
+                    {
+                        "ContractCode": "2V5C",
+                        "MemberPrice": 199.52
+                    },
+                    {
+                        "ContractCode": "2V5D",
+                        "MemberPrice": 247.81
+                    },
+                    {
+                        "ContractCode": "2UXP",
+                        "MemberPrice": 305.85
+                    },
+                    {
+                        "ContractCode": "2UWP",
+                        "MemberPrice": 282.07
+                    },
+                    {
+                        "ContractCode": "2UY4",
+                        "MemberPrice": 262.43
+                    }
+                ]
+            },
+            {
+                "MemberId": "a300R0000004e1UQAQ",
+                "Rates": [
+                    {
+                        "ContractCode": "2V5C",
+                        "MemberPrice": 749.31
+                    },
+                    {
+                        "ContractCode": "2V5D",
+                        "MemberPrice": 930.68
+                    },
+                    {
+                        "ContractCode": "2UXP",
+                        "MemberPrice": 1148.65
+                    },
+                    {
+                        "ContractCode": "2UWP",
+                        "MemberPrice": 1059.33
+                    },
+                    {
+                        "ContractCode": "2UY4",
+                        "MemberPrice": 985.58
+                    }
+                ]
+            },
+            {
+                "MemberId": "a300R0000004e1tQAA",
+                "Rates": [
+                    {
+                        "ContractCode": "2V5C",
+                        "MemberPrice": 782.43
+                    },
+                    {
+                        "ContractCode": "2V5D",
+                        "MemberPrice": 971.82
+                    },
+                    {
+                        "ContractCode": "2UXP",
+                        "MemberPrice": 1199.43
+                    },
+                    {
+                        "ContractCode": "2UWP",
+                        "MemberPrice": 1106.16
+                    },
+                    {
+                        "ContractCode": "2UY4",
+                        "MemberPrice": 1029.15
+                    }
+                ]
+            },
+            {
+                "MemberId": "a300R0000004e1jQAA",
+                "Rates": [
+                    {
+                        "ContractCode": "2V5C",
+                        "MemberPrice": 329.14
+                    },
+                    {
+                        "ContractCode": "2V5D",
+                        "MemberPrice": 408.81
+                    },
+                    {
+                        "ContractCode": "2UXP",
+                        "MemberPrice": 504.56
+                    },
+                    {
+                        "ContractCode": "2UWP",
+                        "MemberPrice": 465.32
+                    },
+                    {
+                        "ContractCode": "2UY4",
+                        "MemberPrice": 432.93
+                    }
+                ]
+            },
+            {
+                "MemberId": "a300R0000004e1ZQAQ",
+                "Rates": [
+                    {
+                        "ContractCode": "2V5C",
+                        "MemberPrice": 782.43
+                    },
+                    {
+                        "ContractCode": "2V5D",
+                        "MemberPrice": 971.82
+                    },
+                    {
+                        "ContractCode": "2UXP",
+                        "MemberPrice": 1199.43
+                    },
+                    {
+                        "ContractCode": "2UWP",
+                        "MemberPrice": 1106.16
+                    },
+                    {
+                        "ContractCode": "2UY4",
+                        "MemberPrice": 1029.15
+                    }
+                ]
+            },
+            {
+                "MemberId": "a300R0000004e0gQAA",
+                "Rates": [
+                    {
+                        "ContractCode": "2V5C",
+                        "MemberPrice": 782.43
+                    },
+                    {
+                        "ContractCode": "2V5D",
+                        "MemberPrice": 971.82
+                    },
+                    {
+                        "ContractCode": "2UXP",
+                        "MemberPrice": 1199.43
+                    },
+                    {
+                        "ContractCode": "2UWP",
+                        "MemberPrice": 1106.16
+                    },
+                    {
+                        "ContractCode": "2UY4",
+                        "MemberPrice": 1029.15
+                    }
+                ]
+            },
+            {
+                "MemberId": "a300R0000004e0qQAA",
+                "Rates": [
+                    {
+                        "ContractCode": "2V5C",
+                        "MemberPrice": 782.43
+                    },
+                    {
+                        "ContractCode": "2V5D",
+                        "MemberPrice": 971.82
+                    },
+                    {
+                        "ContractCode": "2UXP",
+                        "MemberPrice": 1199.43
+                    },
+                    {
+                        "ContractCode": "2UWP",
+                        "MemberPrice": 1106.16
+                    },
+                    {
+                        "ContractCode": "2UY4",
+                        "MemberPrice": 1029.15
+                    }
+                ]
+            }
+        ],
+        "MinCounty": "JEFFERSON",
+        "MinState": "CO",
+        "RatingArea": 5,
+        "RatingPage": {
+            "memComRating": "composite"
+        },
+        "SearchField": "80001 - JEFFERSON",
+        "State1": "CO",
+        "ZipCodeList": [
+            {
+                "Brand": "ABCBS",
+                "MinCounty": "JEFFERSON",
+                "MinState": "CO",
+                "RatingArea": 5,
+                "SearchField": "80001 - JEFFERSON",
+                "ZipCode": "80001",
+                "name": "JEFFERSON",
+                "value": "JEFFERSON"
+            }
+        ],
+        "ZipCodeListLength": 1,
+        "allowNavigation": false,
+        "brokerPage": {
+            "workingWithBroker": "no"
+        },
+        "censusInterface:className": "AP_CensusController",
+        "censusInterface:getMembers": "getCensusMembers",
+        "co_dentalPlanLimit": 10,
+        "co_hiddenAttributes": [
+            "Formulary",
+            "Formulary Link"
+        ],
+        "co_lifePlanLimit": 10,
+        "co_medicalPlanLimit": 10,
+        "co_visionPlanLimit": 10,
+        "coverageBeginsPage": {
+            "RequestedCoverageEffectiveDate": "Apr 1 2018",
+            "coverageStart": null
+        },
+        "employeeCoveragePage": {
+            "allEmployees": 10,
+            "eligibleEmployees": 10,
+            "isEligibleOverAll": "Yes",
+            "isOverStateLimit": "Yes",
+            "moreElegThanAll": true,
+            "tooManyEligible": true
+        },
+        "error": "OK",
+        "id": "a3Z0R0000008trmUAA",
+        "layout": "lightning",
+        "medicalPage": {
+            "MedicalPlans": null,
+            "medicalPageHeaderSection": null,
+            "medicalStart": null
+        },
+        "module": "PlanBuilder",
+        "nextLabel": "Continue",
+        "noResultsError": false,
+        "planContracts": {
+            "bundlingDiscount": 0,
+            "effectiveDate": "2017-01-01",
+            "exchangeFlag": "OF",
+            "medicalContracts": [
+                {
+                    "contractID": "2V5C",
+                    "productMktName": "Anthem Silver PPO 2600/20%/4500 w/HSA",
+                    "topSellerOrder": 0
+                },
+                {
+                    "contractID": "2V5D",
+                    "productMktName": "Anthem Bronze PPO 6500/0%/6500 w/HSA",
+                    "topSellerOrder": 0
+                },
+                {
+                    "contractID": "2UXP",
+                    "productMktName": "Anthem Bronze Pathway HMO 6650/30%/7150",
+                    "topSellerOrder": 0
+                },
+                {
+                    "contractID": "2UWP",
+                    "productMktName": "Anthem Silver Pathway HMO 3000/20%/7150",
+                    "topSellerOrder": 0
+                },
+                {
+                    "contractID": "2UY4",
+                    "productMktName": "Anthem Silver PPO 2000/30%/5500",
+                    "topSellerOrder": 0
+                }
+            ],
+            "noOfContracts": 24,
+            "portfolioYear": "2017",
+            "state": "CO"
+        },
+        "planType": "vision",
+        "planTypePage": {
+            "planTypeBlock": {
+                "dentalInsuranceType": true,
+                "lifeInsurnceType": false,
+                "medicalInsuranceType": true,
+                "visionInsuranceType": true
+            },
+            "planTypeStart": null
+        },
+        "securityQuestionsResp": [
+            {
+                "name": "Childhood_Nickname",
+                "value": "What was your childhood nickname?"
+            },
+            {
+                "name": "First_Job_City",
+                "value": "In what city was your first job?"
+            },
+            {
+                "name": "Significant_Other_City",
+                "value": "In what city did you meet your spouse/significant other?"
+            },
+            {
+                "name": "Pet_Name",
+                "value": "What is your pet's name?"
+            },
+            {
+                "name": "Childhood_Friend",
+                "value": "What is the name of your favorite childhood friend?"
+            },
+            {
+                "name": "Birth_City",
+                "value": "In what city were you born?"
+            },
+            {
+                "name": "Mothers_Maiden",
+                "value": "What is your mother's maiden name?"
+            }
+        ],
+        "selectedCounty": "JEFFERSON",
+        "showAccountPage": false,
+        "sicPage": {
+            "CheckSIC": false,
+            "CheckSIC8021": false,
+            "InvalidSIC": null,
+            "SIC8021ErrorMessage": true,
+            "TypeAheadSIC-Block": {
+                "SICName": "FURNITURE STORES",
+                "SIC_Code": "5712",
+                "TypeAheadSIC": "5712 FURNITURE STORES"
+            }
+        },
+        "subscriberDetails": {
+            "censusId": "a310R0000000FWJ",
+            "subscriberList": [
+                {
+                    "dependent": null,
+                    "member": {
+                        "age": "84",
+                        "birthDate": "1934-01-02",
+                        "dentalTier": "EMP",
+                        "enrollmentTypeCode": "EMP",
+                        "genderCode": "M",
+                        "inTobaccoWellness": "0",
+                        "isBundled": "0",
+                        "isDentalPriorCoverage": "0",
+                        "isTobaccoUser": "0",
+                        "memberRelationshipTypeCode": "SCRBR",
+                        "memberUniqueId": "a300R0000004ehpQAA",
+                        "rateGuarMonths": "12",
+                        "visionTier": "EMP"
+                    }
+                },
+                {
+                    "dependent": null,
+                    "member": {
+                        "age": "0",
+                        "birthDate": "2017-12-12",
+                        "dentalTier": "ECH",
+                        "enrollmentTypeCode": "EMP",
+                        "genderCode": "M",
+                        "inTobaccoWellness": "0",
+                        "isBundled": "0",
+                        "isDentalPriorCoverage": "0",
+                        "isTobaccoUser": "0",
+                        "memberRelationshipTypeCode": "SCRBR",
+                        "memberUniqueId": "a300R0000004e4JQAQ",
+                        "rateGuarMonths": "12",
+                        "visionTier": "ECH"
+                    }
+                },
+                {
+                    "dependent": null,
+                    "member": {
+                        "age": "62",
+                        "birthDate": "1955-11-08",
+                        "dentalTier": "EMP",
+                        "enrollmentTypeCode": "FAM",
+                        "genderCode": "F",
+                        "inTobaccoWellness": "0",
+                        "isBundled": "0",
+                        "isDentalPriorCoverage": "0",
+                        "isTobaccoUser": "0",
+                        "memberRelationshipTypeCode": "SCRBR",
+                        "memberUniqueId": "a300R0000004e1UQAQ",
+                        "rateGuarMonths": "12",
+                        "visionTier": "EMP"
+                    }
+                },
+                {
+                    "dependent": null,
+                    "member": {
+                        "age": "98",
+                        "birthDate": "1920-01-01",
+                        "dentalTier": "FAM",
+                        "enrollmentTypeCode": "EMP",
+                        "genderCode": "M",
+                        "inTobaccoWellness": "0",
+                        "isBundled": "0",
+                        "isDentalPriorCoverage": "0",
+                        "isTobaccoUser": "0",
+                        "memberRelationshipTypeCode": "SCRBR",
+                        "memberUniqueId": "a300R0000004e1tQAA",
+                        "rateGuarMonths": "12",
+                        "visionTier": "FAM"
+                    }
+                },
+                {
+                    "dependent": null,
+                    "member": {
+                        "age": "39",
+                        "birthDate": "1978-11-09",
+                        "dentalTier": "ESP",
+                        "enrollmentTypeCode": "EMP",
+                        "genderCode": "F",
+                        "inTobaccoWellness": "0",
+                        "isBundled": "0",
+                        "isDentalPriorCoverage": "0",
+                        "isTobaccoUser": "0",
+                        "memberRelationshipTypeCode": "SCRBR",
+                        "memberUniqueId": "a300R0000004e1jQAA",
+                        "rateGuarMonths": "12",
+                        "visionTier": "ESP"
+                    }
+                },
+                {
+                    "dependent": null,
+                    "member": {
+                        "age": "72",
+                        "birthDate": "1945-09-19",
+                        "dentalTier": "ECH",
+                        "enrollmentTypeCode": "ECH",
+                        "genderCode": "M",
+                        "inTobaccoWellness": "0",
+                        "isBundled": "0",
+                        "isDentalPriorCoverage": "0",
+                        "isTobaccoUser": "0",
+                        "memberRelationshipTypeCode": "SCRBR",
+                        "memberUniqueId": "a300R0000004e1ZQAQ",
+                        "rateGuarMonths": "12",
+                        "visionTier": "ECH"
+                    }
+                },
+                {
+                    "dependent": [
+                        {
+                            "age": "50",
+                            "birthDate": "2018-04-12",
+                            "inTobaccoWellness": "0",
+                            "isTobaccoUser": "0",
+                            "memberRelationshipTypeCode": "DPNDT",
+                            "memberUniqueId": "a300R0000004elSQAQ"
+                        },
+                        {
+                            "age": "50",
+                            "birthDate": "2018-01-31",
+                            "inTobaccoWellness": "0",
+                            "isTobaccoUser": "0",
+                            "memberRelationshipTypeCode": "SPOUS",
+                            "memberUniqueId": "a300R0000004ehzQAA"
+                        },
+                        {
+                            "age": "40",
+                            "birthDate": "2018-01-01",
+                            "inTobaccoWellness": "0",
+                            "isTobaccoUser": "0",
+                            "memberRelationshipTypeCode": "SPOUS",
+                            "memberUniqueId": "a300R0000004e0lQAA"
+                        }
+                    ],
+                    "member": {
+                        "age": "64",
+                        "birthDate": "1953-12-24",
+                        "dentalTier": "FAM",
+                        "enrollmentTypeCode": "FAM",
+                        "genderCode": "M",
+                        "inTobaccoWellness": "0",
+                        "isBundled": "0",
+                        "isDentalPriorCoverage": "0",
+                        "isTobaccoUser": "0",
+                        "memberRelationshipTypeCode": "SCRBR",
+                        "memberUniqueId": "a300R0000004e0gQAA",
+                        "rateGuarMonths": "12",
+                        "visionTier": "FAM"
+                    }
+                },
+                {
+                    "dependent": null,
+                    "member": {
+                        "age": "64",
+                        "birthDate": "1953-12-24",
+                        "dentalTier": "EMP",
+                        "enrollmentTypeCode": "EMP",
+                        "genderCode": "F",
+                        "inTobaccoWellness": "0",
+                        "isBundled": "0",
+                        "isDentalPriorCoverage": "0",
+                        "isTobaccoUser": "0",
+                        "memberRelationshipTypeCode": "SCRBR",
+                        "memberUniqueId": "a300R0000004e0qQAA",
+                        "rateGuarMonths": "12",
+                        "visionTier": "ESP"
+                    }
+                }
+            ]
+        },
+        "timeStamp": "2018-03-30T02:13:48.136Z",
+        "userCurrencyCode": "USD",
+        "userId": "005310000086ODYAA2",
+        "userName": "dbandi@anthem.isg.sgapsdev1",
+        "userProfile": "System Administrator",
+        "userTimeZone": -300,
+        "vlcPersistentComponent": {
+        },
+        "vlcTimeTracking": {
+            "DefaultRating": 16,
+            "GetSecurityQuestions": 165,
+            "OmniScriptSessionToken": "b5a4ae04-390e-45bc-b164-06cd2ea8c0e8",
+            "PlanLimit": 87,
+            "RatingPage": 4191,
+            "brokerPage": 1880,
+            "censusPage": 3316,
+            "coverageBeginsPage": 2306,
+            "employeeCoveragePage": 4420,
+            "getCensusData": 932,
+            "getMedical": 682,
+            "getMedicalProductListing": 1393,
+            "getMedicalProductRates": 1781,
+            "medicalPage": 319172,
+            "planTypePage": 3165,
+            "sicPage": 3608,
+            "zipPage": 4291
+        },
+        "zipCodeLength": 5,
+        "zipPage": {
+            "County_Select": "",
+            "StateNotActiveMsg": true,
+            "StateNotLicensed": true,
+            "ValidZipCode": true,
+            "zipBlock": {
+                "County": "JEFFERSON",
+                "County_Select": null,
+                "zipcode": null
+            },
+            "zipStart": null
+        },
+        "zipcode": "80001"
+    }
+}

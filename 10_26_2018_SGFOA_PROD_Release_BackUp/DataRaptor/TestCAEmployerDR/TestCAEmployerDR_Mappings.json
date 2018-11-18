@@ -1,0 +1,28 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "tabs:radioGroupTabs:PremiumOnlyPlan",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "CompanyInformation:Enroll in Premium Only Plan",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TestCAEmployerDRCustom9301",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TestCAEmployerDR",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "tabs:radioGroupTabs:association",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "CompanyInformation:Coverage as a member",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TestCAEmployerDRCustom1693",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TestCAEmployerDR",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

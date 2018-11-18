@@ -1,0 +1,60 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "ExternalActiveStates",
+        "%vlocity_namespace%__DomainObjectFieldType__c": "List<String>",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ExternalActiveStates",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "SGFOA_GetActiveStatesQuotingWithProfileTypeCustom6960",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "SGFOA_ExtractActiveStatesQuoting",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "InternalActiveStates",
+        "%vlocity_namespace%__DomainObjectFieldType__c": "List<String>",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "InternalActiveStates",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "SGFOA_GetActiveStatesQuotingWithProfileTypeCustom3347",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "SGFOA_ExtractActiveStatesQuoting",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Formula",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Formula",
+        "%vlocity_namespace%__FormulaOrder__c": 1,
+        "%vlocity_namespace%__FormulaResultPath__c": "InternalActiveStates",
+        "%vlocity_namespace%__Formula__c": "QUERY(\"SELECT Name FROM SGFOA_Active_States_List__c WHERE Active_For_Quoting__c = true\")",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "SGFOA_GetActiveStatesQuotingWithProfileTypeCustom361",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "SGFOA_ExtractActiveStatesQuoting",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Formula",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Formula",
+        "%vlocity_namespace%__FormulaOrder__c": 2,
+        "%vlocity_namespace%__FormulaResultPath__c": "ExternalActiveStates",
+        "%vlocity_namespace%__Formula__c": "QUERY(\"SELECT Name FROM SGFOA_Active_States_List__c WHERE Active_For_External_Quoting__c = true\")",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "SGFOA_GetActiveStatesQuotingWithProfileTypeCustom913",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "SGFOA_ExtractActiveStatesQuoting",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

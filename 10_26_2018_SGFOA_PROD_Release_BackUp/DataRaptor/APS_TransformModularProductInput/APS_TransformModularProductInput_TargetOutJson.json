@@ -1,0 +1,30 @@
+{
+    "BusinessMaturity": "false",
+    "County": "Suffolk",
+    "EffectiveDt": "01/01/2018",
+    "GroupSize": "25",
+    "ProductTypeList": [
+        {
+            "BenefitLevel": "Low",
+            "ContributionTypeCd": "VO",
+            "ProductType": "Dental"
+        },
+        {
+            "BenefitLevel": "Low",
+            "ContributionTypeCd": "VO",
+            "ProductType": "Vision"
+        },
+        {
+            "ContributionTypeCd": "VO",
+            "CoverageAmt": "15000",
+            "ProductType": "Life"
+        },
+        {
+            "ContributionTypeCd": "VO",
+            "ProductType": "STD"
+        }
+    ],
+    "SICCode": "111",
+    "StateCd": "MA",
+    "ZipCode": "00201"
+}

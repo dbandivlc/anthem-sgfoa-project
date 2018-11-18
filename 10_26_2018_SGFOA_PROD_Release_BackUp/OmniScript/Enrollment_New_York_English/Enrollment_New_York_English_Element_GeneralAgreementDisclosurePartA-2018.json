@@ -1,0 +1,45 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 1,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Enrollment-New York",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/New_York/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 2,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Enrollment/New_York/English",
+        "Name": "GeneralAgreement",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/New_York/English/GeneralAgreement",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "GeneralAgreement",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": null,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "2018",
+                        "field": "SetQuoteYear"
+                    }
+                ]
+            }
+        },
+        "text": "<p><strong>Please read this section carefully before signing the application.</strong></p>\n<p>We, the employer, as administrator of an Employee Welfare Benefit Plan under ERISA (Employee Retirement Income Security Act of 1974), apply to obtain the coverage indicated. We understand that any dispute involving an adverse benefit decision may be subject to voluntary binding arbitration only after the ERISA appeals procedure has been completed. Or, we, the employer, as administrator of an Employee Welfare Benefit Plan which is a church plan or government plan as defined under ERISA (Employee Retirement Income Security Act of 1974) and therefore not subject to ERISA, apply to obtain coverage as indicated.</p>\n<p><br /> To the best of our knowledge and belief, all information on this application is true and complete, and Empire may rely on this application in deciding whether to provide coverage. If the application is not complete, Empire reserve(s) the right to reject it and notify us in writing. We understand and agree that no coverage will be effective before the date determined by Empire, and that such coverage will be effective only if we have paid our first month&rsquo;s premium and this application is accepted. We further understand and agree that it is recommended that we keep prior coverage in force until notified of acceptance in writing by Empire and that no agent has the right to accept this application or bind coverage. If this application is accepted, it becomes a part of our contract with Empire.</p>\n<p><br /> If we decide to cancel our group coverage after coverage has been issued, we understand that the cancellation will become effective on the last day of the month in which Empire received the written notification of cancellation or such later date as requested, and that no premiums will be refunded for any period between Empire&rsquo;s receipt of the notification and the last day of the month when the cancellation takes effect. If there are any premiums paid after the cancellation date, we understand that Empire will refund these premiums.</p>\n<p><br /> In addition, the Broker(s) named on the next page of this application is hereby authorized to process any enrollment transactions for my company&rsquo;s Empire coverage upon direction from the authorized group representative (including, but not limited to, Member enrollment, Member terminations, Member address changes, group contact changes, group address changes, plan renewal changes, and group contract terminations). This authorization shall&nbsp;be effective immediately and I agree that my company will be bound by the actions performed by the herein named Broker pursuant to my signature. Additionally, I acknowledge that I must notify empire in writing to void this Broker authorization in the event of a change in my company&lsquo;s Broker of Record.</p>\n<p>We, the employer, hereby authorize the agent/producer/broker/general agent named on the next page to use the EmployerAccess system of Empire to access the group&rsquo;s information, such as but not limited to enrollees, plan selections, and bills/invoices. Such agent/producer/broker/general agent is also hereby authorized to use the EmployerAccess system of Empire to make changes to the group&rsquo;s information on behalf of the group, such as but not limited to adding/deleting plans, adding/deleting employees, and or changing employee demographic information. These authorizations will terminate if the group&rsquo;s agent/producer/broker/general agent changes.</p>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "GeneralAgreementDisclosurePartA-2018",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/New_York/English/GeneralAgreementDisclosurePartA-2018"
+}

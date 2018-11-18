@@ -1,0 +1,17 @@
+{
+    "Active__c": false,
+    "Available_Year__c": "2017;2018;2019",
+    "FilterName__c": "Office Visit Copay",
+    "FilterValue__c": "$5/$10;$15/$20;$25/$30;$35/$40;$45/$50;Above $50",
+    "IsAttribute__c": true,
+    "Name": "DF-4589",
+    "Order__c": 6,
+    "Ordered_Filter_Value__c": "$5/$10;$15/$20;$25/$30;$35/$40;$45/$50;Above $50",
+    "Producttype__c": "Medical",
+    "Property__c": "OfficeVisitCopay",
+    "State__c": "NY",
+    "UserType__c": "Internal User",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4589"
+}

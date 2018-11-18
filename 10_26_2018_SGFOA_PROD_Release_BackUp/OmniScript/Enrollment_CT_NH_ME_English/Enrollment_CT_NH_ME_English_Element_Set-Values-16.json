@@ -1,0 +1,42 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Enrollment-CT_NH_ME",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/CT_NH_ME/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 38,
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "IsDentalSelected": "=IF(CONTAINS(%CoverageOptions%, 'Dental'),true,false)",
+            "IsLifeSelected": "=IF(CONTAINS(%CoverageOptions%, 'Life'),true,false)",
+            "IsMedicalSelected": "=IF(CONTAINS(%CoverageOptions%, 'Medical'),true,false)",
+            "IsVisionSelected": "=IF(CONTAINS(%CoverageOptions%, 'Vision'),true,false)",
+            "NoDisabilityCheck": "=IF(!%WithQuote% && CONTAINS(%CoverageOptions%,'Life') && %SelectedLAndDCoverage:LandDWithoutQuote:DisabilityPrdNone%,true,IF(%WithQuote% && CONTAINS(%CoverageOptions%,'Life') && !(%SelectedLAndDCoverage:LandDWithQuote:DisabilityBlk:DisabilityShortTerm%),true,IF(CONTAINS(%CoverageOptions%,'Life'),false,true)))",
+            "NoLifeCheck": "=IF(!%WithQuote% && CONTAINS(%CoverageOptions%,'Life') && %SelectedLAndDCoverage:LandDWithoutQuote:LDPrdNone%,true,IF(%WithQuote% && CONTAINS(%CoverageOptions%,'Life') && !(%SelectedLAndDCoverage:LandDWithQuote:LifeBlk:LDBasicLife%) && !(%SelectedLAndDCoverage:LandDWithQuote:LifeBlk:LifeDependentBlk:LDPrdDependent%),true,IF(CONTAINS(%CoverageOptions%,'Life'),false,true)))",
+            "SplitCommission": "No"
+        },
+        "label": "Set Values 16",
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "Set Values 16",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/CT_NH_ME/English/Set Values 16"
+}

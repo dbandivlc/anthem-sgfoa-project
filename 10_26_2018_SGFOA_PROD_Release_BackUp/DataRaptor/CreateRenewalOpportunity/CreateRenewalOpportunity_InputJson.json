@@ -1,0 +1,47 @@
+{
+    "ContextId": null,
+    "lastPage": {
+    },
+    "medicalDetailPage": {
+        "medicalPlanDetailActions": null,
+        "medicalPlanDetailBlock": null
+    },
+    "medicalPage": {
+        "MedicalPlans": null,
+        "medicalPageHeaderSection": {
+        },
+        "medicalStart": null
+    },
+    "noResultsError": false,
+    "planTypePage": {
+        "planTypeBlock": {
+            "dentalInsuranceType": null,
+            "lifeInsurnceType": null,
+            "medicalInsuranceType": null,
+            "visionInsuranceType": null
+        },
+        "planTypeStart": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CreateOpportunity": null,
+        "CreateQuote": null,
+        "CreateRenewals": null,
+        "GetRenewalsData": null,
+        "PlanLimit": null,
+        "getProducts": null,
+        "lastPage": null,
+        "medicalDetailPage": null,
+        "medicalPage": null,
+        "planTypePage": null,
+        "transformAllRenewalContractCodes": null,
+        "transformAlternateRenewalContractCodes": null,
+        "transformCurrentRenewalsContractCodes": null
+    }
+}

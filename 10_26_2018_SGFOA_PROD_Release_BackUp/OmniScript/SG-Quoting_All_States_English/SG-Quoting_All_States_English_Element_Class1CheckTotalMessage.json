@@ -1,0 +1,126 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "Message that displays to user if Benefit Levels do not add up correctly",
+    "%vlocity_namespace%__Level__c": 2,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Quoting - All_States",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/SG Quoting/All_States/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 40,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/SG Quoting/All_States/English",
+        "Name": "Class1and2",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SG Quoting/All_States/English/Class1and2",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Class1and2",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "controlWidth": 12,
+        "currencySymbol": "$",
+        "dateFormat": "MM-dd-yyyy",
+        "documentNames": [
+            "Green"
+        ],
+        "hide": false,
+        "hideGroupSep": false,
+        "hideLabel": true,
+        "label": null,
+        "messages": [
+            {
+                "active": false,
+                "text": "Success",
+                "type": "Success",
+                "value": true
+            },
+            {
+                "active": true,
+                "text": "The # Enrolling must equal the total number of employees you've entered on the census. Please check your employee count and try again.",
+                "type": "Requirement",
+                "value": false
+            }
+        ],
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "<>",
+                                    "data": null,
+                                    "field": "Class1NumberofSingles(EE)"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": null,
+                                    "field": "Class1NumberofEE+Spouse"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": null,
+                                    "field": "Class1NumberofEE+Children"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": null,
+                                    "field": "Class1NumberofFamily"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "OR",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "One",
+                                    "field": "NumberClasses"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Dental;Vision",
+                                    "field": "CoverageOptions"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Dental",
+                                    "field": "CoverageOptions"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Vision",
+                                    "field": "CoverageOptions"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "validateExpression": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "Class1CheckTotal"
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Validation",
+    "Name": "Class1CheckTotalMessage",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SG Quoting/All_States/English/Class1CheckTotalMessage"
+}

@@ -1,0 +1,148 @@
+{
+    "AppID": "a203B000000WonDQAS",
+    "ContextId": "5003B0000048PPs",
+    "Dentalcheck": false,
+    "GroupLoad": {
+        "ApplicationInformation": {
+            "ApplicationOwner": "Tarani Dasari",
+            "ApplicationStatus": "Group Submitted, Under Review",
+            "BrokerWritingAgentETIN1": null,
+            "BrokerWritingAgentETIN2": null,
+            "BrokerWritingAgentName1": "TestBrokeragePI8",
+            "BrokerWritingAgentName2": "0013B00000IvcvHQAR",
+            "CobraIndicator": "N",
+            "CommissionPercent1": 0,
+            "CommissionPercent2": 0,
+            "DomesticPartnerIndicator": "N",
+            "EffectiveDate": "2018-07-25",
+            "EligiblePartTimeEmployees": 0,
+            "FomIndicator": "N",
+            "GeneralAgencyETIN": null,
+            "GeneralAgencyName": "Account General Agency",
+            "GroupNotes": null,
+            "ISGWritingBSPAgent1": "BrokerWritingAgent1",
+            "ISGWritingBSPAgent2": "PaidAgency2",
+            "MedicarePrimary": "N",
+            "MinWeeklyHoursForPartTime": 0,
+            "MonthOfMedicalLeaveAbsence": "0",
+            "MonthsOfPersonalLeaveAbsence": "0",
+            "PaidAgencyETIN": "913278122",
+            "PaidAgencyETIN2": "534354444",
+            "PaidAgencyName": "Account Paid Agency",
+            "PaidAgencyName2": "paid",
+            "ParentAgentAgency1": "PaidAgency1",
+            "ParentAgentAgency2": "GeneralAgency",
+            "PartTimeCount": 0,
+            "PartTimeIndicator": "No",
+            "SeasonalEmployeesCovered": "N",
+            "StaffLevelCode1": "Y",
+            "StaffLevelCode2": "N",
+            "WaitingMonths1": "0",
+            "WaitingMonths2": "0"
+        },
+        "ApplicationProdCoverageInfo": {
+            "Dental": {
+                "BundlingDiscount": "N",
+                "CarrierName": null,
+                "DentalCompositeRating": "N",
+                "DentalContribution": 0,
+                "DentalContributionType": "%",
+                "DentalEligibleEmployees": 0,
+                "DentalPlans": {
+                    "ContractCodeDental": null,
+                    "DenProdId": null,
+                    "DentalPlanName": null,
+                    "DentalProductStatus": null
+                },
+                "DentalRateGuaranteeMonths": null,
+                "DentalRateType": "03",
+                "PriorDentalCoverage": "N",
+                "RateBankValue": 0
+            },
+            "LifeDisability": {
+                "LifeCompositeRating": "N",
+                "LifeEnrollingEmployees": 0,
+                "LifeRateType": "01",
+                "PriorLifeCarrierName": null,
+                "PriorLifeCoverage": "N"
+            },
+            "Medical": {
+                "HealthSavingsAccount": "N",
+                "MedicalCompositeRating": "N",
+                "MedicalContribution": 0,
+                "MedicalContributionType": "%",
+                "MedicalEnrollingEmployees": 0,
+                "MedicalPlans": {
+                    "ContractCodeMed": null,
+                    "MedProdId": null,
+                    "MedicalPlanName": null,
+                    "MedicalProdStatus": null
+                },
+                "MedicalRateType": "03"
+            },
+            "Vision": {
+                "VisionCompositeRating": "N",
+                "VisionContribution": 0,
+                "VisionContributionType": "%",
+                "VisionEnrollingEmployees": 0,
+                "VisionPlans": {
+                    "ContractCodeVision": null,
+                    "VisProdId": null,
+                    "VisionPlanName": null,
+                    "VisionProductStatus": null
+                },
+                "VisionRateType": "03"
+            }
+        },
+        "CommissionPercent1Formula": "0",
+        "CommissionPercent2Formula": "0",
+        "CompanyInformation": {
+            "AccountManager": null,
+            "BillingAddress": ",,,,",
+            "EligibleFullTimeEmp": 1,
+            "EmailAddress": null,
+            "EmployerETIN": null,
+            "Fax": null,
+            "GroupAdmin": null,
+            "GroupName": "account1",
+            "OfficePhone": null,
+            "OrgType": null,
+            "PhysicalAddress": ",,NY,,",
+            "SICCodeIndustry": null,
+            "SalesRep": null,
+            "Text36": null,
+            "TotalNumofEmployees": 1
+        },
+        "DentalContributionFormula": "0",
+        "DentalEligibleEmployeesFormula": "0",
+        "EligibleFullTimeEmpFormula": "1",
+        "EligiblePartTimeEmployeesFormula": "0",
+        "LifeEnrollingEmployeesFormula": "0",
+        "MedicalContributionFormula": "0",
+        "MedicalEnrollingEmployeesFormula": "0",
+        "MinWeeklyHoursForPartTimeFormula": "0",
+        "PartTimeCountFormula": "0",
+        "RateBankFormula": "0",
+        "ValidateCaseFields": "",
+        "VisionContributionFormula": "0",
+        "VisionEnrollingEmployeesFormula": "0"
+    },
+    "ISGWritingBSPAgent1": "BrokerWritingAgent1",
+    "TechLoadGroup": false,
+    "id": "a3Z3B0000009nwiUAA",
+    "layout": "lightning",
+    "testContextId": "5003B0000048PPs",
+    "timeStamp": "2018-07-25T11:18:14.797Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053B000001akuiQAA",
+    "userName": "taranidhara.k.dasari@accenture.com.isg.sagapsdev2",
+    "userProfile": "System Administrator",
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorExtractAction2": 3469,
+        "DataRaptorExtractAction3": 815,
+        "OmniScriptSessionToken": "0b626019-5117-4cd1-a789-a3bf804f0a9b"
+    }
+}

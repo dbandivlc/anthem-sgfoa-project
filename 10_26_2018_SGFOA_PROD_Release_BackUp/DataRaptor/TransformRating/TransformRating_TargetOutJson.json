@@ -1,0 +1,107 @@
+{
+    "calculateRateRequest": {
+        "calcReqId": "**All Products - CO",
+        "groupDetails": {
+            "association": "02",
+            "county": "059",
+            "groupEffectiveDate": "2018-01-01",
+            "noOfEligibleLivesDental": "3",
+            "noOfEligibleLivesVision": "3",
+            "sic": "009999",
+            "state": "CO",
+            "zipCode": "80001"
+        },
+        "includeFamilyDetails": "1",
+        "planContractCodesList": {
+            "planContractCode": [
+                {
+                    "contractCode": "2H5E"
+                },
+                {
+                    "contractCode": "2H5F"
+                },
+                {
+                    "contractCode": "2H5G"
+                },
+                {
+                    "contractCode": "2H5J"
+                },
+                {
+                    "contractCode": "2H5K"
+                },
+                {
+                    "contractCode": "2H5L"
+                }
+            ]
+        },
+        "provideRatesOnly": "1",
+        "ratingMethod": "DEFAULT",
+        "subscriberDetails": {
+            "subscriberList": [
+                {
+                    "dependent": [
+                        {
+                            "age": "38",
+                            "inTobaccoWellness": "1",
+                            "isTobaccoUser": "1",
+                            "memberRelationshipTypeCode": "SPOUS",
+                            "memberUniqueId": "Dep1"
+                        },
+                        {
+                            "age": "23",
+                            "inTobaccoWellness": "1",
+                            "isTobaccoUser": "1",
+                            "memberRelationshipTypeCode": "DPNDT",
+                            "memberUniqueId": "Dep2"
+                        }
+                    ],
+                    "member": {
+                        "age": "64",
+                        "dentalTier": "EMP",
+                        "enrollmentTypeCode": "EMP",
+                        "genderCode": "M",
+                        "inTobaccoWellness": "1",
+                        "isBundled": "0",
+                        "isCobra": "0",
+                        "isDentalPriorCoverage": "0",
+                        "isTobaccoUser": "1",
+                        "memberRelationshipTypeCode": "SCRBR",
+                        "memberUniqueId": "Sub1",
+                        "rateGuarMonths": "12"
+                    }
+                },
+                {
+                    "dependent": [
+                        {
+                            "age": "38",
+                            "inTobaccoWellness": "0",
+                            "isTobaccoUser": "0",
+                            "memberRelationshipTypeCode": "SPOUS",
+                            "memberUniqueId": "Dep1"
+                        },
+                        {
+                            "age": "23",
+                            "inTobaccoWellness": "0",
+                            "isTobaccoUser": "0",
+                            "memberRelationshipTypeCode": "DPNDT",
+                            "memberUniqueId": "Dep2"
+                        }
+                    ],
+                    "member": {
+                        "age": "64",
+                        "dentalTier": "EMP",
+                        "enrollmentTypeCode": "EMP",
+                        "genderCode": "M",
+                        "inTobaccoWellness": "0",
+                        "isBundled": "0",
+                        "isCobra": "0",
+                        "isDentalPriorCoverage": "0",
+                        "isTobaccoUser": "0",
+                        "memberRelationshipTypeCode": "SCRBR",
+                        "memberUniqueId": "Sub2"
+                    }
+                }
+            ]
+        }
+    }
+}

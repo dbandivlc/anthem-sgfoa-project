@@ -1,0 +1,37 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Enrollment-CT_NH_ME",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/CT_NH_ME/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 45,
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "applicationId": "=IF(OR(%createdApplicationId% = null, %createdApplicationId% = \"\"), \"NA\", %createdApplicationId%)",
+            "isHSAAccount": "=IF((%MedicalCoverageNQ:HSAAnthemFacilitateBlockCT2019:ForHSAPlansCT2019% = \"Yes\" || %MedicalCoverageNQ:HSAAnthemFacilitateBlockNH2019:ForHSAPlan% = \"Yes\" || %MedicalCoverageNQ:HSAAnthemFacilitateBlockME2019:Hsa2019bck% = \"Yes\" || %MedicalCoverage:HSAAnthemFacilitateBlockCTQ2019:HSAOptionsCT2019% = \"Yes\" || %MedicalCoverage:HSAAnthemFacilitateBlockMEQ2019:RadioHSA% = \"Yes\" || %MedicalCoverage:HSAAnthemFacilitateBlockNHQ2019:HSAOptionsNH2019% = \"Yes\"), true, false)"
+        },
+        "label": null,
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "CheckApplication",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/CT_NH_ME/English/CheckApplication"
+}

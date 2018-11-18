@@ -1,0 +1,127 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "Displays message preventing user from quoting dental plans if the number of Eligible is greater than 50",
+    "%vlocity_namespace%__Level__c": 2,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Quoting - Non NY",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/SG Quoting/Non-NY/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 13,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/SG Quoting/Non-NY/English",
+        "Name": "Eligibility",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SG Quoting/Non-NY/English/Eligibility",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Eligibility",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "controlWidth": 12,
+        "documentNames": [
+            "Green"
+        ],
+        "hideLabel": true,
+        "label": null,
+        "messages": [
+            {
+                "active": false,
+                "text": "success",
+                "type": "Success",
+                "value": true
+            },
+            {
+                "active": true,
+                "text": "For 51+ Dental quotes in NY, please contact your Empire Representative or Specialty Sales Executive",
+                "type": "Requirement",
+                "value": false
+            }
+        ],
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "group": {
+                            "operator": "OR",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "2017",
+                                    "field": "ReqEffDtFormula-Year"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "OR",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "Medical;Dental;Vision",
+                                    "field": "CoverageOptions"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Dental;Vision",
+                                    "field": "CoverageOptions"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Dental",
+                                    "field": "CoverageOptions"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Medical;Dental",
+                                    "field": "CoverageOptions"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Medical;Dental;Vision;Life",
+                                    "field": "CoverageOptions"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Dental;Vision;Life",
+                                    "field": "CoverageOptions"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Dental;Life",
+                                    "field": "CoverageOptions"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Medical;Dental;Life",
+                                    "field": "CoverageOptions"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "validateExpression": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<=",
+                        "data": "50",
+                        "field": "NumberEligible"
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Validation",
+    "Name": "DentalPlanUnavailableOver50",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SG Quoting/Non-NY/English/DentalPlanUnavailableOver50"
+}

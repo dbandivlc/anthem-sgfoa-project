@@ -1,0 +1,27 @@
+{
+    "Cards": [
+        "Quote_Enrollment_Action_NY"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0010R000009ak0aQAA"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT Id, Name, Technical_Enabled_to_Work_NY_2__c,Company_State__c,TechABFPendingSpecialty__c  FROM Account WHERE Id = '{{params.id || params.Id}}'"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "Quote_Enrollment_Action_NY/Anthem/null/1516137293951",
+        "Quote_Enrollment_Action_NY/Anthem/1/1520591823376",
+        "Quote_Enrollment_Action_NY/Anthem/2/1533546222978"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Author__c": "vlocity",
+    "%vlocity_namespace%__CustomJavascript__c": "census-card-canvas.js",
+    "%vlocity_namespace%__Definition__c": "",
+    "%vlocity_namespace%__Description__c": "list-card-canvas-slds\n\nA lightning table based design. Each inner card is a row in the table. This container is designed to work with the list-card-canvas.",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "census-card-canvas/1/vlocity/1517934499331",
+    "%vlocity_namespace%__HTML__c": "census-card-canvas.html",
+    "%vlocity_namespace%__ParentID__c": "list-card-canvas-slds/1/Vlocity/1468491981638",
+    "%vlocity_namespace%__SampleJson__c": "",
+    "%vlocity_namespace%__Sass__c": "census-card-canvas.scss",
+    "%vlocity_namespace%__Type__c": "Census",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "census-card-canvas",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/census-card-canvas"
+}

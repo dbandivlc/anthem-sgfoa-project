@@ -1,0 +1,262 @@
+{
+    "AccountId": "0010R00000U9NcQQAV",
+    "ActiveStates": [
+        "CA",
+        "CO",
+        "NH",
+        "ME",
+        "KY",
+        "NY",
+        "CT",
+        "IN",
+        "NV",
+        "OH",
+        "VA",
+        "MO",
+        "GA",
+        "WI"
+    ],
+    "Brand": "ABCBS",
+    "ContactId": "0030R00000XggDHQAZ",
+    "ContextId": "undefined",
+    "DRId_Account": "0010R00000U9NcQQAV",
+    "DRId_Opportunity": "0060R000006qCNeQAM",
+    "MinCounty": "JEFFERSON",
+    "MinCountyCode": "059",
+    "MinState": "CO",
+    "OSFormulaEffectiveDate": "2018-11-01",
+    "OSFormulaEffectiveDateSBC": "01-Nov-2018",
+    "OSFormulaQuoteExpiryDate": "2018-10-27",
+    "OSFormulaQuoteExpiryDateSBC": "01-Nov-2018",
+    "RatingPage": {
+        "memComRating": "MEMBER",
+        "ratingType": "DEFAULT"
+    },
+    "State1": "CO",
+    "ZipCodeList": [
+    ],
+    "ZipCodeListLength": 1,
+    "account": {
+        "businessName": "qa2018101702"
+    },
+    "allowNavigation": false,
+    "brokerPage": {
+        "workingWithBroker": "no"
+    },
+    "censusId": "a310R0000008oDNQAY",
+    "co_LAndDPlanLimit": 10,
+    "co_dentalPlanLimit": 10,
+    "co_hiddenAttributes": [
+        "Formulary",
+        "Formulary Link"
+    ],
+    "co_medicalPlanLimit": 10,
+    "co_visionPlanLimit": 10,
+    "contact": {
+        "email": "qa2018101702@qa2018101702.c",
+        "firstName": "James",
+        "lastName": "Bond"
+    },
+    "coverageBeginsPage": {
+        "RequestedCoverageEffectiveDate": "Nov 1 2018"
+    },
+    "deductiblePeriodPage": {
+        "deductiblePeriod": "Calendar Year"
+    },
+    "dentalGuarantee": "12months",
+    "dentalGuaranteePage": {
+        "dentalGuarantee": "12months",
+        "dentalGuaranteeHeaderGroup": null
+    },
+    "eligible1Min": "[\"CA\", \"NH\", \"NV\", \"NY\", \"VA\", \"WI\"]",
+    "eligible50Max": "[\"GA\", \"IN\", \"KY\", \"ME\", \"MO\", \"NH\", \"NV\", \"OH\", \"VA\", \"WI\"]",
+    "employeeCoveragePage": {
+        "MinimumEligible": true,
+        "MinimumEligibleEmployees": "Yes",
+        "allEmployees": 2,
+        "eligibleEmployees": 2,
+        "isEligibleOverAll": "Yes",
+        "isOverStateLimit": "Yes",
+        "moreElegThanAll": true,
+        "singleEligibleMessage": false,
+        "stateLimit": 100,
+        "stateMin": 2,
+        "tooManyEligible": true
+    },
+    "enableRecaptcha": true,
+    "error": "OK",
+    "groupProfilePage": {
+        "createProfile": {
+            "cp_businessName": null,
+            "cp_emailAddress": null,
+            "cp_ext": null,
+            "cp_firstName": null,
+            "cp_lastName": null,
+            "cp_phoneNumber": null
+        }
+    },
+    "isdtp": "p1",
+    "layout": "lightning",
+    "medicalPage": {
+        "MedicalPlans": [
+            {
+                "$$hashKey": "object:1890",
+                "CDHIndicator": null,
+                "CDHPIndicator": "N",
+                "CoinsuranceType": null,
+                "Endo_Perio_Oral": null,
+                "FundingType": null,
+                "Name": "Anthem Bronze PPO 4400/50%/6550 w/HSA",
+                "Network": "Anthem PPO",
+                "ProductCode": "2UWA",
+                "ProductDesign": null,
+                "ProductId": "01t0R000000f1llQAA",
+                "ProductSkuID": null,
+                "ProductSubType": "Anthem Bronze PPO 4400/50%/6550 w/HSA",
+                "Type": "Medical",
+                "VoluntaryProduct": "N",
+                "bundling": null,
+                "bundlingDiscount": null,
+                "failedToLoad": false,
+                "groupRate": 300.51,
+                "hiosID": "87269CO1060076",
+                "linkId": null,
+                "medlock": null,
+                "memberRates": {
+                    "a300R0000008rV2QAI": 300.51
+                },
+                "topSellerOrder": 0,
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:1891",
+                "CDHIndicator": null,
+                "CDHPIndicator": "N",
+                "CoinsuranceType": null,
+                "Endo_Perio_Oral": null,
+                "FundingType": null,
+                "Name": "Anthem Silver PPO 3675/0%/3675 w/HSA",
+                "Network": "Anthem PPO",
+                "ProductCode": "2UWD",
+                "ProductDesign": null,
+                "ProductId": "01t0R000000f1lqQAA",
+                "ProductSkuID": null,
+                "ProductSubType": "Anthem Silver PPO 3675/0%/3675 w/HSA",
+                "Type": "Medical",
+                "VoluntaryProduct": "N",
+                "bundling": null,
+                "bundlingDiscount": null,
+                "failedToLoad": false,
+                "groupRate": 360.84,
+                "hiosID": "87269CO1060086",
+                "linkId": null,
+                "medlock": null,
+                "memberRates": {
+                    "a300R0000008rV2QAI": 360.84
+                },
+                "topSellerOrder": 0,
+                "vlcSelected": true
+            }
+        ]
+    },
+    "modularQuestionsReady": false,
+    "needsRecalculation": true,
+    "noResultsError": false,
+    "omniCancelAction": "back",
+    "omniIframeEmbedded": true,
+    "percentSign": "%",
+    "planSelectionReady": true,
+    "planTypePage": {
+        "dentalInsuranceType": false,
+        "hideUpSellFormula": false,
+        "lifeInsuranceType": false,
+        "medicalInsuranceType": true,
+        "planSelectionCount": 1,
+        "planTypeSelection": "medical",
+        "showModular": false,
+        "showModularLandD": false,
+        "singleMemberGroupMessage": false,
+        "visionInsuranceType": false
+    },
+    "ratingType": "Member",
+    "sInstanceId": "a3Y0x0000000Ow8EAE",
+    "securityQuestionsResp": [
+        {
+            "name": "Childhood_Nickname",
+            "value": "What was your childhood nickname?"
+        },
+        {
+            "name": "First_Job_City",
+            "value": "In what city was your first job?"
+        },
+        {
+            "name": "Significant_Other_City",
+            "value": "In what city did you meet your spouse/significant other?"
+        },
+        {
+            "name": "Pet_Name",
+            "value": "What is your pet's name?"
+        },
+        {
+            "name": "Childhood_Friend",
+            "value": "What is the name of your favorite childhood friend?"
+        },
+        {
+            "name": "Birth_City",
+            "value": "In what city were you born?"
+        },
+        {
+            "name": "Mothers_Maiden",
+            "value": "What is your mother's maiden name?"
+        }
+    ],
+    "selectedCounty": "JEFFERSON",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://sgapsdev1-isg.cs94.force.com",
+    "sgapsdev1-isg.cs94.force.com": "6Lff60wUAAAAACAiN_ecEuSMgcoibfe2ls-7CwXg",
+    "sgapsdev2-isg.cs50.force.com": "6Lfu5kwUAAAAAKYeumw11Fk0jVC8h2yifRDIUgm5",
+    "sicPage": {
+        "CheckSIC": false,
+        "CheckSIC8021": false,
+        "InvalidSIC": null,
+        "SIC8021ErrorMessage": true,
+        "SICCode_Number": 3552,
+        "TypeAheadSIC-Block": {
+            "SICName": "TEXTILE MACHINERY",
+            "SIC_Code": "3552",
+            "TypeAheadSIC": "3552 TEXTILE MACHINERY"
+        },
+        "sicPageHeaderGroup": null
+    },
+    "subscriberCounts": {
+        "censusId": "a310R0000008oDNQAY",
+        "noOfEligibleLivesCOBRA": 0,
+        "noOfEligibleLivesDental": 0,
+        "noOfEligibleLivesLD": 2,
+        "noOfEligibleLivesMedical": 2,
+        "noOfEligibleLivesVision": 0
+    },
+    "targetSystem": "APS",
+    "timeStamp": "2018-10-18T05:52:03.545Z",
+    "tour": "",
+    "userCurrencyCode": "USD",
+    "userId": "0050R000000ylsFQAQ",
+    "userName": "qa2018101702@qa2018101702.c.anthem",
+    "userProfile": "Employer Partner Profile",
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "zipCodeLength": 5,
+    "zipPage": {
+        "CountyCode_Number": 59,
+        "StateNotLicensed": true,
+        "ValidState": true,
+        "ValidZipCode": true,
+        "zipBlock": {
+            "County": "JEFFERSON",
+            "County_Select": null,
+            "zipcode": "80001"
+        }
+    },
+    "zipcode": "80001"
+}

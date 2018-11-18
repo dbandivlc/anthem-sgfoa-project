@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2017;2018;2019",
+    "FilterName__c": "",
+    "FilterValue__c": "",
+    "IsAttribute__c": false,
+    "Name": "DF-4720",
+    "Order__c": "",
+    "Ordered_Filter_Value__c": "",
+    "Producttype__c": "",
+    "Property__c": "",
+    "State__c": "",
+    "UserType__c": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4720"
+}

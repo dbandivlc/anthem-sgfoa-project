@@ -1,0 +1,60 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "ActiveStatesABFEnrollment",
+        "%vlocity_namespace%__DomainObjectFieldType__c": "List<String>",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ActiveStatesABFEnrollment",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "ABF_GetActiveStatesCustom1072",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "ABF_GetActiveStates",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "ActiveStatesABFQuote",
+        "%vlocity_namespace%__DomainObjectFieldType__c": "List<String>",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ActiveStatesABFQuote",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "ABF_GetActiveStatesCustom5664",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "ABF_GetActiveStates",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Formula",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Formula",
+        "%vlocity_namespace%__FormulaOrder__c": 1,
+        "%vlocity_namespace%__FormulaResultPath__c": "ActiveStatesABFEnrollment",
+        "%vlocity_namespace%__Formula__c": "QUERY(\"SELECT Name FROM ABF_Active_States_List__c WHERE Active_For_ABF_Enrollment__c = true\")",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "ABF_GetActiveStatesCustom7924",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "ABF_GetActiveStates",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Formula",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Formula",
+        "%vlocity_namespace%__FormulaOrder__c": 2,
+        "%vlocity_namespace%__FormulaResultPath__c": "ActiveStatesABFQuote",
+        "%vlocity_namespace%__Formula__c": "QUERY(\"SELECT Name FROM ABF_Active_States_List__c WHERE \tActive_For_ABF_Quoting__c = true\")",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "ABF_GetActiveStatesCustom1284",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "ABF_GetActiveStates",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

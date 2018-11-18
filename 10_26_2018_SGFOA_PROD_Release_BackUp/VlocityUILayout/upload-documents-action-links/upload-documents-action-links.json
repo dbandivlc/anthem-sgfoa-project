@@ -1,0 +1,27 @@
+{
+    "Cards": [
+        "Application_Actions",
+        "Application_Actions_Paper"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "a20Q0000001jmOM"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT Id, Name, %vlocity_namespace%__Type__c,Account_State__c,%vlocity_namespace%__Status__c FROM Application__c WHERE Id = '{{params.id || params.Id}}'"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-slds-nosearch"
+        }
+    },
+    "workspace": [
+        "Application_Actions/Anthem/null/1516137293954",
+        "Application_Actions_Paper/Anthem/null/1516137293955"
+    ]
+}

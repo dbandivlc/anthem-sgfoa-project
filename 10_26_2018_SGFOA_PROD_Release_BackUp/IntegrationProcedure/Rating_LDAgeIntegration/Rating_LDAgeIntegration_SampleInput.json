@@ -1,0 +1,814 @@
+{
+    "AccountId": "0010x00000XZaUyAAL",
+    "ActiveStates": [
+        "CO"
+    ],
+    "Brand": "ABCBS",
+    "ContactId": "0030x00000R9lV4AAJ",
+    "ContextId": "undefined",
+    "DRId_Account": "0010x00000XZaUyAAL",
+    "DRId_Opportunity": "0060x000006j4goAAA",
+    "LAndDPage": {
+        "LAndDPlans": [
+            {
+                "FundingType": null,
+                "Name": "Basic Life and AD&D",
+                "ProductCode": "LD002",
+                "ProductId": "01t0x000000gEYEAA2",
+                "SubType": "LAndD",
+                "Type": "LAndD",
+                "failedToLoad": false,
+                "groupRate": 9.5,
+                "vlcSelected": true
+            },
+            {
+                "FundingType": null,
+                "Name": "Short Term Disability",
+                "ProductCode": "LD008",
+                "ProductId": "01t0x000000gEYTAA2",
+                "SubType": "STD",
+                "Type": "LAndD",
+                "failedToLoad": false,
+                "groupRate": 45.5,
+                "vlcSelected": true
+            }
+        ]
+    },
+    "MinCounty": "JEFFERSON",
+    "MinCountyCode": "059",
+    "MinState": "CO",
+    "OSFormulaEffectiveDate": "2019-01-15",
+    "OSFormulaEffectiveDateSBC": "15-Jan-2019",
+    "OSFormulaQuoteExpiryDate": "2019-01-10",
+    "OSFormulaQuoteExpiryDateSBC": "15-Jan-2019",
+    "QuoteRecordId": "0Q00x000000T4zDCAS",
+    "RatingPage": {
+    },
+    "State1": "CO",
+    "ZipCodeList": [
+    ],
+    "ZipCodeListLength": 1,
+    "account": {
+        "businessName": "Brown Industry"
+    },
+    "allowNavigation": false,
+    "benefitLevelPage": {
+        "BenefitLevel": "Low",
+        "benefitLevelPageGroupHeader": null
+    },
+    "brokerPage": {
+        "workingWithBroker": "no"
+    },
+    "businessMaturityPage": {
+        "BusinessMaturity": "true"
+    },
+    "censusId": "a310x000001WJYxAAO",
+    "co_LAndDPlanLimit": 10,
+    "co_dentalPlanLimit": 10,
+    "co_hiddenAttributes": [
+        "Formulary",
+        "Formulary Link"
+    ],
+    "co_medicalPlanLimit": 10,
+    "co_visionPlanLimit": 10,
+    "contact": {
+        "firstName": "Gaurav",
+        "lastName": "Saraswat"
+    },
+    "coverageAmtPage": {
+        "CoverageAmt": "15000",
+        "coverageAmtPageGroupHeader": null
+    },
+    "coverageBeginsPage": {
+        "RequestedCoverageEffectiveDate": "Jan 15 2019"
+    },
+    "dentalGuarantee": "12months",
+    "dentalGuaranteePage": {
+        "dentalGuarantee": "12months",
+        "dentalGuaranteeHeaderGroup": null
+    },
+    "eligible1Min": "[\"CA\", \"NH\", \"NV\", \"NY\", \"VA\", \"WI\"]",
+    "eligible50Max": "[\"GA\", \"IN\", \"KY\", \"ME\", \"MO\", \"NH\", \"NV\", \"OH\", \"VA\", \"WI\"]",
+    "employeeCoveragePage": {
+        "MinimumEligible": true,
+        "MinimumEligibleEmployees": "Yes",
+        "allEmployees": 2,
+        "eligibleEmployees": 2,
+        "isEligibleOverAll": "Yes",
+        "isOverStateLimit": "Yes",
+        "moreElegThanAll": true,
+        "singleEligibleMessage": false,
+        "stateLimit": 100,
+        "stateMin": 2,
+        "tooManyEligible": true
+    },
+    "employerSponsoredPage": {
+        "ContributionTypeCd": "ES",
+        "employerSponsoredPageHeaderGroup": null
+    },
+    "enableRecaptcha": true,
+    "error": "OK",
+    "groupProfilePage": {
+        "createProfile": {
+            "cp_businessName": null,
+            "cp_emailAddress": null,
+            "cp_ext": null,
+            "cp_firstName": null,
+            "cp_lastName": null,
+            "cp_phoneNumber": null
+        }
+    },
+    "isdtp": "p1",
+    "layout": "lightning",
+    "medicalPage": {
+        "MedicalPlans": null
+    },
+    "modularPage": {
+        "ModularPlans": [
+            {
+                "Id": "PVH5AE65D92E",
+                "Name": "Package Option 1",
+                "Plans": [
+                    {
+                        "Attributes": [
+                            {
+                                "Category": "LifeADD",
+                                "CategoryDisplaySequence": 300,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000dqe6",
+                                "Name": "Accidental Death and Dismemberment",
+                                "Value": "Standard table of losses",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "LifeADD",
+                                "CategoryDisplaySequence": 300,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000dqeB",
+                                "Name": "ADD Benefits",
+                                "Value": "Same as Life",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "LifeADD",
+                                "CategoryDisplaySequence": 300,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000dqe7",
+                                "Name": "ADD Riders",
+                                "Value": "Airbag, Seatbelt, Repatriation, Child Education, Coma, Common Carrier",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "LifeADD",
+                                "CategoryDisplaySequence": 300,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000dqeC",
+                                "Name": "Basic Life",
+                                "Value": "$15,000",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "LifeADD",
+                                "CategoryDisplaySequence": 300,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000dqe3",
+                                "Name": "Conversion",
+                                "Value": "Included",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "LifeADD",
+                                "CategoryDisplaySequence": 300,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000fw0c",
+                                "Name": "Definition of Earnings",
+                                "Value": "Definition of Earnings Test1",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "LifeADD",
+                                "CategoryDisplaySequence": 300,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000fw0b",
+                                "Name": "Guaranteed Issue Limit",
+                                "Value": "Guaranteed Issue Limit Test1",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "LifeADD",
+                                "CategoryDisplaySequence": 300,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000dqe1",
+                                "Name": "Living Benefit (accelerated death benefit)",
+                                "Value": "Up to 75% of benefit amount",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "LifeADD",
+                                "CategoryDisplaySequence": 300,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000dqe8",
+                                "Name": "Reduction Schedule",
+                                "Value": "35% at age 65; 50% at age 70",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "LifeADD",
+                                "CategoryDisplaySequence": 300,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000dqe9",
+                                "Name": "Reduction Schedule 1",
+                                "Value": "35% at age 65",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "LifeADD",
+                                "CategoryDisplaySequence": 300,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000dqeA",
+                                "Name": "Reduction Schedule 2",
+                                "Value": "50% at age 70",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "LifeADD",
+                                "CategoryDisplaySequence": 300,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000dqe4",
+                                "Name": "Resource Advisor Member Assistance Program",
+                                "Value": "Included",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "LifeADD",
+                                "CategoryDisplaySequence": 300,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000dqe5",
+                                "Name": "Travel Assistance",
+                                "Value": "Included",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "LifeADD",
+                                "CategoryDisplaySequence": 300,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000dqe2",
+                                "Name": "Waiver of Premium",
+                                "Value": "For members totally disabled before age 60, 6 month elimination period",
+                                "ValueDataType": "Text"
+                            }
+                        ],
+                        "CDHIndicator": null,
+                        "CDHPIndicator": "N",
+                        "CoinsuranceType": null,
+                        "Endo_Perio_Oral": null,
+                        "Errors": {
+                            "QtStat": "AQS00"
+                        },
+                        "FundingType": null,
+                        "GroupRates": 5.7,
+                        "HSAIndicatorFlag": "N",
+                        "HSAIndicatorFlagBoolean": false,
+                        "Name": "Basic Life and AD&D",
+                        "Network": null,
+                        "ProductCode": "LD001",
+                        "ProductDesign": null,
+                        "ProductId": "01t0x000000gEYDAA2",
+                        "ProductSkuID": "DUI9F61A1056",
+                        "ProductSubType": "LAndD",
+                        "Type": "LAndD",
+                        "VoluntaryProduct": "N",
+                        "bundleName": "Modular Package 2",
+                        "bundling": "N",
+                        "bundlingDiscount": 0,
+                        "dentalFiveTier": false,
+                        "discountRate": 5.7,
+                        "groupRate": 5.7,
+                        "hiosID": "n/a",
+                        "isModular": true,
+                        "linkId": null,
+                        "medlock": "N",
+                        "topSellerOrder": 0
+                    },
+                    {
+                        "Attributes": [
+                            {
+                                "Category": "Vision Services",
+                                "CategoryDisplaySequence": 1008,
+                                "Description": "Both",
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000dnag",
+                                "Name": "Exam Copay and Frequency",
+                                "Value": "$10 Once every calendar year",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "Vision Services",
+                                "CategoryDisplaySequence": 1008,
+                                "Description": "Both",
+                                "DisplaySequence": 2,
+                                "Id": "a250x000000dnaf",
+                                "Name": "Prescription Lens Copay and Frequency",
+                                "Value": "$20 Once every calendar year",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "Vision Services",
+                                "CategoryDisplaySequence": 1008,
+                                "Description": "Both",
+                                "DisplaySequence": 3,
+                                "Id": "a250x000000dnae",
+                                "Name": "Frame Benefit and Frequency",
+                                "Value": "$130 Once every 2 years",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "Vision Services",
+                                "CategoryDisplaySequence": 1008,
+                                "Description": "Both",
+                                "DisplaySequence": 4,
+                                "Id": "a250x000000dnad",
+                                "Name": "Contact Lens Benefit and Frequency",
+                                "Value": "$130 Once every calendar year",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "Vision Plan",
+                                "CategoryDisplaySequence": 1009,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000dnSG",
+                                "Name": "Vision Plan Type",
+                                "Value": "Full Service",
+                                "ValueDataType": "Text"
+                            }
+                        ],
+                        "CDHIndicator": "N",
+                        "CDHPIndicator": "N",
+                        "CoinsuranceType": null,
+                        "DependentRates": {
+                            "0RJR": {
+                                "a300x000000A4c0AAC": "0.00",
+                                "a300x000000A4cOAAS": "0.00",
+                                "a300x000000A4cTAAS": "0.00",
+                                "a300x000000A4cYAAS": "0.00",
+                                "a300x000000A4cZAAS": "0.00",
+                                "a300x000000A4caAAC": "0.00"
+                            }
+                        },
+                        "DiscountRates": {
+                            "B": {
+                                "0RJR": 24.06
+                            },
+                            "M": {
+                                "0RJR": 25.32
+                            },
+                            "MB": {
+                                "0RJR": 24.06
+                            },
+                            "S": {
+                                "0RJR": 25.32
+                            }
+                        },
+                        "Endo_Perio_Oral": null,
+                        "FundingType": "Employer Paid",
+                        "GroupRates": {
+                            "0RJR": 25.32
+                        },
+                        "HSAIndicatorFlag": "N",
+                        "HSAIndicatorFlagBoolean": false,
+                        "MemberRates": {
+                            "0RJR": {
+                                "a300x000000A4buAAC": 12.66,
+                                "a300x000000A4bzAAC": 12.66
+                            }
+                        },
+                        "Name": "Blue View Vision B3",
+                        "Network": "Blue View Vision",
+                        "ProductCode": "0RJR",
+                        "ProductDesign": null,
+                        "ProductId": "01t0Z000008UTbEQAW",
+                        "ProductSkuID": "ERGFB7354423",
+                        "ProductSubType": "Full Service",
+                        "TierDiscountRates": {
+                            "B": {
+                                "0RJR": {
+                                    "ECH": 11.1,
+                                    "EMP": 6.01,
+                                    "ESP": 12.03,
+                                    "FAM": 17.42
+                                }
+                            },
+                            "M": {
+                                "0RJR": {
+                                    "ECH": 11.68,
+                                    "EMP": 6.33,
+                                    "ESP": 12.66,
+                                    "FAM": 18.34
+                                }
+                            },
+                            "MB": {
+                                "0RJR": {
+                                    "ECH": 11.1,
+                                    "EMP": 6.01,
+                                    "ESP": 12.03,
+                                    "FAM": 17.42
+                                }
+                            },
+                            "S": {
+                                "0RJR": {
+                                    "ECH": 11.68,
+                                    "EMP": 6.33,
+                                    "ESP": 12.66,
+                                    "FAM": 18.34
+                                }
+                            }
+                        },
+                        "TierRates": {
+                            "0RJR": {
+                                "ECH": 11.68,
+                                "EMP": 6.33,
+                                "ESP": 12.66,
+                                "FAM": 18.34
+                            }
+                        },
+                        "Type": "Vision",
+                        "VoluntaryProduct": "N",
+                        "bundleName": "Modular Package 2",
+                        "bundling": "Y",
+                        "bundlingDiscount": 5,
+                        "dentalFiveTier": false,
+                        "discountRate": 24.06,
+                        "error": "OK",
+                        "errorCode": "INVOKE-200",
+                        "groupRate": 25.32,
+                        "hiosID": "n/a",
+                        "isModular": true,
+                        "linkId": "0680x000000kqG3AAI",
+                        "medlock": "Y",
+                        "topSellerOrder": 2
+                    },
+                    {
+                        "Attributes": [
+                            {
+                                "Category": "LifeSTD",
+                                "CategoryDisplaySequence": 302,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000fgsc",
+                                "Name": "Elimination Period Benefits",
+                                "Value": "Begin 1st day accident, 8th day illness",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "LifeSTD",
+                                "CategoryDisplaySequence": 302,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000fw12",
+                                "Name": "Guaranteed Issue Limit",
+                                "Value": "Guaranteed Issue Limit STD 1",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "LifeSTD",
+                                "CategoryDisplaySequence": 302,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000fgsh",
+                                "Name": "Maximum Benefit Period",
+                                "Value": "13 weeks",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "LifeSTD",
+                                "CategoryDisplaySequence": 302,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000dqfO",
+                                "Name": "Nonoccupational coverage",
+                                "Value": "Included",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "LifeSTD",
+                                "CategoryDisplaySequence": 302,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000dqfR",
+                                "Name": "Plan Design",
+                                "Value": "1/8/13",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "LifeSTD",
+                                "CategoryDisplaySequence": 302,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000dqfP",
+                                "Name": "Resource Advisor Member Assistance Program",
+                                "Value": "Included",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "LifeSTD",
+                                "CategoryDisplaySequence": 302,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000dqfQ",
+                                "Name": "STD Weekly Benefit",
+                                "Value": "$250",
+                                "ValueDataType": "Text"
+                            },
+                            {
+                                "Category": "LifeSTD",
+                                "CategoryDisplaySequence": 302,
+                                "Description": null,
+                                "DisplaySequence": 1,
+                                "Id": "a250x000000dqfN",
+                                "Name": "Work retention assistance",
+                                "Value": "Included",
+                                "ValueDataType": "Text"
+                            }
+                        ],
+                        "CDHIndicator": null,
+                        "CDHPIndicator": "N",
+                        "CoinsuranceType": null,
+                        "Endo_Perio_Oral": null,
+                        "Errors": {
+                            "QtStat": "AQS00"
+                        },
+                        "FundingType": null,
+                        "GroupRates": 36,
+                        "HSAIndicatorFlag": "N",
+                        "HSAIndicatorFlagBoolean": false,
+                        "Name": "Short Term Disability",
+                        "Network": null,
+                        "ProductCode": "LD007",
+                        "ProductDesign": null,
+                        "ProductId": "01t0x000000gEYSAA2",
+                        "ProductSkuID": "USE0D6394ED9",
+                        "ProductSubType": "STD",
+                        "Type": "LAndD",
+                        "VoluntaryProduct": "N",
+                        "bundleName": "Modular Package 2",
+                        "bundling": "N",
+                        "bundlingDiscount": 0,
+                        "dentalFiveTier": false,
+                        "discountRate": 36,
+                        "groupRate": 36,
+                        "hiosID": "n/a",
+                        "isModular": true,
+                        "linkId": null,
+                        "medlock": "N",
+                        "topSellerOrder": 0
+                    }
+                ],
+                "ProductCode": "PVH5AE65D92E",
+                "ProductId": "PVH5AE65D92E",
+                "Type": "Modular",
+                "discountRate": 65.75999999999999,
+                "failedToLoad": false,
+                "groupRate": 67.02,
+                "index": 2,
+                "savingsTotal": 1.2600000000000051,
+                "total": 65.75999999999999,
+                "vlcSelected": true
+            }
+        ]
+    },
+    "modularQuestionsReady": false,
+    "needsRecalculation": true,
+    "noResultsError": false,
+    "omniCancelAction": "back",
+    "omniIframeEmbedded": true,
+    "percentSign": "%",
+    "planSelectionReady": true,
+    "planTypePage": {
+        "dentalInsuranceType": false,
+        "hideUpSellFormula": false,
+        "lifeInsuranceType": true,
+        "medicalInsuranceType": false,
+        "planSelectionCount": 2,
+        "planTypeSelection": "vision;life",
+        "showModular": true,
+        "showModularLandD": true,
+        "singleMemberGroupMessage": false,
+        "visionInsuranceType": true
+    },
+    "sInstanceId": "a3Y0x0000000PSYEA2",
+    "securityQuestionsResp": [
+        {
+            "name": "First_Job_City",
+            "value": "In what city was your first job?"
+        },
+        {
+            "name": "Pet_Name",
+            "value": "What is your pet's name?"
+        },
+        {
+            "name": "Childhood_Nickname",
+            "value": "What was your childhood nickname?"
+        },
+        {
+            "name": "Mothers_Maiden",
+            "value": "What is your mother's maiden name?"
+        },
+        {
+            "name": "Significant_Other_City",
+            "value": "In what city did you meet your spouse/significant other?"
+        },
+        {
+            "name": "Childhood_Friend",
+            "value": "What is the name of your favorite childhood friend?"
+        },
+        {
+            "name": "Birth_City",
+            "value": "In what city were you born?"
+        }
+    ],
+    "selectedCounty": "JEFFERSON",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://staging-isg.cs95.force.com",
+    "sgapsdev1-isg.cs94.force.com": "6Lff60wUAAAAACAiN_ecEuSMgcoibfe2ls-7CwXg",
+    "sgapsdev2-isg.cs50.force.com": "6Lfu5kwUAAAAAKYeumw11Fk0jVC8h2yifRDIUgm5",
+    "sicPage": {
+        "CheckSIC": false,
+        "CheckSIC8021": false,
+        "InvalidSIC": null,
+        "LAndD_Covered": true,
+        "SIC8021ErrorMessage": true,
+        "SICCode_Number": 3552,
+        "STD_Covered": true,
+        "TypeAheadSIC-Block": {
+            "SICName": "TEXTILE MACHINERY",
+            "SIC_Code": "3552",
+            "SIC_LAndDCovered": "true",
+            "SIC_STDCovered": "true",
+            "TypeAheadSIC": "3552 TEXTILE MACHINERY"
+        },
+        "sicPageHeaderGroup": null
+    },
+    "subscriberCounts": {
+        "censusId": "a310x000001WJYxAAO",
+        "noOfEligibleLivesCOBRA": 0,
+        "noOfEligibleLivesDental": 0,
+        "noOfEligibleLivesLD": 2,
+        "noOfEligibleLivesMedical": 0,
+        "noOfEligibleLivesModular": 2,
+        "noOfEligibleLivesVision": 2
+    },
+    "targetSystem": "APS",
+    "timeStamp": "2018-11-02T09:33:22.331Z",
+    "tour": "",
+    "userCurrencyCode": "USD",
+    "userId": "0050x000001c3hOAAQ",
+    "userName": "gsaraswatnew@brown.com.anthem",
+    "userProfile": "Employer Partner Profile",
+    "userTimeZone": null,
+    "visionPage": {
+        "VisionPlans": [
+            {
+                "CDHIndicator": "N",
+                "CDHPIndicator": "N",
+                "CoinsuranceType": null,
+                "Endo_Perio_Oral": null,
+                "FundingType": "Employer Paid",
+                "HSAIndicatorFlag": "N",
+                "HSAIndicatorFlagBoolean": false,
+                "Name": "Blue View Vision A4",
+                "Network": "Blue View Vision",
+                "ProductCode": "0RJN",
+                "ProductDesign": null,
+                "ProductId": "01t0Z000008UTbBQAW",
+                "ProductSkuID": null,
+                "ProductSubType": "Full Service",
+                "Type": "Vision",
+                "VoluntaryProduct": "N",
+                "bundling": null,
+                "bundlingDiscount": null,
+                "dentalFiveTier": false,
+                "discountRates": {
+                    "B": 25.34,
+                    "S": 26.68
+                },
+                "failedToLoad": false,
+                "groupRate": 26.68,
+                "hiosID": "N/A",
+                "linkId": "0680x000000kqGAAAY",
+                "medlock": null,
+                "memberRates": {
+                    "a300x000000A4buAAC": 13.34,
+                    "a300x000000A4bzAAC": 13.34
+                },
+                "tierDiscountRates": {
+                    "B": {
+                        "ECH": 11.69,
+                        "EMP": 6.34,
+                        "ESP": 12.67,
+                        "FAM": 18.36
+                    },
+                    "S": {
+                        "ECH": 12.31,
+                        "EMP": 6.67,
+                        "ESP": 13.34,
+                        "FAM": 19.33
+                    }
+                },
+                "tierRates": {
+                    "ECH": 12.31,
+                    "EMP": 6.67,
+                    "ESP": 13.34,
+                    "FAM": 19.33
+                },
+                "topSellerOrder": 0,
+                "vlcSelected": true
+            },
+            {
+                "CDHIndicator": "N",
+                "CDHPIndicator": "N",
+                "CoinsuranceType": null,
+                "Endo_Perio_Oral": null,
+                "FundingType": "Employer Paid",
+                "HSAIndicatorFlag": "N",
+                "HSAIndicatorFlagBoolean": false,
+                "Name": "Blue View Vision B3",
+                "Network": "Blue View Vision",
+                "ProductCode": "0RJR",
+                "ProductDesign": null,
+                "ProductId": "01t0Z000008UTbEQAW",
+                "ProductSkuID": null,
+                "ProductSubType": "Full Service",
+                "Type": "Vision",
+                "VoluntaryProduct": "N",
+                "bundling": null,
+                "bundlingDiscount": null,
+                "dentalFiveTier": false,
+                "discountRates": {
+                    "B": 24.06,
+                    "S": 25.32
+                },
+                "failedToLoad": false,
+                "groupRate": 25.32,
+                "hiosID": "N/A",
+                "linkId": "0680x000000kqG3AAI",
+                "medlock": null,
+                "memberRates": {
+                    "a300x000000A4buAAC": 12.66,
+                    "a300x000000A4bzAAC": 12.66
+                },
+                "tierDiscountRates": {
+                    "B": {
+                        "ECH": 11.1,
+                        "EMP": 6.01,
+                        "ESP": 12.03,
+                        "FAM": 17.42
+                    },
+                    "S": {
+                        "ECH": 11.68,
+                        "EMP": 6.33,
+                        "ESP": 12.66,
+                        "FAM": 18.34
+                    }
+                },
+                "tierRates": {
+                    "ECH": 11.68,
+                    "EMP": 6.33,
+                    "ESP": 12.66,
+                    "FAM": 18.34
+                },
+                "topSellerOrder": 2,
+                "vlcSelected": true
+            }
+        ]
+    },
+    "vlcPersistentComponent": {
+    },
+    "zipCodeLength": 5,
+    "zipPage": {
+        "CountyCode_Number": 59,
+        "StateNotLicensed": true,
+        "ValidState": true,
+        "ValidZipCode": true,
+        "zipBlock": {
+            "County": "JEFFERSON",
+            "County_Select": null,
+            "zipcode": "80001"
+        }
+    },
+    "zipcode": "80001"
+}

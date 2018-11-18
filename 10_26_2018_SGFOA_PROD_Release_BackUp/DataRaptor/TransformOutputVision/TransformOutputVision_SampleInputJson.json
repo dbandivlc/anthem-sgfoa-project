@@ -1,0 +1,519 @@
+{
+    "Agent/Producer/BrokerCert": {
+        "AgencyIDNo1": null,
+        "AgencyName1": null,
+        "Agent/producer/brokerIDno": null,
+        "Agent/producer/brokerIDno.1": null,
+        "Agentproducer/brokername1": null,
+        "GeneralAgencyCity": null,
+        "GeneralAgencyEmail": null,
+        "GeneralAgencyState": null,
+        "GeneralAgencyZIPCode": null,
+        "GeneralAgentStreetaddress": null,
+        "Generalagent/producer/brokername": null,
+        "Payable/sub-agent/producer/brokerIDno.ifdifferent1": null,
+        "Writer1City": null,
+        "Writer1Email": null,
+        "Writer1Faxno.": null,
+        "Writer1Phone": null,
+        "Writer1State": null,
+        "Writer1Streetaddress": null,
+        "Writer1ZipCode": null,
+        "WritingPayablePercent": null
+    },
+    "ApplicationType": {
+        "DocuSignEffectiveDate": null,
+        "NewEnrollment": false,
+        "RequestedEffectiveDateEnText": null
+    },
+    "CategorySelection": {
+        "CoverageOptions": "Medical;Dental;Vision",
+        "DateApplicationBegan": "2017-04-16T05:00:00.000Z",
+        "ReqEffDtFormula": "Q1_2017",
+        "ReqEffDtFormula-Year": "2017",
+        "RequestedCoverageEffectiveDate": null,
+        "RequestedCoverageNonBrokerDates": "Jan 15 2017"
+    },
+    "ClassDistinction": "No",
+    "CompanyInformation": {
+        "AddiitonalContactPhone": null,
+        "AdditionalContact": null,
+        "AdditionalContactEmail": null,
+        "AdditionalContactFax": null,
+        "AdditionalContactTitle": null,
+        "Billing Address": null,
+        "BillingAddress": null,
+        "City": null,
+        "CompanyContactName": null,
+        "CompanyName": null,
+        "CompanyStreetAddress": null,
+        "DoingBusinessAs": null,
+        "EmailAddress": null,
+        "FrmNotQualifyAsSingleEmployer": null,
+        "FrmQualifyAsSingleEmployer": null,
+        "PrimaryFax": null,
+        "PrimaryPhone": null,
+        "QualifyAsSingleEmployer": null,
+        "QualifyAsSingleEmployerExplanation": null,
+        "SICCode": null,
+        "State": null,
+        "TaxIdNumber": null,
+        "Title": null,
+        "Zip": null
+    },
+    "ContextId": "",
+    "DRId_Account": "001Q0000014BY02IAG",
+    "DentalCoverage": {
+        "DentalAccounts": null,
+        "DentalContractCode1": null,
+        "DentalContractCode2": null,
+        "FrmDentalBasePremium": null,
+        "FrmDentalBundledPremium": null,
+        "FrmReplaceDentalPremium": null,
+        "FrmReplaceNoDentalPremium": null,
+        "NoDentalCoverage": false,
+        "ReplaceDentalPremium": null,
+        "ReplaceExistingCoverage": null,
+        "TotalDental": null
+    },
+    "Eligibility": {
+        "COBRA": null,
+        "CurrentYear": null,
+        "DependentCoverage": null,
+        "DomesticPartnerCoverage": null,
+        "Frm1MonthNew": null,
+        "Frm1MonthRehired": null,
+        "Frm1stAfterHireNew": null,
+        "Frm1stAfterRehired": null,
+        "Frm2MonthsNew": null,
+        "Frm2MonthsRehired": null,
+        "Frm30DaysNew": null,
+        "Frm30DaysRehired": null,
+        "Frm60DaysNew": null,
+        "Frm60DaysRehired": null,
+        "Frm90DaysNew": null,
+        "Frm90DaysRehired": null,
+        "FrmCOBRA": null,
+        "FrmCurrentYear": null,
+        "FrmCurrentYearNo": null,
+        "FrmDayFollowingCompletion": null,
+        "FrmDependentCoverageNo": null,
+        "FrmDependentCoverageYes": null,
+        "FrmDomesticPartnerCovNo": null,
+        "FrmDomesticPartnerCovYes": null,
+        "FrmLastYear": null,
+        "FrmLastYearNo": null,
+        "FrmNYContinuation": null,
+        "FrmNewEligible1stOfMonth": null,
+        "FrmNoneWaitingPeriodNew": null,
+        "FrmNoneWaitingRehired": null,
+        "FrmTEFRAEligible": null,
+        "FrmTEFRAEligibleNo": null,
+        "LastYear": null,
+        "NewEligible": null,
+        "NoEligibleEmployees": null,
+        "NoEmployees": null,
+        "NoEmployeesCurYr": null,
+        "NoEmployeesLastYr": null,
+        "NoEnrolling": null,
+        "NoIneligibleEmployees": null,
+        "TEFRAEligible": null,
+        "WaitingPeriodNew": null,
+        "WaitingPeriodRehired": null
+    },
+    "MedicalCoverage": {
+        "ContractCode1": null,
+        "ContractCode2": null,
+        "ContractCode3": null,
+        "ForHSAPlans": null,
+        "FrmForHSAPlanWithEmpire": null,
+        "FrmForHSAPlanWithoutEmpire": null,
+        "MedClass1": null,
+        "MedClass2": null,
+        "MedClass3": null,
+        "MedicalAccounts": null,
+        "PercentEmpAndSpouse": null,
+        "PercentEmployeeAndChildren": null,
+        "PercentEmployeeOnly": null,
+        "PercentFamily": null,
+        "TotalMedical": null
+    },
+    "MinInfo": {
+        "Class1and2": {
+            "Class1CheckTotal": false,
+            "Class1CheckTotalMessage": false,
+            "Class1NumberofEE+Children": 1,
+            "Class1NumberofEE+Spouse": 1,
+            "Class1NumberofFamily": 1,
+            "Class1NumberofSingles(EE)": 1,
+            "Class2CheckTotal": null,
+            "Class2CheckTotalMessage": null,
+            "Class2NumberofEE+Children": 0,
+            "Class2NumberofEE+Spouse": 1,
+            "Class2NumberofFamily": 1,
+            "Class2NumberofSingles(EE)": 1,
+            "Class3CheckTotal": true,
+            "Class3CheckTotalMessage": true,
+            "Class3NumberofEE+Children": 1,
+            "Class3NumberofEE+Spouse": 1,
+            "Class3NumberofFamily": 0,
+            "Class3NumberofSingles (EE)": 1,
+            "IncludeLandD": "No",
+            "TotalEE": 3,
+            "TotalEECh": 2,
+            "TotalEEFa": 2,
+            "TotalEESp": 3
+        },
+        "DentalPriorCoverage": "0",
+        "DentalPriorCoverageFormula": 0,
+        "DentalRateGuarantee": "12",
+        "DentalRateGuaranteeFormula": 12,
+        "Eligibility": {
+            "DentalNoOrtho": false,
+            "DentalPlanUnavailableOver50": true,
+            "DentalVisionPlansMinTwo": true,
+            "EligibleFormula": true,
+            "EligibleGreaterthanEnrolling": true,
+            "NumbEligFormula": "TenToTwentyFive",
+            "NumbEnrollFormulaVision": "TenToFifty",
+            "NumberEligible": 10,
+            "NumberEnrolling": 10,
+            "Participation": 1,
+            "ParticipationMessage": false,
+            "ValidWaivers": 0
+        },
+        "EmpContibPercentage": 0,
+        "EmployerVision": null,
+        "NumberClasses": "Three",
+        "TypeAheadSIC-Block": {
+            "SIC_TXT": "7373",
+            "TypeAheadSIC": "7373 COMPUTER INTERGRATED SYSTEMS D"
+        },
+        "VisionRateGuarantee": "24 Months",
+        "VoluntaryVision": true
+    },
+    "Print / Electronic Signature": {
+        "Task": null
+    },
+    "QuotePreparedFor": {
+        "qCloseDate": null,
+        "qContactFax": null,
+        "qContactName": null,
+        "qContactTitle": null,
+        "qEmail": null,
+        "qOpportunityName": null,
+        "qPhone": null,
+        "qQuote Name": null,
+        "qReqEffectiveDate": null,
+        "quote_name_blk": {
+            "Address_blk": {
+                "qCityTown": null,
+                "qState": null,
+                "qStreetAddress": null,
+                "qZipCode": null
+            },
+            "qFax": null,
+            "qGroupName": null,
+            "qPrimaryPhone": null
+        }
+    },
+    "RatingArea": 4,
+    "SelectMedicalCoverage": {
+        "MinOneMedicalPlan": false,
+        "output2": null
+    },
+    "Step 1": {
+        "BrokerProfile": "System Administrator",
+        "BrokerRequiredMessage": null,
+        "County": "xxx",
+        "GeneralAgencyMessage": false,
+        "GroupName": "TEST-XXX",
+        "InvalidZipMsg": true,
+        "PaidAgencyMessage": false,
+        "Today": "2017-04-09T05:00:00.000Z",
+        "TypeAheadBroker-Block": {
+            "Broker": null,
+            "BrokerId": null,
+            "BrokerTIN": null,
+            "TypeAheadBroker": "xxx"
+        },
+        "TypeAheadGeneralAgency-Block": {
+            "GeneralAgency": null,
+            "GeneralAgencyId": null,
+            "GeneralAgencyTIN": null,
+            "TypeAheadGeneralAgency": "xxx"
+        },
+        "TypeAheadPaidAgency-Block": {
+            "PaidAgency": null,
+            "PaidAgencyId": null,
+            "PaidAgencyTIN": null,
+            "TypeAheadPaidAgency": "xxx"
+        },
+        "TypeAheadZip-Block": {
+            "Brand": "EBCBS",
+            "MinCounty": "NEW YORK",
+            "MinState": "NY",
+            "TypeAheadZip": "10001 - NEW YORK",
+            "ZipCode": "10001"
+        }
+    },
+    "TypeAheadSIC-Block": {
+        "SICName": "COMPUTER INTERGRATED SYSTEMS D",
+        "SIC_NO": 7373
+    },
+    "TypeAheadZip-Block": {
+        "MappedCode": "101",
+        "RatingArea": 4
+    },
+    "VisionCoverage": {
+        "AmtContributionPerDependent": null,
+        "AmtContributionPerEmployee": null,
+        "ContractCode": null,
+        "EmployerPiadGreaterthan50Percent": null,
+        "FrmVisionOptionEmpSpPlans": null,
+        "FrmVisionOptionNoCoverage": null,
+        "FrmVisionOptionVoluntaryPlans": null,
+        "TotalVision": null,
+        "VisionAccounts": null,
+        "VisionOptions": null
+    },
+    "error": "OK",
+    "id": "a3ZQ0000001FybvMAC",
+    "plan": [
+        {
+            "PlanID": "2KJW",
+            "ProductId": "01t31000007XZIMAA4"
+        },
+        {
+            "PlanID": "2KJY",
+            "ProductId": "01t31000007XZINAA4"
+        },
+        {
+            "PlanID": "2KK4",
+            "ProductId": "01t31000007XZISAA4"
+        },
+        {
+            "PlanID": "2MWF",
+            "ProductId": "01t31000007XZIUAA4"
+        },
+        {
+            "PlanID": "2KK6",
+            "ProductId": "01t31000007XZIZAA4"
+        },
+        {
+            "PlanID": "2KKC",
+            "ProductId": "01t31000007XZIbAAO"
+        },
+        {
+            "PlanID": "2KKE",
+            "ProductId": "01t31000007XZIcAAO"
+        },
+        {
+            "PlanID": "2KJ8",
+            "ProductId": "01t31000007XZIdAAO"
+        },
+        {
+            "PlanID": "2KHS",
+            "ProductId": "01t31000007XZIeAAO"
+        },
+        {
+            "PlanID": "2KHY",
+            "ProductId": "01t31000007XZIfAAO"
+        },
+        {
+            "PlanID": "2KJE",
+            "ProductId": "01t31000007XZIgAAO"
+        },
+        {
+            "PlanID": "2KGL",
+            "ProductId": "01t31000007XZIhAAO"
+        },
+        {
+            "PlanID": "2KGS",
+            "ProductId": "01t31000007XZIiAAO"
+        },
+        {
+            "PlanID": "2KJ0",
+            "ProductId": "01t31000007XZIjAAO"
+        },
+        {
+            "PlanID": "2KGU",
+            "ProductId": "01t31000007XZIkAAO"
+        },
+        {
+            "PlanID": "2KJ6",
+            "ProductId": "01t31000007XZIlAAO"
+        },
+        {
+            "PlanID": "2KH0",
+            "ProductId": "01t31000007XZImAAO"
+        },
+        {
+            "PlanID": "2KH2",
+            "ProductId": "01t31000007XZInAAO"
+        },
+        {
+            "PlanID": "2KH8",
+            "ProductId": "01t31000007XZIoAAO"
+        },
+        {
+            "PlanID": "2KKL",
+            "ProductId": "01t31000007XZIqAAO"
+        },
+        {
+            "PlanID": "2KKW",
+            "ProductId": "01t31000007XZIrAAO"
+        },
+        {
+            "PlanID": "2KL2",
+            "ProductId": "01t31000007XZItAAO"
+        },
+        {
+            "PlanID": "2KL4",
+            "ProductId": "01t31000007XZIvAAO"
+        },
+        {
+            "PlanID": "1KTU",
+            "ProductId": "01t31000007XZIyAAO"
+        },
+        {
+            "PlanID": "2KGJ",
+            "ProductId": "01t31000007XZJ0AAO"
+        },
+        {
+            "PlanID": "1KTV",
+            "ProductId": "01t31000007XZJ1AAO"
+        },
+        {
+            "PlanID": "1ZW2",
+            "ProductId": "01t31000007XZJ2AAO"
+        },
+        {
+            "PlanID": "1ZW5",
+            "ProductId": "01t31000007XZJ3AAO"
+        },
+        {
+            "PlanID": "1ZWT",
+            "ProductId": "01t31000007XZJ4AAO"
+        },
+        {
+            "PlanID": "2KHA",
+            "ProductId": "01t31000007XZJEAA4"
+        },
+        {
+            "PlanID": "2KHG",
+            "ProductId": "01t31000007XZJHAA4"
+        },
+        {
+            "PlanID": "2KHJ",
+            "ProductId": "01t31000007XZJIAA4"
+        },
+        {
+            "PlanID": "1ZX9",
+            "ProductId": "01t31000007XZJSAA4"
+        },
+        {
+            "PlanID": "2KHQ",
+            "ProductId": "01t31000007XZJLAA4"
+        },
+        {
+            "PlanID": "2KJQ",
+            "ProductId": "01t31000007XZJQAA4"
+        },
+        {
+            "PlanID": "1ZX7",
+            "ProductId": "01t31000007XZJRAA4"
+        },
+        {
+            "PlanID": "2KJG",
+            "ProductId": "01t31000007XZJTAA4"
+        },
+        {
+            "PlanID": "1ZWZ",
+            "ProductId": "01t31000007XZJUAA4"
+        },
+        {
+            "PlanID": "2KJN",
+            "ProductId": "01t31000007XZJVAA4"
+        },
+        {
+            "PlanID": "1ZX1",
+            "ProductId": "01t31000007XZJWAA4"
+        },
+        {
+            "PlanID": "2KNQ",
+            "ProductId": "01t31000007XZJXAA4"
+        },
+        {
+            "PlanID": "2KNW",
+            "ProductId": "01t31000007XZJYAA4"
+        },
+        {
+            "PlanID": "2KNN",
+            "ProductId": "01t31000007XZJaAAO"
+        },
+        {
+            "PlanID": "2KMQ",
+            "ProductId": "01t31000007XZJbAAO"
+        },
+        {
+            "PlanID": "2KMY",
+            "ProductId": "01t31000007XZJcAAO"
+        },
+        {
+            "PlanID": "2KN8",
+            "ProductId": "01t31000007XZJdAAO"
+        },
+        {
+            "PlanID": "2KNE",
+            "ProductId": "01t31000007XZJeAAO"
+        },
+        {
+            "PlanID": "2KNG",
+            "ProductId": "01t31000007XZJfAAO"
+        },
+        {
+            "PlanID": "2KLU",
+            "ProductId": "01t31000007XZJgAAO"
+        },
+        {
+            "PlanID": "2KLA",
+            "ProductId": "01t31000007XZJhAAO"
+        },
+        {
+            "PlanID": "2KLC",
+            "ProductId": "01t31000007XZJiAAO"
+        },
+        {
+            "PlanID": "2KLJ",
+            "ProductId": "01t31000007XZJjAAO"
+        },
+        {
+            "PlanID": "2KM0",
+            "ProductId": "01t31000007XZJkAAO"
+        },
+        {
+            "PlanID": "2KMA",
+            "ProductId": "01t31000007XZJlAAO"
+        },
+        {
+            "PlanID": "2KMG",
+            "ProductId": "01t31000007XZJmAAO"
+        },
+        {
+            "PlanID": "2KMJ",
+            "ProductId": "01t31000007XZJnAAO"
+        }
+    ],
+    "sInstanceId": "a3YQ0000001pZWSMA2",
+    "textNode": "% and 100%",
+    "textNode2": "% and 49%",
+    "textNode3": "%",
+    "timeStamp": "2017-04-09T23:23:58.087Z",
+    "userId": "005Q000000PPpXvIAL",
+    "userName": "jbridges@vlocity.com.isg.config",
+    "userProfile": "System Administrator",
+    "verticalMode": false,
+    "vlcPersistentComponent": {
+    }
+}

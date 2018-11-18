@@ -1,0 +1,41 @@
+@import "ins-product-attributes-variables";
+
+.via-slds{
+    .vloc-attr-row {
+        position: relative;
+        &:hover{
+            .vloc-attr-data-cell{
+            cursor: pointer; 
+            }
+        }
+
+        .vloc-attr-cell {
+            .vloc-attr-title-cell {
+
+            }  
+
+            .vloc-attr-data-cell{
+                min-height: 2.3rem;
+            }
+        }
+        .vloc-attr-showmore-btn{
+            box-shadow: none;
+
+        }
+         .vloc-attr-showmore{
+                    position: absolute;
+                    right: .6rem;
+                    top: .9rem;
+                }
+        .vloc-attr-fly-out{
+            position: absolute; 
+            right: 0;
+            bottom: 0;
+        }
+        .vloc-delete-qli{
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}

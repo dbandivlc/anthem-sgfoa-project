@@ -1,0 +1,43 @@
+@import "ins-product-attributes-variables";
+.via-slds{
+    .vloc-attr-container--modal{
+        .vloc-attr-container--heading {
+            text-align: center; 
+        }
+        .vloc-attr-container--select{
+                position: absolute;
+                right: 24px;
+            }
+        .vloc-product-grid {
+           &:first-child{
+                  border-top: 1px solid $cards-border-gray;
+            }
+            .vloc-product{
+                position: relative;
+                .vloc-attr-show-more{
+                    position: absolute;
+                    right: 7px;
+                    top: 3px;
+                    .vloc-attr-show-more--btn{
+                        &:active{
+                            box-shadow: none;
+                        }
+                        &:focus{
+                            box-shadow: none;
+                        }
+                    }
+                }
+            }
+            .vloc-new-prod--label{
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            .vloc-new-prod--checkbox{
+                position: relative;
+                top: -2px;
+                left: -.5rem;
+            }
+        }
+    }
+}

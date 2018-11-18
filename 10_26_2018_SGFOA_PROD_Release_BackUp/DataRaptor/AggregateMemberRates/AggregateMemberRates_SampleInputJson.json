@@ -1,0 +1,94 @@
+{
+    "ContextId": null,
+    "MemberRates": [
+        {
+            "MemberId": "a303B000000SecOQAS",
+            "Rates": [
+                {
+                    "ContractCode": "2V5C",
+                    "MemberPrice": 199.52
+                },
+                {
+                    "ContractCode": "2V5D",
+                    "MemberPrice": 247.81
+                },
+                {
+                    "ContractCode": "2UXP",
+                    "MemberPrice": 305.85
+                },
+                {
+                    "ContractCode": "2UWP",
+                    "MemberPrice": 282.07
+                },
+                {
+                    "ContractCode": "2UY4",
+                    "MemberPrice": 262.43
+                }
+            ]
+        },
+        {
+            "MemberId": "a303B000000SecPQAS",
+            "Rates": [
+                {
+                    "ContractCode": "2V5C",
+                    "MemberPrice": 318.71
+                },
+                {
+                    "ContractCode": "2V5D",
+                    "MemberPrice": 395.85
+                },
+                {
+                    "ContractCode": "2UXP",
+                    "MemberPrice": 488.57
+                },
+                {
+                    "ContractCode": "2UWP",
+                    "MemberPrice": 450.58
+                },
+                {
+                    "ContractCode": "2UY4",
+                    "MemberPrice": 419.21
+                }
+            ]
+        },
+        {
+            "MemberId": "a303B000000SecQQAS",
+            "Rates": [
+                {
+                    "ContractCode": "2V5C",
+                    "MemberPrice": 312.45
+                },
+                {
+                    "ContractCode": "2V5D",
+                    "MemberPrice": 388.08
+                },
+                {
+                    "ContractCode": "2UXP",
+                    "MemberPrice": 478.97
+                },
+                {
+                    "ContractCode": "2UWP",
+                    "MemberPrice": 441.73
+                },
+                {
+                    "ContractCode": "2UY4",
+                    "MemberPrice": 410.97
+                }
+            ]
+        }
+    ],
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorTransformAction5": null,
+        "MakeRESTAPICall": null,
+        "TransformAPSRatingInput": null,
+        "TransformCompositeRatingOutput": null,
+        "TransformMemberRatingOutput": null
+    }
+}
