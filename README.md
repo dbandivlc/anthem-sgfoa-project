@@ -20,7 +20,7 @@ git clone https://github.com/vlocityinc/vlocity_build.git
 
 ### Reset the Git Remote URL
 ```bash
-git remove set-url origin git@gihub.com:<username>/<repositoryname>.git
+git remote set-url origin git@gihub.com:<username>/<repositoryname>.git
 ```
 
 ### Setup Properties file
