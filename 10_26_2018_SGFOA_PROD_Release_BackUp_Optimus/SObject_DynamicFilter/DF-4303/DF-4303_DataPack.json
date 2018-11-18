@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2017;2018",
+    "FilterName__c": "Posterior Composites",
+    "FilterValue__c": "Benefit as Amalgam;Composite",
+    "IsAttribute__c": true,
+    "Name": "DF-4303",
+    "Order__c": 8,
+    "Ordered_Filter_Value__c": "Benefit as Amalgam;Composite",
+    "Producttype__c": "Dental",
+    "Property__c": "Posterior Composites",
+    "State__c": "NH",
+    "UserType__c": "Internal User",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4303"
+}

@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2019",
+    "FilterName__c": "OON Reimbursement",
+    "FilterValue__c": "90th Percentile of FAIR Health;All;Maximum Allowable Charge (MAC)",
+    "IsAttribute__c": true,
+    "Name": "DF-4687",
+    "Order__c": 11,
+    "Ordered_Filter_Value__c": "90th Percentile of FAIR Health;All;Maximum Allowable Charge (MAC)",
+    "Producttype__c": "Dental",
+    "Property__c": "OON Reimbursement",
+    "State__c": "NY",
+    "UserType__c": "External User/Broker",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4687"
+}

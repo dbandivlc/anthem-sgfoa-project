@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2017;2018;2019",
+    "FilterName__c": "Plan Type",
+    "FilterValue__c": "PPO;EPO;HMO;POS",
+    "IsAttribute__c": false,
+    "Name": "DF-4243",
+    "Order__c": 1,
+    "Ordered_Filter_Value__c": "PPO;EPO;HMO;POS",
+    "Producttype__c": "Medical",
+    "Property__c": "ProductSubType",
+    "State__c": "ME",
+    "UserType__c": "External User/Broker",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4243"
+}

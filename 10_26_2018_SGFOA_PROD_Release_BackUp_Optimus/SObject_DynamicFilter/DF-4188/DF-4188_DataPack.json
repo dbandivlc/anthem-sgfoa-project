@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2017;2018;2019",
+    "FilterName__c": "Coinsurance Type",
+    "FilterValue__c": "Active;All;Passive",
+    "IsAttribute__c": false,
+    "Name": "DF-4188",
+    "Order__c": 4,
+    "Ordered_Filter_Value__c": "Active;All;Passive",
+    "Producttype__c": "Dental",
+    "Property__c": "CoinsuranceTypeCheckBox_Type",
+    "State__c": "MO",
+    "UserType__c": "External User/Broker",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4188"
+}

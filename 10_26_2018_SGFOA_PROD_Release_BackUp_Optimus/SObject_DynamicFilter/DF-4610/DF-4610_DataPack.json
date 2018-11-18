@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2019",
+    "FilterName__c": "Product Type",
+    "FilterValue__c": "Dental PPO",
+    "IsAttribute__c": false,
+    "Name": "DF-4610",
+    "Order__c": 3,
+    "Ordered_Filter_Value__c": "Dental PPO",
+    "Producttype__c": "Dental",
+    "Property__c": "ProductType",
+    "State__c": "CT",
+    "UserType__c": "External User/Broker",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4610"
+}

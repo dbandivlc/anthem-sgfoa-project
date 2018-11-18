@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2017;2018",
+    "FilterName__c": "Dental Implants",
+    "FilterValue__c": "Covered;Not Covered",
+    "IsAttribute__c": true,
+    "Name": "DF-4741",
+    "Order__c": 9,
+    "Ordered_Filter_Value__c": "Covered;Not Covered",
+    "Producttype__c": "Dental",
+    "Property__c": "Dental Implants",
+    "State__c": "GA",
+    "UserType__c": "External User/Broker",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4741"
+}

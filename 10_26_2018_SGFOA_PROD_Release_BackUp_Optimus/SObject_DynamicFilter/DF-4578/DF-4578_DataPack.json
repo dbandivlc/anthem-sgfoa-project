@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2017;2018;2019",
+    "FilterName__c": "Metal Level",
+    "FilterValue__c": "Platinum;Gold;Silver;Bronze",
+    "IsAttribute__c": true,
+    "Name": "DF-4578",
+    "Order__c": 2,
+    "Ordered_Filter_Value__c": "Platinum;Gold;Silver;Bronze",
+    "Producttype__c": "Medical",
+    "Property__c": "Metal Level",
+    "State__c": "NY",
+    "UserType__c": "Internal User",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4578"
+}

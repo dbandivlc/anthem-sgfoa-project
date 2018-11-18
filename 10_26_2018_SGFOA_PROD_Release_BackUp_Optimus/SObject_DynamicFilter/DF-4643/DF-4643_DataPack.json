@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2017;2018",
+    "FilterName__c": "Product Design",
+    "FilterValue__c": "Classic;Enhanced;Value;Voluntary",
+    "IsAttribute__c": false,
+    "Name": "DF-4643",
+    "Order__c": 3,
+    "Ordered_Filter_Value__c": "Classic;Enhanced;Value;Voluntary",
+    "Producttype__c": "Dental",
+    "Property__c": "ProductDesignCheckBox_Type",
+    "State__c": "NY",
+    "UserType__c": "External User/Broker",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4643"
+}

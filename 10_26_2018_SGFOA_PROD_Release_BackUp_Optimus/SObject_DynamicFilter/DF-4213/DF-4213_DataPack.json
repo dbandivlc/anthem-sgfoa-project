@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2017;2018",
+    "FilterName__c": "Provider Network",
+    "FilterValue__c": "Dental Complete",
+    "IsAttribute__c": false,
+    "Name": "DF-4213",
+    "Order__c": 2,
+    "Ordered_Filter_Value__c": "Dental Complete",
+    "Producttype__c": "Dental",
+    "Property__c": "Network",
+    "State__c": "NH",
+    "UserType__c": "External User/Broker",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4213"
+}

@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2019",
+    "FilterName__c": "Orthodontia",
+    "FilterValue__c": "$1,000;$1,500;$2,000;All;Not Covered;Child Only;Adult and Child",
+    "IsAttribute__c": true,
+    "Name": "DF-4367",
+    "Order__c": 10,
+    "Ordered_Filter_Value__c": "$1,000;$1,500;$2,000;All;Not Covered;Child Only;Adult and Child",
+    "Producttype__c": "Dental",
+    "Property__c": "Child Orthodontics",
+    "State__c": "CA",
+    "UserType__c": "External User/Broker",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4367"
+}

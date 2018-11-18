@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2019",
+    "FilterName__c": "Product Design",
+    "FilterValue__c": "All;Metallic Bronze;Metallic Gold;Metallic Platinum;Metallic Silver;Dental Net 3000A;Dental Net 3000B;Dental Net 3000C;Dental Net 3000D;Dental Net Voluntary 3000C;Dental Net Voluntary 3000D",
+    "IsAttribute__c": false,
+    "Name": "DF-4418",
+    "Order__c": 3,
+    "Ordered_Filter_Value__c": "All;Metallic Bronze;Metallic Gold;Metallic Platinum;Metallic Silver;Dental Net 3000A;Dental Net 3000B;Dental Net 3000C;Dental Net 3000D;Dental Net Voluntary 3000C;Dental Net Voluntary 3000D",
+    "Producttype__c": "Dental",
+    "Property__c": "ProductDesignCheckBox_Type",
+    "State__c": "CA",
+    "UserType__c": "External User/Broker",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4418"
+}

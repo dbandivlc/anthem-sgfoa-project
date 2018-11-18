@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2017;2018;2019",
+    "FilterName__c": "Deductible",
+    "FilterValue__c": "$0 - $1,000;$1,200 - $1,500;$1,750 - $2,750;$2,800 - $4,750;Above $5,000",
+    "IsAttribute__c": false,
+    "Name": "DF-4653",
+    "Order__c": 2,
+    "Ordered_Filter_Value__c": "$0 - $1,000;$1,200 - $1,500;$1,750 - $2,750;$2,800 - $4,750;Above $5,000",
+    "Producttype__c": "Medical",
+    "Property__c": "DeductibleRange",
+    "State__c": "ME",
+    "UserType__c": "Internal User",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4653"
+}

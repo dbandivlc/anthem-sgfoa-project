@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2017;2018",
+    "FilterName__c": "Provider Network",
+    "FilterValue__c": "Dental Complete;Dental Prime",
+    "IsAttribute__c": false,
+    "Name": "DF-4233",
+    "Order__c": 2,
+    "Ordered_Filter_Value__c": "Dental Complete;Dental Prime",
+    "Producttype__c": "Dental",
+    "Property__c": "Network",
+    "State__c": "ME",
+    "UserType__c": "Internal User",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4233"
+}

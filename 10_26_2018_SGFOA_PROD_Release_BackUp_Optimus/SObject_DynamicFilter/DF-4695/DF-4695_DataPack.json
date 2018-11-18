@@ -1,0 +1,17 @@
+{
+    "Active__c": true,
+    "Available_Year__c": "2017;2018",
+    "FilterName__c": "Annual Maximum",
+    "FilterValue__c": "$1,000;$1,500;$2,000;$2,500;$1,250",
+    "IsAttribute__c": true,
+    "Name": "DF-4695",
+    "Order__c": 7,
+    "Ordered_Filter_Value__c": "$1,000;$1,500;$2,000;$2,500;$1,250",
+    "Producttype__c": "Dental",
+    "Property__c": "Annual Maximum",
+    "State__c": "VA",
+    "UserType__c": "Internal User",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "DynamicFilter__c",
+    "VlocityRecordSourceKey": "DynamicFilter__c/DF-4695"
+}
