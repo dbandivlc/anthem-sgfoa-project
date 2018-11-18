@@ -3,7 +3,7 @@
 
 Vlocity Build is a command line tool to export and deploy Vlocity DataPacks in a source control friendly format through a YAML Manifest describing your project. Its primary goal is to enable Continuous Integration for Vlocity Metadata through source control. It is written as a Node.js Command Line Tool.
 
-# Steps to take BackUp of Vlocity Components before any release
+# Steps to take BackUp of Vlocity Components
 --------
 
 ## Steps to setup Vlocity Build and Git
