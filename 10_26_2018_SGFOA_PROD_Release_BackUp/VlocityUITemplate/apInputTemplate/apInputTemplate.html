@@ -1,0 +1,39 @@
+<span>
+<span ng-switch="type">
+	<input
+		class="slds-input"
+		ng-switch-when="string"
+		type="text"
+		name="{{ctrlName}}"
+		ng-required="field.data.required == 'yes'"		
+		ng-model="ngModel" />
+
+	<slds-picklist
+		ng-switch-when="select"
+		multiple="false"
+		id="{{::ctrlId}}"
+		autocomplete="true"
+		ng-model="ngModel"
+		name="{{ctrlName}}"
+		ng-required="field.data.required == 'yes'"		
+		ng-change="field.errorMessages = []"
+		slds-options="opt as opt for opt in options">
+	</slds-picklist>
+
+	<input
+		type="text"
+		ng-switch-when="date"
+		id="{{::ctrlId}}"
+		ng-model="ngModel"
+		name="{{ctrlName}}"
+		class="slds-input"
+		slds-date-picker
+		autoclose="false"
+		keyboard="false"
+		ng-required="field.data.required == 'yes'"		
+		date-format="M/d/yyyy"
+	/>
+
+	<!-- <select ng-switch-when="select" name="{{ctrlName}}" ng-options="opt as opt for opt in options track by $index" ng-model="ngModel"></select> -->
+</span>
+</span>

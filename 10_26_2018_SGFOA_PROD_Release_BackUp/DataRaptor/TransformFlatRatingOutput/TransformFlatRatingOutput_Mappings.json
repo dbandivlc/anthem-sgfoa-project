@@ -1,0 +1,41 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "PlanRates:ContractCode",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "MemberRates:Rates:ContractCode",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformFlatRatingOutputCustom4745",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformFlatRatingOutput",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "PlanRates:MemberId",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "MemberRates:MemberId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformFlatRatingOutputCustom2284",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformFlatRatingOutput",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "PlanRates:MemberPrice",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "MemberRates:Rates:MemberPrice",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformFlatRatingOutputCustom8165",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformFlatRatingOutput",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

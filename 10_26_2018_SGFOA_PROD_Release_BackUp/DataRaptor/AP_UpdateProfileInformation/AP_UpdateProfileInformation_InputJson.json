@@ -1,0 +1,134 @@
+{
+    "ActiveStates": [
+        "OH",
+        "VA",
+        "CT",
+        "CA",
+        "MO",
+        "CO",
+        "NV",
+        "GA",
+        "ME",
+        "NH",
+        "IN",
+        "NY",
+        "KY",
+        "WI"
+    ],
+    "ContextId": "",
+    "allowNavigation": false,
+    "brokerPage": {
+        "workingWithBroker": null
+    },
+    "co_LAndDPlanLimit": 10,
+    "co_dentalPlanLimit": 10,
+    "co_hiddenAttributes": [
+        "Formulary",
+        "Formulary Link"
+    ],
+    "co_medicalPlanLimit": 10,
+    "co_visionPlanLimit": 10,
+    "deductiblePeriod": "Calendar Year",
+    "deductiblePeriodPage": {
+        "deductiblePeriod": "Calendar Year",
+        "deductiblePeriodHeaderGroup": null
+    },
+    "dentalGuarantee": "12months",
+    "dentalGuaranteePage": {
+        "dentalGuarantee": "12months",
+        "dentalGuaranteeHeaderGroup": null
+    },
+    "eligible50Max": "[\"IN\",\"VA\",\"ME\",\"GA\",\"NV\",\"MO\"]",
+    "employeeCoveragePage": {
+        "MinimumEligible": null,
+        "MinimumEligibleEmployees": null,
+        "allEmployees": null,
+        "eligibleEmployees": null,
+        "isEligibleOverAll": null,
+        "isOverStateLimit": null,
+        "moreElegThanAll": null,
+        "stateLimit": null,
+        "tooManyEligible": null
+    },
+    "enableRecaptcha": true,
+    "groupProfilePage": {
+        "createProfile": {
+            "cp_businessName": "gaurav saraswat",
+            "cp_emailAddress": "gauravsaraswat123@gmail.com",
+            "cp_ext": 1112,
+            "cp_firstName": "gaurav",
+            "cp_lastName": "saraswat",
+            "cp_phoneNumber": "1212212111"
+        }
+    },
+    "isdtp": "p1",
+    "layout": "lightning",
+    "noResultsError": false,
+    "omniCancelAction": "back",
+    "omniIframeEmbedded": true,
+    "percentSign": "%",
+    "securityQuestionsResp": [
+        {
+            "name": "Mothers_Maiden",
+            "value": "What is your mother's maiden name?"
+        },
+        {
+            "name": "Birth_City",
+            "value": "In what city were you born?"
+        },
+        {
+            "name": "Childhood_Friend",
+            "value": "What is the name of your favorite childhood friend?"
+        },
+        {
+            "name": "Pet_Name",
+            "value": "What is your pet's name?"
+        },
+        {
+            "name": "Significant_Other_City",
+            "value": "In what city did you meet your spouse/significant other?"
+        },
+        {
+            "name": "Childhood_Nickname",
+            "value": "What was your childhood nickname?"
+        },
+        {
+            "name": "First_Job_City",
+            "value": "In what city was your first job?"
+        }
+    ],
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://sgapsdev2-isg.cs50.force.com",
+    "sgapsdev1-isg.cs94.force.com": "6Lff60wUAAAAACAiN_ecEuSMgcoibfe2ls-7CwXg",
+    "sgapsdev2-isg.cs50.force.com": "6Lfu5kwUAAAAAKYeumw11Fk0jVC8h2yifRDIUgm5",
+    "sicPage": {
+        "CheckSIC": null,
+        "CheckSIC8021": null,
+        "InvalidSIC": null,
+        "SIC8021ErrorMessage": null,
+        "SICCode_Number": null,
+        "TypeAheadSIC-Block": {
+            "SICName": null,
+            "SIC_Code": null,
+            "TypeAheadSIC": null
+        },
+        "sicPageHeaderGroup": null
+    },
+    "targetSystem": "APS",
+    "timeStamp": "2018-07-23T09:25:19.443Z",
+    "tour": "",
+    "userCurrencyCode": "USD",
+    "userId": "0053B000001aYH9QAM",
+    "userName": "employer_portal@sgapsdev2-isg.cs50.force.com",
+    "userProfile": "Employer Portal Profile",
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "zipPage": {
+        "CountyCode_Number": null,
+        "StateNotLicensed": null,
+        "ValidState": null,
+        "ValidZipCode": null,
+        "zipBlock": null
+    }
+}

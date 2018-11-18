@@ -1,0 +1,28 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Sprint 2 Golden Copy",
+    "%vlocity_namespace%__Element__c": [
+        "Enrollment_Documents_English_Element_AccountName.json",
+        "Enrollment_Documents_English_Element_BrokerProfile.json",
+        "Enrollment_Documents_English_Element_DataRaptor-Get-Application-Name.json",
+        "Enrollment_Documents_English_Element_Done-Action-1.json",
+        "Enrollment_Documents_English_Element_Done-Action-2.json",
+        "Enrollment_Documents_English_Element_Done.json",
+        "Enrollment_Documents_English_Element_Step-1.json",
+        "Enrollment_Documents_English_Element_Text-Block-1.json",
+        "Enrollment_Documents_English_Element_Text-Block-2.json",
+        "Enrollment_Documents_English_Element_UploadInstructions.json",
+        "Enrollment_Documents_English_Element_UploadsCompleteHelpText.json"
+    ],
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "Enrollment_Documents_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "Documents",
+    "%vlocity_namespace%__TestHTMLTemplates__c": "Enrollment_Documents_English_HTMLTemplates.html",
+    "%vlocity_namespace%__Type__c": "Enrollment",
+    "Name": "Upload Document",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/Documents/English"
+}

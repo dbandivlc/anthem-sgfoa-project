@@ -1,0 +1,20 @@
+<section
+    ng-if="bpTree.asIndex == control.rootIndex"
+    class="iframe-block"
+    ng-controller="iframeBlockController as ic"
+    ng-init="ic.init()"
+>
+<pre ng-if="params.debugParams">
+# Available
+{{params | json}}
+
+# Passed
+{{ic.params | json}}
+</pre>
+    <iframe
+        class="iframe-block__iframe"
+        ng-src="{{::ic.iframeSrc}}"
+        frameborder="0"
+        ng-style="{'height': control.propSetMap.height, overflow: (control.propSetMap.enableScroll ? 'auto' : 'hidden'), width: '100%'}"
+    ></iframe>
+</section>

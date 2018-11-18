@@ -1,0 +1,240 @@
+{
+    "AccountId": "0013B00000SKXzPQAX",
+    "ActiveStates": [
+        "OH",
+        "VA",
+        "CT",
+        "CA",
+        "MO",
+        "CO",
+        "NV",
+        "GA",
+        "ME",
+        "NH",
+        "NY",
+        "KY",
+        "WI"
+    ],
+    "Brand": "ABCBS",
+    "ContactId": "0033B00000MdjX0QAJ",
+    "ContextId": "",
+    "DRId_Account": "0013B00000SKXzPQAX",
+    "DRId_Opportunity": "0063B000007ReKfQAK",
+    "LAndDPage": {
+        "LAndDPageHeaderSection": null,
+        "LAndDPlans": [
+        ]
+    },
+    "MinCounty": "JEFFERSON",
+    "MinCountyCode": "059",
+    "MinState": "CO",
+    "OSFormulaEffectiveDate": "2018-08-15",
+    "OSFormulaEffectiveDateSBC": "15-Aug-2018",
+    "OSFormulaQuoteExpiryDate": "2018-08-10",
+    "OSFormulaQuoteExpiryDateSBC": "15-Aug-2018",
+    "RatingPage": {
+        "memComRating": "MEMBER;4COMPOSIT",
+        "ratingType": "4COMPOSIT"
+    },
+    "State1": "CO",
+    "ZipCodeList": [
+    ],
+    "ZipCodeListLength": 1,
+    "account": {
+        "businessName": "sds"
+    },
+    "allowNavigation": false,
+    "benefitLevelPage": {
+        "BenefitLevel": "Low",
+        "benefitLevelPageGroupHeader": null
+    },
+    "brokerPage": {
+        "workingWithBroker": "no"
+    },
+    "businessMaturityPage": {
+        "BusinessMaturity": "true"
+    },
+    "co_LAndDPlanLimit": 10,
+    "co_dentalPlanLimit": 10,
+    "co_hiddenAttributes": [
+        "Formulary",
+        "Formulary Link"
+    ],
+    "co_medicalPlanLimit": 10,
+    "co_visionPlanLimit": 10,
+    "contact": {
+        "firstName": "gaurav",
+        "lastName": "saraswat"
+    },
+    "coverageAmtPage": {
+        "CoverageAmt": "15000",
+        "coverageAmtPageGroupHeader": null
+    },
+    "coverageBeginsPage": {
+        "RequestedCoverageEffectiveDate": "Aug 15 2018"
+    },
+    "deductiblePeriod": "Calendar Year",
+    "deductiblePeriodPage": {
+        "deductiblePeriod": "Calendar Year",
+        "deductiblePeriodHeaderGroup": null
+    },
+    "dentalCoveragePage": {
+        "dentalCoverage": "Yes",
+        "dentalCoveragePageHeaderGroup": null
+    },
+    "dentalGuarantee": "12months",
+    "dentalGuaranteePage": {
+        "dentalGuarantee": "12months",
+        "dentalGuaranteeHeaderGroup": null
+    },
+    "dentalPage": {
+        "DentalPlans": [
+        ],
+        "dentalPageHeaderSection": null
+    },
+    "eligible50Max": "[\"IN\",\"VA\",\"ME\",\"GA\",\"NV\",\"MO\"]",
+    "employeeCoveragePage": {
+        "MinimumEligible": true,
+        "MinimumEligibleEmployees": "Yes",
+        "allEmployees": 2,
+        "eligibleEmployees": 2,
+        "isEligibleOverAll": "Yes",
+        "isOverStateLimit": "Yes",
+        "moreElegThanAll": true,
+        "stateLimit": 100,
+        "tooManyEligible": true
+    },
+    "employerSponsoredPage": {
+        "ContributionTypeCd": "ES",
+        "employerSponsoredPageHeaderGroup": null
+    },
+    "enableRecaptcha": true,
+    "groupProfilePage": {
+        "createProfile": {
+            "cp_businessName": "Acc Name Updated",
+            "cp_emailAddress": "gauravupdatedEmail@gmail.com",
+            "cp_ext": "1123",
+            "cp_firstName": "firstNameUpdated",
+            "cp_lastName": "lastNameUpdated",
+            "cp_phoneNumber": "1236456546"
+        }
+    },
+    "isdtp": "p1",
+    "layout": "lightning",
+    "medicalPage": {
+        "MedicalPlans": [
+        ],
+        "medicalPageHeaderSection": null
+    },
+    "modularPage": {
+        "ModularPlans": [
+        ],
+        "modularPageHeaderSection": null
+    },
+    "modularQuestionsReady": false,
+    "needsRecalculation": true,
+    "nextLabel": "Continue",
+    "noResultsError": false,
+    "omniCancelAction": "back",
+    "omniIframeEmbedded": true,
+    "percentSign": "%",
+    "planSelectionReady": true,
+    "planTypePage": {
+        "PlanTypeSelection Except Dental": null,
+        "dentalInsuranceType": true,
+        "lifeInsuranceType": true,
+        "medicalInsuranceType": true,
+        "planSelectionCount": 4,
+        "planTypeSelection": "medical;dental;vision;life",
+        "showModular": true,
+        "showModularLandD": true,
+        "visionInsuranceType": true
+    },
+    "ratingType": "Member And Composite",
+    "sInstanceId": "a3Y3B00000061NXUAY",
+    "securityQuestionsResp": [
+        {
+            "name": "Mothers_Maiden",
+            "value": "What is your mother's maiden name?"
+        },
+        {
+            "name": "Birth_City",
+            "value": "In what city were you born?"
+        },
+        {
+            "name": "Childhood_Friend",
+            "value": "What is the name of your favorite childhood friend?"
+        },
+        {
+            "name": "Pet_Name",
+            "value": "What is your pet's name?"
+        },
+        {
+            "name": "Significant_Other_City",
+            "value": "In what city did you meet your spouse/significant other?"
+        },
+        {
+            "name": "Childhood_Nickname",
+            "value": "What was your childhood nickname?"
+        },
+        {
+            "name": "First_Job_City",
+            "value": "In what city was your first job?"
+        }
+    ],
+    "selectedCounty": "JEFFERSON",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://sgapsdev2-isg.cs50.force.com",
+    "sgapsdev1-isg.cs94.force.com": "6Lff60wUAAAAACAiN_ecEuSMgcoibfe2ls-7CwXg",
+    "sgapsdev2-isg.cs50.force.com": "6Lfu5kwUAAAAAKYeumw11Fk0jVC8h2yifRDIUgm5",
+    "showDetail": false,
+    "sicPage": {
+        "CheckSIC": false,
+        "CheckSIC8021": false,
+        "InvalidSIC": null,
+        "SIC8021ErrorMessage": true,
+        "SICCode_Number": 3552,
+        "TypeAheadSIC-Block": {
+            "SICName": "TEXTILE MACHINERY",
+            "SIC_Code": "3552",
+            "TypeAheadSIC": "3552 TEXTILE MACHINERY"
+        },
+        "sicPageHeaderGroup": null
+    },
+    "subscriberCounts": {
+        "censusId": "a313B000000BDRuQAO",
+        "noOfEligibleLivesCOBRA": 0,
+        "noOfEligibleLivesDental": 2,
+        "noOfEligibleLivesLD": 2,
+        "noOfEligibleLivesMedical": 2,
+        "noOfEligibleLivesVision": 2
+    },
+    "targetSystem": "APS",
+    "timeStamp": "2018-07-19T15:01:14.797Z",
+    "tour": "",
+    "userCurrencyCode": "USD",
+    "userId": "0053B000001cWIDQA2",
+    "userName": "gsaraswat@vlocity.com.anthem",
+    "userProfile": "Employer Partner Profile",
+    "userTimeZone": null,
+    "visionPage": {
+        "VisionPlans": [
+        ],
+        "visionPageHeaderSection": null
+    },
+    "vlcPersistentComponent": {
+    },
+    "zipCodeLength": 5,
+    "zipPage": {
+        "CountyCode_Number": 59,
+        "StateNotLicensed": true,
+        "ValidState": true,
+        "ValidZipCode": true,
+        "zipBlock": {
+            "County": "JEFFERSON",
+            "County_Select": null,
+            "zipcode": "80001"
+        }
+    },
+    "zipcode": "80001"
+}

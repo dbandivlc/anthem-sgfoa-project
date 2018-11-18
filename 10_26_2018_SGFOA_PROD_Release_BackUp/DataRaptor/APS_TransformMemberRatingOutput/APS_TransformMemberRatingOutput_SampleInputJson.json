@@ -1,0 +1,874 @@
+{
+    "ElapsedTime": 82,
+    "Input": {
+        "ActiveStates": [
+            "CO"
+        ],
+        "AddCompositeCensusForSG_NYStatus": false,
+        "AddCompositeCensusForSG_NonMedical_NonNYStatus": false,
+        "AddCompositeCensusStatus": false,
+        "Brand": "ABCBS",
+        "ContactId": "0030x00000SfW3UAAV",
+        "ContextId": "undefined",
+        "DRId_Account": "0010x00000YyDKcAAN",
+        "DRId_Opportunity": "0060x000006up1WAAQ",
+        "DataTransformForSG_NYStatus": false,
+        "GetCurrentDateTimeStatus": true,
+        "MakeRESTAPICall": {
+            "error": "OK",
+            "errorCode": "INVOKE-200",
+            "resJSON": {
+                "RateCalculationResponse": {
+                    "GroupResponse": {
+                        "GroupRates": {
+                            "ContResponse": {
+                                "Discounts": {
+                                    "Discount": {
+                                        "id": "1",
+                                        "type": "MEDTBD Tobacco",
+                                        "unit": "$",
+                                        "value": "0.00"
+                                    }
+                                },
+                                "FamilyPremiums": {
+                                    "TotPrem": "1235.87",
+                                    "TotPremAfterSubsidy": "1235.87",
+                                    "TotSubsidyApplied": "0.00"
+                                },
+                                "Fees": {
+                                    "Fee": [
+                                        {
+                                            "id": "1",
+                                            "type": "MEDACA ACA Insurer Fee %",
+                                            "unit": "$",
+                                            "value": "0.74"
+                                        },
+                                        {
+                                            "id": "2",
+                                            "type": "MEDREI Reinsurance Fee %",
+                                            "unit": "$",
+                                            "value": "0.00"
+                                        },
+                                        {
+                                            "id": "3",
+                                            "type": "MEDXHG Exchange Fee",
+                                            "unit": "$",
+                                            "value": "0.00"
+                                        },
+                                        {
+                                            "id": "4",
+                                            "type": "MEDCOP CO COOP Fee",
+                                            "unit": "$",
+                                            "value": "0.00"
+                                        }
+                                    ]
+                                },
+                                "PremSplits": {
+                                    "PremSplit": [
+                                        {
+                                            "dollarOfTotPrem": "8.78",
+                                            "id": "DENEHB Dental EHB",
+                                            "mbrPremPct": "0.0071",
+                                            "mbrPremSplit": "8.78",
+                                            "premPct": "0.0071",
+                                            "splitFac": "0.0071"
+                                        },
+                                        {
+                                            "dollarOfTotPrem": "2.34",
+                                            "id": "VISEHB Vision EHB",
+                                            "mbrPremPct": "0.0019",
+                                            "mbrPremSplit": "2.34",
+                                            "premPct": "0.0019",
+                                            "splitFac": "0.0019"
+                                        },
+                                        {
+                                            "dollarOfTotPrem": "0.74",
+                                            "id": "MEDACA ACA Insurer Fee %",
+                                            "mbrPremPct": "0.0006",
+                                            "mbrPremSplit": "0.74",
+                                            "premPct": "0.0006",
+                                            "splitFac": "0.0006"
+                                        },
+                                        {
+                                            "dollarOfTotPrem": "0.00",
+                                            "id": "MEDREI Reinsurance Fee %",
+                                            "mbrPremPct": "0.0000",
+                                            "mbrPremSplit": "0.00",
+                                            "premPct": "0.0000",
+                                            "splitFac": "0.0000"
+                                        },
+                                        {
+                                            "dollarOfTotPrem": "0.00",
+                                            "id": "MEDXHG Exchange Fee",
+                                            "mbrPremPct": "0.0000",
+                                            "mbrPremSplit": "0.00",
+                                            "premPct": "0.0000",
+                                            "splitFac": "0.0000"
+                                        },
+                                        {
+                                            "dollarOfTotPrem": "0.00",
+                                            "id": "DENSTM Dental State Mandated",
+                                            "mbrPremPct": "0.0000",
+                                            "mbrPremSplit": "0.00",
+                                            "premPct": "0.0000",
+                                            "splitFac": "0.0000"
+                                        },
+                                        {
+                                            "dollarOfTotPrem": "0.00",
+                                            "id": "VISSTM Vision State Mandated",
+                                            "mbrPremPct": "0.0000",
+                                            "mbrPremSplit": "0.00",
+                                            "premPct": "0.0000",
+                                            "splitFac": "0.0000"
+                                        },
+                                        {
+                                            "dollarOfTotPrem": "0.00",
+                                            "id": "MEDSTM Medical State Mandated",
+                                            "mbrPremPct": "0.0000",
+                                            "mbrPremSplit": "0.00",
+                                            "premPct": "0.0000",
+                                            "splitFac": "0.0000"
+                                        },
+                                        {
+                                            "dollarOfTotPrem": "6.67",
+                                            "id": "MEDNMD Medical Non Mandated",
+                                            "mbrPremPct": "0.0054",
+                                            "mbrPremSplit": "6.67",
+                                            "premPct": "0.0054",
+                                            "splitFac": "0.0054"
+                                        },
+                                        {
+                                            "dollarOfTotPrem": "0.00",
+                                            "id": "DENNMD Dental Non Mandated",
+                                            "mbrPremPct": "0.0000",
+                                            "mbrPremSplit": "0.00",
+                                            "premPct": "0.0000",
+                                            "splitFac": "0.0000"
+                                        },
+                                        {
+                                            "dollarOfTotPrem": "6.81",
+                                            "id": "VISNMD Vision Non Mandated",
+                                            "mbrPremPct": "0.0055",
+                                            "mbrPremSplit": "6.81",
+                                            "premPct": "0.0055",
+                                            "splitFac": "0.0055"
+                                        },
+                                        {
+                                            "dollarOfTotPrem": "2.85",
+                                            "id": "MEDABO ElectiveAbortion",
+                                            "mbrPremPct": "0.0023",
+                                            "mbrPremSplit": "2.85",
+                                            "premPct": "0.0023",
+                                            "splitFac": "0.0023"
+                                        },
+                                        {
+                                            "dollarOfTotPrem": "0.00",
+                                            "id": "MEDCOP CO COOP Fee",
+                                            "mbrPremPct": "0.0000",
+                                            "mbrPremSplit": "0.00",
+                                            "premPct": "0.0000",
+                                            "splitFac": "0.0000"
+                                        },
+                                        {
+                                            "dollarOfTotPrem": "1207.68",
+                                            "id": "MEDEHB Medical EHB",
+                                            "mbrPremPct": "0.9772",
+                                            "mbrPremSplit": "1207.68",
+                                            "premPct": "0.9772",
+                                            "splitFac": "0.9772"
+                                        }
+                                    ]
+                                },
+                                "contractCode": "3J3L"
+                            }
+                        },
+                        "Subscribers": {
+                            "SubResponse": [
+                                {
+                                    "Dependents": {
+                                        "DepResponse": [
+                                            {
+                                                "RatedContResponses": {
+                                                    "ContResponse": {
+                                                        "Discounts": {
+                                                            "Discount": {
+                                                                "id": "1",
+                                                                "type": "MEDTBD Tobacco",
+                                                                "unit": "$",
+                                                                "value": "0.00"
+                                                            }
+                                                        },
+                                                        "Fees": {
+                                                            "Fee": [
+                                                                {
+                                                                    "id": "1",
+                                                                    "type": "MEDACA ACA Insurer Fee %",
+                                                                    "unit": "$",
+                                                                    "value": "0.20"
+                                                                },
+                                                                {
+                                                                    "id": "2",
+                                                                    "type": "MEDREI Reinsurance Fee %",
+                                                                    "unit": "$",
+                                                                    "value": "0.00"
+                                                                },
+                                                                {
+                                                                    "id": "3",
+                                                                    "type": "MEDXHG Exchange Fee",
+                                                                    "unit": "$",
+                                                                    "value": "0.00"
+                                                                },
+                                                                {
+                                                                    "id": "4",
+                                                                    "type": "MEDCOP CO COOP Fee",
+                                                                    "unit": "$",
+                                                                    "value": "0.00"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "Rates": {
+                                                            "References": {
+                                                                "Reference": [
+                                                                    {
+                                                                        "id": "1",
+                                                                        "type": "REFHIO",
+                                                                        "unit": "C",
+                                                                        "value": "76680CO0240097"
+                                                                    },
+                                                                    {
+                                                                        "id": "2",
+                                                                        "type": "REFSAI",
+                                                                        "unit": "C",
+                                                                        "value": "COS001"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "TobaccoCost": "0.00",
+                                                            "TotRate": "333.68",
+                                                            "TotWOTobaccoRate": "333.68",
+                                                            "TotWTobaccoRate": "333.68"
+                                                        },
+                                                        "contractCode": "3J3L"
+                                                    }
+                                                },
+                                                "billable": "true",
+                                                "memberUniqueId": "a300x0000008CSnAAM"
+                                            },
+                                            {
+                                                "RatedContResponses": {
+                                                    "ContResponse": {
+                                                        "Discounts": {
+                                                            "Discount": {
+                                                                "id": "1",
+                                                                "type": "MEDTBD Tobacco",
+                                                                "unit": "$",
+                                                                "value": "0.00"
+                                                            }
+                                                        },
+                                                        "Fees": {
+                                                            "Fee": [
+                                                                {
+                                                                    "id": "1",
+                                                                    "type": "MEDACA ACA Insurer Fee %",
+                                                                    "unit": "$",
+                                                                    "value": "0.14"
+                                                                },
+                                                                {
+                                                                    "id": "2",
+                                                                    "type": "MEDREI Reinsurance Fee %",
+                                                                    "unit": "$",
+                                                                    "value": "0.00"
+                                                                },
+                                                                {
+                                                                    "id": "3",
+                                                                    "type": "MEDXHG Exchange Fee",
+                                                                    "unit": "$",
+                                                                    "value": "0.00"
+                                                                },
+                                                                {
+                                                                    "id": "4",
+                                                                    "type": "MEDCOP CO COOP Fee",
+                                                                    "unit": "$",
+                                                                    "value": "0.00"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "Rates": {
+                                                            "References": {
+                                                                "Reference": [
+                                                                    {
+                                                                        "id": "1",
+                                                                        "type": "REFHIO",
+                                                                        "unit": "C",
+                                                                        "value": "76680CO0240097"
+                                                                    },
+                                                                    {
+                                                                        "id": "2",
+                                                                        "type": "REFSAI",
+                                                                        "unit": "C",
+                                                                        "value": "COS001"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "TobaccoCost": "0.00",
+                                                            "TotRate": "234.83",
+                                                            "TotWOTobaccoRate": "234.83",
+                                                            "TotWTobaccoRate": "234.83"
+                                                        },
+                                                        "contractCode": "3J3L"
+                                                    }
+                                                },
+                                                "billable": "true",
+                                                "memberUniqueId": "a300x0000008CSoAAM"
+                                            }
+                                        ]
+                                    },
+                                    "RatedContResponses": {
+                                        "ContResponse": [
+                                            {
+                                                "Discounts": {
+                                                    "Discount": {
+                                                        "id": "1",
+                                                        "type": "MEDTBD Tobacco",
+                                                        "unit": "$",
+                                                        "value": "0.00"
+                                                    }
+                                                },
+                                                "Fees": {
+                                                    "Fee": [
+                                                        {
+                                                            "id": "1",
+                                                            "type": "MEDACA ACA Insurer Fee %",
+                                                            "unit": "$",
+                                                            "value": "0.20"
+                                                        },
+                                                        {
+                                                            "id": "2",
+                                                            "type": "MEDREI Reinsurance Fee %",
+                                                            "unit": "$",
+                                                            "value": "0.00"
+                                                        },
+                                                        {
+                                                            "id": "3",
+                                                            "type": "MEDXHG Exchange Fee",
+                                                            "unit": "$",
+                                                            "value": "0.00"
+                                                        },
+                                                        {
+                                                            "id": "4",
+                                                            "type": "MEDCOP CO COOP Fee",
+                                                            "unit": "$",
+                                                            "value": "0.00"
+                                                        }
+                                                    ]
+                                                },
+                                                "Rates": {
+                                                    "References": {
+                                                        "Reference": [
+                                                            {
+                                                                "id": "1",
+                                                                "type": "REFHIO",
+                                                                "unit": "C",
+                                                                "value": "76680CO0240097"
+                                                            },
+                                                            {
+                                                                "id": "2",
+                                                                "type": "REFSAI",
+                                                                "unit": "C",
+                                                                "value": "COS001"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "TobaccoCost": "0.00",
+                                                    "TotRate": "333.68",
+                                                    "TotWOTobaccoRate": "333.68",
+                                                    "TotWTobaccoRate": "333.68"
+                                                },
+                                                "contractCode": "3J3L"
+                                            }
+                                        ]
+                                    },
+                                    "billable": "true",
+                                    "memberUniqueId": "a300x0000008CSdAAM"
+                                },
+                                {
+                                    "RatedContResponses": {
+                                        "ContResponse": [
+                                            {
+                                                "Discounts": {
+                                                    "Discount": {
+                                                        "id": "1",
+                                                        "type": "MEDTBD Tobacco",
+                                                        "unit": "$",
+                                                        "value": "0.00"
+                                                    }
+                                                },
+                                                "Fees": {
+                                                    "Fee": [
+                                                        {
+                                                            "id": "1",
+                                                            "type": "MEDACA ACA Insurer Fee %",
+                                                            "unit": "$",
+                                                            "value": "0.20"
+                                                        },
+                                                        {
+                                                            "id": "2",
+                                                            "type": "MEDREI Reinsurance Fee %",
+                                                            "unit": "$",
+                                                            "value": "0.00"
+                                                        },
+                                                        {
+                                                            "id": "3",
+                                                            "type": "MEDXHG Exchange Fee",
+                                                            "unit": "$",
+                                                            "value": "0.00"
+                                                        },
+                                                        {
+                                                            "id": "4",
+                                                            "type": "MEDCOP CO COOP Fee",
+                                                            "unit": "$",
+                                                            "value": "0.00"
+                                                        }
+                                                    ]
+                                                },
+                                                "Rates": {
+                                                    "References": {
+                                                        "Reference": [
+                                                            {
+                                                                "id": "1",
+                                                                "type": "REFHIO",
+                                                                "unit": "C",
+                                                                "value": "76680CO0240097"
+                                                            },
+                                                            {
+                                                                "id": "2",
+                                                                "type": "REFSAI",
+                                                                "unit": "C",
+                                                                "value": "COS001"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "TobaccoCost": "0.00",
+                                                    "TotRate": "333.68",
+                                                    "TotWOTobaccoRate": "333.68",
+                                                    "TotWTobaccoRate": "333.68"
+                                                },
+                                                "contractCode": "3J3L"
+                                            }
+                                        ]
+                                    },
+                                    "billable": "true",
+                                    "memberUniqueId": "a300x0000008CSiAAM"
+                                }
+                            ]
+                        }
+                    },
+                    "calculatedOn": "2018-10-30T19:19:16.139-04:00",
+                    "calculationRequestId": "CO-2018-10-30 23:19:15",
+                    "ratingMethod": "Member"
+                }
+            }
+        },
+        "MakeRESTAPICallStatus": true,
+        "MinCounty": "JEFFERSON",
+        "MinCountyCode": "059",
+        "MinState": "CO",
+        "OSFormulaEffectiveDate": "2019-01-01",
+        "OSFormulaEffectiveDateSBC": "01-Jan-2019",
+        "OSFormulaQuoteExpiryDate": "2018-12-27",
+        "OSFormulaQuoteExpiryDateSBC": "01-Jan-2019",
+        "RatingPage": {
+            "memComRating": "MEMBER",
+            "ratingType": "DEFAULT"
+        },
+        "RemoveWaivedMembersForSGStatus": false,
+        "SettingDefaultValueForMedicalNYStatus": true,
+        "State1": "CO",
+        "TransformAPSRatingInputDentalVisionNYStatus": false,
+        "TransformAPSRatingInputMedicalStatus": true,
+        "TransformAPSRatingInputStatus": false,
+        "TransformSGRatingInputMedicalNYStatus": false,
+        "TransformSGRatingInputMedicalStatus": false,
+        "TransformSGRatingInputStatus": false,
+        "ZipCodeList": [
+        ],
+        "ZipCodeListLength": 1,
+        "allowNavigation": false,
+        "brokerPage": {
+            "workingWithBroker": "no"
+        },
+        "censusId": "a310x000001Yf3CAAS",
+        "co_LAndDPlanLimit": 10,
+        "co_dentalPlanLimit": 10,
+        "co_hiddenAttributes": [
+            "Formulary",
+            "Formulary Link"
+        ],
+        "co_medicalPlanLimit": 10,
+        "co_visionPlanLimit": 10,
+        "communityMedicalRates": {
+            "contractCountForECH": 1,
+            "contractCountForEMP": 1,
+            "contractCountForESP": 1,
+            "contractCountForFAM": 1
+        },
+        "coverageBeginsPage": {
+            "RequestedCoverageEffectiveDate": "Jan 1 2019"
+        },
+        "currentDT": "2018-10-30 23:19:15",
+        "deductiblePeriodPage": {
+            "deductiblePeriod": "Calendar Year"
+        },
+        "dentalCoveragePage": {
+            "dentalCoverage": "Yes",
+            "dentalCoveragePageHeaderGroup": null
+        },
+        "dentalGuarantee": "12months",
+        "dentalGuaranteePage": {
+            "dentalGuarantee": "12months",
+            "dentalGuaranteeHeaderGroup": null
+        },
+        "dentalPage": {
+            "DentalPlans": null
+        },
+        "eligible1Min": "[\"CA\", \"NH\", \"NV\", \"NY\", \"VA\", \"WI\"]",
+        "eligible50Max": "[\"GA\", \"IN\", \"KY\", \"ME\", \"MO\", \"NH\", \"NV\", \"OH\", \"VA\", \"WI\"]",
+        "employeeCoveragePage": {
+            "MinimumEligible": true,
+            "MinimumEligibleEmployees": "Yes",
+            "allEmployees": 2,
+            "eligibleEmployees": 2,
+            "isEligibleOverAll": "Yes",
+            "isOverStateLimit": "Yes",
+            "moreElegThanAll": true,
+            "singleEligibleMessage": false,
+            "stateLimit": 100,
+            "stateMin": 2,
+            "tooManyEligible": true
+        },
+        "enableRecaptcha": true,
+        "error": "OK",
+        "groupProfilePage": {
+            "createProfile": {
+                "cp_businessName": "John",
+                "cp_emailAddress": "jdoe043@mail.com",
+                "cp_ext": null,
+                "cp_firstName": "John",
+                "cp_lastName": "Doe",
+                "cp_phoneNumber": ""
+            }
+        },
+        "isdtp": "p1",
+        "layout": "lightning",
+        "medicalPage": {
+            "MedicalPlans": [
+                {
+                    "CDHIndicator": null,
+                    "CDHPIndicator": "Y",
+                    "CoinsuranceType": null,
+                    "Endo_Perio_Oral": null,
+                    "FundingType": null,
+                    "HSAIndicatorFlag": "Y",
+                    "HSAIndicatorFlagBoolean": true,
+                    "Name": "Anthem Bronze Pathway HMO 6650/0%/6650 w/HSA",
+                    "Network": "Pathway",
+                    "ProductCode": "3J2B",
+                    "ProductDesign": null,
+                    "ProductId": "01t0x000002D7uXAAS",
+                    "ProductSkuID": null,
+                    "ProductSubType": "HSA",
+                    "Type": "Medical",
+                    "VoluntaryProduct": "N",
+                    "bundling": null,
+                    "bundlingDiscount": null,
+                    "dentalFiveTier": false,
+                    "dependentRates": {
+                        "a300x0000008CSnAAM": "281.26",
+                        "a300x0000008CSoAAM": "197.94"
+                    },
+                    "failedToLoad": false,
+                    "groupRate": 1041.72,
+                    "hiosID": "76680CO0240066",
+                    "linkId": null,
+                    "medlock": null,
+                    "memberRates": {
+                        "a300x0000008CSdAAM": 281.26,
+                        "a300x0000008CSiAAM": 281.26
+                    },
+                    "topSellerOrder": 0,
+                    "vlcSelected": true
+                }
+            ]
+        },
+        "modularQuestionsReady": false,
+        "needsRecalculation": true,
+        "noResultsError": false,
+        "omniCancelAction": "back",
+        "omniIframeEmbedded": true,
+        "options": {
+        },
+        "percentSign": "%",
+        "planContractList": {
+            "planContractList": [
+                {
+                    "contractCode": "3J3L"
+                }
+            ]
+        },
+        "planSelectionReady": true,
+        "planTypePage": {
+            "dentalInsuranceType": false,
+            "hideUpSellFormula": false,
+            "lifeInsuranceType": false,
+            "medicalInsuranceType": true,
+            "planSelectionCount": 1,
+            "planTypeSelection": "medical",
+            "showModular": false,
+            "showModularLandD": false,
+            "singleMemberGroupMessage": false,
+            "visionInsuranceType": false
+        },
+        "ratingType": "Member",
+        "ratingsCoverageType": "medical",
+        "reqJSON": {
+            "calculateRateRequest": {
+                "allSpecialtyRates": "1",
+                "calcReqId": "CO-2018-10-30 23:19:15",
+                "coverageType": "1",
+                "groupDetails": {
+                    "association": 0,
+                    "county": "059",
+                    "groupEffectiveDate": "2019-01-01",
+                    "noOfEligibleLivesDental": "2",
+                    "noOfEligibleLivesVision": "2",
+                    "sic": "5551",
+                    "state": "CO",
+                    "zipCode": "80001"
+                },
+                "includeFamilyDetails": "0",
+                "planContractCodesList": {
+                    "planContractCode": [
+                        {
+                            "contractCode": "3J3L"
+                        }
+                    ]
+                },
+                "provideRatesOnly": "0",
+                "ratingMethod": "DEFAULT",
+                "subscriberDetails": {
+                    "censusId": "a310x000001Yf3CAAS",
+                    "noOfEligibleLivesCOBRA": 0,
+                    "noOfEligibleLivesDental": 0,
+                    "noOfEligibleLivesLD": 2,
+                    "noOfEligibleLivesMedical": 2,
+                    "noOfEligibleLivesVision": 0,
+                    "subscriberList": [
+                        {
+                            "dependent": [
+                                {
+                                    "age": "28",
+                                    "birthDate": "1990-11-11",
+                                    "inTobaccoWellness": "0",
+                                    "isTobaccoUser": "0",
+                                    "memberRelationshipTypeCode": "SPOUS",
+                                    "memberUniqueId": "a300x0000008CSnAAM"
+                                },
+                                {
+                                    "age": "8",
+                                    "birthDate": "2010-11-11",
+                                    "inTobaccoWellness": "0",
+                                    "isTobaccoUser": "0",
+                                    "memberRelationshipTypeCode": "DPNDT",
+                                    "memberUniqueId": "a300x0000008CSoAAM"
+                                }
+                            ],
+                            "member": {
+                                "age": "28",
+                                "birthDate": "1990-11-11",
+                                "dentalTier": null,
+                                "enrollmentTypeCode": "EMP",
+                                "genderCode": null,
+                                "inTobaccoWellness": "0",
+                                "isBundled": "0",
+                                "isCobra": "0",
+                                "isDentalPriorCoverage": "1",
+                                "isTobaccoUser": "0",
+                                "memberRelationshipTypeCode": "SCRBR",
+                                "memberUniqueId": "a300x0000008CSdAAM",
+                                "rateGuarMonths": "12",
+                                "visionTier": null
+                            }
+                        },
+                        {
+                            "dependent": null,
+                            "member": {
+                                "age": "28",
+                                "birthDate": "1990-11-11",
+                                "dentalTier": null,
+                                "enrollmentTypeCode": "EMP",
+                                "genderCode": null,
+                                "inTobaccoWellness": "0",
+                                "isBundled": "0",
+                                "isCobra": "0",
+                                "isDentalPriorCoverage": "1",
+                                "isTobaccoUser": "0",
+                                "memberRelationshipTypeCode": "SCRBR",
+                                "memberUniqueId": "a300x0000008CSiAAM",
+                                "rateGuarMonths": "12",
+                                "visionTier": null
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "sInstanceId": "a3Y0x000000B4M2EAK",
+        "securityQuestionsResp": [
+            {
+                "name": "First_Job_City",
+                "value": "In what city was your first job?"
+            },
+            {
+                "name": "Pet_Name",
+                "value": "What is your pet's name?"
+            },
+            {
+                "name": "Childhood_Nickname",
+                "value": "What was your childhood nickname?"
+            },
+            {
+                "name": "Mothers_Maiden",
+                "value": "What is your mother's maiden name?"
+            },
+            {
+                "name": "Significant_Other_City",
+                "value": "In what city did you meet your spouse/significant other?"
+            },
+            {
+                "name": "Childhood_Friend",
+                "value": "What is the name of your favorite childhood friend?"
+            },
+            {
+                "name": "Birth_City",
+                "value": "In what city were you born?"
+            }
+        ],
+        "selectedCounty": "JEFFERSON",
+        "sfdcIFrameHost": "web",
+        "sfdcIFrameOrigin": "https://staging-isg.cs95.force.com",
+        "sgapsdev1-isg.cs94.force.com": "6Lff60wUAAAAACAiN_ecEuSMgcoibfe2ls-7CwXg",
+        "sgapsdev2-isg.cs50.force.com": "6Lfu5kwUAAAAAKYeumw11Fk0jVC8h2yifRDIUgm5",
+        "showDetail": false,
+        "sicPage": {
+            "CheckSIC": false,
+            "CheckSIC8021": false,
+            "InvalidSIC": null,
+            "SIC8021ErrorMessage": true,
+            "SICCode_Number": 5551,
+            "TypeAheadSIC-Block": {
+                "SICName": "BOAT DEALERS",
+                "SIC_Code": "5551",
+                "TypeAheadSIC": "5551 BOAT DEALERS"
+            },
+            "sicPageHeaderGroup": null
+        },
+        "subscriberCounts": {
+            "censusId": "a310x000001Yf3CAAS",
+            "noOfEligibleLivesCOBRA": 0,
+            "noOfEligibleLivesDental": 0,
+            "noOfEligibleLivesLD": 2,
+            "noOfEligibleLivesMedical": 2,
+            "noOfEligibleLivesVision": 0
+        },
+        "subscriberDetails": {
+            "censusId": "a310x000001Yf3CAAS",
+            "noOfEligibleLivesCOBRA": 0,
+            "noOfEligibleLivesDental": 0,
+            "noOfEligibleLivesLD": 2,
+            "noOfEligibleLivesMedical": 2,
+            "noOfEligibleLivesVision": 0,
+            "subscriberList": [
+                {
+                    "dependent": [
+                        {
+                            "age": "28",
+                            "birthDate": "1990-11-11",
+                            "inTobaccoWellness": "0",
+                            "isTobaccoUser": "0",
+                            "memberRelationshipTypeCode": "SPOUS",
+                            "memberUniqueId": "a300x0000008CSnAAM"
+                        },
+                        {
+                            "age": "8",
+                            "birthDate": "2010-11-11",
+                            "inTobaccoWellness": "0",
+                            "isTobaccoUser": "0",
+                            "memberRelationshipTypeCode": "DPNDT",
+                            "memberUniqueId": "a300x0000008CSoAAM"
+                        }
+                    ],
+                    "member": {
+                        "age": "28",
+                        "birthDate": "1990-11-11",
+                        "dentalTier": null,
+                        "enrollmentTypeCode": "EMP",
+                        "genderCode": null,
+                        "inTobaccoWellness": "0",
+                        "isBundled": "0",
+                        "isCobra": "0",
+                        "isDentalPriorCoverage": "1",
+                        "isTobaccoUser": "0",
+                        "memberRelationshipTypeCode": "SCRBR",
+                        "memberUniqueId": "a300x0000008CSdAAM",
+                        "rateGuarMonths": "12",
+                        "visionTier": null
+                    }
+                },
+                {
+                    "dependent": null,
+                    "member": {
+                        "age": "28",
+                        "birthDate": "1990-11-11",
+                        "dentalTier": null,
+                        "enrollmentTypeCode": "EMP",
+                        "genderCode": null,
+                        "inTobaccoWellness": "0",
+                        "isBundled": "0",
+                        "isCobra": "0",
+                        "isDentalPriorCoverage": "1",
+                        "isTobaccoUser": "0",
+                        "memberRelationshipTypeCode": "SCRBR",
+                        "memberUniqueId": "a300x0000008CSiAAM",
+                        "rateGuarMonths": "12",
+                        "visionTier": null
+                    }
+                }
+            ]
+        },
+        "targetSystem": "APS",
+        "timeStamp": "2018-10-30T22:56:10.874Z",
+        "tour": "",
+        "userCurrencyCode": "USD",
+        "userId": "0050x000001LqrdAAC",
+        "userName": "employer_portal@staging-isg.cs95.force.com",
+        "userProfile": "Employer Portal Profile",
+        "userTimeZone": null,
+        "vlcPersistentComponent": {
+        },
+        "zipCodeLength": 5,
+        "zipPage": {
+            "CountyCode_Number": 59,
+            "StateNotLicensed": true,
+            "ValidState": true,
+            "ValidZipCode": true,
+            "zipBlock": {
+                "County": "JEFFERSON",
+                "County_Select": null,
+                "zipcode": "80001"
+            }
+        },
+        "zipcode": "80001"
+    },
+    "Status": true,
+    "Type": "DataRaptor Transform Action"
+}

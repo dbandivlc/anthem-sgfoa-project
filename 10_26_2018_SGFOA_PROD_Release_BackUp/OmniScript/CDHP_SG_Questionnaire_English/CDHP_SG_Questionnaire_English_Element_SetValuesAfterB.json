@@ -1,0 +1,35 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Questionnaire",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CDHP/SG_Questionnaire/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 23,
+    "%vlocity_namespace%__PropertySet__c": {
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "var_show_6580_noBankMsg": "=IF(%ParentDetails_HSA_Account_Type%=true & %ParentDetails_FSA_Account_Type%=false & %ParentDetails_Commuter_Account_Type%=false &%ParentDetails_HRA_Account_Type% = false & (%HSADetails_Method_of_Providing_Payroll_Contribution%='ACH Push contributions through employer payroll process' | %HSADetails_Method_of_Providing_Payroll_Contribution_SG% = 'ACH Push contributions through employer payroll process'),true,false)"
+        },
+        "label": "SetValues13",
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetValuesAfterB",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/CDHP/SG_Questionnaire/English/SetValuesAfterB"
+}

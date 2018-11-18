@@ -1,0 +1,49 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Questionnaire",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CDHP/Questionnaire/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 88,
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "pncn1r_ContactId": "=%pncn1_Contact_Name-Block:ContactId%",
+            "pncn1r_UserId": "=%pncn1_Contact_NameU-Block:EmployeeId%",
+            "pncn2r_ContactId": "=%pncn2_Contact_Name-Block:ContactId%",
+            "pncn2r_UserId": "=%pncn2_Contact_NameU-Block:EmployeeId%",
+            "pncn3r_ContactId": "=%pncn3_Contact_Name-Block:ContactId%",
+            "pncn3r_UserId": "=%pncn3_Contact_NameU-Block:EmployeeId%",
+            "pncn4r_ContactId": "=%pncn4_Contact_Name-Block:ContactId%",
+            "pncn4r_UserId": "=%pncn4_Contact_NameU-Block:EmployeeId%",
+            "pncn5r_ContactId": "=%pncn5_Contact_Name-Block:ContactId%",
+            "pncn5r_UserId": "=%pncn5_Contact_NameU-Block:EmployeeId%",
+            "pncn6r_ContactId": "=%pncn6_Contact_Name-Block:ContactId%",
+            "pncn6r_UserId": "=%pncn6_Contact_NameU-Block:EmployeeId%",
+            "pncn7r_ContactId": "=%pncn7_Contact_Name-Block:ContactId%",
+            "pncn7r_UserId": "=%pncn7_Contact_NameU-Block:EmployeeId%"
+        },
+        "label": "SetValues26",
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetValuesGetPNCNDefaultContactOrUserId",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/CDHP/Questionnaire/English/SetValuesGetPNCNDefaultContactOrUserId"
+}

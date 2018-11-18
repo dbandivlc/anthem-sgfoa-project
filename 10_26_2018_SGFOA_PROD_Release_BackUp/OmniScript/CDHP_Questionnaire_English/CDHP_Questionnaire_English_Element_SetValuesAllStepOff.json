@@ -1,0 +1,80 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "add condition :\n    actionType isEqualTo update\nthis will allow only section A and K to be shown",
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Questionnaire",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CDHP/Questionnaire/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 12,
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "varShow_Appendix_1": "=false",
+            "varShow_Appendix_2": "=false",
+            "varShow_Appendix_2-1": "=false",
+            "varShow_Appendix_2-2": "=false",
+            "varShow_Appendix_2-3": "=false",
+            "varShow_Appendix_2-4": "=false",
+            "varShow_Appendix_2-5": "=false",
+            "varShow_Appendix_2-6": "=false",
+            "varShow_Appendix_2A": "=false",
+            "varShow_Appendix_2A-1": "=false",
+            "varShow_Appendix_2A-2": "=false",
+            "varShow_Appendix_2A-3": "=false",
+            "varShow_Appendix_2A-4": "=false",
+            "varShow_Appendix_2A-5": "=false",
+            "varShow_Appendix_2A-6": "=false",
+            "varShow_Appendix_3": "=false",
+            "varShow_Section_B": "=false",
+            "varShow_Section_C": "=false",
+            "varShow_Section_D": "=false",
+            "varShow_Section_E": "=false",
+            "varShow_Section_E1": "=false",
+            "varShow_Section_E2": "=false",
+            "varShow_Section_E3": "=false",
+            "varShow_Section_E4": "=false",
+            "varShow_Section_E5": "=false",
+            "varShow_Section_E6": "=false",
+            "varShow_Section_F": "=false",
+            "varShow_Section_G": "=false",
+            "varShow_Section_H": "=false",
+            "varShow_Section_I": "=false",
+            "varShow_Section_J": "=false",
+            "varShow_Section_PNCN": "=false",
+            "zzzcdhpAdmin": "=COUNT(%BankDetails%)"
+        },
+        "label": "SetValues4",
+        "message": {
+        },
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "zzz_NotExecute"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetValuesAllStepOff",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/CDHP/Questionnaire/English/SetValuesAllStepOff"
+}

@@ -1,0 +1,256 @@
+{
+    "ExtractedResponse": {
+        "ProductToAgeRateBandSheetMember": [
+        ],
+        "QuoteID": "0Q00x0000006P9BCAU",
+        "SRQVERSION": "SRQ Version 7.2.11",
+        "productToGroupPlanSummaryList": [
+            {
+                "Class_1_Value__c": "2AJL",
+                "Group_Plan_Summary__c": "ProductandProvisions BASICLIFE",
+                "Name": "GroupPlanSummary - 2AJL",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Class_1_Value__c": "30BS",
+                "Group_Plan_Summary__c": "WGS BASICLIFE",
+                "Name": "GroupPlanSummary - 30BS",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Class_1_Value__c": "30C4",
+                "Group_Plan_Summary__c": "WGS BASICADD",
+                "Name": "GroupPlanSummary - 30C4",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Class_1_Value__c": "30BV",
+                "Group_Plan_Summary__c": "WGS DEPLIFE",
+                "Name": "GroupPlanSummary - 30BV",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Class_1_Value__c": "2AGD",
+                "Group_Plan_Summary__c": "ProductandProvisions STD",
+                "Name": "GroupPlanSummary - 2AGD",
+                "QuoteLineItemId": "0QL0x0000006KUdGAM"
+            },
+            {
+                "Class_1_Value__c": "30BD",
+                "Group_Plan_Summary__c": "WGS STD",
+                "Name": "GroupPlanSummary - 30BD",
+                "QuoteLineItemId": "0QL0x0000006KUdGAM"
+            }
+        ],
+        "productToMemberRateSheetRecordList": [
+        ],
+        "productToQuoteLineItemMap": [
+            {
+                "BundledMonthlyPremium__c": 49.5,
+                "Class_1_Total__c": 49.5,
+                "Enrolling_Employees__c": 11,
+                "L_D_ADD_Premium__c": 22,
+                "L_D_ADD_Rate__c": 0.04,
+                "L_D_ADD_Volume__c": 550000,
+                "L_D_Bundled_Rate__c": 0.09,
+                "L_D_Bundled_Volume__c": 550000,
+                "L_D_C1_SOB_AD_D__c": "Equal to Term Life",
+                "L_D_C1_SOB_Dependent_Life__c": "$10,000/$5,000",
+                "L_D_C1_SOB_STD__c": "N/A",
+                "L_D_C1_SOB_Term_Life__c": "$50,000",
+                "L_D_Dep_Premium__c": 0,
+                "L_D_Dep_Rate__c": 1.19,
+                "L_D_Dep_Volume__c": 0,
+                "L_D_Rate__c": 0.09,
+                "L_D_Volume__c": 550000,
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "BundledMonthlyPremium__c": 52.25,
+                "Class_1_Total__c": 55,
+                "Enrolling_Employees__c": 11,
+                "L_D_Bundled_Rate__c": 0.19,
+                "L_D_Bundled_Volume__c": 2750,
+                "L_D_C1_SOB_AD_D__c": "N/A",
+                "L_D_C1_SOB_Dependent_Life__c": "N/A",
+                "L_D_C1_SOB_STD__c": "$250",
+                "L_D_C1_SOB_Term_Life__c": "N/A",
+                "L_D_Rate__c": 0.2,
+                "L_D_Volume__c": 2750,
+                "QuoteLineItemId": "0QL0x0000006KUdGAM"
+            }
+        ],
+        "productTobenifitPlanHighlightsList": [
+            {
+                "Benefit_Highlight__c": "- Employee eligibility is defined as permanent full-time employees working a minimum of 30 hours per week.",
+                "Name": "01",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- The proposed Guaranteed Issue amounts cannot exceed the prior carrier's Guaranteed Issue amounts. A copy of the prior carrier's certificate will be required.",
+                "Name": "02",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- Term Life Guaranteed Issue Limit is $50,000 for all ages.",
+                "Name": "03",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- Accelerated Death Benefit standard: Benefit may be up to 75% of the Group Term Life face amount to a maximum of $250,000.",
+                "Name": "04",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- Premiums can be waived for employees who become totally disabled before age 60, after the 6 month elimination period. Coverage terminates at age 65 or retirement, whichever is earlier.",
+                "Name": "05",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- Term Life benefits include conversion.",
+                "Name": "06",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- Reduction Schedule for class(es) 1: Term Life and AD&D benefits reduce by the following percents: 35% at age 65; 50% at age 70. Benefits terminate at retirement.",
+                "Name": "07",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- The Term Life rate provided is based on a non-contributory plan. However, if the coverage is contributory, 75% participation will be required of those eligible to enroll, and the rate may need to be adjusted.",
+                "Name": "08",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- AD&D benefits include Seat Belt benefit, Airbag benefit, Child Education benefit, Repatriation benefit, Common Carrier and Coma.",
+                "Name": "09",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- Dependent benefits may not exceed 50% of the employee Term Life benefit amount, up to the maximum benefit stated in the schedule of benefits.",
+                "Name": "10",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- Dependent Life insurance for a spouse will end when the spouse reaches age 70.",
+                "Name": "11",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- For dependent life to be offered, 50% of the eligible employees with dependent must participate (100% if the plan is non-contributory).",
+                "Name": "12",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- Employees whose wages are reported on Form 1099 in lieu of Form W-2 are not eligible for coverage.",
+                "Name": "13",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- Employees must be actively at work, at least 17 years of age and working in the United States, in order to become insured. Employees not actively at work on their effective date will become eligible for insurance after completing the waiting period specified in the policy unless otherwise noted on the schedule of benefits.",
+                "Name": "14",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- The Resource Advisor phone/web member assistance program is included in this proposal.",
+                "Name": "15",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- Travel Assistance is included in this proposal.",
+                "Name": "16",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- Open enrollment for any line of coverage is not permitted.",
+                "Name": "17",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- Term Life and AD&D Rate(s) are guaranteed for 2 years.",
+                "Name": "18",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- Rates have been calculated using standard Underwriting guidelines.  Insurer reserves the right to review rates and costs based on final enrollment data, effective date and plan indicated on your signed enrollment materials.",
+                "Name": "19",
+                "QuoteLineItemId": "0QL0x0000006KUcGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- Employee eligibility is defined as permanent full-time employees working a minimum of 30 hours per week.",
+                "Name": "01",
+                "QuoteLineItemId": "0QL0x0000006KUdGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- Employees whose wages are reported on Form 1099 in lieu of Form W-2 are not eligible for coverage.",
+                "Name": "02",
+                "QuoteLineItemId": "0QL0x0000006KUdGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- Employees must be actively at work, at least 17 years of age and working in the United States, in order to become insured. Employees not actively at work on their effective date will become eligible for insurance after completing the waiting period specified in the policy unless otherwise noted on the schedule of benefits.",
+                "Name": "03",
+                "QuoteLineItemId": "0QL0x0000006KUdGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- Open enrollment for any line of coverage is not permitted.",
+                "Name": "04",
+                "QuoteLineItemId": "0QL0x0000006KUdGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- STD: Guaranteed Issue amount is equal to the maximum STD benefit amount.",
+                "Name": "05",
+                "QuoteLineItemId": "0QL0x0000006KUdGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- STD benefits begin on the 1st day of accident, the 8th day of sickness for a maximum of 26 weeks.",
+                "Name": "06",
+                "QuoteLineItemId": "0QL0x0000006KUdGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- Salary based STD benefits are rounded up to the next $10.",
+                "Name": "07",
+                "QuoteLineItemId": "0QL0x0000006KUdGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- STD: Partial Disability with zero day residual.",
+                "Name": "08",
+                "QuoteLineItemId": "0QL0x0000006KUdGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- W-2 service is included in this proposal. This proposal assumes Anthem Life is responsible for the Employer FICA, using the insurer's tax ID.",
+                "Name": "09",
+                "QuoteLineItemId": "0QL0x0000006KUdGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- STD: Work Retention Assistance is included.",
+                "Name": "10",
+                "QuoteLineItemId": "0QL0x0000006KUdGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- STD: Maternity coverage is included.",
+                "Name": "11",
+                "QuoteLineItemId": "0QL0x0000006KUdGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- The STD rate provided is based on a non-contributory plan. However, if the coverage is contributory, 75% participation will be required of those eligible to enroll, and the rate may need to be adjusted.",
+                "Name": "12",
+                "QuoteLineItemId": "0QL0x0000006KUdGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- The STD plan and benefits quoted above do not replace the state-mandated benefits of CA, NY, NJ, HI, PR or RI. This plan will integrate or offset with the state-mandated coverage where employees covered by such plans exist at time of claim. If the census data provided for this quote included state location at the employee level, the state-mandated plan benefits would have been considered in setting our pricing. The volume calculated for monthly premium will be based on the total benefit amount, and not reduced by the state mandated benefit.",
+                "Name": "13",
+                "QuoteLineItemId": "0QL0x0000006KUdGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- Rates have been calculated using standard Underwriting guidelines.  Insurer reserves the right to review rates and costs based on final enrollment data, effective date and plan indicated on your signed enrollment materials.",
+                "Name": "14",
+                "QuoteLineItemId": "0QL0x0000006KUdGAM"
+            },
+            {
+                "Benefit_Highlight__c": "- STD Rate(s) are guaranteed for 2 years.",
+                "Name": "15",
+                "QuoteLineItemId": "0QL0x0000006KUdGAM"
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "RatingIntegration",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Rating/RatingIntegration/Procedure",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 13,
+    "%vlocity_namespace%__PropertySet__c": {
+        "additionalInput": {
+            "ratingsCoverageType": "%ratingsCoverageType%"
+        },
+        "additionalOutput": {
+        },
+        "disOnTplt": false,
+        "executionConditionalFormula": "SelectedState != 'NY'",
+        "extraPayload": {
+        },
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "RemoteAction9",
+        "remoteClass": "AP_CensusDataIntegration",
+        "remoteMethod": "removeWaivedMembersForSG",
+        "remoteOptions": {
+        },
+        "responseJSONNode": "reqJSON",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "useFormulas": true
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Remote Action",
+    "Name": "RemoveWaivedMembersForSG",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Rating/RatingIntegration/Procedure/RemoveWaivedMembersForSG"
+}

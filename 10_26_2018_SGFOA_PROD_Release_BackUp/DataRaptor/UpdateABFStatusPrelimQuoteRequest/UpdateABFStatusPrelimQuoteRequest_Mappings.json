@@ -1,0 +1,44 @@
+[
+    {
+        "%vlocity_namespace%__DefaultValue__c": "Prelim Quote Requested",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Quote",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "ABFStatus__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ABFStatus",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "UpdateABFStatusPrelimQuoteRequestCustoma2c3B000000IbTCQA0Item1",
+        "%vlocity_namespace%__TransformValuesMap__c": "{}",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "UpdateABFStatusPrelimQuoteRequest",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Quote",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ABF_QuoteId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": true,
+        "%vlocity_namespace%__MapId__c": "UpdateABFStatusPrelimQuoteRequestCustoma2c3B000000IbTCQA0Item2",
+        "%vlocity_namespace%__UpsertKey__c": true,
+        "Name": "UpdateABFStatusPrelimQuoteRequest",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__ConfigurationValue__c": "FAKEMAPPING",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Quote",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__IsDisabled__c": true,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "UpdateABFStatusPrelimQuoteRequestCustoma2c3B000000IbTCQA0Item0",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "UpdateABFStatusPrelimQuoteRequest",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

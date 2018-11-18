@@ -1,0 +1,16 @@
+{
+    "countyList": [
+        {
+            "brand": "ABCBS",
+            "countyCode": "059",
+            "countyName": "JEFFERSON",
+            "message": "Success",
+            "productTypeCoverage": {
+                "MEDICAL": "Y"
+            }
+        }
+    ],
+    "responseMessage": "Success",
+    "stateCode": "CO",
+    "zipcode": "80001"
+}

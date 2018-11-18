@@ -1,0 +1,13 @@
+{
+    "benefitPeriod": "Calendar Year",
+    "countyCode": "059",
+    "effectiveDate": "2018-01-01",
+    "eligibleLives": "5",
+    "exchangeFlag": "OF",
+    "productType": "Medical",
+    "renewalOnly": "N",
+    "state": "CO",
+    "targetSystem": "SG",
+    "userType": "Internal",
+    "zipCode": "80001"
+}

@@ -1,0 +1,323 @@
+{
+    "AccCensus": 1,
+    "AccountId": "0013B00000MvhCzQAJ",
+    "ActionButton": "quote",
+    "AssociationSelect": "No",
+    "BenefitLevelValue": "3",
+    "BillingZipCode3": [
+    ],
+    "Brand": "EBCBS",
+    "BrokerContactId": "0033B00000In3S5QAJ",
+    "BrokerUserId": "0053B000001IGXmQAO",
+    "CategorySelection": {
+        "AllCoverageOptions": "Medical;Dental;Vision",
+        "CoverageEffectiveDate": "Apr 1 2018",
+        "CoverageOptions": "Medical;Dental;Vision",
+        "HealthCoverageOptions": null,
+        "IU-NY-NoBroker": "No",
+        "IU-NY-NoBrokerCoverageOptions": null,
+        "IU-NonNY-NoBrokerCoverageOptions": null,
+        "IU-nonNY-NoBroker": "No",
+        "LifeCoverageOptions": null,
+        "NONNYCoverageOptions": null,
+        "NYAllCoverageOptions": "Medical;Dental;Vision",
+        "NoBrokerSelectedOptions": null,
+        "Object_Id": "0013B00000MvhCzQAJ",
+        "ReqEffDtFormula": "Q2_2018",
+        "ReqEffDtFormula-Monthly": "APR_2018",
+        "ReqEffDtFormula-Year": "2018",
+        "RequestedCoverageEffectiveDate": null,
+        "RequestedCoverageNonBrokerDates": "Apr 1 2018",
+        "SaveForLaterName": "Quote No:00008207 Eff.Date:Apr 1 2018 Products:Medical;Dental;Vision"
+    },
+    "CheckAccountTeamMemberUserId": "0053B000001IGXmQAO",
+    "Class1NumberofEE+Children": 0,
+    "Class1NumberofEE+Spouse": 0,
+    "Class1NumberofFamily": 0,
+    "Class1NumberofSingles(EE)": 0,
+    "Class2NumberofEE+Children": 0,
+    "Class2NumberofEE+Spouse": 0,
+    "Class2NumberofFamily": 0,
+    "Class2NumberofSingles(EE)": 0,
+    "Class3NumberofEE+Children": 0,
+    "Class3NumberofEE+Spouse": 0,
+    "Class3NumberofFamily": 0,
+    "Class3NumberofSingles (EE)": 0,
+    "ClassDistinction": "No",
+    "ContextId": "",
+    "County1": "NEW YORK",
+    "CountyCode": "061",
+    "CoverageOptions": "Medical;Dental;Vision",
+    "DRId_%vlocity_namespace%__OmniScriptInstance__c": "a3Y3B0000005amRUAQ",
+    "DRId_Account": "0013B00000MvhCzQAJ",
+    "DRId_Opportunity": "0063B000006oW4gQAE",
+    "DRId_Quote": "0Q03B0000001IlASAU",
+    "DentalPriorCoverage": "X",
+    "DentalRateGuarantee": "X",
+    "EffectiveDate": "2018-04-01",
+    "GeneralAgencyContactId": "BLANK",
+    "GeneralAgencyContactUserId": "BLANK",
+    "LicenseStatus": "Valid",
+    "LoadCACOEnroll": false,
+    "LoadNYEnroll": false,
+    "MailingZipCode3": [
+    ],
+    "MappedCode": "101",
+    "MinCounty": "NEW YORK",
+    "MinInfo": {
+        "Class1and2": {
+            "Class1CheckTotal": null,
+            "Class1CheckTotalMessage": null,
+            "Class1NumberofEE+Children": 1,
+            "Class1NumberofEE+Spouse": 1,
+            "Class1NumberofFamily": 0,
+            "Class1NumberofSingles(EE)": 2,
+            "Class2CheckTotal": false,
+            "Class2CheckTotalMessage": null,
+            "Class2NumberofEE+Children": 0,
+            "Class2NumberofEE+Spouse": 1,
+            "Class2NumberofFamily": 0,
+            "Class2NumberofSingles(EE)": 1,
+            "Class3CheckTotal": true,
+            "Class3CheckTotalMessage": true,
+            "Class3NumberofEE+Children": 2,
+            "Class3NumberofEE+Spouse": 0,
+            "Class3NumberofFamily": 0,
+            "Class3NumberofSingles (EE)": 2,
+            "TotalEE": 5,
+            "TotalEECh": 3,
+            "TotalEEFa": 0,
+            "TotalEESp": 2
+        },
+        "CoverageOptionsIncludeDental": true,
+        "CoverageOptionsIncludeMedical": true,
+        "Dental8021CheckMessage": true,
+        "DentalPriorCoverage": "X",
+        "DentalPriorCoverageFormula": 0,
+        "DentalRateGuarantee": "24",
+        "DentalRateGuaranteeFormula": 24,
+        "Eligibility": {
+            "CensusEnrollFormula": false,
+            "CensusEnrollMsg": null,
+            "DefinitionWarningMsg": false,
+            "DefinitionWarningMsg1": null,
+            "DefinitionWarningMsg2": null,
+            "DentalNoOrtho": false,
+            "DentalPlanUnavailableOver50": null,
+            "DentalVisionPlansMinTwo": true,
+            "EligibleFormula": true,
+            "EligibleGreaterthanEnrolling": true,
+            "NumbEligFormula": "TenToTwentyFive",
+            "NumbEnrollFormulaVision": "TenToFifty",
+            "NumberEligible": 15,
+            "NumberEligibleFormula": false,
+            "NumberEnrolling": 10,
+            "Participation": 0.6666666666666666,
+            "ParticipationMessage": false,
+            "ValidWaivers": 0,
+            "VisionParticipationMessage": false
+        },
+        "EmployerVision": null,
+        "InvalidSIC": true,
+        "NumberClasses": "Three",
+        "SelectedSICIs8021": false,
+        "TypeAheadSIC-Block": {
+            "SIC_TXT": "5211",
+            "TypeAheadSIC": "5211 LUMBER AND OTHER BUILDING MATER"
+        },
+        "VisionRateGuarantee": null,
+        "VoluntaryVision": null
+    },
+    "MinState": "NY",
+    "NumberClasses": "One",
+    "OmniScriptState": "regular",
+    "PaidAgencyContactId": "BLANK",
+    "PaidAgencyContactUserId": "BLANK",
+    "ProductLicense": "Health & Life",
+    "QuoteCreatedDate": "2018-04-20T04:31:50.000Z",
+    "QuoteGenerationComplete": false,
+    "QuoteNumber": "00008207",
+    "QuotePreparedFor": {
+        "qCloseDate": null,
+        "qCloseDateText": null,
+        "qContactFax": null,
+        "qContactName": null,
+        "qContactTitle": null,
+        "qEmail": null,
+        "qPhone": null,
+        "qReqEffectiveDate": null,
+        "qReqEffectiveDateDayOfMonth": null,
+        "qReqEffectiveDateDayOfMonth2Char": null,
+        "qReqEffectiveDateMonth": null,
+        "qReqEffectiveDateMonth2Char": null,
+        "qReqEffectiveDateText": null,
+        "qReqEffectiveDateYear": null,
+        "qUpdatedQuoteName": null,
+        "quote_name_blk": {
+            "Address_blk": {
+                "qCityTown": null,
+                "qState": null,
+                "qStreetAddress": null,
+                "qZipCode": null
+            },
+            "qFax": null,
+            "qGroupName": null,
+            "qPrimaryPhone": null
+        }
+    },
+    "QuotingonbehalfofaBroker?": "Yes",
+    "RatingArea": 4,
+    "SearchField": "10005 - NEW YORK",
+    "SelectMedicalCoverage": {
+        "MinOneMedicalPlan": false,
+        "output2": null
+    },
+    "SelectedState": "NY",
+    "ShowNYEnrollCategory": true,
+    "Step": {
+        "AccountCreateMessage": true,
+        "AnthemBrand": "EBCBS",
+        "BrokerProfile": "System Administrator",
+        "BrokerRequiredMessage": true,
+        "CheckZipCode": 1,
+        "CloseDatePrelim": "2018-04-19T18:30:00.000Z",
+        "ContextIdFormula": 1,
+        "County": "NEW YORK",
+        "CreateAcctCheckbox": false,
+        "CreateNewAccFormula": false,
+        "ETINFormula": null,
+        "ExistingAccount_Id": "0013B00000MvhCzQAJ",
+        "FormulaCounty": "NEW YORK",
+        "FormulaState": "NY",
+        "FormulaZip": "10005",
+        "GeneralAgencyMessage": null,
+        "GroupName": null,
+        "GroupROFormula": null,
+        "InitialQuoteName": "10 apr non-ny acc 4/20/2018",
+        "InvalidZipMsg": true,
+        "IsPreExistingAccount": true,
+        "NYEnrollCheck": false,
+        "Other Reason Description": null,
+        "PaidAgencyMessage": null,
+        "QuoteErrMsg": true,
+        "QuotingonbehalfofaBroker?": "Yes",
+        "Reason": "Testing",
+        "Sizecheck": 1,
+        "StateNotActiveMsg": true,
+        "TaxID": null,
+        "Today": "2018-04-19T18:30:00.000Z",
+        "TypeAHeadEmployee-Block": {
+            "EmployeeId": null,
+            "TypeAHeadEmployee": null
+        },
+        "TypeAheadAccount-Block": {
+            "ExistingAccountId": "0013B00000MvhCzQAJ",
+            "ExistingAccountName": "10 apr non-ny acc",
+            "GroupETIN": "778784587",
+            "TypeAheadAccount": "10 apr non-ny acc"
+        },
+        "TypeAheadBroker-Block": {
+            "Broker": "REVA HAWK",
+            "BrokerId": "0033B00000In3S5QAJ",
+            "BrokerTIN": null,
+            "TypeAheadBroker": "REVA HAWK"
+        },
+        "TypeAheadETINRO": "778784587",
+        "TypeAheadGeneralAgency-Block": {
+            "GeneralAgency": null,
+            "GeneralAgencyId": null,
+            "GeneralAgencyTIN": null,
+            "TypeAheadGeneralAgency": null
+        },
+        "TypeAheadPaidAgency-Block": {
+            "PaidAgency": null,
+            "PaidAgencyId": null,
+            "PaidAgencyTIN": null,
+            "TypeAheadPaidAgency": null
+        },
+        "TypeAheadZip-Block": null,
+        "ZipCode1": null,
+        "qOpportunityName": "10 apr non-ny acc Opportunity 4/20/2018"
+    },
+    "TypeAheadSIC-Block": {
+        "SICName": "LUMBER AND OTHER BUILDING MATER",
+        "SIC_NO": 5211
+    },
+    "TypeAheadZip-Block": {
+    },
+    "VisionRateGuarantee": "24 Months",
+    "ZipCode": "10005",
+    "ZipCode3": "10005",
+    "ZipCodeList": [
+        {
+            "Brand": "EBCBS",
+            "CountyCode": "36061",
+            "MappedCode": "101",
+            "MinCounty": "NEW YORK",
+            "MinState": "NY",
+            "RatingArea": 4,
+            "SearchField": "10005 - NEW YORK",
+            "ZipCode": "10005"
+        }
+    ],
+    "categorySettings": [
+        {
+            "categories": [
+                {
+                    "cName": "Network Name",
+                    "cValue": "PPO/EPO,Blue Priority,Pathway"
+                },
+                {
+                    "cName": "Riders",
+                    "cValue": "SNF 365;Dependent Age 29"
+                }
+            ],
+            "categoryNameToHide": null,
+            "productType": "Medical",
+            "state": "NY"
+        },
+        {
+            "categories": [
+                {
+                    "cName": "Provider Network",
+                    "cValue": "Dental Prime,Dental Complete"
+                },
+                {
+                    "cName": "Product Design",
+                    "cValue": "Value,Classic,Enhanced,Voluntary"
+                }
+            ],
+            "categoryNameToHide": null,
+            "productType": "Dental",
+            "state": "NY"
+        }
+    ],
+    "censusCreate": false,
+    "enableRightPanel": true,
+    "error": "OK",
+    "id": "a3Z3B0000009aTzUAI",
+    "isBroker": false,
+    "isDentalPlansFetched": false,
+    "isMedicalPlansFetched": true,
+    "isVisionPlansFetched": false,
+    "layout": "lightning",
+    "planType": "Medical",
+    "sInstanceId": "a3Y3B0000005amRUAQ",
+    "subscriberDetails": {
+        "censusId": "",
+        "noOfEligibleLivesDental": 0,
+        "noOfEligibleLivesVision": 0,
+        "subscriberList": [
+        ]
+    },
+    "timeStamp": "2018-04-20T04:31:03.864Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053B000001HdoeQAC",
+    "userName": "keerthi.thoutireddy@accenture.com.sgapsdev2",
+    "userProfile": "System Administrator",
+    "userTimeZone": null,
+    "userType": "Both",
+    "verticalMode": false,
+    "vlcPersistentComponent": {
+    }
+}

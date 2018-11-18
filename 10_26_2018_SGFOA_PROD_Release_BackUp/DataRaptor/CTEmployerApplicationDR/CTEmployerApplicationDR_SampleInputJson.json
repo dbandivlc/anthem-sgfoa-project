@@ -1,0 +1,930 @@
+{
+    "ABFApplicationId": "",
+    "ABFPendingSpeciality": "",
+    "AccZip": "06001",
+    "AgencyIDNo1": "",
+    "AgencyName": "",
+    "Agent/Producer/BrokerCert": {
+        "AgencyID _ME": null,
+        "AgencyID _ME1": null,
+        "AgencyID _NH": null,
+        "AgencyID _NH1": null,
+        "AgencyIDNo1": "",
+        "AgencyIDNo12019": "",
+        "AgencyIDNo12019MO": "",
+        "AgencyIDNo1CT": null,
+        "AgencyIDNo1CT1": null,
+        "AgencyIDNo1_NV": "",
+        "AgencyIDNo2": " ",
+        "AgencyName1": "",
+        "AgencyName1CT": null,
+        "AgencyName1_NV": "",
+        "AgencyName2": " ",
+        "AgencyName_NH_ME": null,
+        "AgencyTIN1": "",
+        "AgencyTaxID": "",
+        "Agent/producer/brokerIDno": "",
+        "Agent/producer/brokerIDno.1": "CHG123U79",
+        "Agent/producer/brokerIDno.1CT": "CHG123U79",
+        "Agent/producer/brokerIDno2-Block": {
+            "BrokerTIN": " "
+        },
+        "Agent/producer/brokerIDnoCT": null,
+        "Agent/producer/brokerIDnoCT1": null,
+        "AgentName": "Amy Smart",
+        "AgentName_NV": "Amy Smart",
+        "Agentproducer/brokername1CT": "Amy Smart",
+        "Agentproducer/brokername2": " ",
+        "BrokerContactBlock": {
+            "BrokerEmailAddress": null,
+            "BrokerFirstName": null,
+            "BrokerLastName": null,
+            "BrokerPhoneNumber": null
+        },
+        "BrokervalidationMsg": null,
+        "CTBlock1": {
+            "AgencyName1CT": "",
+            "Agent/producer/brokerIDno": {
+                "1CT": "CHG123U79"
+            },
+            "Agentproducer/brokername1CT": "Amy Smart"
+        },
+        "CheckPayablePctMsg": null,
+        "CheckPayablePercent": 0,
+        "CityNH": "Any",
+        "City_ME": "Any",
+        "Email_ME": "brokerage@test.com",
+        "Email_NH": "brokerage@test.com",
+        "Fax_NH_ME": null,
+        "Federal/tax ID no1_NV": "CHG123U79",
+        "Federal/tax ID no1_NV19": "CHG123U79",
+        "GeneralAgencyCity": "",
+        "GeneralAgencyCityCT": null,
+        "GeneralAgencyEmail": "",
+        "GeneralAgencyEmailCT": null,
+        "GeneralAgencyExists": false,
+        "GeneralAgencyState": "",
+        "GeneralAgencyStateCT": null,
+        "GeneralAgencyZIPCode": "",
+        "GeneralAgencyZIPCodeCT": null,
+        "GeneralAgentStreetaddress": "",
+        "GeneralAgentStreetaddressCT": null,
+        "Generalagent/producer/brokername": "",
+        "Generalagent/producer/brokernameCT": null,
+        "Messagingvalid": null,
+        "NVBlock1": {
+            "Agent name": "Amy Smart",
+            "Federal/tax ID no1_NV": "CHG123U79"
+        },
+        "NV_FederalTaxIDSSN": "CHG123U79",
+        "NV_GeneralAgentName": "",
+        "PaidAgencyExists": false,
+        "PaidAgencyExists1": null,
+        "Payable/sub-agent/producer/brokerIDno.ifdifferent1": null,
+        "Payable/sub-agent/producer/brokerIDno.ifdifferent2": " ",
+        "Phone_NH_ME": "(333) 333-3333",
+        "ProducerIDno2_NH": null,
+        "ProducerIDnoNH": "CHG123U79",
+        "Producername_NH_ME": "Amy Smart",
+        "SplitCommission": "No",
+        "StateNH": "NY",
+        "State_ME": "NY",
+        "StreetAddressNH_ME": "1 Billing St",
+        "TodayDate": "11/14/2018",
+        "TypeAheadGeneralAgency-Block": {
+            "GeneralAgency": null,
+            "GeneralAgencyId": null,
+            "GeneralAgencyTIN": null,
+            "TypeAheadGeneralAgency": null
+        },
+        "TypeAheadPaidAgency-Block": {
+            "PaidAgency": null,
+            "PaidAgencyId": null,
+            "PaidAgencyTIN": null,
+            "TypeAheadPaidAgency": null
+        },
+        "TypeAheadPaidAgency1-Block": null,
+        "Writer1CityCT": "Any",
+        "Writer1EmailCT": "brokerage@test.com",
+        "Writer1Faxno.CT": null,
+        "Writer1PhoneCT": "(333) 333-3333",
+        "Writer1StateCT": "NY",
+        "Writer1StreetaddressCT": "1 Billing St",
+        "Writer1ZipCodeCT": "10002",
+        "Writer2City": " ",
+        "Writer2Email": " ",
+        "Writer2Faxno.": " ",
+        "Writer2Phone": " ",
+        "Writer2State": " ",
+        "Writer2Streetaddress": " ",
+        "Writer2ZipCode": " ",
+        "WritingPayablePercent1": null,
+        "WritingPayablePercent1_default": "100%",
+        "WritingPayablePercent2": " ",
+        "ZipCodeNH": "10002",
+        "Zipcode_ME": "10002"
+    },
+    "AgentBroker2Id": "",
+    "AgentBrokerTIN1": "CHG123U79",
+    "AgentContactLastName": " ",
+    "Agentproducer/brokername1": "Amy Smart",
+    "AmtContributionPerEmployee": "",
+    "ApplicationAccountId": "0010R00000TQY83QAH",
+    "ApplicationCreationSuccess": true,
+    "Applicationnumber": "033638",
+    "AssociationChamberName": "",
+    "AssociationCheck": false,
+    "AssociationCode": "No",
+    "BenefitPeriodDR": "",
+    "Billing_City": "AVON",
+    "Billing_County": "HARTFORD",
+    "Billing_State": "CT",
+    "Billing_Street": "gsdfgsdfg",
+    "Billing_ZipCode": "06001",
+    "Brand": "",
+    "BrokerAccountId1": "0010R00000Dktt1QAB",
+    "BrokerContactId": "0030R00000HdnWNQAZ",
+    "BrokerContactId1": "0030R00000HdnWNQAZ",
+    "BrokerId": "0030R00000HdnWNQAZ",
+    "CASelectedMedical": "",
+    "CheckSelectedPlans_VF": false,
+    "CompanyInformation": {
+        "8021DentalErrorMessage": null,
+        "8021DentalWarningMessage": null,
+        "AddiitonalContactPhone": null,
+        "AdditionalContact": null,
+        "AdditionalContactEmail": null,
+        "AdditionalContactFax": null,
+        "AdditionalContactTitle": null,
+        "AdditionalMainPhone": null,
+        "AppEffectiveDateMMDDYYYY": "01/01/2019",
+        "BillingAddress": "Yes",
+        "BillingCity": " ",
+        "BillingCounty": " ",
+        "BillingCountyCount": 0,
+        "BillingState": " ",
+        "BillingStreet": " ",
+        "BillingZip": null,
+        "BrokerProfile": "Anthem SG Broker",
+        "CT-Organization Type": "Labor union trust",
+        "CTInsuranceCarrier": null,
+        "CTInsuranceCarrier2019": "No",
+        "CTListCarriers": " ",
+        "CT_NH_MEmsgForDocSign": true,
+        "CafeteriaPlan": "Yes",
+        "ChamberNoMsg": null,
+        "ChamberYesMsg": null,
+        "CheckBillingZipCode": null,
+        "City": "AVON",
+        "CompanyContactName": "dsfafsdf",
+        "CompanyName": "Test Ca Medical Percent",
+        "CompanyStreetAddress": "gsdfgsdfg",
+        "ContractExpirationDate": null,
+        "CountYesPleaseCompleteBelow": 0,
+        "County": "HARTFORD",
+        "CovOpContainDental": false,
+        "CoverageAsamember1": null,
+        "CurrentDateMMDDYYYY": "2018-11-13T18:30:00.000Z",
+        "Date business established": "11/17/2018",
+        "DoingBusinessAs": null,
+        "EmailAddress": "da231234@esrfas.hgj",
+        "FormulaBillingCounty": "HARTFORD",
+        "FormulaBillingState": false,
+        "FormulaBillingZip": " ",
+        "FrmDentalBasePremium": "true",
+        "FrmDentalBundledPremium": "false",
+        "FrmNotQualifyAsSingleEmployer": false,
+        "Head of Firm": null,
+        "IfYesAssociationChamberName": " ",
+        "InvalidBillingZipMsg": null,
+        "InvalidSIC": true,
+        "InvalidStateMsg": null,
+        "IsBargainingAgreement": null,
+        "ME-Organization Type": null,
+        "MEChamberNoMsgWQ": null,
+        "MEChamberYesMsgWQ": null,
+        "MESingleEmployer20191": null,
+        "MainPhone": null,
+        "NH-CompanyType": null,
+        "NHInsuranceCarrier": null,
+        "NHOtherContact": null,
+        "NHOtherContact2019": null,
+        "NH_ListCarrier": " ",
+        "NH_MESingleEmployer": null,
+        "NH_MESingleEmployer2019": null,
+        "NamePriorCarrier": " ",
+        "Other Organization type": " ",
+        "PrimaryFax": null,
+        "PrimaryPhone": "2345213452",
+        "Primaryphoneno2019": null,
+        "PriorCarrier": null,
+        "QualifyAsaSingleEmployer": "No",
+        "QuoteSICCodeExists": false,
+        "QuoteSICCodeFormula": null,
+        "SICCode": null,
+        "SaveForLaterName": "Quote No: Eff.Date: Products:",
+        "State": "CT",
+        "StateBankruptcyLaws": null,
+        "TaxIdNumber": "536345345",
+        "Title": null,
+        "Type of business be specific": "gsdfgsdfg",
+        "TypeAheadBillingZip-Block": null,
+        "TypeAheadSIC-Block": {
+            "SIC_TXT": "5712",
+            "TypeAheadSIC": "5712 FURNITURE STORES"
+        },
+        "TypeOfBusiness": "",
+        "TypeofBusinessbeSpecific": "",
+        "UnionName": null,
+        "UnionNo": null,
+        "VolintarilyBankruptacy": null,
+        "WillBargainingEmployees": null,
+        "YesPleaseCompleteBelow": " ",
+        "Zip": "06001"
+    },
+    "CompanyNV": "Test Ca Medical Percent",
+    "ContainsHSA": true,
+    "ContextId": "",
+    "CoverageAsAMember": "No",
+    "CoverageDentalCheck": "",
+    "CoverageLifeCheck": "",
+    "CoverageMedicalCheck": "Medical",
+    "CoverageOptions": "Medical",
+    "CoverageOptionsFromQuote": "",
+    "CoverageOptionsWithoutQuote": "Medical",
+    "CoverageVisionCheck": "",
+    "CreatedBrokerContactId": "",
+    "DRId_%vlocity_namespace%__Application__c": "a200R000000IxpDQAS",
+    "DentalCoverage": {
+        "ReplaceExistingCoverage2019": {
+            "DentalEffectiveDate2019": " ",
+            "DentalEffectiveDateCTNHME2019": " ",
+            "DentalInsurer2019": " ",
+            "DentalInsurerCTNHME2019": " ",
+            "DentalTerminationDate2019": " ",
+            "DentalTerminationDateCTNHME2019": " ",
+            "DentalTypeofPlanSelect2019": " ",
+            "DentalTypeofPlanSelectCTNHME2019": " "
+        }
+    },
+    "DentalCoverageNQ": {
+        "ReplaceExistingCoverage19": {
+            "DentalEffectiveDate119": " ",
+            "DentalEffectiveDate19": " ",
+            "DentalInsurer119": " ",
+            "DentalInsurer19": " ",
+            "DentalTerminationDate119": " ",
+            "DentalTerminationDate19": " ",
+            "DentalTypeofPlanSelect119": " ",
+            "DentalTypeofPlanSelect19": " "
+        }
+    },
+    "DentalEmployerSponsership": false,
+    "DentalProducts": "",
+    "DentalVoluntaryProduct": false,
+    "DependentCoverage": "No",
+    "DocuSignEnvelopeAction-CT2019": [
+        {
+            "envelopeId": "21b79b7b-37c3-4e80-b26b-a305598792e4",
+            "status": "sent"
+        },
+        {
+            "envelopeId": "168ee94b-d27d-4a17-8f8c-b2aec25bf405",
+            "status": "sent"
+        },
+        {
+            "envelopeId": "a7944838-bc7e-43ea-b9da-7f0f823f6316",
+            "status": "sent"
+        }
+    ],
+    "DocuSignSignatureActionCT2019": [
+        {
+            "envelopeId": "1ba7adab-69cd-4b93-81cf-dda3d11a480c",
+            "status": "In Process"
+        },
+        {
+            "envelopeId": "3c020b51-72d1-4402-93f8-43006d6d4726",
+            "status": "In Process"
+        },
+        {
+            "envelopeId": "983767f3-a9d6-4995-8c8f-7d2b0286bad1",
+            "status": "In Process"
+        },
+        {
+            "envelopeId": "b278f314-a9fe-4ca3-90cd-4b51286e9bfb",
+            "status": "In Process"
+        }
+    ],
+    "EffectiveDate2018": false,
+    "EffectiveDate2019": true,
+    "EffectiveDateYear": "2019",
+    "EinValue": "536345345",
+    "Eligibility": {
+        "CTEligiblityBlock": {
+            "AnthemAdministerCobra": "No",
+            "CT_TotalNoEnrollingEmp": 5,
+            "CT_TotalNumber": 12,
+            "Eligiblity-Dental": null,
+            "Eligiblity-Dental2019": null,
+            "Eligiblity-Life/Disability": null,
+            "Eligiblity-Medical": null,
+            "Eligiblity-Medical2019": 5,
+            "Eligiblity-Vision": null,
+            "Eligiblity-Vision2019": null,
+            "EmpoutsideCT": 6,
+            "FullTimeEmp": null,
+            "FullTimeEmp2019": 6,
+            "GroupCOBRA": "No",
+            "MedicareSecondaryPayerRules": "Anthemisprimary",
+            "NoDecliningEmp": 6,
+            "OfferCoverage": null,
+            "OfferCoverage2019": "No",
+            "ParttimeEmpCovered": "Yes",
+            "ProbationwaitForNewEmp": "onemonth",
+            "RehireEmployeeValue": "FirstMonthFollowingOneMonth",
+            "SumFullTimePartTime": 6,
+            "TotalEligibility-Value": 6,
+            "TotalpartTimeEmp": 6,
+            "cobraAdmin": "No",
+            "eligilbleEnrollees": "FirstMonthFollowingThreeMonths"
+        },
+        "ME_EligiblityBlock": null,
+        "NHEligiblityBlock": {
+            "NHEnrollingEmployeeTextLabel": null,
+            "NHTotalEligiblity_Value": null,
+            "NH_COBRA": null,
+            "NH_CoverageRestricted_text": " ",
+            "NH_DecliningDental": null,
+            "NH_DecliningMedical": null,
+            "NH_DentalEnrollingEmp": null,
+            "NH_EligibleEmp": null,
+            "NH_HourlyReqValue": null,
+            "NH_IneligibleEMPDental": null,
+            "NH_IneligibleEMPMedical": null,
+            "NH_IsCovDP": null,
+            "NH_IsCovDP2019": null,
+            "NH_IsCoverageRestricted": null,
+            "NH_MedEnrollingEmp": null,
+            "NH_MedicareSecondaryPayer": null,
+            "NH_MedicareSecondaryPayer2019": null,
+            "NH_MedicompSubscriber": null,
+            "NH_Probationary_Options": null,
+            "NH_TerminationOptions": null,
+            "NH_TotalEmp": null,
+            "NH_VermontLocation": null,
+            "NH_VisionEnrollingEmp": null,
+            "NH_WaivingDental": null,
+            "NH_WaivingMed": null,
+            "PartTimeIndicatorNH": null,
+            "SumOfDeclineEmp": null,
+            "SumOfWaiveEmp": null
+        }
+    },
+    "EmployerCheck": false,
+    "GATeamMemberId": "",
+    "GeneralAgencyAccId": "",
+    "GeneralAgencyCity": "",
+    "GeneralAgencyEmail": "",
+    "GeneralAgencyId": "",
+    "GeneralAgencyState": "",
+    "GeneralAgencyZIPCode": "",
+    "GeneralAgentStreetaddress": "",
+    "GeneralAgreement2019": {
+        "ERISACoverageCheck_CT2019": "ERISAVoluntary",
+        "NHradioGeneralAgreement": null
+    },
+    "GeneralContactId": "",
+    "Generalagent/producer/brokername": "",
+    "GroupContactId": "0030R00000YgkSeQAJ",
+    "HRAProductIds": [
+    ],
+    "HRAProducts": {
+    },
+    "Hsa2019": "Please select yes or no",
+    "Instance Id": "a3Y0R0000001CJvUAM",
+    "IsCalendarYear": false,
+    "IsDentalSelected": false,
+    "IsLifeSelected": false,
+    "IsMedicalSelected": true,
+    "IsPlanYear": false,
+    "IsVisionSelected": false,
+    "MEPlan1": "Anthem Bronze Century Preferred PPO 5500/20%textNode%/6650 w/HSA",
+    "MEPlan2": "",
+    "MEPlan3": "",
+    "MEPlan4": "",
+    "MEPlan5": "",
+    "MEPlan6": "",
+    "MatchingApp1Id": "none",
+    "MatchingApp1Name": "",
+    "MatchingApp1Status": "",
+    "MatchingApp2Id": "none",
+    "MatchingApp2Name": "",
+    "MatchingApp2Status": "",
+    "MaxMedicalPlansSelected": false,
+    "MedEfctvDate": false,
+    "MedicalCoverage": {
+        "HSAAdminEmail": " ",
+        "HSAAdminName": " ",
+        "HSAAdminPhone": " "
+    },
+    "MedicalCoverageNQ": {
+        "AtleastOneMedicalErrMsg": true,
+        "CTHSAAdminEmail": " ",
+        "CTHSAAdminName": " ",
+        "CTHSAAdminPhone": " ",
+        "CTMedicalBlock": {
+            "WIMedicalDependentPercent": "55",
+            "WIMedicalDependentPercent1": null,
+            "WIMedicalEmployeePercent": "44",
+            "WIMedicalEmployeePercent1": null
+        },
+        "CYPYErrorMessage": null,
+        "CountMedical": 0,
+        "DuplicateMedPlansErrMessage": true,
+        "EnrollingMedicalEmp": 5,
+        "HSAAnthemFacilitateBlockCT": null,
+        "HSAAnthemFacilitateBlockCT2019": {
+            "ForHSAPlansCT2019": "Yes"
+        },
+        "HSAAnthemFacilitateBlockME": null,
+        "HSAAnthemFacilitateBlockME2019": null,
+        "HSAAnthemFacilitateBlockNH": null,
+        "HSAAnthemFacilitateBlockNH2019": null,
+        "IsHSAPlanCT": false,
+        "IsHSAPlanME": false,
+        "IsHSAPlanNH": false,
+        "MEMedPlansValidation": null,
+        "MEMedValidationforDiffN/W": null,
+        "MedicalPlansCountNH": 0,
+        "MedicalplansCount": 1,
+        "RestrictNoofPlansto2": null,
+        "RestrictNoofPlansto3": null,
+        "SelectBenefitPeriod": "Calendar Year",
+        "SelectMedical": {
+            "InnerSelectMedical": {
+                "MedicalContractCode": "2V1H",
+                "MedicalProductId": "01t0R000000oqmFQAQ",
+                "MedicalProductName": "Anthem Bronze Century Preferred PPO 5500/20%/6650 w/HSA",
+                "Network": "Century Preferred",
+                "ProductSubType": "Anthem Bronze Century Preferred PPO 5500/20%/6650 w/HSA",
+                "SelectProductCodeIdMedical": "C#Y-2V1H-01t0R000000oqmF-Anthem Bronze Century Preferred PPO 5500/20%/6650 w/HSA",
+                "SelectProductCodeLookupMedical": "2V1H-01t0R000000oqmFQAQ-Anthem Bronze Century Preferred PPO 5500/20%/6650 w/HSA",
+                "SelectedMedicalPlan": "2V1H-Anthem Bronze Century Preferred PPO 5500/20%/6650 w/HSA"
+            },
+            "InnerSelectMedicalCustom": {
+                "MedicalProductsTypeAhead": {
+                    "ContractCode": "2V1H",
+                    "PlanName": "2V1H-Anthem Bronze Century Preferred PPO 5500/20%/6650 w/HSA"
+                }
+            }
+        },
+        "ZeroNotValid": null
+    },
+    "MedicalPlansLimit": "5",
+    "MedicalProducts": {
+        "MedicalContractCodes": [
+            {
+                "ContractCode": "8212",
+                "PlanName": "8212-Anthem Platinum Century Preferred EPO 10/0%/2500"
+            },
+            {
+                "ContractCode": "8098",
+                "PlanName": "8098-Anthem Platinum Century Preferred PPO 10/0%/2500"
+            },
+            {
+                "ContractCode": "8237",
+                "PlanName": "8237-Anthem Platinum Century Preferred PPO 10/0%/2500"
+            },
+            {
+                "ContractCode": "8121",
+                "PlanName": "8121-Bronze Pathway X HMO w/HSA"
+            },
+            {
+                "ContractCode": "8123",
+                "PlanName": "8123-Anthem Platinum BlueCare HMO 25/10%/3500"
+            },
+            {
+                "ContractCode": "8215",
+                "PlanName": "8215-Bronze Pathway X HMO w/HSA"
+            },
+            {
+                "ContractCode": "2V0X",
+                "PlanName": "2V0X-Anthem Gold Century Preferred PPO 1500/20%/3000"
+            },
+            {
+                "ContractCode": "2V0Z",
+                "PlanName": "2V0Z-Anthem Gold Century Preferred PPO 1500/20%/3000"
+            },
+            {
+                "ContractCode": "2V10",
+                "PlanName": "2V10-Anthem Silver Century Preferred PPO 3500/30%/5500"
+            },
+            {
+                "ContractCode": "2V12",
+                "PlanName": "2V12-Anthem Silver Century Preferred PPO 3500/30%/5500"
+            },
+            {
+                "ContractCode": "2V14",
+                "PlanName": "2V14-Anthem Platinum BlueCare HMO 10/0%/2500"
+            },
+            {
+                "ContractCode": "2V16",
+                "PlanName": "2V16-Anthem Platinum BlueCare HMO 10/0%/2500"
+            },
+            {
+                "ContractCode": "2V1D",
+                "PlanName": "2V1D-Anthem Gold Century Preferred PPO 2500/0%/4500"
+            },
+            {
+                "ContractCode": "2V1F",
+                "PlanName": "2V1F-Anthem Gold Century Preferred PPO 2500/0%/4500"
+            },
+            {
+                "ContractCode": "2V1H",
+                "PlanName": "2V1H-Anthem Bronze Century Preferred PPO 5500/20%/6650 w/HSA"
+            },
+            {
+                "ContractCode": "2V1K",
+                "PlanName": "2V1K-Anthem Bronze Century Preferred PPO 5500/20%/6650 w/HSA"
+            },
+            {
+                "ContractCode": "2V1L",
+                "PlanName": "2V1L-Anthem Bronze Century Preferred PPO 6650/0%/6650 w/HSA"
+            },
+            {
+                "ContractCode": "2V2S",
+                "PlanName": "2V2S-Anthem Bronze Century Preferred PPO 5000/30%/6650 w/HSA"
+            },
+            {
+                "ContractCode": "2V2U",
+                "PlanName": "2V2U-Anthem Bronze Century Preferred PPO 5000/30%/6650 w/HSA"
+            },
+            {
+                "ContractCode": "L0BM",
+                "PlanName": "L0BM-Anthem Balanced Pathway CT PPO Tiered 1500/0%/7900"
+            },
+            {
+                "ContractCode": "L0BN",
+                "PlanName": "L0BN-Anthem Balanced Pathway CT PPO Tiered 5500/0%/7900"
+            }
+        ],
+        "ProductsDetails": [
+            {
+                "CalendarPlanYear": null,
+                "ContractCode": "8212",
+                "MedicalCYPYIDName": "N#O-8212-01t0R000000kztO-Anthem Platinum Century Preferred EPO 10/0%/2500",
+                "Name": "Anthem Platinum Century Preferred EPO 10/0%/2500",
+                "Network": "Century Preferred EPO",
+                "ProdId": "01t0R000000kztOQAQ",
+                "RiderOption": null,
+                "SubType": "Anthem Platinum Century Preferred EPO 10/0%/2500"
+            },
+            {
+                "CalendarPlanYear": null,
+                "ContractCode": "8098",
+                "MedicalCYPYIDName": "N#O-8098-01t0R000000l09T-Anthem Platinum Century Preferred PPO 10/0%/2500",
+                "Name": "Anthem Platinum Century Preferred PPO 10/0%/2500",
+                "Network": "Century Preferred",
+                "ProdId": "01t0R000000l09TQAQ",
+                "RiderOption": null,
+                "SubType": "Anthem Platinum Century Preferred PPO 10/0%/2500"
+            },
+            {
+                "CalendarPlanYear": "Calendar Year",
+                "ContractCode": "8237",
+                "MedicalCYPYIDName": "C#Y-8237-01t0R000000l0EV-Anthem Platinum Century Preferred PPO 10/0%/2500",
+                "Name": "Anthem Platinum Century Preferred PPO 10/0%/2500",
+                "Network": "Century Preferred EPO",
+                "ProdId": "01t0R000000l0EVQAY",
+                "RiderOption": null,
+                "SubType": "Anthem Platinum Century Preferred PPO 10/0%/2500"
+            },
+            {
+                "CalendarPlanYear": "Plan Year",
+                "ContractCode": "8121",
+                "MedicalCYPYIDName": "P#Y-8121-01t0R000000l0cA-Bronze Pathway X HMO w/HSA",
+                "Name": "Bronze Pathway X HMO w/HSA",
+                "Network": "Pathway X HMO",
+                "ProdId": "01t0R000000l0cAQAQ",
+                "RiderOption": null,
+                "SubType": "Bronze Pathway X HMO w/HSA"
+            },
+            {
+                "CalendarPlanYear": null,
+                "ContractCode": "8123",
+                "MedicalCYPYIDName": "N#O-8123-01t0R000000l0cD-Anthem Platinum BlueCare HMO 25/10%/3500",
+                "Name": "Anthem Platinum BlueCare HMO 25/10%/3500",
+                "Network": "BlueCare",
+                "ProdId": "01t0R000000l0cDQAQ",
+                "RiderOption": null,
+                "SubType": "Anthem Platinum BlueCare HMO 25/10%/3500"
+            },
+            {
+                "CalendarPlanYear": "Calendar Year",
+                "ContractCode": "8215",
+                "MedicalCYPYIDName": "C#Y-8215-01t0R000000l115-Bronze Pathway X HMO w/HSA",
+                "Name": "Bronze Pathway X HMO w/HSA",
+                "Network": "Pathway X HMO",
+                "ProdId": "01t0R000000l115QAA",
+                "RiderOption": null,
+                "SubType": "Bronze Pathway X HMO w/HSA"
+            },
+            {
+                "CalendarPlanYear": "Calendar Year",
+                "ContractCode": "2V0X",
+                "MedicalCYPYIDName": "C#Y-2V0X-01t0R000000oqlv-Anthem Gold Century Preferred PPO 1500/20%/3000",
+                "Name": "Anthem Gold Century Preferred PPO 1500/20%/3000",
+                "Network": "Century Preferred",
+                "ProdId": "01t0R000000oqlvQAA",
+                "RiderOption": null,
+                "SubType": "Anthem Gold Century Preferred PPO 1500/20%/3000"
+            },
+            {
+                "CalendarPlanYear": "Calendar Year",
+                "ContractCode": "2V0Z",
+                "MedicalCYPYIDName": "C#Y-2V0Z-01t0R000000oqlx-Anthem Gold Century Preferred PPO 1500/20%/3000",
+                "Name": "Anthem Gold Century Preferred PPO 1500/20%/3000",
+                "Network": "Century Preferred",
+                "ProdId": "01t0R000000oqlxQAA",
+                "RiderOption": null,
+                "SubType": "Anthem Gold Century Preferred PPO 1500/20%/3000"
+            },
+            {
+                "CalendarPlanYear": "Calendar Year",
+                "ContractCode": "2V10",
+                "MedicalCYPYIDName": "C#Y-2V10-01t0R000000oqly-Anthem Silver Century Preferred PPO 3500/30%/5500",
+                "Name": "Anthem Silver Century Preferred PPO 3500/30%/5500",
+                "Network": "Century Preferred",
+                "ProdId": "01t0R000000oqlyQAA",
+                "RiderOption": null,
+                "SubType": "Anthem Silver Century Preferred PPO 3500/30%/5500"
+            },
+            {
+                "CalendarPlanYear": "Calendar Year",
+                "ContractCode": "2V12",
+                "MedicalCYPYIDName": "C#Y-2V12-01t0R000000oqm0-Anthem Silver Century Preferred PPO 3500/30%/5500",
+                "Name": "Anthem Silver Century Preferred PPO 3500/30%/5500",
+                "Network": "Century Preferred",
+                "ProdId": "01t0R000000oqm0QAA",
+                "RiderOption": null,
+                "SubType": "Anthem Silver Century Preferred PPO 3500/30%/5500"
+            },
+            {
+                "CalendarPlanYear": "Calendar Year",
+                "ContractCode": "2V14",
+                "MedicalCYPYIDName": "C#Y-2V14-01t0R000000oqm2-Anthem Platinum BlueCare HMO 10/0%/2500",
+                "Name": "Anthem Platinum BlueCare HMO 10/0%/2500",
+                "Network": "BlueCare",
+                "ProdId": "01t0R000000oqm2QAA",
+                "RiderOption": null,
+                "SubType": "Anthem Platinum BlueCare HMO 10/0%/2500"
+            },
+            {
+                "CalendarPlanYear": "Calendar Year",
+                "ContractCode": "2V16",
+                "MedicalCYPYIDName": "C#Y-2V16-01t0R000000oqm4-Anthem Platinum BlueCare HMO 10/0%/2500",
+                "Name": "Anthem Platinum BlueCare HMO 10/0%/2500",
+                "Network": "BlueCare",
+                "ProdId": "01t0R000000oqm4QAA",
+                "RiderOption": null,
+                "SubType": "Anthem Platinum BlueCare HMO 10/0%/2500"
+            },
+            {
+                "CalendarPlanYear": "Calendar Year",
+                "ContractCode": "2V1D",
+                "MedicalCYPYIDName": "C#Y-2V1D-01t0R000000oqmB-Anthem Gold Century Preferred PPO 2500/0%/4500",
+                "Name": "Anthem Gold Century Preferred PPO 2500/0%/4500",
+                "Network": "Century Preferred",
+                "ProdId": "01t0R000000oqmBQAQ",
+                "RiderOption": null,
+                "SubType": "Anthem Gold Century Preferred PPO 2500/0%/4500"
+            },
+            {
+                "CalendarPlanYear": "Calendar Year",
+                "ContractCode": "2V1F",
+                "MedicalCYPYIDName": "C#Y-2V1F-01t0R000000oqmD-Anthem Gold Century Preferred PPO 2500/0%/4500",
+                "Name": "Anthem Gold Century Preferred PPO 2500/0%/4500",
+                "Network": "Century Preferred",
+                "ProdId": "01t0R000000oqmDQAQ",
+                "RiderOption": null,
+                "SubType": "Anthem Gold Century Preferred PPO 2500/0%/4500"
+            },
+            {
+                "CalendarPlanYear": "Calendar Year",
+                "ContractCode": "2V1H",
+                "MedicalCYPYIDName": "C#Y-2V1H-01t0R000000oqmF-Anthem Bronze Century Preferred PPO 5500/20%/6650 w/HSA",
+                "Name": "Anthem Bronze Century Preferred PPO 5500/20%/6650 w/HSA",
+                "Network": "Century Preferred",
+                "ProdId": "01t0R000000oqmFQAQ",
+                "RiderOption": null,
+                "SubType": "Anthem Bronze Century Preferred PPO 5500/20%/6650 w/HSA"
+            },
+            {
+                "CalendarPlanYear": "Calendar Year",
+                "ContractCode": "2V1K",
+                "MedicalCYPYIDName": "C#Y-2V1K-01t0R000000oqmH-Anthem Bronze Century Preferred PPO 5500/20%/6650 w/HSA",
+                "Name": "Anthem Bronze Century Preferred PPO 5500/20%/6650 w/HSA",
+                "Network": "Century Preferred",
+                "ProdId": "01t0R000000oqmHQAQ",
+                "RiderOption": null,
+                "SubType": "Anthem Bronze Century Preferred PPO 5500/20%/6650 w/HSA"
+            },
+            {
+                "CalendarPlanYear": "Calendar Year",
+                "ContractCode": "2V1L",
+                "MedicalCYPYIDName": "C#Y-2V1L-01t0R000000oqmI-Anthem Bronze Century Preferred PPO 6650/0%/6650 w/HSA",
+                "Name": "Anthem Bronze Century Preferred PPO 6650/0%/6650 w/HSA",
+                "Network": "Century Preferred",
+                "ProdId": "01t0R000000oqmIQAQ",
+                "RiderOption": null,
+                "SubType": "Anthem Bronze Century Preferred PPO 6650/0%/6650 w/HSA"
+            },
+            {
+                "CalendarPlanYear": "Calendar Year",
+                "ContractCode": "2V2S",
+                "MedicalCYPYIDName": "C#Y-2V2S-01t0R000000oqmw-Anthem Bronze Century Preferred PPO 5000/30%/6650 w/HSA",
+                "Name": "Anthem Bronze Century Preferred PPO 5000/30%/6650 w/HSA",
+                "Network": "Century Preferred",
+                "ProdId": "01t0R000000oqmwQAA",
+                "RiderOption": null,
+                "SubType": "Anthem Bronze Century Preferred PPO 5000/30%/6650 w/HSA"
+            },
+            {
+                "CalendarPlanYear": "Calendar Year",
+                "ContractCode": "2V2U",
+                "MedicalCYPYIDName": "C#Y-2V2U-01t0R000000oqmy-Anthem Bronze Century Preferred PPO 5000/30%/6650 w/HSA",
+                "Name": "Anthem Bronze Century Preferred PPO 5000/30%/6650 w/HSA",
+                "Network": "Century Preferred",
+                "ProdId": "01t0R000000oqmyQAA",
+                "RiderOption": null,
+                "SubType": "Anthem Bronze Century Preferred PPO 5000/30%/6650 w/HSA"
+            },
+            {
+                "CalendarPlanYear": null,
+                "ContractCode": "L0BM",
+                "MedicalCYPYIDName": "N#O-L0BM-01t0R000001gjlh-Anthem Balanced Pathway CT PPO Tiered 1500/0%/7900",
+                "Name": "Anthem Balanced Pathway CT PPO Tiered 1500/0%/7900",
+                "Network": "Pathway CT PPO Tiered",
+                "ProdId": "01t0R000001gjlhQAA",
+                "RiderOption": null,
+                "SubType": "PPO"
+            },
+            {
+                "CalendarPlanYear": null,
+                "ContractCode": "L0BN",
+                "MedicalCYPYIDName": "N#O-L0BN-01t0R000001gjli-Anthem Balanced Pathway CT PPO Tiered 5500/0%/7900",
+                "Name": "Anthem Balanced Pathway CT PPO Tiered 5500/0%/7900",
+                "Network": "Pathway CT PPO Tiered",
+                "ProdId": "01t0R000001gjliQAA",
+                "RiderOption": null,
+                "SubType": "PPO"
+            }
+        ]
+    },
+    "MedicalProductsTypeAhead-Block": {
+        "ContractCode": "2V1H",
+        "MedicalProductsTypeAhead": null,
+        "PlanName": "2V1H-Anthem Bronze Century Preferred PPO 5500/20%/6650 w/HSA"
+    },
+    "MemberEnrollmentType": {
+        "MmbrEnrollTypPicklst": null,
+        "MmbrEnrollTypPicklstformula": null
+    },
+    "NewEnrollment": true,
+    "NoDentalCoverage": true,
+    "NoDentalCoverageAtThisTime": true,
+    "NoDentalCoveragesChkbx": true,
+    "NoDisabilityCheck": true,
+    "NoLifeCheck": true,
+    "NoVisionCoverageAtThisTime": true,
+    "NoVisionCoveragesChkbx": true,
+    "OmniScriptState": "regular",
+    "Ownership1": {
+        "OwnershipCount1": 1,
+        "OwnershipDetails1": {
+            "Eligible1": "Yes",
+            "OwnerShipFirstName1": "6",
+            "OwnerShipLastName1": "6",
+            "OwnerShipMI1": "6",
+            "PercentageofOwnership1": 6
+        },
+        "OwnershipMsgforDocusign1": null,
+        "OwnershipMsgforDocusignOHMECA1": null,
+        "PercentageofOwnership1Sum": 6,
+        "PercentageofOwnership1SumMessage": false
+    },
+    "PATeamMemberId": "",
+    "PaidAgencyId": "",
+    "PartyAccountId": "a3k0R000000GqfdQAC",
+    "PlanLimit": {
+        "DentalLimit": "2",
+        "MedicalLimit": "5",
+        "VisionLimit": "1"
+    },
+    "Print/ElectronicSignature": {
+        "Task": "Send"
+    },
+    "PrintSignNow": {
+        "SignNowRecipient": "wretwertwert"
+    },
+    "PrudentEPO": false,
+    "PrudentPPO": false,
+    "QuoteAccountId": "0010R00000TQY83QAH",
+    "QuoteBrokerAgentAccId": "",
+    "QuoteBrokerAgentContactId": "",
+    "QuoteContactId": "",
+    "QuoteGeneralAgencyETIN": "",
+    "QuoteGeneralAgencyId": "",
+    "QuoteName": "",
+    "QuoteNumber": "",
+    "QuoteOpportunityId": "",
+    "QuotePaidAgencyId": "",
+    "QuoteSICCode": "",
+    "QuoteZip": "",
+    "ReqEffectiveDateWOQuote": "2019-01-01",
+    "RequestedEffectiveDateEnText": "",
+    "SICCode": 5712,
+    "SelectedMedicalPlanName": "Anthem Bronze Century Preferred PPO 5500/20%/6650 w/HSA",
+    "Send DocuSign": {
+        "DocuSignRecipientBlk": {
+            "DcoumentsToSend-CACO": "Employer Application",
+            "DocuSignEmail": "p.kumar.sabbarapu@accenture.com",
+            "DocuSignRecipient": "sfdgsdfg"
+        }
+    },
+    "ShowUploadDocuments": "No",
+    "TechCoverageEffectiveDate": "Jan 1 2019",
+    "TechCoverageOptions": "Medical",
+    "Title": "",
+    "TypeAheadSIC-Block": {
+        "SICName": "FURNITURE STORES",
+        "SIC_NO": 5712
+    },
+    "VisionCoverage": "",
+    "VisionEmployerSponsership": false,
+    "VisionProducts": "",
+    "VisionVoluntaryProduct": false,
+    "Volcheck": false,
+    "WithQuote": false,
+    "Writer1City": "Any",
+    "Writer1Email": "brokerage@test.com",
+    "Writer1Faxno.": "",
+    "Writer1Phone": "(333) 333-3333",
+    "Writer1State": "NY",
+    "Writer1Streetaddress": "1 Billing St",
+    "Writer1ZipCode": "10002",
+    "YEAR": "",
+    "ZipCode1": "06001",
+    "applicationId": "a200R000000IxpDQAS",
+    "applicationRefNumber": null,
+    "chamberPlansSelected_VF": false,
+    "createdApplicationId": "",
+    "dentalApplicationId": "",
+    "error": "OK",
+    "isCalendarYear": true,
+    "isDuplicatePlanDental": false,
+    "isDuplicatePlanMedical": false,
+    "isDuplicatePlanVision": false,
+    "isEmployerApplicationPrintSign": false,
+    "isEmployerApplicationSelected": false,
+    "isExistsContributionPlan": "",
+    "isHSAAccount": true,
+    "isNoPYCY": false,
+    "isOrthoPlanDental": false,
+    "isPlanYear": false,
+    "isRider29Limit": false,
+    "isSameNetwork": false,
+    "isVoluntaryPlanDental": false,
+    "isVoluntaryPlanVision": false,
+    "lifeApplicationId": "",
+    "lifeSTDApplicationId": "",
+    "medicalApplicationId": "a200R000000IxpDQAS",
+    "medicalBlocksCount_VF": 1,
+    "noMedicalNetworkPlan": false,
+    "noMedicalRiderPlan": false,
+    "omniCancelAction": "back",
+    "omniIframeEmbedded": true,
+    "oneMedicalPlanSelected": true,
+    "paidAgencyAccId": "",
+    "qState": "CT",
+    "requestedEffectiveDate1": "2019-01-01",
+    "sInstanceId": "a3Y0R0000001CJvUAM",
+    "selectedMedicalPlansCnt": 1,
+    "stageId": "a7p0R000000HynQQAS",
+    "testTypeAheadList": [
+        "Test1",
+        "Test2"
+    ],
+    "textNode": "%",
+    "timeStamp": "2018-11-14T16:24:14.443Z",
+    "today": "2018-11-14",
+    "userCurrencyCode": "USD",
+    "userId": "0050R000000dojNQAQ",
+    "userName": "amy.smart@accenture.com.isg.sgapsdev1",
+    "userProfile": "Anthem SG Broker",
+    "userTimeZone": null,
+    "validMedicalPlansSelected_VF": true,
+    "visionApplicationId": "",
+    "vlcPersistentComponent": {
+    }
+}

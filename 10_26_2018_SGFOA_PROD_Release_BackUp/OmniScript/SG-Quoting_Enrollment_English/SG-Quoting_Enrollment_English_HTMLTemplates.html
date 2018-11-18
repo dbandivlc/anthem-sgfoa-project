@@ -1,0 +1,134 @@
+<style>
+.via-slds #QuoteLineItem .slds-form-element__control>div.vlc-control-wrapper input[type=text]:focus~label {
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+
+.vlc-selectableitem-selected button.btn-default, .vlc-selectableitem-selected button.btn-default:hover, .vlc-selectableitem-selected button.btn-default:focus {
+    background-color: #40dcba;
+    color: #fff;
+    height: 28px;
+    border-radius: 5px;
+}
+
+.via-slds .slds-checkbox [type=checkbox].filled-in.filter-checkbox {
+    width: 10px;
+    height: 10px;
+    border: 1px solid;
+    top: -1px;
+    position: relative;
+    margin-right: 1px;
+}
+
+
+salesforce-ligh…-vf.min.css:11
+.v
+.vlc-selectableitem-selected button.btn-default, .vlc-selectableitem-selected button.btn-default:hover, .vlc-selectableitem-selected button.btn-default:focus {
+    background-color: #40dcba;
+    color: #fff;
+}
+
+.via-slds .vlc-slds-remote-action--button .vlc-control-wrapper #DataRaptor Extract Action 2 .slds-box {
+    background: rgba(36, 30, 128, 0.87);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: regular;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 1px solid transparent;
+}
+</style>
+
+<script type="text/ng-template" id="QLITable.html">
+<input  type="checkbox" ng-click=" baseCtrl.FuncQLI(this);"/>
+</script>
+
+<script type="text/ng-template" id="QLITable1.html">
+<div   style="width: 50%;" ng-repeat="q in control.vlcSI[control.itemsKey]" > 
+<div class="slds-form-element__control"> 
+
+            <div class="vlc-control-wrapper" help="false">
+
+                <input  type="text" name="loopname" ng-disabled="control.ro" ng-required="control.req" ng-model="control.response" ng-blur="aggregate(this, control.index, control.indexInParent, true, -1)" ng-model-options="{ updateOn: 'default focusout blur', debounce: { 'default': control.propSetMap.debounceValue, 'focusout': 0, 'blur': 0 } }" class="slds-input ng-pristine ng-valid-minlength ng-valid-maxlength ng-empty ng-valid ng-valid-required ng-touched" ui-mask="" ng-maxlength="255" vlc-slds-ng-pattern="" ng-minlength="0" vlc-slds-val-watch="response" ng-init="init(this, control)" vlc-slds-val-checker="response" style="">
+
+                <label  class="slds-form-element__label ng-binding">{{q.ProductName}}
+                    <!-- ngIf: control.req -->
+                </label>
+
+                <!-- tooltip template -->
+                
+
+            </div>
+
+            <!-- this is the error block -->
+            <!-- ngInclude: ::errHTMLId --><div ng-include="::errHTMLId" class="ng-scope"><div class="vlc-slds-error-block ng-scope">
+
+    <div class="error ng-hide" ng-show="control.srvErr">
+        <small class="description ng-binding"></small>
+    </div>
+
+    <!-- ngIf: loopform.loopname.$error && loopform.loopname.$dirty -->
+</div>
+</div>
+
+        </div>  
+        
+   
+</script>
+
+
+ <script type="text/ng-template" id="vlcSmallGroupLightningProductTemplate.html">
+  <div style="">
+    <div class="slds-grid slds-grid--horizontal" >
+      <div class="vlc-slds-items--container vlc-slds-insurance-selectableItem"
+        ng-repeat="p in control.vlcSI['recSet']" ng-init='onSelectItem(control, p, $index, this)'>
+
+          <div class="slds-box vlc-slds-selectableItem" style="width:280px">
+
+            <div class="vlc-slds-selectableItem__name">
+              <div class="vlc-slds-item--details">
+              <label class="slds-form__element__label" style="font-size:16px;font-weight:bold;max-width:100%;text-align:center;">
+                  {{p.ProductName}}
+              </label>
+              </div>
+              <div class="vlc-slds-item--cost">
+                  <label class="slds-form__element__label" style="font-size:16px;font-weight:bold;max-width:100%;text-align:center;">
+                          {{p.TotalPrice | currency:"$":2}}
+                  </label>
+              </div>
+
+              <div class='vlc-slds-item-selectableItem-link' ng-init="p.vlcSelected=true" ng-class="{'vlc-selectableitem-selected' : p.vlcSelected || p.vlcSelected == undefined }">
+                  <button
+                      class="btn btn-default btn-block"
+                      ng-click="onSelectItem(control, p, $index, this, true)">
+                        <span ng-hide="p.vlcSelected">Select Plan</span>
+                        <span ng-show="p.vlcSelected" class="selected"><i class="icon icon-v-check"></i>Selected</span>
+                  </button>
+              </div>
+            </div>
+            <div class="vls-slds-item--action" vlc-slds-added="{{ p.vlcSelected }}">
+                <span class="slds-icon_container slds-icon-action-approval slds-icon_container--circle">
+                    <div class="slds-icon slds-icon--small">
+                       <img src="/resource/1491332014000/%vlocity_namespace%__slds/assets/icons/action/approval.svg" align="middle" width="25" height="15">
+                    </div>
+                </span>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+</script>
+
+
+<script type="text/ng-template" id="SaveSession.html">
+            <div class='panel panel-default review'>
+                <div class='panel-heading'>
+                    Your Enrollment Application has been saved.
+                </div>
+
+            </div>
+</script>

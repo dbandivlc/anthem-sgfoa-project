@@ -1,0 +1,40 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Enrollment-WI_NV",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/WI_NV/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 33,
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "EmployerCheck": "=IF(OR(%VisionCoverage:VisionAccounts:FundingType% == \"Employer Paid\",AND(%isVoluntaryPlanVision% ==false,%WithQuote% ==false,%CoverageVisionCheck%==\"Vision\")),true,false)",
+            "VisionEmployerSponsership": "=IF(AND(%VoluntaryProductVision% != NULL,%VoluntaryProductVision% != \"\",%VoluntaryProductVision% = \"N\"),true,false)",
+            "VisionPlanTypeNV1": "=IF(%VisionCoverage:VisionAccounts|1:FundingType% == \"Voluntary\",'Voluntary',IF(%VisionCoverage:VisionAccounts|1:FundingType% == 'Employer Sponsored','EmployerSponsored',\"\"))",
+            "VisionVoluntaryProduct": "=IF(AND(%VoluntaryProductVision% != NULL,%VoluntaryProductVision% != \"\",%VoluntaryProductVision% = \"N\"),false,IF(AND(%VoluntaryProductVision% != NULL,%VoluntaryProductVision% != \"\",%VoluntaryProductVision% = \"Y\"),true,false))",
+            "Volcheck": "=IF(OR(%VisionCoverage:VisionAccounts:FundingType% == \"Voluntary\",%isVoluntaryPlanVision% ==true), true,false)"
+        },
+        "label": null,
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetVisionProductSponsership",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/WI_NV/English/SetVisionProductSponsership"
+}

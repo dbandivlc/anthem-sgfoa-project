@@ -1,0 +1,160 @@
+// styles
+@import url('/resource/ap_lib/ant/assets/styles/font.css');
+@import url('/resource/ap_lib/ant/assets/styles/grid.css');
+@import url('/resource/ap_lib/ant/assets/styles/main.css');
+@import url('/resource/ap_lib/ant/assets/styles/components.css');
+
+// anthem customizations
+$brand-primary: #fe5e3c;
+$brand-secondary: #107ABD;
+$gray-light: #e4e4e4;
+$text-color: #000;
+$text-color-inverse: #fff;
+
+@mixin buttonStyle($foreGround, $backGround, $borderColor) {
+	color: $foreGround !important;
+	border: $foreGround !important;
+	background-color: $backGround !important;
+	border-color: $borderColor !important;
+	&:hover,
+	&:active, 
+	&:focus {
+		background-color: darken($backGround, 10%);
+	}
+	.fa {
+		color: $foreGround !important;
+	}
+}
+
+.via-slds, .via-slds h1, .via-slds h2, .via-slds h3, .via-slds h4, .via-slds h5, .via-slds h6, .via-slds td, .via-slds th {
+	font-family: "Open Sans", "open-sans", sans-serif, sans-serif;
+}
+
+.via-slds .slds-text-heading--label, .via-slds .slds-text-heading_label {
+	text-transform: none;
+	font-weight: 700;	
+	letter-spacing: normal;
+}
+
+.via-slds .slds-table thead th {
+	background-color: transparent;
+}
+
+.via-slds .slds-table th {
+	font-weight: inherit;
+}
+
+.vlocity, .vlocity td {
+	font-size: inherit;
+	.slds-datepicker td {
+		padding: 0;
+	}
+}
+
+.slds-table--striped tbody:nth-of-type(odd) td {
+	background: $gray-light;
+}
+
+.via-slds .slds-button {
+	border-radius: 0;
+	font-weight: 700;
+	padding: 0.5rem;
+	display: inline-flex;
+	align-items: center;
+	line-height: 1;
+	.fa {
+		font-size: 1.2rem !important;
+	}
+	&.slds-button--netural {
+		@include buttonStyle($brand-primary, #fff, $brand-primary);
+	}
+	&.slds-button--brand {
+		@include  buttonStyle(#fff, $brand-primary, $brand-primary);
+	}
+	&.slds-button--danger {
+		@include buttonStyle($brand-primary, transparent, transparent);
+	}
+	&.slds-button--action {
+		@include buttonStyle($brand-secondary, transparent, transparent);
+		.fa {
+			color: $brand-primary !important;
+		}
+	}
+}
+
+.via-slds .slds-input {
+	border-radius: 0;
+	border-color: transparent;
+	border-bottom: 1px solid $text-color;
+}
+
+.via-slds .slds-button,
+.via-slds .slds-button-group .slds-button:only-child, .via-slds .slds-button-group-list li:only-child .slds-button {
+	border-radius: 0;
+}
+
+
+.via-slds .slds-card {
+	border: 0 none;
+	box-shadow: none;
+}
+.via-slds .slds-card__header {
+	display: none;
+}
+.via-slds .slds-card__footer {
+	border-top: 0 none;
+	text-align: left;
+}
+
+
+.prime-error-message { 
+	display: block;
+	font-size: .8571rem;
+	line-height: 1.2rem;
+	font-weight: 400;
+	color: #e82d05;
+	padding-top: .2rem;
+	span:before {
+	  content: "\f1ce";
+	  font-family: "FontAwesome";
+	  font-size: .9rem;
+	  margin-right: .3rem;
+	  position: relative;
+	  top: 1px;
+	  font-weight: 900;
+	}
+  }
+  
+  .ng-valid-required, .ng-pristine { 
+	& > .prime-error-message { 
+	  display: none;
+	}
+  }
+  
+  ng-form.ng-invalid-required { 
+	.prime-error-message {
+	  display: none;
+	}
+  }
+  
+  .ng-submitted ng-form.ng-invalid-required { 
+	.prime-error-message { 
+	  display: block;
+	}
+  }
+  
+// ap-input {
+// 	display: block;
+// 	margin-bottom: 2rem;
+// }
+.prime-error-message {
+	position: relative;
+	overflow: visible;
+	height: 0;
+}
+.vloc-message_container {
+	position: fixed;
+	bottom : 3rem;
+	left: 10rem;
+	right: 10rem;
+}

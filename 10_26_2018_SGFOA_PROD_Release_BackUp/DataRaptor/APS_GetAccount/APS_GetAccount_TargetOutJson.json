@@ -1,0 +1,25 @@
+{
+    "accountPage": {
+        "createAccount": {
+            "ca_businessName": "Bens Bakery",
+            "ca_emailAddress": "ben@bensbakery.net",
+            "ca_ext": "6666",
+            "ca_firstName": "Ben",
+            "ca_lastName": "Liesch",
+            "ca_password": null,
+            "ca_phoneNumber": "7778889999",
+            "ca_securityQuestion01": {
+                "ca_securityQuestion01_answer": "",
+                "ca_securityQuestion01_question": null
+            },
+            "ca_securityQuestion02": {
+                "ca_securityQuestion02_answer": "",
+                "ca_securityQuestion02_question": null
+            },
+            "ca_securityQuestion03": {
+                "ca_securityQuestion03_answer": "",
+                "ca_securityQuestion03_question": null
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 2,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Enrollment-WI_NV",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/WI_NV/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 5,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Enrollment/WI_NV/English",
+        "Name": "SelectMedical",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/WI_NV/English/SelectMedical",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "SelectMedical",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "controlWidth": 12,
+        "dateFormat": "MM-dd-yyyy",
+        "disOnTplt": false,
+        "expression": "IF(CONTAINS(%SelectProductCodeLookupMedical|1%, \"N#O\"), \"%MedicalContractCode|1%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|2%, \"N#O\"), \"%MedicalContractCode|2%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|3%, \"N#O\"), \"%MedicalContractCode|3%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|4%, \"N#O\"), \"%MedicalContractCode|4%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|5%, \"N#O\"), \"%MedicalContractCode|5%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|6%, \"N#O\"), \"%MedicalContractCode|6%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|7%, \"N#O\"), \"%MedicalContractCode|7%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|8%, \"N#O\"), \"%MedicalContractCode|8%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|9%, \"N#O\"), \"%MedicalContractCode|9%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|10%, \"N#O\"), \"%MedicalContractCode|10%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|11%, \"N#O\"), \"%MedicalContractCode|11%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|12%, \"N#O\"), \"%MedicalContractCode|12%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|13%, \"N#O\"), \"%MedicalContractCode|13%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|14%, \"N#O\"), \"%MedicalContractCode|14%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|15%, \"N#O\"), \"%MedicalContractCode|15%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|16%, \"N#O\"), \"%MedicalContractCode|16%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|17%, \"N#O\"), \"%MedicalContractCode|17%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|18%, \"N#O\"), \"%MedicalContractCode|18%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|19%, \"N#O\"), \"%MedicalContractCode|19%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|20%, \"N#O\"), \"%MedicalContractCode|20%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|21%, \"N#O\"), \"%MedicalContractCode|21%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|22%, \"N#O\"), \"%MedicalContractCode|22%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|23%, \"N#O\"), \"%MedicalContractCode|23%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|24%, \"N#O\"), \"%MedicalContractCode|24%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|25%, \"N#O\"), \"%MedicalContractCode|25%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|26%, \"N#O\"), \"%MedicalContractCode|26%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|27%, \"N#O\"), \"%MedicalContractCode|27%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|28%, \"N#O\"), \"%MedicalContractCode|28%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|29%, \"N#O\"), \"%MedicalContractCode|29%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|30%, \"N#O\"), \"%MedicalContractCode|30%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|31%, \"N#O\"), \"%MedicalContractCode|31%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|32%, \"N#O\"), \"%MedicalContractCode|32%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|33%, \"N#O\"), \"%MedicalContractCode|33%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|34%, \"N#O\"), \"%MedicalContractCode|34%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|35%, \"N#O\"), \"%MedicalContractCode|35%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|36%, \"N#O\"), \"%MedicalContractCode|36%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|37%, \"N#O\"), \"%MedicalContractCode|37%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|38%, \"N#O\"), \"%MedicalContractCode|38%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|39%, \"N#O\"), \"%MedicalContractCode|39%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|40%, \"N#O\"), \"%MedicalContractCode|40%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|41%, \"N#O\"), \"%MedicalContractCode|41%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|42%, \"N#O\"), \"%MedicalContractCode|42%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|43%, \"N#O\"), \"%MedicalContractCode|43%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|44%, \"N#O\"), \"%MedicalContractCode|44%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|45%, \"N#O\"), \"%MedicalContractCode|45%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|46%, \"N#O\"), \"%MedicalContractCode|46%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|47%, \"N#O\"), \"%MedicalContractCode|47%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|48%, \"N#O\"), \"%MedicalContractCode|48%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|49%, \"N#O\"), \"%MedicalContractCode|49%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|50%, \"N#O\"), \"%MedicalContractCode|50%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|51%, \"N#O\"), \"%MedicalContractCode|51%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|52%, \"N#O\"), \"%MedicalContractCode|52%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|53%, \"N#O\"), \"%MedicalContractCode|53%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|54%, \"N#O\"), \"%MedicalContractCode|54%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|55%, \"N#O\"), \"%MedicalContractCode|55%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|56%, \"N#O\"), \"%MedicalContractCode|56%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|57%, \"N#O\"), \"%MedicalContractCode|57%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|58%, \"N#O\"), \"%MedicalContractCode|58%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|59%, \"N#O\"), \"%MedicalContractCode|59%\",\"\")+\nIF(CONTAINS(%SelectProductCodeLookupMedical|60%, \"N#O\"), \"%MedicalContractCode|60%\",\"\")",
+        "hide": true,
+        "hideGroupSep": false,
+        "inputWidth": 12,
+        "label": null,
+        "show": null,
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Formula",
+    "Name": "OtherContractCodese",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/WI_NV/English/OtherContractCodese"
+}

@@ -1,0 +1,204 @@
+{
+    "MemberRates": [
+        {
+            "MemberId": "a300R0000004ehpQAA",
+            "Rates": [
+                {
+                    "ContractCode": "2V5C",
+                    "MemberPrice": "782.43"
+                },
+                {
+                    "ContractCode": "2V5D",
+                    "MemberPrice": "971.82"
+                },
+                {
+                    "ContractCode": "2UXP",
+                    "MemberPrice": "1199.43"
+                },
+                {
+                    "ContractCode": "2UWP",
+                    "MemberPrice": "1106.16"
+                },
+                {
+                    "ContractCode": "2UY4",
+                    "MemberPrice": "1029.15"
+                }
+            ]
+        },
+        {
+            "MemberId": "a300R0000004e4JQAQ",
+            "Rates": [
+                {
+                    "ContractCode": "2V5C",
+                    "MemberPrice": "199.52"
+                },
+                {
+                    "ContractCode": "2V5D",
+                    "MemberPrice": "247.81"
+                },
+                {
+                    "ContractCode": "2UXP",
+                    "MemberPrice": "305.85"
+                },
+                {
+                    "ContractCode": "2UWP",
+                    "MemberPrice": "282.07"
+                },
+                {
+                    "ContractCode": "2UY4",
+                    "MemberPrice": "262.43"
+                }
+            ]
+        },
+        {
+            "MemberId": "a300R0000004e1UQAQ",
+            "Rates": [
+                {
+                    "ContractCode": "2V5C",
+                    "MemberPrice": "749.31"
+                },
+                {
+                    "ContractCode": "2V5D",
+                    "MemberPrice": "930.68"
+                },
+                {
+                    "ContractCode": "2UXP",
+                    "MemberPrice": "1148.65"
+                },
+                {
+                    "ContractCode": "2UWP",
+                    "MemberPrice": "1059.33"
+                },
+                {
+                    "ContractCode": "2UY4",
+                    "MemberPrice": "985.58"
+                }
+            ]
+        },
+        {
+            "MemberId": "a300R0000004e1tQAA",
+            "Rates": [
+                {
+                    "ContractCode": "2V5C",
+                    "MemberPrice": "782.43"
+                },
+                {
+                    "ContractCode": "2V5D",
+                    "MemberPrice": "971.82"
+                },
+                {
+                    "ContractCode": "2UXP",
+                    "MemberPrice": "1199.43"
+                },
+                {
+                    "ContractCode": "2UWP",
+                    "MemberPrice": "1106.16"
+                },
+                {
+                    "ContractCode": "2UY4",
+                    "MemberPrice": "1029.15"
+                }
+            ]
+        },
+        {
+            "MemberId": "a300R0000004e1jQAA",
+            "Rates": [
+                {
+                    "ContractCode": "2V5C",
+                    "MemberPrice": "329.14"
+                },
+                {
+                    "ContractCode": "2V5D",
+                    "MemberPrice": "408.81"
+                },
+                {
+                    "ContractCode": "2UXP",
+                    "MemberPrice": "504.56"
+                },
+                {
+                    "ContractCode": "2UWP",
+                    "MemberPrice": "465.32"
+                },
+                {
+                    "ContractCode": "2UY4",
+                    "MemberPrice": "432.93"
+                }
+            ]
+        },
+        {
+            "MemberId": "a300R0000004e1ZQAQ",
+            "Rates": [
+                {
+                    "ContractCode": "2V5C",
+                    "MemberPrice": "782.43"
+                },
+                {
+                    "ContractCode": "2V5D",
+                    "MemberPrice": "971.82"
+                },
+                {
+                    "ContractCode": "2UXP",
+                    "MemberPrice": "1199.43"
+                },
+                {
+                    "ContractCode": "2UWP",
+                    "MemberPrice": "1106.16"
+                },
+                {
+                    "ContractCode": "2UY4",
+                    "MemberPrice": "1029.15"
+                }
+            ]
+        },
+        {
+            "MemberId": "a300R0000004e0gQAA",
+            "Rates": [
+                {
+                    "ContractCode": "2V5C",
+                    "MemberPrice": "782.43"
+                },
+                {
+                    "ContractCode": "2V5D",
+                    "MemberPrice": "971.82"
+                },
+                {
+                    "ContractCode": "2UXP",
+                    "MemberPrice": "1199.43"
+                },
+                {
+                    "ContractCode": "2UWP",
+                    "MemberPrice": "1106.16"
+                },
+                {
+                    "ContractCode": "2UY4",
+                    "MemberPrice": "1029.15"
+                }
+            ]
+        },
+        {
+            "MemberId": "a300R0000004e0qQAA",
+            "Rates": [
+                {
+                    "ContractCode": "2V5C",
+                    "MemberPrice": "782.43"
+                },
+                {
+                    "ContractCode": "2V5D",
+                    "MemberPrice": "971.82"
+                },
+                {
+                    "ContractCode": "2UXP",
+                    "MemberPrice": "1199.43"
+                },
+                {
+                    "ContractCode": "2UWP",
+                    "MemberPrice": "1106.16"
+                },
+                {
+                    "ContractCode": "2UY4",
+                    "MemberPrice": "1029.15"
+                }
+            ]
+        }
+    ]
+}

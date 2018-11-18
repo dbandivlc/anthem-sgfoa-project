@@ -1,0 +1,30 @@
+{
+    "calculateRateRequest": {
+        "allSpecialityRates": "Text",
+        "calcReqId": "Text",
+        "coverageType": "Text",
+        "groupDetails": {
+            "association": "Text",
+            "county": "Text",
+            "groupEffectiveDate": "Text",
+            "noOfEligibleLivesDental": "Text",
+            "noOfEligibleLivesVision": "Text",
+            "sic": "Text",
+            "state": "Text",
+            "zipCode": "Text"
+        },
+        "includeFamilyDetails": "Text",
+        "planContractCodesList": {
+            "planContractCode": {
+                "contractCode": [
+                    {
+                    }
+                ]
+            }
+        },
+        "provideRatesOnly": "Text",
+        "ratingMethod": "Text",
+        "subscriberDetails": {
+        }
+    }
+}

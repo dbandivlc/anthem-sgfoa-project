@@ -1,0 +1,640 @@
+{
+    "ABFQteReqEffectiveDate": "2019-03-01",
+    "ABFQuoteId": "0Q03B000000FGPDSA4",
+    "ABFSICCode": "",
+    "ABFState": "CO",
+    "AccZip": "",
+    "AccountId": "0013B00000WrGdFQAV",
+    "ActionButton": "abfenroll",
+    "ApplicationAccountId": "0013B00000WrGdFQAV",
+    "ApplicationInfo": {
+        "ElectronicEOC": "Billing contact",
+        "EmpNoForHealth": 10,
+        "EmpNoForHealthMsg": true,
+        "EmpNoForNonAnthemHealth": 89,
+        "EmpNoForSponsorHealth": "15",
+        "InitialEnrollInfo": "CensusTool",
+        "InitialEnrollInfoOther": null,
+        "MinimumABFEnroll": true,
+        "OtherContactEmail": null,
+        "OtherContactName": null,
+        "OtherContactPhone": null,
+        "OtherCoverage": "No",
+        "OtherCoverageYes": null,
+        "OtherEOCformula": false,
+        "TPAPerform": "No",
+        "TPAPerformYes": null,
+        "TPAPerformYesPortion": null,
+        "TotalEmpNo": 8,
+        "WaitPeriodProducts": "No",
+        "WaitingPeriod": "Date of Hire",
+        "WaitingPeriodOther": null,
+        "WaiveWaitPeriod": "No"
+    },
+    "ApplicationInfoInitialEnrollInfoOther": " ",
+    "ApplicationInfoOtherContactEmail": " ",
+    "ApplicationInfoOtherContactName": " ",
+    "ApplicationInfoOtherContactPhone": " ",
+    "ApplicationInfoOtherCoverageYes": " ",
+    "ApplicationInfoTPAPerformYes": " ",
+    "ApplicationInfoTPAPerformYesPortion": " ",
+    "ApplicationInfoWaitingPeriodOther": " ",
+    "Brand": "ABCBS",
+    "BroAccZip": "",
+    "BroQuoteZip": "60654",
+    "BrokerAccountId1": "0013B00000IvC1BQAV",
+    "BrokerContactId": "0033B00000In3S5QAJ",
+    "BrokerContactId1": "0033B00000In3S5QAJ",
+    "BrokerId": "",
+    "BrokerSalesInformation": {
+        "AnthemBrokerNo": null,
+        "BrokerCity": "CHICAGO",
+        "BrokerCommission": 6,
+        "BrokerContactNo": "(475) 675-6555",
+        "BrokerEmail": "dummy@dummy.com",
+        "BrokerLicenseNo": 65464,
+        "BrokerName": "REVA HAWK",
+        "BrokerState": "NY",
+        "BrokerStreetAddress": "214 W HURON",
+        "BrokerTaxID": "676736776",
+        "BrokerZipCode": "60654",
+        "BrokerageName": "yuyu",
+        "Dental": null,
+        "Disability": null,
+        "GeneralAgentEmail": null,
+        "GeneralAgentName": null,
+        "Life": null,
+        "Medical": 6,
+        "Vision": null
+    },
+    "BrokerTaxId": 676736776,
+    "ContactGroupAdminId": "",
+    "ContactId": "0033B00000In3S5QAJ",
+    "ContextId": "",
+    "CountyCode": "08001",
+    "CoverageBenefitDesign": {
+        "CafePlanSection125": "No",
+        "DependentContribution1": "5",
+        "DependentContribution2": "5",
+        "DependentContribution3": null,
+        "DomesticCoverage": "No",
+        "ERISA": "No",
+        "EmployeeContribution1": "56",
+        "EmployeeContribution2": "56",
+        "EmployeeContribution3": null,
+        "FullTimeEmpHours": "5",
+        "GroupSelfFund": "No",
+        "HSAProductCheck": false,
+        "HSAQualifiedPlan": null,
+        "Max3PlansMsg": true,
+        "MedBenefitDesign1": "Anthem Balanced Pathway HMO 6350/30%/7150",
+        "MedBenefitDesign2": "Anthem Balanced PPO 6350/30%/7150",
+        "MedBenefitDesign3": null,
+        "Min1PlanMsg": true,
+        "PartTimeEmpHours": "6",
+        "SelectABFMedicalNQ": null,
+        "SelectedABFProducts": [
+            {
+                "Id": "01t3B000002KUN1QAO",
+                "Name": "Anthem Balanced Pathway HMO 6350/30%/7150",
+                "Network__c": "Pathway",
+                "ProductCode": "S0AC",
+                "VoluntaryProduct": "N",
+                "attributes": [
+                    {
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a273B0000006r9sQAA",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "INN Coinsurance",
+                        "%vlocity_namespace%__AttributeId__c": "a283B000000ZKeAQAW",
+                        "%vlocity_namespace%__AttributeId__r": {
+                            "%vlocity_namespace%__DisplaySequence__c": 1,
+                            "CurrencyIsoCode": "USD",
+                            "Id": "a283B000000ZKeAQAW"
+                        },
+                        "%vlocity_namespace%__CategoryDisplaySequence__c": 1,
+                        "%vlocity_namespace%__CategoryName__c": "Plan",
+                        "%vlocity_namespace%__ObjectId__c": "01t3B000002KUN1QAO",
+                        "%vlocity_namespace%__Value__c": "30%",
+                        "CurrencyIsoCode": "USD",
+                        "Id": "a253B000000aOHVQA2"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a273B0000006r9sQAA",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "OON Coinsurance",
+                        "%vlocity_namespace%__AttributeId__c": "a283B000000ZKeBQAW",
+                        "%vlocity_namespace%__AttributeId__r": {
+                            "%vlocity_namespace%__DisplaySequence__c": 1,
+                            "CurrencyIsoCode": "USD",
+                            "Id": "a283B000000ZKeBQAW"
+                        },
+                        "%vlocity_namespace%__CategoryDisplaySequence__c": 1,
+                        "%vlocity_namespace%__CategoryName__c": "Plan",
+                        "%vlocity_namespace%__ObjectId__c": "01t3B000002KUN1QAO",
+                        "%vlocity_namespace%__Value__c": "0%",
+                        "CurrencyIsoCode": "USD",
+                        "Id": "a253B000000aOHaQAM"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a273B0000006r9rQAA",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "INN OOP",
+                        "%vlocity_namespace%__AttributeId__c": "a283B000000ZKedQAG",
+                        "%vlocity_namespace%__AttributeId__r": {
+                            "%vlocity_namespace%__DisplaySequence__c": 1,
+                            "CurrencyIsoCode": "USD",
+                            "Id": "a283B000000ZKedQAG"
+                        },
+                        "%vlocity_namespace%__CategoryDisplaySequence__c": 2,
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t3B000002KUN1QAO",
+                        "%vlocity_namespace%__Value__c": "$7150 per Individual or $14300 per Family.",
+                        "CurrencyIsoCode": "USD",
+                        "Id": "a253B000000aOHfQAM"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a273B0000006r9yQAA",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "PCP / Specialist",
+                        "%vlocity_namespace%__AttributeId__c": "a283B000000ZKf2QAG",
+                        "%vlocity_namespace%__AttributeId__r": {
+                            "%vlocity_namespace%__DisplaySequence__c": 1,
+                            "CurrencyIsoCode": "USD",
+                            "Id": "a283B000000ZKf2QAG"
+                        },
+                        "%vlocity_namespace%__CategoryDisplaySequence__c": 3,
+                        "%vlocity_namespace%__CategoryName__c": "Office Visits",
+                        "%vlocity_namespace%__ObjectId__c": "01t3B000002KUN1QAO",
+                        "%vlocity_namespace%__Value__c": "$35 / $35",
+                        "CurrencyIsoCode": "USD",
+                        "Id": "a253B000000aOHuQAM"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a273B0000006r9yQAA",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Urgent Care",
+                        "%vlocity_namespace%__AttributeId__c": "a283B000000ZKdxQAG",
+                        "%vlocity_namespace%__AttributeId__r": {
+                            "%vlocity_namespace%__DisplaySequence__c": 1,
+                            "CurrencyIsoCode": "USD",
+                            "Id": "a283B000000ZKdxQAG"
+                        },
+                        "%vlocity_namespace%__CategoryDisplaySequence__c": 3,
+                        "%vlocity_namespace%__CategoryName__c": "Office Visits",
+                        "%vlocity_namespace%__ObjectId__c": "01t3B000002KUN1QAO",
+                        "%vlocity_namespace%__Value__c": "NA",
+                        "CurrencyIsoCode": "USD",
+                        "Id": "a253B000000aOI9QAM"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a273B0000006r9uQAA",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Emergency Room",
+                        "%vlocity_namespace%__AttributeId__c": "a283B000000ZKeyQAG",
+                        "%vlocity_namespace%__AttributeId__r": {
+                            "%vlocity_namespace%__DisplaySequence__c": 1,
+                            "CurrencyIsoCode": "USD",
+                            "Id": "a283B000000ZKeyQAG"
+                        },
+                        "%vlocity_namespace%__CategoryDisplaySequence__c": 5,
+                        "%vlocity_namespace%__CategoryName__c": "Hospital",
+                        "%vlocity_namespace%__ObjectId__c": "01t3B000002KUN1QAO",
+                        "%vlocity_namespace%__Value__c": "0%",
+                        "CurrencyIsoCode": "USD",
+                        "Id": "a253B000000aOIEQA2"
+                    }
+                ],
+                "vlcSelected": true
+            },
+            {
+                "Id": "01t3B000002KUN2QAO",
+                "Name": "Anthem Balanced PPO 6350/30%/7150",
+                "Network__c": "Anthem PPO",
+                "ProductCode": "S0AE",
+                "VoluntaryProduct": "N",
+                "attributes": [
+                ],
+                "vlcSelected": true
+            }
+        ],
+        "SelectedPlanCount": 2,
+        "SelectedPlanCountNQ": null,
+        "SelfFundNumber": null
+    },
+    "CoverageBenefitDesignSelfFundNumber": " ",
+    "DependentCon1": " ",
+    "DependentCon2": " ",
+    "DependentCon3": " ",
+    "EmployeeCon1": " ",
+    "EmployeeCon2": " ",
+    "EmployeeCon3": " ",
+    "EmployerInformation": {
+        "ABFQuoteSICCodeFormula": null,
+        "ABFQuoteSICExists": false,
+        "ABFenrollingempeligibilityMsg": null,
+        "AdminForEmployerTool": "Group administrator",
+        "AffiliateEmpNo1": null,
+        "AffiliateEmpNo2": null,
+        "AffiliateEmpNo3": null,
+        "AffiliateLocation1": null,
+        "AffiliateLocation2": null,
+        "AffiliateLocation3": null,
+        "AffiliateSubsidiaryName1": null,
+        "AffiliateSubsidiaryName2": null,
+        "AffiliateSubsidiaryName3": null,
+        "AppEffectiveDateFormula": "03/01/2019",
+        "ApplicationDate": "2018-11-07",
+        "ApplicationType": "New to Anthem",
+        "AuthorizedName1": null,
+        "AuthorizedName2": null,
+        "AuthorizedName3": null,
+        "AuthorizedTitle1": null,
+        "AuthorizedTitle2": null,
+        "AuthorizedTitle3": null,
+        "BillingContactEmail": "test@fngmfg.com",
+        "BillingContactName": "bnbnbn",
+        "BillingContactPhoneNo": "6565656565",
+        "BusinessEmail": "test@fngmfg.com",
+        "BusinessNature": "45",
+        "BusinessPhoneNo": "5646546464",
+        "BusinessStreetAddress": "tyrtytry",
+        "City": "5646",
+        "EffectiveEndDate": "2019-12-31",
+        "EmployerLegalName": "Testeffectivedate",
+        "FaxNo": null,
+        "FormulaReqEffectiveDate": "2019-03-01",
+        "GroupAdminEmail": "test@fngmfg.com",
+        "GroupAdminName": "ghghg",
+        "GroupAdminPhone": "3554545454",
+        "InvalidSIC": true,
+        "LargeGroupABFEnroll": "SMALLGROUP",
+        "NoOFenrolllingMinCheck": false,
+        "NumberOfEnrollingEmployees": null,
+        "OrganizationType": "Corporation",
+        "OrganizationTypeOther": null,
+        "ReqEffectiveDate-Block": null,
+        "ResponsibleForAdditionalForms": "Billing contact",
+        "ResponsibleForTransactions": "Broker",
+        "SICFormula": "1235",
+        "State": "CO",
+        "StateWiseLargeMinEnrollNo": 101,
+        "StateWiseMinEnrollNo": 10,
+        "TaxID": "897846546",
+        "TypeAheadSIC-Block": {
+            "SIC_TXT": "1235",
+            "TypeAheadSIC": "1235 ANTHRACITE MINING - STRIP"
+        },
+        "YearsinBusiness": 4,
+        "ZIPCode": "80011"
+    },
+    "GATeamMemberId": "",
+    "GeneralContactId": "",
+    "HRAProductIds": [
+    ],
+    "HRAProducts": {
+    },
+    "Industry": "",
+    "Instance Id": "a3Y3B000000GgHbUAK",
+    "MatchingApp1Id": "none",
+    "MatchingApp1Name": "",
+    "MatchingApp1Status": "",
+    "MatchingApp2Id": "none",
+    "MatchingApp2Name": "",
+    "MatchingApp2Status": "",
+    "Object_Id": "0013B00000WrGdFQAV",
+    "OmniScriptState": "regular",
+    "PATeamMemberId": "",
+    "PaidAgencyId": "",
+    "PartyAccountId": "a3k3B000000UqMDQA0",
+    "PrintElectronicSignature": {
+        "Task": null
+    },
+    "Ptgsymbol": "%",
+    "QuoteAccountId": "0013B00000WrGdFQAV",
+    "QuoteBrokerAgentAccId": "0013B00000IvC1BQAV",
+    "QuoteBrokerAgentContactId": "0033B00000In3S5QAJ",
+    "QuoteContactId": "",
+    "QuoteGeneralAgencyETIN": "",
+    "QuoteGeneralAgencyId": "",
+    "QuoteId": "0Q03B000000FGPDSA4",
+    "QuoteName": "",
+    "QuoteNumber": "00032725",
+    "QuoteOpportunityId": "",
+    "QuotePaidAgencyId": "",
+    "QuoteZip": "80011",
+    "ReqEffectiveDateWOQuote": "",
+    "RequestedEffectiveDateEnText": "",
+    "SelectProducts": {
+        "Product": [
+            {
+                "C1_Annual_Total_Premium__c": 0,
+                "C1_Total_EE_Ch__c": 0,
+                "C1_Total_EE_Family__c": 0,
+                "C1_Total_EE_Sp__c": 0,
+                "C1_Total_EE__c": 0,
+                "CurrencyIsoCode": "USD",
+                "Id": "0QL3B000000FWKMWA4",
+                "Product2": {
+                    "%vlocity_namespace%__SubType__c": "HMO",
+                    "%vlocity_namespace%__Type__c": "Medical",
+                    "CurrencyIsoCode": "USD",
+                    "Id": "01t3B000002KUN1QAO",
+                    "Name": "Anthem Balanced Pathway HMO 6350/30%/7150",
+                    "Network__c": "Pathway",
+                    "ProductCode": "S0AC",
+                    "RecordTypeId": "012310000016Cy0AAE",
+                    "VoluntaryProduct__c": "N"
+                },
+                "Product2Id": "01t3B000002KUN1QAO",
+                "attributes": [
+                    {
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a273B0000006r9sQAA",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "INN Coinsurance",
+                        "%vlocity_namespace%__AttributeId__c": "a283B000000ZKeAQAW",
+                        "%vlocity_namespace%__AttributeId__r": {
+                            "%vlocity_namespace%__DisplaySequence__c": 1,
+                            "CurrencyIsoCode": "USD",
+                            "Id": "a283B000000ZKeAQAW"
+                        },
+                        "%vlocity_namespace%__CategoryDisplaySequence__c": 1,
+                        "%vlocity_namespace%__CategoryName__c": "Plan",
+                        "%vlocity_namespace%__ObjectId__c": "01t3B000002KUN1QAO",
+                        "%vlocity_namespace%__Value__c": "30%",
+                        "CurrencyIsoCode": "USD",
+                        "Id": "a253B000000aOHVQA2"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a273B0000006r9sQAA",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "OON Coinsurance",
+                        "%vlocity_namespace%__AttributeId__c": "a283B000000ZKeBQAW",
+                        "%vlocity_namespace%__AttributeId__r": {
+                            "%vlocity_namespace%__DisplaySequence__c": 1,
+                            "CurrencyIsoCode": "USD",
+                            "Id": "a283B000000ZKeBQAW"
+                        },
+                        "%vlocity_namespace%__CategoryDisplaySequence__c": 1,
+                        "%vlocity_namespace%__CategoryName__c": "Plan",
+                        "%vlocity_namespace%__ObjectId__c": "01t3B000002KUN1QAO",
+                        "%vlocity_namespace%__Value__c": "0%",
+                        "CurrencyIsoCode": "USD",
+                        "Id": "a253B000000aOHaQAM"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a273B0000006r9rQAA",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "INN OOP",
+                        "%vlocity_namespace%__AttributeId__c": "a283B000000ZKedQAG",
+                        "%vlocity_namespace%__AttributeId__r": {
+                            "%vlocity_namespace%__DisplaySequence__c": 1,
+                            "CurrencyIsoCode": "USD",
+                            "Id": "a283B000000ZKedQAG"
+                        },
+                        "%vlocity_namespace%__CategoryDisplaySequence__c": 2,
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t3B000002KUN1QAO",
+                        "%vlocity_namespace%__Value__c": "$7150 per Individual or $14300 per Family.",
+                        "CurrencyIsoCode": "USD",
+                        "Id": "a253B000000aOHfQAM"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a273B0000006r9rQAA",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "INN OOP Family",
+                        "%vlocity_namespace%__AttributeId__c": "a283B000000ZKefQAG",
+                        "%vlocity_namespace%__AttributeId__r": {
+                            "%vlocity_namespace%__DisplaySequence__c": 1,
+                            "CurrencyIsoCode": "USD",
+                            "Id": "a283B000000ZKefQAG"
+                        },
+                        "%vlocity_namespace%__CategoryDisplaySequence__c": 2,
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t3B000002KUN1QAO",
+                        "%vlocity_namespace%__Value__c": "$14,300",
+                        "CurrencyIsoCode": "USD",
+                        "Id": "a253B000000aOHkQAM"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a273B0000006r9rQAA",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "INN OOP Single",
+                        "%vlocity_namespace%__AttributeId__c": "a283B000000ZKeeQAG",
+                        "%vlocity_namespace%__AttributeId__r": {
+                            "%vlocity_namespace%__DisplaySequence__c": 1,
+                            "CurrencyIsoCode": "USD",
+                            "Id": "a283B000000ZKeeQAG"
+                        },
+                        "%vlocity_namespace%__CategoryDisplaySequence__c": 2,
+                        "%vlocity_namespace%__CategoryName__c": "Deductible",
+                        "%vlocity_namespace%__ObjectId__c": "01t3B000002KUN1QAO",
+                        "%vlocity_namespace%__Value__c": "$7,150",
+                        "CurrencyIsoCode": "USD",
+                        "Id": "a253B000000aOHpQAM"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a273B0000006r9yQAA",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "PCP / Specialist",
+                        "%vlocity_namespace%__AttributeId__c": "a283B000000ZKf2QAG",
+                        "%vlocity_namespace%__AttributeId__r": {
+                            "%vlocity_namespace%__DisplaySequence__c": 1,
+                            "CurrencyIsoCode": "USD",
+                            "Id": "a283B000000ZKf2QAG"
+                        },
+                        "%vlocity_namespace%__CategoryDisplaySequence__c": 3,
+                        "%vlocity_namespace%__CategoryName__c": "Office Visits",
+                        "%vlocity_namespace%__ObjectId__c": "01t3B000002KUN1QAO",
+                        "%vlocity_namespace%__Value__c": "$35 / $35",
+                        "CurrencyIsoCode": "USD",
+                        "Id": "a253B000000aOHuQAM"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a273B0000006r9yQAA",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "PCP Visit",
+                        "%vlocity_namespace%__AttributeId__c": "a283B000000ZKf0QAG",
+                        "%vlocity_namespace%__AttributeId__r": {
+                            "%vlocity_namespace%__DisplaySequence__c": 1,
+                            "CurrencyIsoCode": "USD",
+                            "Id": "a283B000000ZKf0QAG"
+                        },
+                        "%vlocity_namespace%__CategoryDisplaySequence__c": 3,
+                        "%vlocity_namespace%__CategoryName__c": "Office Visits",
+                        "%vlocity_namespace%__ObjectId__c": "01t3B000002KUN1QAO",
+                        "%vlocity_namespace%__Value__c": "35",
+                        "CurrencyIsoCode": "USD",
+                        "Id": "a253B000000aOHzQAM"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a273B0000006r9yQAA",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Specialist Visit",
+                        "%vlocity_namespace%__AttributeId__c": "a283B000000ZKf1QAG",
+                        "%vlocity_namespace%__AttributeId__r": {
+                            "%vlocity_namespace%__DisplaySequence__c": 1,
+                            "CurrencyIsoCode": "USD",
+                            "Id": "a283B000000ZKf1QAG"
+                        },
+                        "%vlocity_namespace%__CategoryDisplaySequence__c": 3,
+                        "%vlocity_namespace%__CategoryName__c": "Office Visits",
+                        "%vlocity_namespace%__ObjectId__c": "01t3B000002KUN1QAO",
+                        "%vlocity_namespace%__Value__c": "35",
+                        "CurrencyIsoCode": "USD",
+                        "Id": "a253B000000aOI4QAM"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a273B0000006r9yQAA",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Urgent Care",
+                        "%vlocity_namespace%__AttributeId__c": "a283B000000ZKdxQAG",
+                        "%vlocity_namespace%__AttributeId__r": {
+                            "%vlocity_namespace%__DisplaySequence__c": 1,
+                            "CurrencyIsoCode": "USD",
+                            "Id": "a283B000000ZKdxQAG"
+                        },
+                        "%vlocity_namespace%__CategoryDisplaySequence__c": 3,
+                        "%vlocity_namespace%__CategoryName__c": "Office Visits",
+                        "%vlocity_namespace%__ObjectId__c": "01t3B000002KUN1QAO",
+                        "%vlocity_namespace%__Value__c": "NA",
+                        "CurrencyIsoCode": "USD",
+                        "Id": "a253B000000aOI9QAM"
+                    },
+                    {
+                        "%vlocity_namespace%__AttributeCategoryId__c": "a273B0000006r9uQAA",
+                        "%vlocity_namespace%__AttributeDisplayName__c": "Emergency Room",
+                        "%vlocity_namespace%__AttributeId__c": "a283B000000ZKeyQAG",
+                        "%vlocity_namespace%__AttributeId__r": {
+                            "%vlocity_namespace%__DisplaySequence__c": 1,
+                            "CurrencyIsoCode": "USD",
+                            "Id": "a283B000000ZKeyQAG"
+                        },
+                        "%vlocity_namespace%__CategoryDisplaySequence__c": 5,
+                        "%vlocity_namespace%__CategoryName__c": "Hospital",
+                        "%vlocity_namespace%__ObjectId__c": "01t3B000002KUN1QAO",
+                        "%vlocity_namespace%__Value__c": "0%",
+                        "CurrencyIsoCode": "USD",
+                        "Id": "a253B000000aOIEQA2"
+                    }
+                ]
+            },
+            {
+                "C1_Annual_Total_Premium__c": 0,
+                "C1_Total_EE_Ch__c": 0,
+                "C1_Total_EE_Family__c": 0,
+                "C1_Total_EE_Sp__c": 0,
+                "C1_Total_EE__c": 0,
+                "CurrencyIsoCode": "USD",
+                "Id": "0QL3B000000FWKNWA4",
+                "Product2": {
+                    "%vlocity_namespace%__SubType__c": "PPO",
+                    "%vlocity_namespace%__Type__c": "Medical",
+                    "CurrencyIsoCode": "USD",
+                    "Id": "01t3B000002KUN2QAO",
+                    "Name": "Anthem Balanced PPO 6350/30%/7150",
+                    "Network__c": "Anthem PPO",
+                    "ProductCode": "S0AE",
+                    "RecordTypeId": "012310000016Cy0AAE",
+                    "VoluntaryProduct__c": "N"
+                },
+                "Product2Id": "01t3B000002KUN2QAO",
+                "attributes": [
+                ]
+            }
+        ]
+    },
+    "SpecialtyEnrollment": {
+        "ABFAPPStatus": null,
+        "ABFApplicationDateUpdated": null,
+        "EnrollSpecialty": null
+    },
+    "TaxId": 897846546,
+    "TechCoverageEffectiveDate": "",
+    "TechCoverageOptions": "",
+    "TypeAheadSIC-Block": {
+        "SICName": "ANTHRACITE MINING - STRIP",
+        "SIC_NO": 1235
+    },
+    "WithQuote": true,
+    "YEAR": "",
+    "error": "OK",
+    "medicalPlansStatus": "Fetched",
+    "omniCancelAction": "back",
+    "omniIframeEmbedded": true,
+    "options": [
+        {
+            "name": "Jan 1 2019",
+            "value": "Jan 1 2019"
+        },
+        {
+            "name": "Feb 1 2019",
+            "value": "Feb 1 2019"
+        },
+        {
+            "name": "Mar 1 2019",
+            "value": "Mar 1 2019"
+        },
+        {
+            "name": "Apr 1 2019",
+            "value": "Apr 1 2019"
+        },
+        {
+            "name": "May 1 2019",
+            "value": "May 1 2019"
+        },
+        {
+            "name": "Jun 1 2019",
+            "value": "Jun 1 2019"
+        },
+        {
+            "name": "Jul 1 2019",
+            "value": "Jul 1 2019"
+        },
+        {
+            "name": "Aug 1 2019",
+            "value": "Aug 1 2019"
+        },
+        {
+            "name": "Sep 1 2019",
+            "value": "Sep 1 2019"
+        },
+        {
+            "name": "Oct 1 2019",
+            "value": "Oct 1 2019"
+        },
+        {
+            "name": "Nov 1 2019",
+            "value": "Nov 1 2019"
+        },
+        {
+            "name": "Dec 1 2019",
+            "value": "Dec 1 2019"
+        },
+        {
+            "name": "Jan 1 2020",
+            "value": "Jan 1 2020"
+        },
+        {
+            "name": "Feb 1 2020",
+            "value": "Feb 1 2020"
+        },
+        {
+            "name": "Mar 1 2020",
+            "value": "Mar 1 2020"
+        },
+        {
+            "name": "Apr 1 2020",
+            "value": "Apr 1 2020"
+        }
+    ],
+    "paidAgencyAccId": "",
+    "qState": "CO",
+    "requestedEffectiveDate1": "2019-03-01",
+    "sInstanceId": "a3Y3B000000GgHbUAK",
+    "timeStamp": "2018-11-15T07:39:14.018Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053B000001dMpSQAU",
+    "userName": "arjun.bura@accenture.com",
+    "userProfile": "Anthem SG Broker",
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ApplicationInfo": 12195,
+        "BrokerSalesInformation": 6393,
+        "CoverageBenefitDesign": 33710,
+        "Datacleanup": 1184,
+        "EmployerInformation": 81302,
+        "FetchABFEnrollProducts": 887,
+        "GetABFEnrollEffectiveDates": 990,
+        "GetABFSelectedProducts": 1081,
+        "InitialDataExtract-IP": 7326,
+        "OmniScriptSessionToken": "5a2f3634-51da-47bf-aa58-e1ce9775380e",
+        "ZipCodeTaxIdSetValues": 83
+    }
+}

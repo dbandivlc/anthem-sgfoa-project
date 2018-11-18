@@ -1,0 +1,1196 @@
+{
+    "Benefits": [
+        {
+            "benefitType": "currentProducts",
+            "bundling": "N",
+            "currentContractPlanCode": "2H97",
+            "currentContractPlanName": "SV PPO 2700/25%/5000 2H97",
+            "currentRatingMethod": "MEMBER",
+            "enforceProdId1RateGuaranteeMonths": "12",
+            "isPNCCurrProduct1": "N",
+            "isPNCTarProduct1": "N",
+            "medLock": "N",
+            "productSubType": "PPO",
+            "productType": "MED",
+            "rateAdjustFactor": 1,
+            "rateGuaranteeEndDate": "2018-01-01T05:00:00.000",
+            "renewalDate": "2017-01-01T05:00:00.000"
+        },
+        {
+            "benefitType": "renewalProducts",
+            "currentContractPlanCode": "2H97",
+            "currentContractPlanName": "SV PPO 2700/25%/5000 2H97",
+            "premium": [
+                {
+                    "monthlyPremium": 3158.53,
+                    "ratingMethod": "MEMBER"
+                }
+            ],
+            "productType": "MED",
+            "renewalContractPlanCode": "2V32",
+            "renewalContractPlanName": ""
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1T",
+            "lastUpdateDate": "2017-12-08T16:03:36.153",
+            "premium": [
+                {
+                    "monthlyPremium": "3493.21",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1S",
+            "lastUpdateDate": "2017-12-08T16:03:36.155",
+            "premium": [
+                {
+                    "monthlyPremium": "3493.21",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1R",
+            "lastUpdateDate": "2017-12-08T16:03:36.158",
+            "premium": [
+                {
+                    "monthlyPremium": "3493.21",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1Q",
+            "lastUpdateDate": "2017-12-08T16:03:36.160",
+            "premium": [
+                {
+                    "monthlyPremium": "3493.21",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V21",
+            "lastUpdateDate": "2017-12-08T16:03:36.162",
+            "premium": [
+                {
+                    "monthlyPremium": "3884.53",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1P",
+            "lastUpdateDate": "2017-12-08T16:03:36.165",
+            "premium": [
+                {
+                    "monthlyPremium": "2640.79",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V20",
+            "lastUpdateDate": "2017-12-08T16:03:36.166",
+            "premium": [
+                {
+                    "monthlyPremium": "3884.53",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1N",
+            "lastUpdateDate": "2017-12-08T16:03:36.168",
+            "premium": [
+                {
+                    "monthlyPremium": "2640.79",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1M",
+            "lastUpdateDate": "2017-12-08T16:03:36.170",
+            "premium": [
+                {
+                    "monthlyPremium": "2640.79",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1Z",
+            "lastUpdateDate": "2017-12-08T16:03:36.172",
+            "premium": [
+                {
+                    "monthlyPremium": "3884.53",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1Y",
+            "lastUpdateDate": "2017-12-08T16:03:36.177",
+            "premium": [
+                {
+                    "monthlyPremium": "3884.53",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1X",
+            "lastUpdateDate": "2017-12-08T16:03:36.180",
+            "premium": [
+                {
+                    "monthlyPremium": "4083.01",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V29",
+            "lastUpdateDate": "2017-12-08T16:03:36.182",
+            "premium": [
+                {
+                    "monthlyPremium": "3855.58",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1W",
+            "lastUpdateDate": "2017-12-08T16:03:36.184",
+            "premium": [
+                {
+                    "monthlyPremium": "4083.01",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V28",
+            "lastUpdateDate": "2017-12-08T16:03:36.186",
+            "premium": [
+                {
+                    "monthlyPremium": "3855.58",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1V",
+            "lastUpdateDate": "2017-12-08T16:03:36.188",
+            "premium": [
+                {
+                    "monthlyPremium": "4083.01",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V27",
+            "lastUpdateDate": "2017-12-08T16:03:36.190",
+            "premium": [
+                {
+                    "monthlyPremium": "3855.58",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V26",
+            "lastUpdateDate": "2017-12-08T16:03:36.192",
+            "premium": [
+                {
+                    "monthlyPremium": "3855.58",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1U",
+            "lastUpdateDate": "2017-12-08T16:03:36.194",
+            "premium": [
+                {
+                    "monthlyPremium": "4083.01",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2D",
+            "lastUpdateDate": "2017-12-08T16:03:36.196",
+            "premium": [
+                {
+                    "monthlyPremium": "3595.75",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2E",
+            "lastUpdateDate": "2017-12-08T16:03:36.198",
+            "premium": [
+                {
+                    "monthlyPremium": "3501.71",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2B",
+            "lastUpdateDate": "2017-12-08T16:03:36.200",
+            "premium": [
+                {
+                    "monthlyPremium": "3595.75",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2C",
+            "lastUpdateDate": "2017-12-08T16:03:36.201",
+            "premium": [
+                {
+                    "monthlyPremium": "3595.75",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2A",
+            "lastUpdateDate": "2017-12-08T16:03:36.203",
+            "premium": [
+                {
+                    "monthlyPremium": "3595.75",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2L",
+            "lastUpdateDate": "2017-12-08T16:03:36.206",
+            "premium": [
+                {
+                    "monthlyPremium": "3218.81",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2M",
+            "lastUpdateDate": "2017-12-08T16:03:36.208",
+            "premium": [
+                {
+                    "monthlyPremium": "3218.81",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2J",
+            "lastUpdateDate": "2017-12-08T16:03:36.210",
+            "premium": [
+                {
+                    "monthlyPremium": "3218.81",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2K",
+            "lastUpdateDate": "2017-12-08T16:03:36.213",
+            "premium": [
+                {
+                    "monthlyPremium": "3218.81",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2H",
+            "lastUpdateDate": "2017-12-08T16:03:36.215",
+            "premium": [
+                {
+                    "monthlyPremium": "3501.71",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2F",
+            "lastUpdateDate": "2017-12-08T16:03:36.218",
+            "premium": [
+                {
+                    "monthlyPremium": "3501.71",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2G",
+            "lastUpdateDate": "2017-12-08T16:03:36.221",
+            "premium": [
+                {
+                    "monthlyPremium": "3501.71",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V12",
+            "lastUpdateDate": "2017-12-08T16:03:36.223",
+            "premium": [
+                {
+                    "monthlyPremium": "3467.50",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V11",
+            "lastUpdateDate": "2017-12-08T16:03:36.225",
+            "premium": [
+                {
+                    "monthlyPremium": "3467.50",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V14",
+            "lastUpdateDate": "2017-12-08T16:03:36.227",
+            "premium": [
+                {
+                    "monthlyPremium": "4432.06",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V13",
+            "lastUpdateDate": "2017-12-08T16:03:36.230",
+            "premium": [
+                {
+                    "monthlyPremium": "3467.50",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V10",
+            "lastUpdateDate": "2017-12-08T16:03:36.232",
+            "premium": [
+                {
+                    "monthlyPremium": "3467.50",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V0Y",
+            "lastUpdateDate": "2017-12-08T16:03:36.234",
+            "premium": [
+                {
+                    "monthlyPremium": "4032.32",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V0X",
+            "lastUpdateDate": "2017-12-08T16:03:36.236",
+            "premium": [
+                {
+                    "monthlyPremium": "4032.32",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V19",
+            "lastUpdateDate": "2017-12-08T16:03:36.238",
+            "premium": [
+                {
+                    "monthlyPremium": "4601.10",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V0Z",
+            "lastUpdateDate": "2017-12-08T16:03:36.241",
+            "premium": [
+                {
+                    "monthlyPremium": "4032.32",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V16",
+            "lastUpdateDate": "2017-12-08T16:03:36.243",
+            "premium": [
+                {
+                    "monthlyPremium": "4432.06",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V0U",
+            "lastUpdateDate": "2017-12-08T16:03:36.249",
+            "premium": [
+                {
+                    "monthlyPremium": "2543.41",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V0T",
+            "lastUpdateDate": "2017-12-08T16:03:36.251",
+            "premium": [
+                {
+                    "monthlyPremium": "3836.11",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V15",
+            "lastUpdateDate": "2017-12-08T16:03:36.253",
+            "premium": [
+                {
+                    "monthlyPremium": "4432.06",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V0W",
+            "lastUpdateDate": "2017-12-08T16:03:36.255",
+            "premium": [
+                {
+                    "monthlyPremium": "4032.32",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V18",
+            "lastUpdateDate": "2017-12-08T16:03:36.257",
+            "premium": [
+                {
+                    "monthlyPremium": "4601.10",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V17",
+            "lastUpdateDate": "2017-12-08T16:03:36.259",
+            "premium": [
+                {
+                    "monthlyPremium": "4432.06",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V0V",
+            "lastUpdateDate": "2017-12-08T16:03:36.261",
+            "premium": [
+                {
+                    "monthlyPremium": "3381.17",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1A",
+            "lastUpdateDate": "2017-12-08T16:03:36.263",
+            "premium": [
+                {
+                    "monthlyPremium": "4601.10",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1B",
+            "lastUpdateDate": "2017-12-08T16:03:36.265",
+            "premium": [
+                {
+                    "monthlyPremium": "4601.10",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1C",
+            "lastUpdateDate": "2017-12-08T16:03:36.269",
+            "premium": [
+                {
+                    "monthlyPremium": "3969.43",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1D",
+            "lastUpdateDate": "2017-12-08T16:03:36.271",
+            "premium": [
+                {
+                    "monthlyPremium": "3969.43",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1J",
+            "lastUpdateDate": "2017-12-08T16:03:36.273",
+            "premium": [
+                {
+                    "monthlyPremium": "2648.48",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1K",
+            "lastUpdateDate": "2017-12-08T16:03:36.275",
+            "premium": [
+                {
+                    "monthlyPremium": "2648.48",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1L",
+            "lastUpdateDate": "2017-12-08T16:03:36.276",
+            "premium": [
+                {
+                    "monthlyPremium": "2640.79",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1E",
+            "lastUpdateDate": "2017-12-08T16:03:36.278",
+            "premium": [
+                {
+                    "monthlyPremium": "3969.43",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1F",
+            "lastUpdateDate": "2017-12-08T16:03:36.280",
+            "premium": [
+                {
+                    "monthlyPremium": "3969.43",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1G",
+            "lastUpdateDate": "2017-12-08T16:03:36.282",
+            "premium": [
+                {
+                    "monthlyPremium": "2648.48",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1H",
+            "lastUpdateDate": "2017-12-08T16:03:36.284",
+            "premium": [
+                {
+                    "monthlyPremium": "2648.48",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V3Q",
+            "lastUpdateDate": "2017-12-08T16:03:36.286",
+            "premium": [
+                {
+                    "monthlyPremium": "2632.01",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V3T",
+            "lastUpdateDate": "2017-12-08T16:03:36.288",
+            "premium": [
+                {
+                    "monthlyPremium": "2488.29",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V30",
+            "lastUpdateDate": "2017-12-08T16:03:36.291",
+            "premium": [
+                {
+                    "monthlyPremium": "3158.53",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2N",
+            "lastUpdateDate": "2017-12-08T16:03:36.293",
+            "premium": [
+                {
+                    "monthlyPremium": "3550.58",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2Q",
+            "lastUpdateDate": "2017-12-08T16:03:36.295",
+            "premium": [
+                {
+                    "monthlyPremium": "3550.58",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V32",
+            "lastUpdateDate": "2017-12-08T16:03:36.297",
+            "premium": [
+                {
+                    "monthlyPremium": "3158.53",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V31",
+            "lastUpdateDate": "2017-12-08T16:03:36.299",
+            "premium": [
+                {
+                    "monthlyPremium": "3158.53",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2P",
+            "lastUpdateDate": "2017-12-08T16:03:36.301",
+            "premium": [
+                {
+                    "monthlyPremium": "3550.58",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V34",
+            "lastUpdateDate": "2017-12-08T16:03:36.303",
+            "premium": [
+                {
+                    "monthlyPremium": "3737.56",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2S",
+            "lastUpdateDate": "2017-12-08T16:03:36.305",
+            "premium": [
+                {
+                    "monthlyPremium": "2656.28",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2R",
+            "lastUpdateDate": "2017-12-08T16:03:36.307",
+            "premium": [
+                {
+                    "monthlyPremium": "3550.58",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V33",
+            "lastUpdateDate": "2017-12-08T16:03:36.309",
+            "premium": [
+                {
+                    "monthlyPremium": "3158.53",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2U",
+            "lastUpdateDate": "2017-12-08T16:03:36.311",
+            "premium": [
+                {
+                    "monthlyPremium": "2656.28",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V36",
+            "lastUpdateDate": "2017-12-08T16:03:36.313",
+            "premium": [
+                {
+                    "monthlyPremium": "3737.56",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2T",
+            "lastUpdateDate": "2017-12-08T16:03:36.314",
+            "premium": [
+                {
+                    "monthlyPremium": "2656.28",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V35",
+            "lastUpdateDate": "2017-12-08T16:03:36.316",
+            "premium": [
+                {
+                    "monthlyPremium": "3737.56",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V38",
+            "lastUpdateDate": "2017-12-08T16:03:36.318",
+            "premium": [
+                {
+                    "monthlyPremium": "4603.29",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2W",
+            "lastUpdateDate": "2017-12-08T16:03:36.321",
+            "premium": [
+                {
+                    "monthlyPremium": "4348.98",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V37",
+            "lastUpdateDate": "2017-12-08T16:03:36.324",
+            "premium": [
+                {
+                    "monthlyPremium": "3737.56",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2V",
+            "lastUpdateDate": "2017-12-08T16:03:36.327",
+            "premium": [
+                {
+                    "monthlyPremium": "2656.28",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2Y",
+            "lastUpdateDate": "2017-12-08T16:03:36.329",
+            "premium": [
+                {
+                    "monthlyPremium": "4348.98",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2X",
+            "lastUpdateDate": "2017-12-08T16:03:36.331",
+            "premium": [
+                {
+                    "monthlyPremium": "4348.98",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V39",
+            "lastUpdateDate": "2017-12-08T16:03:36.333",
+            "premium": [
+                {
+                    "monthlyPremium": "4603.29",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V2Z",
+            "lastUpdateDate": "2017-12-08T16:03:36.335",
+            "premium": [
+                {
+                    "monthlyPremium": "4348.98",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2Y2P",
+            "lastUpdateDate": "2017-12-08T16:03:36.337",
+            "premium": [
+                {
+                    "monthlyPremium": "3487.42",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V3A",
+            "lastUpdateDate": "2017-12-08T16:03:36.339",
+            "premium": [
+                {
+                    "monthlyPremium": "4603.29",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V3B",
+            "lastUpdateDate": "2017-12-08T16:03:36.341",
+            "premium": [
+                {
+                    "monthlyPremium": "4603.29",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V3C",
+            "lastUpdateDate": "2017-12-08T16:03:36.343",
+            "premium": [
+                {
+                    "monthlyPremium": "4098.84",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2Y2L",
+            "lastUpdateDate": "2017-12-08T16:03:36.346",
+            "premium": [
+                {
+                    "monthlyPremium": "3970.97",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V3D",
+            "lastUpdateDate": "2017-12-08T16:03:36.348",
+            "premium": [
+                {
+                    "monthlyPremium": "4098.84",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V3E",
+            "lastUpdateDate": "2017-12-08T16:03:36.351",
+            "premium": [
+                {
+                    "monthlyPremium": "4098.84",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V3F",
+            "lastUpdateDate": "2017-12-08T16:03:36.353",
+            "premium": [
+                {
+                    "monthlyPremium": "4098.84",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V3G",
+            "lastUpdateDate": "2017-12-08T16:03:36.355",
+            "premium": [
+                {
+                    "monthlyPremium": "3550.94",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V3H",
+            "lastUpdateDate": "2017-12-08T16:03:36.357",
+            "premium": [
+                {
+                    "monthlyPremium": "3550.94",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V3J",
+            "lastUpdateDate": "2017-12-08T16:03:36.360",
+            "premium": [
+                {
+                    "monthlyPremium": "3550.94",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V3K",
+            "lastUpdateDate": "2017-12-08T16:03:36.362",
+            "premium": [
+                {
+                    "monthlyPremium": "3550.94",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2Y2S",
+            "lastUpdateDate": "2017-12-08T16:03:36.364",
+            "premium": [
+                {
+                    "monthlyPremium": "3513.12",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2Y2H",
+            "lastUpdateDate": "2017-12-08T16:03:36.366",
+            "premium": [
+                {
+                    "monthlyPremium": "4587.09",
+                    "ratingMethod": "Member"
+                }
+            ]
+        }
+    ],
+    "ContextId": "",
+    "Data_Quality_Check": "passed",
+    "ID": "A66164",
+    "SIC": "8011",
+    "Version": "V1",
+    "_id": "5a29703f679334bbe2434bfd",
+    "accountManagerID": "CT104",
+    "agents": [
+        {
+            "agentID": "045400052S",
+            "name": "STEVEN A DUNPHY",
+            "product": "default",
+            "taxID": "UNKNOWN",
+            "taxIDType": "Writing"
+        }
+    ],
+    "associationCode": null,
+    "billingEntity": "A66164",
+    "brokerFDocID": "3509527464",
+    "businessCode": "A",
+    "co_dentalPlanLimit": 10,
+    "co_lifePlanLimit": 10,
+    "co_medicalPlanLimit": 10,
+    "co_visionPlanLimit": 10,
+    "contactName": "MARGARET BASON MD",
+    "contacts": [
+        {
+            "addressLine1": "353 FIRETOWN RD",
+            "addressType": "billing",
+            "cityName": "SIMSBURY",
+            "countyCode": "003",
+            "postalCode": "06070",
+            "stateCode": "CT",
+            "stateName": "CT"
+        },
+        {
+            "addressLine1": "225 HOPMEADOW ST STE 300",
+            "addressType": "service",
+            "cityName": "WEATOGUE",
+            "countyCode": "003",
+            "postalCode": "06089",
+            "stateCode": "CT",
+            "stateName": "CT"
+        }
+    ],
+    "effectiveDate": "2017-01-01T05:00:00.000",
+    "end-date": "9999-12-31 00:00:00:000",
+    "exchangeIndicator": "OF",
+    "groupFDocID": "3509527476",
+    "groupStatus": "0",
+    "id": "a3Z0R00000006tAUAQ",
+    "layout": "lightning",
+    "module": "PlanBuilder",
+    "name": "MARGARET BASON MD",
+    "nextLabel": "Continue",
+    "noResultsError": false,
+    "planType": "dental",
+    "planTypePage": {
+        "planTypeBlock": {
+            "dentalInsuranceType": true,
+            "lifeInsurnceType": false,
+            "medicalInsuranceType": true,
+            "visionInsuranceType": false
+        },
+        "planTypeStart": null
+    },
+    "relationship": "GROUP",
+    "renewalDate": "2018-01-01T05:00:00.000",
+    "renewalsTypePage": {
+        "chooseRenewals": "currentProducts"
+    },
+    "salesRepID": "CT114",
+    "showAccountPage": false,
+    "size": "1",
+    "source": "WSGRS",
+    "source-path": "hdfs://mom9n90291.wellpoint.com:8020/apps/Renewals/WSGRS/GroupInfo/WSGRS_Group_Info_PROD_20171025120001.txt",
+    "start-date": "2017-12-07 15:33:22.867",
+    "status": "un-processed",
+    "timeStamp": "2018-02-21T13:13:02.281Z",
+    "type": "SG",
+    "underwriterID": "99",
+    "userCurrencyCode": "USD",
+    "userId": "005310000086ODYAA2",
+    "userName": "dbandi@anthem.isg.sgapsdev1",
+    "userProfile": "System Administrator",
+    "userTimeZone": -360,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "GetRenewalsData": 3144,
+        "OmniScriptSessionToken": "f4d24057-a925-4dd3-9360-5c78b51f6d82",
+        "PlanLimit": 22,
+        "renewalsTypePage": 2482,
+        "transformContractCodes": 358
+    }
+}

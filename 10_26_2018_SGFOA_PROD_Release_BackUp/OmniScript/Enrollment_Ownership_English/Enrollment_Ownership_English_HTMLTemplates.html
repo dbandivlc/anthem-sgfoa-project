@@ -1,0 +1,47 @@
+<script type="text/ng-template" id="OwnershipRepeatBlock.html" >
+    <div class="slds-col--padded slds-size--1-of-1">
+
+        <ng-form name='loopform'
+                 class='slds-form-element vlc-flex slds-clearfix vlc-slds-block'
+                 id ='{{::control.name}}'
+                 ng-repeat='control in child.eleArray' >
+
+            <div class="slds-form-element__control">
+
+                <!-- block withing the main grid  ng-hide hides the block by default-->
+                <div class='slds-size--1-of-1 ng-hide'
+                     vlc-slds-toggle-elem='visible'>
+
+                    <div  class="slds-grid slds-wrap slds-grid--pull-padded">
+                        <child class="slds-size--1-of-1 slds-medium--1-of-1 slds-large-size--{{child.eleArray[0].propSetMap.controlWidth}}-of-12"
+                               ng-repeat='child in ::children = control.children'
+                               ng-show='::!child.eleArray[0].propSetMap.hide'
+                               ng-if='child.eleArray[0].propSetMap.hide||(!child.eleArray[0].propSetMap.show || evaluateShow(child.eleArray[0], this))'>
+                        </child>
+                    </div>
+                    
+                    <div class="vlc-slds-control-action__container" vlc-bubble-canceller="test" ng-if="::!control.propSetMap.label" style="padding-right: 1%;">
+
+                        <span ng-if='::control.propSetMap.repeat'
+                              ng-click='baseCtrl.addItem(this, child, $index)'
+                              aria-hidden="true">{{child.eleArray.length == 1? 'Add Owner' : 'Add'}}
+                            
+                        </span>
+    
+                        <span ng-if='child.eleArray.length > 1'
+                              ng-click='removeDomElement(this, child, $index)'
+                              vlc-slds-remove-item="ng-form.vlc-slds-block"
+                              aria-hidden="true">Delete Owner
+                           
+                        </span>
+
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </ng-form>
+
+    </div>
+</script>

@@ -1,0 +1,42 @@
+[
+    {
+        "%vlocity_namespace%__DefaultValue__c": "Medical",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "productType",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "productType",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "APS_TransformZipCodeInputCustom7080",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "APS_TransformZipCodeInput",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DefaultValue__c": "APS",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "targetSystem",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "APS_TransformZipCodeInputCustom634",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "APS_TransformZipCodeInput",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "zipCode",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "zipPage:zipBlock:zipcode",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "APS_TransformZipCodeInputCustom2294",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "APS_TransformZipCodeInput",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

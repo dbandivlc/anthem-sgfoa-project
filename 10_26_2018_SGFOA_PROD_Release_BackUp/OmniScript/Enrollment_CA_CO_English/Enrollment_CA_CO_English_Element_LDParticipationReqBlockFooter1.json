@@ -1,0 +1,51 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 1,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Enrollment-CA_CO",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/CA_CO/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 29,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Enrollment/CA_CO/English",
+        "Name": "SelectedLAndDCoverage",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/CA_CO/English/SelectedLAndDCoverage",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "SelectedLAndDCoverage",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "Participation Requirement",
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "2019",
+                        "field": "EffectiveDateYear"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "CO",
+                        "field": "qState"
+                    }
+                ]
+            }
+        },
+        "text": "<h4><strong>PARTICIPATION REQUIREMENTS</strong></h4>\n<p><strong>Basic Life, Basic AD&amp;D, Short Term Disability:</strong>&nbsp;100%textNode% participation required on non-contributory plans and 75%textNode% participation required on contributory plans.</p>\n<p><strong>Long Term Disability:</strong>&nbsp;100%textNode% participation required on all non-contributory plans. 100%textNode% participation required for contributory plans of 2 or 3 eligible employees. 75%textNode% participation required on contributory plans with 4 or more eligible employees.<br /><strong>Basic Dependent Life:</strong>&nbsp;100%textNode% participation required on non-contributory plans.<br /><strong>Optional Supplemental/Voluntary Life/AD&amp;D:</strong>&nbsp;The greater of five enrolled employees or 20%textNode% participation required.<br /><strong>Voluntary Short Term Disability and Voluntary Long Term Disability:</strong>&nbsp;The greater of 10 enrolled employees or 20%textNode% participation required.</p>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "LDParticipationReqBlockFooter1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/CA_CO/English/LDParticipationReqBlockFooter1"
+}

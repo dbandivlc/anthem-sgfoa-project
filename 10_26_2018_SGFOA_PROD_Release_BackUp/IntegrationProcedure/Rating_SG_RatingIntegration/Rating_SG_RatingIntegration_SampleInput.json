@@ -1,0 +1,562 @@
+{
+    "AccCensus": 1,
+    "AccountId": "0013B00000UknYSQAZ",
+    "ActionButton": "quote",
+    "AssociationSelect": "No",
+    "Brand": "ABCBS",
+    "BrokerContactId": "0033B00000In3S5QAJ",
+    "BrokerUserId": "BLANK",
+    "CategorySelection": {
+        "AllCoverageOptions": "Medical",
+        "ConnectName": "Anthem Connect ",
+        "CoverageEffectiveDate": "Jul 15 2018",
+        "CoverageOptions": "Medical",
+        "DentalPlanType": false,
+        "Email": "connect@anthemdentaladmin.com",
+        "HealthCoverageOptions": null,
+        "IU-NY-NoBroker": "No",
+        "IU-NoBroker": "No",
+        "IU-NoBrokerCoverageOptions": null,
+        "IU-nonNY-NoBroker": "No",
+        "L&DErrorMsg": null,
+        "LAndDPlanType": false,
+        "LifeCoverageOptions": null,
+        "MedicalPlanType": true,
+        "Object_Id": "0013B00000UknYSQAZ",
+        "PhoneNo": "866-956-8602",
+        "ReqEffDtFormula": "Q3_2018",
+        "ReqEffDtFormula-Monthly": "JUL_2018",
+        "ReqEffDtFormula-Year": "2018",
+        "RequestedCoverageEffectiveDate": "Jul 15 2018",
+        "RequestedCoverageNonBrokerDates": null,
+        "SaveForLaterName": "Quote No: Eff.Date:Jul 15 2018 Products:Medical",
+        "VisionPlanType": false
+    },
+    "CensusCount": 0,
+    "CensusId": "a313B000000Fo5bQAC",
+    "CensusName": "a313B000000Fo5b",
+    "CheckAccountTeamMemberUserId": "BLANK",
+    "Class1NumberofEE+Children": 0,
+    "Class1NumberofEE+Spouse": 0,
+    "Class1NumberofFamily": 0,
+    "Class1NumberofSingles(EE)": 0,
+    "Class2NumberofEE+Children": 0,
+    "Class2NumberofEE+Spouse": 0,
+    "Class2NumberofFamily": 0,
+    "Class2NumberofSingles(EE)": 0,
+    "Class3NumberofEE+Children": 0,
+    "Class3NumberofEE+Spouse": 0,
+    "Class3NumberofFamily": 0,
+    "Class3NumberofSingles (EE)": 0,
+    "ClassDistinction": "No",
+    "CompositeStates": true,
+    "ContextId": "",
+    "County1": "JEFFERSON",
+    "CountyCd": "059",
+    "CountyCode": "08059",
+    "CoverageOptionsForUpdate": "Medical",
+    "DRId_%vlocity_namespace%__OmniScriptInstance__c": "a3Y3B000000EIXYUA4",
+    "DRId_Account": "0013B00000UknYSQAZ",
+    "DRId_Opportunity": "0063B000007Pt4oQAC",
+    "DentalEligibleEmployees": 2,
+    "EffectiveDate": "2018-07-15",
+    "GeneralAgencyContactId": "BLANK",
+    "GeneralAgencyContactUserId": "BLANK",
+    "LAndDPlanType": "None",
+    "LCBrokerTypeAhead-Block": {
+        "Broker": "REVA HAWK",
+        "BrokerId": "0033B00000In3S5QAJ",
+        "BrokerTIN": "676736776"
+    },
+    "LCValidation": {
+        "ACBtn": "quote",
+        "BrokerProfile": "Anthem SG Broker",
+        "BrokerRequiredMessage": true,
+        "CheckZipCode": 1,
+        "County": "JEFFERSON",
+        "ExtractState": "CO",
+        "InvalidZipMsg": true,
+        "LCBrokerTypeAhead-Block": {
+            "LCBrokerETIN": "676736776",
+            "LCBrokerId": "0033B00000In3S5QAJ",
+            "LCBrokerName": "REVA HAWK",
+            "LCBrokerTypeAhead": "REVA HAWK 676736776"
+        },
+        "LCZipCode": null,
+        "MultipleCountyMsg": null,
+        "Other Reason Description": null,
+        "QuoteErrMsg": true,
+        "QuotingStates": true,
+        "QuotingonbehalfofaBroker?": null,
+        "Reason": null,
+        "RestrictEnrollWithoutQuote": null,
+        "Sizecheck": 1,
+        "TypeAHeadEmployee-Block": null,
+        "TypeAheadZip-Block": null,
+        "VAErrorMsg": null,
+        "VAWarningmsg": null
+    },
+    "LicenseStatus": "Valid",
+    "LoadCACOEnroll": false,
+    "LoadNYEnroll": false,
+    "MedicalFilters": [
+        {
+            "categories": [
+                {
+                    "isAttribute": false,
+                    "name": "Network Name",
+                    "order": 3,
+                    "property": "Network",
+                    "tooltip": null,
+                    "value": "Anthem PPO;Pathway;",
+                    "values": [
+                        {
+                            "name": "Anthem PPO",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Pathway",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": false,
+                    "name": "Deductible",
+                    "order": 1,
+                    "property": "DeductibleRange",
+                    "tooltip": null,
+                    "value": "$0 - $1,000;$1,200 - $1,500;$1,750 - $2,750;$2,800 - $4,750;Above $5,000;",
+                    "values": [
+                        {
+                            "name": "$0 - $1,000",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "$1,200 - $1,500",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "$1,750 - $2,750",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "$2,800 - $4,750",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Above $5,000",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": true,
+                    "name": "Metal Level",
+                    "order": 2,
+                    "property": "Metal Level",
+                    "tooltip": null,
+                    "value": "Platinum;Gold;Silver;Bronze;",
+                    "values": [
+                        {
+                            "name": "Platinum",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Gold",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Silver",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Bronze",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": false,
+                    "name": "Plan Type",
+                    "order": 4,
+                    "property": "ProductSubType",
+                    "tooltip": null,
+                    "value": "PPO;EPO;HMO;",
+                    "values": [
+                        {
+                            "name": "PPO",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "EPO",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "HMO",
+                            "tooltip": null
+                        }
+                    ]
+                }
+            ],
+            "productType": "Medical",
+            "state": "CO"
+        }
+    ],
+    "MemberStates": false,
+    "MinCounty": "JEFFERSON",
+    "MinInfo": {
+        "BenefitPeriod": null,
+        "BenefitPeriodCAGA": null,
+        "BenefitPeriodNY": null,
+        "Class1and2": null,
+        "CoverageOptionsIncludeDental": false,
+        "CoverageOptionsIncludeMedical": true,
+        "Dental8021CheckMessage": null,
+        "Dental9999CheckMessage": null,
+        "DentalPriorCoverage": "X",
+        "DentalPriorCoverageFormula": false,
+        "DentalRateGuarantee": "X",
+        "DentalRateGuaranteeFormula": 0,
+        "Eligibility": {
+            "CensusEnrollFormula": true,
+            "CensusEnrollMsg": true,
+            "DefinitionWarningMsg": false,
+            "DefinitionWarningMsg1": null,
+            "DefinitionWarningMsg2": null,
+            "DentalNoOrtho": null,
+            "DentalPlanUnavailableOver50": null,
+            "DentalVisionPlansMinTwo": null,
+            "EligibleFormula": true,
+            "EligibleGreaterthanEnrolling": true,
+            "NumbEligFormula": "TwoToFour",
+            "NumbEnrollFormulaVision": "TwoToFour",
+            "NumberEligible": 2,
+            "NumberEligibleFormula": false,
+            "NumberEnrolling": 2,
+            "Participation": null,
+            "ParticipationMessage": null,
+            "ValidWaivers": 2,
+            "VisionParticipationMessage": null
+        },
+        "EmployerVision": null,
+        "InvalidSIC": null,
+        "LDCoverageScreen": false,
+        "NumberClasses": "One",
+        "SIC_life_STD": false,
+        "SIC_life_STD_Formula": "Nothing",
+        "SIC_life_STD_Formula1": "Nothing",
+        "SIC_life_STD_validation": false,
+        "SIC_life_STD_validation1": true,
+        "TypeAheadSIC-Block": {
+            "LDPlan": "None",
+            "SIC_TXT": "3552",
+            "TypeAheadSIC": "3552 TEXTILE MACHINERY",
+            "groupSize": "0",
+            "lifeGroupSize": "(2-9);(10-19);(>=20)",
+            "stdGroupSize": "(2-9);(10-19);(>=20)"
+        },
+        "VisionRateGuarantee": "24 Months",
+        "VoluntaryVision": null
+    },
+    "MinState": "CO",
+    "NumberClasses": "One",
+    "OmniScriptState": "regular",
+    "PaidAgencyContactId": "BLANK",
+    "PaidAgencyContactUserId": "BLANK",
+    "ProductLicense": "Health & Life",
+    "QuoteCreatedDate": "2018-08-14T11:54:39.000Z",
+    "QuoteGenerationComplete": false,
+    "QuotePreparedFor": {
+        "qCloseDate": null,
+        "qCloseDateText": null,
+        "qContactName": null,
+        "qContactTitle": null,
+        "qEmail": null,
+        "qPhone": null,
+        "qReqEffectiveDate": null,
+        "qReqEffectiveDateDayOfMonth": null,
+        "qReqEffectiveDateDayOfMonth2Char": null,
+        "qReqEffectiveDateMonth": null,
+        "qReqEffectiveDateMonth2Char": null,
+        "qReqEffectiveDateText": null,
+        "qReqEffectiveDateYear": null,
+        "qUpdatedQuoteName": null,
+        "qUpdatedQuoteNameComposite": null,
+        "qUpdatedQuoteNameMember": null,
+        "quote_name_blk": {
+            "Address_blk": {
+                "qCityTown": null,
+                "qState": null,
+                "qStreetAddress": null,
+                "qZipCode": null
+            },
+            "qGroupName": null,
+            "qPrimaryPhone": null
+        }
+    },
+    "Quotes": [
+        {
+            "CreatedDate": "2018-08-14T11:54:41.000Z",
+            "QuoteId": "0Q03B000000EWDtSAO",
+            "QuoteNumber": "00022301"
+        },
+        {
+            "CreatedDate": "2018-08-14T11:54:42.000Z",
+            "QuoteId": "0Q03B000000EWDuSAO",
+            "QuoteNumber": "00022302"
+        }
+    ],
+    "QuotingonbehalfofaBroker?": "Yes",
+    "RatingArea": 3,
+    "SearchField": "80001 - JEFFERSON",
+    "SelectedState": "CO",
+    "ShowNYEnrollCategory": true,
+    "Step": {
+        "AccountCreateMessage": true,
+        "AnthemBrand": "ABCBS",
+        "CloseDatePrelim": "2018-08-13T18:30:00.000Z",
+        "ContextIdFormula": 1,
+        "CreateAcctCheckbox": false,
+        "CreateNewAccFormula": false,
+        "ETINFormula": null,
+        "ExistingAccount_Id": "0013B00000UknYSQAZ",
+        "FormulaCounty": "JEFFERSON",
+        "FormulaState": "CO",
+        "FormulaZip": "80001",
+        "GeneralAgencyMessage": true,
+        "GroupName": null,
+        "GroupROFormula": null,
+        "InitialQuoteName": "Gaurav Saraswat Final Acc 8/14/2018",
+        "IsPreExistingAccount": true,
+        "NYEnrollCheck": false,
+        "PaidAgencyMessage": true,
+        "TaxID": null,
+        "Today": "2018-08-13T18:30:00.000Z",
+        "TypeAheadAccount-Block": {
+            "ExistingAccountId": "0013B00000UknYSQAZ",
+            "ExistingAccountName": "Gaurav Saraswat Final Acc",
+            "GroupETIN": "234324444",
+            "TypeAheadAccount": "Gaurav Saraswat Final Acc"
+        },
+        "TypeAheadAssociations-Block": null,
+        "TypeAheadBroker-Block": {
+            "Broker": "REVA HAWK",
+            "BrokerId": "0033B00000In3S5QAJ",
+            "BrokerTIN": "676736776",
+            "TypeAheadBroker": null
+        },
+        "TypeAheadETINRO": "234324444",
+        "TypeAheadGeneralAgency-Block": {
+            "GeneralAgency": "general",
+            "GeneralAgencyId": "0013B00000NU6KeQAL",
+            "GeneralAgencyTIN": "GHJQKJPQLK",
+            "TypeAheadGeneralAgency": "general GHJQKJPQLK"
+        },
+        "TypeAheadPaidAgency-Block": {
+            "PaidAgency": "Account Paid Agency",
+            "PaidAgencyId": "0013B00000NIXc8QAH",
+            "PaidAgencyTIN": "913278122",
+            "TypeAheadPaidAgency": "Account Paid Agency 913278122"
+        },
+        "TypeAheadZip-Block": {
+            "Brand": "ABCBS",
+            "CountyCode": "08059",
+            "MinCounty": "JEFFERSON",
+            "MinState": "CO",
+            "RatingArea": 3,
+            "SearchField": "80001 - JEFFERSON",
+            "ZipCode": "80001"
+        },
+        "ZipCode1": "80001",
+        "qOpportunityName": "Gaurav Saraswat Final Acc Opportunity 8/14/2018"
+    },
+    "TypeAheadSIC-Block": {
+        "SICNO": 3552,
+        "SICName": "TEXTILE MACHINERY"
+    },
+    "TypeAheadZip-Block": {
+    },
+    "VAZipStatus": "",
+    "VisionEligibleEmployees": 2,
+    "ZipCode": "80001",
+    "ZipCode3": "80001",
+    "ZipCodeList": [
+        {
+            "Brand": "ABCBS",
+            "CountyCode": "08059",
+            "MinCounty": "JEFFERSON",
+            "MinState": "CO",
+            "RatingArea": 3,
+            "SearchField": "80001 - JEFFERSON",
+            "ZipCode": "80001"
+        }
+    ],
+    "atleastOnePlanSelected": false,
+    "benefitPeriod": "Calendar Year",
+    "callDentalEligibility": true,
+    "callLAndDEligibility": true,
+    "callMedicalEligibility": true,
+    "callVisionEligibility": true,
+    "censusCreate": false,
+    "censusEmpCount": 2,
+    "disableRightPanel": false,
+    "empCount": 2,
+    "enableRightPanel": true,
+    "error": "OK",
+    "isBroker": true,
+    "isDentalPlansFetched": false,
+    "isMedicalPlansFetched": false,
+    "isVisionPlansFetched": false,
+    "isZipCodeExist": true,
+    "noOfEligibleLivesDental": 2,
+    "noOfEligibleLivesVision": 2,
+    "omniCancelAction": "back",
+    "omniIframeEmbedded": true,
+    "planType": "Medical",
+    "productType": "Medical",
+    "ratingMethod": "4COMPOSIT",
+    "resetCoverageOptions": false,
+    "result": {
+        "AccountTeamMember_1": [
+            {
+                "AccountAccessLevel": "Read",
+                "AccountId": "0013B00000UknYSQAZ",
+                "CaseAccessLevel": "Read",
+                "TeamMemberRole": "Broker",
+                "UpsertError": "insufficient access rights on cross-reference id ",
+                "UpsertSuccess": false,
+                "UserId": "0053B000001dMpSQAU"
+            }
+        ],
+        "error": true,
+        "errors": {
+            "AddToAccountTeamDR": {
+                "3:0": {
+                    "1": "insufficient access rights on cross-reference id "
+                }
+            }
+        },
+        "errorsAsJson": {
+            "AccCensus": "",
+            "AccountId": "",
+            "ActionButton": "",
+            "AssociationSelect": "",
+            "BenefitPeriod": "",
+            "Brand": "",
+            "BrokerContactId": "",
+            "BrokerUserId": "",
+            "CategorySelection": {
+                "AllCoverageOptions": "",
+                "ConnectName": "",
+                "CoverageEffectiveDate": "",
+                "CoverageOptions": "",
+                "DentalPlanType": "",
+                "Email": "",
+                "IU-NY-NoBroker": "",
+                "IU-NoBroker": "",
+                "IU-nonNY-NoBroker": "",
+                "LAndDPlanType": "",
+                "MedicalPlanType": "",
+                "Object_Id": "",
+                "PhoneNo": "",
+                "ReqEffDtFormula": "",
+                "ReqEffDtFormula-Monthly": "",
+                "ReqEffDtFormula-Year": "",
+                "RequestedCoverageEffectiveDate": "",
+                "SaveForLaterName": "",
+                "VisionPlanType": ""
+            },
+            "CheckAccountTeamMemberUserId": "",
+            "CheckIfBrokerAlreadyInAccountTeamStatus": "",
+            "Class1NumberofEE+Children": "",
+            "Class1NumberofEE+Spouse": "",
+            "Class1NumberofFamily": "",
+            "Class1NumberofSingles(EE)": "",
+            "Class2NumberofEE+Children": "",
+            "Class2NumberofEE+Spouse": "",
+            "Class2NumberofFamily": "",
+            "Class2NumberofSingles(EE)": "",
+            "Class3NumberofEE+Children": "",
+            "Class3NumberofEE+Spouse": "",
+            "Class3NumberofFamily": "",
+            "Class3NumberofSingles (EE)": "",
+            "ClassDistinction": "",
+            "CompositeStates": "",
+            "ContextId": "",
+            "County1": "",
+            "CountyCd": "",
+            "CountyCode": "",
+            "DRError": "insufficient access rights on cross-reference id ",
+            "DRId_%vlocity_namespace%__OmniScriptInstance__c": "",
+            "DRId_Account": "",
+            "DRId_Opportunity": "",
+            "EffectiveDate": "",
+            "GeneralAgencyContactId": "",
+            "GeneralAgencyContactUserId": "",
+            "GetBrokerUserId": {
+                "BrokerUserId": "",
+                "error": "",
+                "errorCode": ""
+            },
+            "GetBrokerUserIdStatus": "",
+            "LicenseStatus": "",
+            "LoadCACOEnroll": "",
+            "LoadNYEnroll": "",
+            "MemberStates": "",
+            "MinCounty": "",
+            "MinState": "",
+            "NumberClasses": "",
+            "OmniScriptState": "",
+            "PaidAgencyContactId": "",
+            "PaidAgencyContactUserId": "",
+            "ProductLicense": "",
+            "QuoteCreatedDate": "",
+            "QuoteGenerationComplete": "",
+            "QuotingonbehalfofaBroker?": "",
+            "RatingArea": "",
+            "SearchField": "",
+            "SelectedState": "",
+            "ShowNYEnrollCategory": "",
+            "VAZipStatus": "",
+            "ZipCode": "",
+            "ZipCode3": "",
+            "callDentalEligibility": "",
+            "callMedicalEligibility": "",
+            "callVisionEligibility": "",
+            "censusCreate": "",
+            "enableRightPanel": "",
+            "error": "",
+            "isBroker": "",
+            "isDentalPlansFetched": "",
+            "isMedicalPlansFetched": "",
+            "isVisionPlansFetched": "",
+            "isZipCodeExist": "",
+            "omniCancelAction": "",
+            "omniIframeEmbedded": "",
+            "planType": "",
+            "sInstanceId": "",
+            "targetSystem": "",
+            "timeStamp": "",
+            "userCurrencyCode": "",
+            "userId": "",
+            "userName": "",
+            "userProfile": "",
+            "userType": ""
+        },
+        "responseType": "SObject"
+    },
+    "sInstanceId": "a3Y3B000000EIXYUA4",
+    "showLAndDPlanDetails": true,
+    "success": false,
+    "targetSystem": "SALES",
+    "timeStamp": "2018-08-14T11:54:18.683Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053B000001dMpSQAU",
+    "userName": "arjun.bura@accenture.com",
+    "userProfile": "Anthem SG Broker",
+    "userTimeZone": null,
+    "userType": "External",
+    "vlcPersistentComponent": {
+    }
+}

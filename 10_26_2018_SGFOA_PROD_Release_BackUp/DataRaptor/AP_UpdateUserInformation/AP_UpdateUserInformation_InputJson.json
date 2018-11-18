@@ -1,0 +1,44 @@
+{
+    "AccountId": "0013B00000SKXzPQAX",
+    "ContactId": "0033B00000MdjX0QAJ",
+    "ContextId": "",
+    "DRId_Account": "0013B00000SKXzPQAX",
+    "DRId_Opportunity": "0063B000007ReKfQAK",
+    "account": {
+        "businessName": "Acc Name Updated"
+    },
+    "contact": {
+        "email": "gauravupdatedemail@gmail.com",
+        "extension": 1123,
+        "firstName": "firstNameUpdated",
+        "lastName": "lastNameUpdated",
+        "phone": "1236456546"
+    },
+    "groupProfilePage": {
+        "createProfile": {
+            "cp_businessName": "Acc Name Updated",
+            "cp_emailAddress": "gauravupdatedemail@gmail.com",
+            "cp_ext": 1211,
+            "cp_firstName": "firstNameUpdated",
+            "cp_lastName": "lastNameUpdated",
+            "cp_phoneNumber": "1236456546"
+        }
+    },
+    "isEditState": true,
+    "isdtp": "p1",
+    "layout": "lightning",
+    "omniCancelAction": "back",
+    "omniIframeEmbedded": true,
+    "percentSign": "%",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https: //sgapsdev2-isg.cs50.force.com",
+    "timeStamp": "2018-07-25T04: 59: 10.869Z",
+    "tour": "",
+    "userCurrencyCode": "USD",
+    "userId": "0053B000001cWIDQA2",
+    "userName": "gsaraswat+12@vlocity.com.anthem",
+    "userProfile": "Employer Partner Profile",
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    }
+}

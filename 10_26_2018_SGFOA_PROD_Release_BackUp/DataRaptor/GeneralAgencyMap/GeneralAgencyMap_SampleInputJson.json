@@ -1,0 +1,27 @@
+{
+    "ContextId": "",
+    "GeneralAgentAccountId": "0013B00000NIXcrQAH",
+    "Id": "a203B000000ilwN",
+    "SelectUser": {
+        "PointOfContactBlock-Block": {
+            "PointOfContactBlock": "Three General Agency1",
+            "PointOfContactId": "0033B00000N9arvQAB",
+            "UName": "Three General Agency1"
+        }
+    },
+    "id": "a3Z3B000000LRDPUA4",
+    "layout": "lightning",
+    "timeStamp": "2018-09-14T13:25:56.090Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053B000001qAFxQAM",
+    "userName": "anusha.kadiyala@accenture.com.isg.sgapsdev2",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DataRaptorExtractAction2": 920,
+        "OmniScriptSessionToken": "665b5e80-785d-45fa-bbe1-c98b100fb787",
+        "SetValues5": 130
+    }
+}

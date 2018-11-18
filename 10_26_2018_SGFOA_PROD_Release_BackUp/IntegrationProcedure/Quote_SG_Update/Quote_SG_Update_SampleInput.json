@@ -1,0 +1,497 @@
+{
+    "AccountId": "0010R00000P0VftQAF",
+    "ActionButton": "quote",
+    "AssociationSelect": "No",
+    "Brand": "ABCBS",
+    "BrokerContactId": "0030R00000D3B13QAF",
+    "BrokerUserId": "BLANK",
+    "CategorySelection": {
+        "AllCoverageOptions": "Medical",
+        "ConnectName": "Anthem Connect ",
+        "CoverageEffectiveDate": "Aug 15 2018",
+        "CoverageOptions": "Medical",
+        "DentalPlanType": false,
+        "Email": "connect@anthemdentaladmin.com",
+        "HealthCoverageOptions": null,
+        "IU-NY-NoBroker": "No",
+        "IU-NoBroker": "No",
+        "IU-NoBrokerCoverageOptions": null,
+        "IU-nonNY-NoBroker": "No",
+        "L&DErrorMsg": null,
+        "LAndDPlanType": false,
+        "LifeCoverageOptions": null,
+        "MedicalPlanType": true,
+        "Object_Id": "0013B00000UknYSQAZ",
+        "PhoneNo": "866-956-8602",
+        "ReqEffDtFormula": "Q3_2018",
+        "ReqEffDtFormula-Monthly": "AUG_2018",
+        "ReqEffDtFormula-Year": "2018",
+        "RequestedCoverageEffectiveDate": "Aug 15 2018",
+        "RequestedCoverageNonBrokerDates": null,
+        "SaveForLaterName": "Quote No:00028503 Eff.Date:Aug 15 2018 Products:Medical",
+        "VisionPlanType": false,
+        "selectPlantype": false
+    },
+    "CensusCount": 0,
+    "CensusId": "a310R0000008YIPQA2",
+    "CensusName": "a310R0000008YIP",
+    "CheckAccountTeamMemberUserId": "BLANK",
+    "Class1NumberofEE+Children": 0,
+    "Class1NumberofEE+Spouse": 0,
+    "Class1NumberofFamily": 0,
+    "Class1NumberofSingles(EE)": 0,
+    "Class2NumberofEE+Children": 0,
+    "Class2NumberofEE+Spouse": 0,
+    "Class2NumberofFamily": 0,
+    "Class2NumberofSingles(EE)": 0,
+    "Class3NumberofEE+Children": 0,
+    "Class3NumberofEE+Spouse": 0,
+    "Class3NumberofFamily": 0,
+    "Class3NumberofSingles (EE)": 0,
+    "ClassDistinction": "No",
+    "CompositeStates": false,
+    "ContextId": "",
+    "County1": "JEFFERSON",
+    "CountyCd": "",
+    "CountyCode": "08059",
+    "CoverageOptionsForUpdate": "Medical",
+    "DRId_Account": "0010R00000P0VftQAF",
+    "DRId_Opportunity": "0060R000006nvs7QAA",
+    "DRId_Quote": "0Q00R000000K5EISA0",
+    "DRId_SGA_QuoteEnrollmentStage__c": "a7p0R000000HreeQAC",
+    "DentalEligibleEmployees": 2,
+    "DentalFilters": "",
+    "EffectiveDate": "2018-08-15",
+    "GeneralAgencyContactId": "BLANK",
+    "GeneralAgencyContactUserId": "BLANK",
+    "LAndDPlanType": "None",
+    "LCBrokerTypeAhead-Block": {
+        "Broker": "Michel Jahnsen",
+        "BrokerId": "0030R00000D3B13QAF",
+        "BrokerTIN": "111222333"
+    },
+    "LCValidation": {
+        "BrokerProfile": "Anthem SG Broker",
+        "BrokerRequiredMessage": true,
+        "CheckZipCode": 1,
+        "County": "JEFFERSON",
+        "ExtractState": "CO",
+        "InvalidZipMsg": true,
+        "LCBrokerTypeAhead-Block": {
+            "LCBrokerETIN": "111222333",
+            "LCBrokerId": "0030R00000D3B13QAF",
+            "LCBrokerName": "Michel Jahnsen",
+            "LCBrokerTypeAhead": "Michel Jahnsen 111222333"
+        },
+        "LCZipCode": null,
+        "MultipleCountyMsg": true,
+        "Other Reason Description": null,
+        "QuoteErrMsg": true,
+        "QuotingStates": true,
+        "QuotingonbehalfofaBroker?": null,
+        "Reason": null,
+        "RestrictEnrollWithoutQuote": null,
+        "Sizecheck": 1,
+        "TypeAHeadEmployee-Block": null,
+        "TypeAheadZip-Block": {
+            "TypeAheadZip": "SAINT LOUIS"
+        },
+        "VAErrorMsg": null,
+        "VAWarningmsg": null
+    },
+    "LicenseStatus": "Valid",
+    "LoadCACOEnroll": false,
+    "LoadNYEnroll": false,
+    "MedicalFilters": [
+        {
+            "categories": [
+                {
+                    "$$hashKey": "object:4422",
+                    "isAttribute": false,
+                    "name": "Network Name",
+                    "order": 3,
+                    "property": "Network",
+                    "tooltip": null,
+                    "value": "Blue Access Choice;Blue Preferred;",
+                    "values": [
+                        {
+                            "$$hashKey": "object:4481",
+                            "name": "Blue Access Choice",
+                            "tooltip": null
+                        },
+                        {
+                            "$$hashKey": "object:4482",
+                            "name": "Blue Preferred",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "$$hashKey": "object:4420",
+                    "isAttribute": false,
+                    "name": "Deductible",
+                    "order": 1,
+                    "property": "DeductibleRange",
+                    "tooltip": null,
+                    "value": "$0 - $1,000;$1,200 - $1,500;$1,750 - $2,750;$2,800 - $4,750;Above $5,000;",
+                    "values": [
+                        {
+                            "$$hashKey": "object:4434",
+                            "name": "$0 - $1,000",
+                            "tooltip": null
+                        },
+                        {
+                            "$$hashKey": "object:4435",
+                            "name": "$1,200 - $1,500",
+                            "tooltip": null
+                        },
+                        {
+                            "$$hashKey": "object:4436",
+                            "name": "$1,750 - $2,750",
+                            "tooltip": null
+                        },
+                        {
+                            "$$hashKey": "object:4437",
+                            "name": "$2,800 - $4,750",
+                            "tooltip": null
+                        },
+                        {
+                            "$$hashKey": "object:4438",
+                            "name": "Above $5,000",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "$$hashKey": "object:4421",
+                    "isAttribute": true,
+                    "name": "Metal Level",
+                    "order": 2,
+                    "property": "Metal Level",
+                    "tooltip": null,
+                    "value": "Platinum;Gold;Silver;Bronze;",
+                    "values": [
+                        {
+                            "$$hashKey": "object:4460",
+                            "name": "Platinum",
+                            "tooltip": null
+                        },
+                        {
+                            "$$hashKey": "object:4461",
+                            "name": "Gold",
+                            "tooltip": null
+                        },
+                        {
+                            "$$hashKey": "object:4462",
+                            "name": "Silver",
+                            "tooltip": null
+                        },
+                        {
+                            "$$hashKey": "object:4463",
+                            "name": "Bronze",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "$$hashKey": "object:4423",
+                    "isAttribute": false,
+                    "name": "Plan Type",
+                    "order": 4,
+                    "property": "ProductSubType",
+                    "tooltip": null,
+                    "value": "PPO;EPO;HMO;",
+                    "values": [
+                        {
+                            "$$hashKey": "object:4492",
+                            "name": "PPO",
+                            "tooltip": null
+                        },
+                        {
+                            "$$hashKey": "object:4493",
+                            "name": "EPO",
+                            "tooltip": null
+                        },
+                        {
+                            "$$hashKey": "object:4494",
+                            "name": "HMO",
+                            "tooltip": null
+                        }
+                    ]
+                }
+            ],
+            "productType": "Medical",
+            "state": "MO"
+        }
+    ],
+    "MemberStates": true,
+    "MinCounty": "JEFFERSON",
+    "MinInfo": {
+        "BenefitPeriod": null,
+        "BenefitPeriodCAGA": null,
+        "BenefitPeriodNY": null,
+        "Class1and2": null,
+        "CoverageOptionsIncludeDental": false,
+        "CoverageOptionsIncludeMedical": true,
+        "Dental8021CheckMessage": null,
+        "Dental9999CheckMessage": null,
+        "DentalPriorCoverage": "X",
+        "DentalPriorCoverageFormula": false,
+        "DentalRateGuarantee": "X",
+        "DentalRateGuaranteeFormula": 0,
+        "Eligibility": {
+            "CensusEnrollFormula": true,
+            "CensusEnrollMsg": true,
+            "DefinitionWarningMsg": null,
+            "DefinitionWarningMsg1": null,
+            "DefinitionWarningMsg2": false,
+            "DentalNoOrtho": null,
+            "DentalPlanUnavailableOver50": null,
+            "DentalVisionPlansMinTwo": null,
+            "EligibleFormula": true,
+            "EligibleGreaterthanEnrolling": true,
+            "NumbEligFormula": "TwoToFour",
+            "NumbEnrollFormulaVision": "TwoToFour",
+            "NumberEligible": 2,
+            "NumberEligibleFormula": false,
+            "NumberEnrolling": 2,
+            "Participation": null,
+            "ParticipationMessage": null,
+            "ValidWaivers": 2,
+            "VisionParticipationMessage": null
+        },
+        "EmployerVision": null,
+        "InvalidSIC": null,
+        "LDCoverageScreen": false,
+        "NumberClasses": "One",
+        "SIC_life_STD": false,
+        "SIC_life_STD_Formula": "Nothing",
+        "SIC_life_STD_Formula1": "Nothing",
+        "SIC_life_STD_validation": false,
+        "SIC_life_STD_validation1": true,
+        "TypeAheadSIC-Block": {
+            "LDPlan": "None",
+            "SIC_TXT": "3552",
+            "TypeAheadSIC": "3552 TEXTILE MACHINERY",
+            "groupSize": "0",
+            "lifeGroupSize": "(2-9);(10-19);(>=20)",
+            "stdGroupSize": "(2-9);(10-19);(>=20)"
+        },
+        "VisionRateGuarantee": "24 Months",
+        "VoluntaryVision": null
+    },
+    "MinState": "CO",
+    "NumberClasses": "One",
+    "OmniScriptState": "regular",
+    "PaidAgencyContactId": "BLANK",
+    "PaidAgencyContactUserId": "BLANK",
+    "ProductLicense": "Health & Life",
+    "QuoteCreatedDate": "2018-08-23T16:45:09.000Z",
+    "QuoteGenerationComplete": false,
+    "QuoteNumber": "00028503",
+    "QuotePreparedFor": {
+        "qCloseDate": null,
+        "qCloseDateText": null,
+        "qContactName": null,
+        "qContactTitle": null,
+        "qEmail": null,
+        "qPhone": null,
+        "qReqEffectiveDate": null,
+        "qReqEffectiveDateDayOfMonth": null,
+        "qReqEffectiveDateDayOfMonth2Char": null,
+        "qReqEffectiveDateMonth": null,
+        "qReqEffectiveDateMonth2Char": null,
+        "qReqEffectiveDateText": null,
+        "qReqEffectiveDateYear": null,
+        "qUpdatedQuoteName": null,
+        "qUpdatedQuoteNameComposite": null,
+        "qUpdatedQuoteNameMember": null,
+        "quote_name_blk": {
+            "Address_blk": {
+                "qCityTown": null,
+                "qState": null,
+                "qStreetAddress": null,
+                "qZipCode": null
+            },
+            "qGroupName": null,
+            "qPrimaryPhone": null
+        }
+    },
+    "QuotingonbehalfofaBroker?": "Yes",
+    "RatingArea": 3,
+    "SearchField": "80001 - JEFFERSON",
+    "SelectMedicalCoverage": {
+        "MinOneMedicalPlan": false,
+        "output2": null
+    },
+    "SelectedState": "MO",
+    "ShowNYEnrollCategory": true,
+    "Step": {
+        "AccountCreateMessage": true,
+        "AnthemBrand": "ABCBS",
+        "CloseDatePrelim": "2018-08-22T18:30:00.000Z",
+        "ContextIdFormula": 1,
+        "CreateAcctCheckbox": false,
+        "CreateNewAccFormula": false,
+        "ETINFormula": null,
+        "ExistingAccount_Id": "0010R00000P0VftQAF",
+        "FormulaCounty": "JEFFERSON",
+        "FormulaState": "CO",
+        "FormulaZip": "80001",
+        "GeneralAgencyMessage": null,
+        "GroupName": null,
+        "GroupROFormula": null,
+        "InitialQuoteName": "Test Grp11111 8/23/2018",
+        "IsPreExistingAccount": true,
+        "NYEnrollCheck": false,
+        "PaidAgencyMessage": null,
+        "TaxID": null,
+        "Today": "2018-08-22T18:30:00.000Z",
+        "TypeAheadAccount-Block": {
+            "ExistingAccountId": "0010R00000P0VftQAF",
+            "ExistingAccountName": "Test Grp11111",
+            "GroupETIN": "534534534",
+            "TypeAheadAccount": "Test Grp11111"
+        },
+        "TypeAheadAssociations-Block": null,
+        "TypeAheadBroker-Block": {
+            "Broker": "Michel Jahnsen",
+            "BrokerId": "0030R00000D3B13QAF",
+            "BrokerTIN": "111222333",
+            "TypeAheadBroker": null
+        },
+        "TypeAheadETINRO": "534534534",
+        "TypeAheadGeneralAgency-Block": {
+            "GeneralAgency": null,
+            "GeneralAgencyId": null,
+            "GeneralAgencyTIN": null,
+            "TypeAheadGeneralAgency": null
+        },
+        "TypeAheadPaidAgency-Block": {
+            "PaidAgency": null,
+            "PaidAgencyId": null,
+            "PaidAgencyTIN": null,
+            "TypeAheadPaidAgency": null
+        },
+        "TypeAheadZip-Block": {
+            "Brand": "ABCBS",
+            "CountyCode": "08059",
+            "MinCounty": "JEFFERSON",
+            "MinState": "CO",
+            "RatingArea": 3,
+            "SearchField": "80001 - JEFFERSON",
+            "ZipCode": "80001"
+        },
+        "ZipCode1": "80001",
+        "qOpportunityName": "Test Grp11111 Opportunity 8/23/2018"
+    },
+    "TypeAheadSIC-Block": {
+        "SICNO": 3552,
+        "SICName": "TEXTILE MACHINERY"
+    },
+    "TypeAheadZip-Block": {
+    },
+    "VAZipStatus": "",
+    "VisionEligibleEmployees": 2,
+    "ZipCode": "80001",
+    "ZipCode3": "80001",
+    "ZipCodeList": [
+        {
+            "Brand": "ABCBS",
+            "CountyCode": "08059",
+            "MinCounty": "JEFFERSON",
+            "MinState": "CO",
+            "RatingArea": 3,
+            "SearchField": "80001 - JEFFERSON",
+            "ZipCode": "80001"
+        }
+    ],
+    "atleastOnePlanSelected": false,
+    "benefitPeriod": "Calendar Year",
+    "callDentalEligibility": true,
+    "callLAndDEligibility": true,
+    "callMedicalEligibility": true,
+    "callVisionEligibility": true,
+    "censusEmpCount": 2,
+    "censusId": "a310R0000008YIPQA2",
+    "communityRates": "",
+    "disableRightPanel": false,
+    "empCount": 2,
+    "enableRightPanel": true,
+    "error": "OK",
+    "fetchDental": true,
+    "fetchLAndD": true,
+    "fetchMedical": false,
+    "fetchVision": true,
+    "isBroker": true,
+    "isDentalPlansFetched": false,
+    "isMedicalPlansFetched": false,
+    "isVisionPlansFetched": false,
+    "isZipCodeExist": true,
+    "noOfEligibleLivesDental": 2,
+    "noOfEligibleLivesVision": 2,
+    "omniCancelAction": "back",
+    "omniIframeEmbedded": true,
+    "planType": "Medical",
+    "ratingMethod": "MEMBER",
+    "resetCoverageOptions": false,
+    "sInstanceId": "a3Y0R0000000mE1UAI",
+    "showLAndDPlanDetails": true,
+    "subscriberDetails": {
+        "censusId": "a310R0000008YIPQA2",
+        "noOfEligibleLivesCOBRA": 0,
+        "noOfEligibleLivesDental": 2,
+        "noOfEligibleLivesLD": 2,
+        "noOfEligibleLivesMedical": 2,
+        "noOfEligibleLivesVision": 2,
+        "subscriberList": [
+            {
+                "dependent": null,
+                "member": {
+                    "age": "31",
+                    "birthDate": "1986-10-10",
+                    "dentalTier": "EMP",
+                    "enrollmentTypeCode": "EMP",
+                    "genderCode": "M",
+                    "inTobaccoWellness": "0",
+                    "isBundled": "0",
+                    "isDentalPriorCoverage": "0",
+                    "isTobaccoUser": "0",
+                    "memberRelationshipTypeCode": "SCRBR",
+                    "memberUniqueId": "a300R0000008f5IQAQ",
+                    "rateGuarMonths": "12",
+                    "visionTier": "EMP"
+                }
+            },
+            {
+                "dependent": null,
+                "member": {
+                    "age": "32",
+                    "birthDate": "1986-05-05",
+                    "dentalTier": "EMP",
+                    "enrollmentTypeCode": "EMP",
+                    "genderCode": "M",
+                    "inTobaccoWellness": "0",
+                    "isBundled": "0",
+                    "isDentalPriorCoverage": "0",
+                    "isTobaccoUser": "0",
+                    "memberRelationshipTypeCode": "SCRBR",
+                    "memberUniqueId": "a300R0000008f5JQAQ",
+                    "rateGuarMonths": "12",
+                    "visionTier": "EMP"
+                }
+            }
+        ]
+    },
+    "success": true,
+    "targetSystem": "SALES",
+    "timeStamp": "2018-08-23T16:44:40.316Z",
+    "userCurrencyCode": "USD",
+    "userId": "0050R000000TuHVQA0",
+    "userName": "michel.jahnsen@accenture.com.broker",
+    "userProfile": "Anthem SG Broker",
+    "userTimeZone": null,
+    "userType": "External",
+    "vlcPersistentComponent": {
+    }
+}

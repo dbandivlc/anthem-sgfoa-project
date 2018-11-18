@@ -1,0 +1,24 @@
+{
+    "%vlocity_namespace%__Element__c": [
+        "Test_SR_English_Element_Step1.json",
+        "Test_SR_English_Element_Step2.json",
+        "Test_SR_English_Element_Step3.json",
+        "Test_SR_English_Element_Step4.json",
+        "Test_SR_English_Element_Text1.json",
+        "Test_SR_English_Element_Text2.json",
+        "Test_SR_English_Element_Text3.json",
+        "Test_SR_English_Element_Text4.json"
+    ],
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__PropertySet__c": "Test_SR_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "SR",
+    "%vlocity_namespace%__TestHTMLTemplates__c": "Test_SR_English_HTMLTemplates.html",
+    "%vlocity_namespace%__Type__c": "Test",
+    "Name": "New OmniScript",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Test/SR/English"
+}

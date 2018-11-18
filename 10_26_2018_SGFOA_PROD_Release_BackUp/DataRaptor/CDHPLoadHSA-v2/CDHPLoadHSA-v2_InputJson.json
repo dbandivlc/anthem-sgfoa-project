@@ -1,0 +1,590 @@
+{
+    "Appendix_1": {
+        "HSADetails_Company_Address_on_Agreement": null,
+        "HSADetails_Corporation_Type_on_Agreement": null,
+        "HSADetails_Employer_Name_on_Agreement": null,
+        "HSADetails_HSA_Agreement_Day": null,
+        "HSADetails_HSA_Agreement_Month": null,
+        "HSADetails_HSA_Agreement_Year": null
+    },
+    "ContextId": null,
+    "Section_A": {
+        "BlockFSASubProd": {
+            "FSADetails_Dependent_Care_FSA_Plan": null,
+            "FSADetails_FSA_Section_213_d_Plan": null,
+            "FSADetails_Limited_Purpose_FSA_Plan": null
+        },
+        "BlockHRASubProd": {
+            "ParentDetails_HRA_Auto_Pay_with_Rx_Debit_Card": null,
+            "ParentDetails_HRA_Provider_Pay": null,
+            "ParentDetails_HRA_Rollover": null,
+            "ParentDetails_Member_Pay_HRA_with_Debit_Card": null,
+            "ParentDetails_Prov_Pay_HRA_w_Upfront_Ded_and_Auto_Pay": null,
+            "ParentDetails_Provider_Pay_Split_HRA": null
+        },
+        "ParentDetails_Broker_Consultant_Contact_Email": null,
+        "ParentDetails_Broker_Consultant_Contact_Name": null,
+        "ParentDetails_Broker_Consultant_Contact_Phone": null,
+        "ParentDetails_Commuter_Account_Type": null,
+        "ParentDetails_Effective_Date_var": null,
+        "ParentDetails_Employer_Contact_Email_1": null,
+        "ParentDetails_Employer_Contact_Email_2": null,
+        "ParentDetails_Employer_Contact_Email_3": null,
+        "ParentDetails_Employer_Contact_Name_1": null,
+        "ParentDetails_Employer_Contact_Name_2": null,
+        "ParentDetails_Employer_Contact_Name_3": null,
+        "ParentDetails_Employer_Contact_Phone_1": null,
+        "ParentDetails_Employer_Contact_Phone_2": null,
+        "ParentDetails_Employer_Contact_Phone_3": null,
+        "ParentDetails_Employer_ID_Case_Number": null,
+        "ParentDetails_Employer_Name": null,
+        "ParentDetails_Estimated_Number_of_Participants": null,
+        "ParentDetails_FSA_Account_Type": null,
+        "ParentDetails_HRA_Account_Type": null,
+        "ParentDetails_HSA_Account_Type": null,
+        "ParentDetails_Number_of_eligible_employees": null,
+        "ParentDetails_Tax_ID": null
+    },
+    "Section_B": {
+        "BlockPriorHsaCustodian_BulkTransfer": {
+            "HSADetails_Offer_HSA_bank_account_to_employees": null,
+            "bkCurrentlyOfferHSABankToEmployees": {
+                "BlockPrioHSACustodian": {
+                    "HSADetails_Prior_HSA_Custodian_Contact": null,
+                    "HSADetails_Prior_HSA_Custodian_Name": null,
+                    "HSADetails_Prior_HSA_Custodian_Phone": null
+                },
+                "HSADetails_Facilitate_bulk_transfer_for_employees": null
+            }
+        },
+        "HSADetails_Administrative_Fees_Responsibility": null,
+        "HSADetails_Employer_HSA_Contributions": null,
+        "HSADetails_Extra_Bucks_Account": null,
+        "HSADetails_HSA_Custodian": null,
+        "HSADetails_HSA_Date_of_First_Contribution": null,
+        "HSADetails_HSA_Health_Activities": null,
+        "HSADetails_HSA_Payroll_Frequency": null,
+        "HSADetails_Method_of_Providing_Payroll_Contribution": null,
+        "bkProvideEmployerHSAcontribution": {
+            "HSADetails_Amt_Employer_HSA_Contribution_Family": null,
+            "HSADetails_Amt_Employer_HSA_Contribution_Single": null,
+            "HSADetails_Expected_Date_1st_Employer_Contribution": null,
+            "HSADetails_HSA_Frequency": null
+        }
+    },
+    "Section_C": {
+        "FSADetails_FSA_Claim_Run_Out_Date": null,
+        "FSADetails_FSA_Debit_Card_Access": null,
+        "FSADetails_FSA_First_Payroll_Date": null,
+        "FSADetails_FSA_Other_Value": null,
+        "FSADetails_FSA_Payroll_Contribution_Method": null,
+        "FSADetails_FSA_Payroll_Frequency": null,
+        "FSADetails_FSA_Plan_End_Date": null,
+        "FSADetails_FSA_Plan_Start_Date": null,
+        "FSADetails_FSA_Termed_Emp_Claims_RunOut_Deadline": null,
+        "bkDependent": {
+            "FSADetails_Dependent_Care_Maximum_Annual_Election": null,
+            "FSADetails_Employer_Contribution_Dep_Care_Amount": null,
+            "FSADetails_Grace_Period_Dependent_Care_FSA": null
+        },
+        "bkLimited": {
+            "FSADetails_Contribute_to_Your_Employees_Account": null,
+            "FSADetails_Employer_Contribution_LPFSA_Amount": null,
+            "FSADetails_Grace_Period_Limited_Purpose_FSA": null,
+            "FSADetails_LPFSA_Maximum_Annual_Election": null,
+            "FSADetails_Participant_update_LPFSA_to_full_purpose": null
+        },
+        "bkSection213": {
+            "FSADetails_Employer_Contribution_FSA_213_d_Amount": null,
+            "FSADetails_FSA_Maximum_Annual_Election": null,
+            "FSADetails_Grace_Period_FSA_213_d": null
+        }
+    },
+    "Section_D": {
+        "CommuterDetails_Commuter_First_Payroll_Date": null,
+        "CommuterDetails_Commuter_Payroll_Frequency": null,
+        "CommuterDetails_Commuter_Term_Employee_Run_Out_Other": null,
+        "CommuterDetails_Commuter_Termed_Emp_Claim_RunOut_Deadlin": null,
+        "CommuterDetails_Parking_Plan_Option": null,
+        "CommuterDetails_Transit_Plan_Option": null,
+        "bkParking": {
+            "CommuterDetails_Commuter_Parking_Debit_Card_Access": null,
+            "CommuterDetails_Commuter_Parking_Payroll_Contrib_Method": null,
+            "CommuterDetails_Employer_Contrib_Parking_Per_EE_Per_Mont": null,
+            "CommuterDetails_Max_Monthly_Election_Parking": null
+        },
+        "bkTransit": {
+            "CommuterDetails_Commuter_Transit_Debit_Card_Access": null,
+            "CommuterDetails_Commuter_Transit_Payroll_Contrib_Method": null,
+            "CommuterDetails_Employer_Contrib_Transit_Per_EE_Per_Mont": null,
+            "CommuterDetails_Max_Monthly_Election_Transit": null
+        }
+    },
+    "Section_E1": {
+        "RRPT1_HRA1_Group_Suffix": null,
+        "RRPT1_HRA_Annual_Alloc_Amt_Emp_Adult": null,
+        "RRPT1_HRA_Annual_Alloc_Amt_Emp_Child": null,
+        "RRPT1_HRA_Annual_Alloc_Amt_Emp_Children": null,
+        "RRPT1_HRA_Annual_Alloc_Amt_Employee": null,
+        "RRPT1_HRA_Annual_Alloc_Amt_Family": null,
+        "RRPT1_HRA_Annual_Allocation_Tier_Selection": null,
+        "RRPT1_HRA_Claim_Run_Out_Date": null,
+        "RRPT1_HRA_Debit_Card_Dental_Services": null,
+        "RRPT1_HRA_Debit_Card_Medical_Services": null,
+        "RRPT1_HRA_Debit_Card_OTC_Services": null,
+        "RRPT1_HRA_Debit_Card_Rx_Services": null,
+        "RRPT1_HRA_Debit_Card_Vision_Services": null,
+        "RRPT1_HRA_Fund_Allocation": null,
+        "RRPT1_HRA_Funding_Pro_Rate": null,
+        "RRPT1_HRA_Health_Activities": null,
+        "RRPT1_HRA_Health_Activities_Options": null,
+        "RRPT1_HRA_Plan_End_Date": null,
+        "RRPT1_HRA_Plan_Start_Date": null,
+        "RRPT1_HRA_Termed_Emp_Claims_Run_out_Deadline": null,
+        "RRPT1_HRA_Terminated_Employees_Other_Value": null,
+        "bkroll1": {
+            "RRPT1_HRA_Rollover_Offer": null,
+            "bkrrpt1": {
+                "RRPT1_HRA_Ann_Roll_Cap_Amt_Emp": null,
+                "RRPT1_HRA_Ann_Roll_Cap_Amt_Emp_Adult": null,
+                "RRPT1_HRA_Ann_Roll_Cap_Amt_Emp_Child": null,
+                "RRPT1_HRA_Ann_Roll_Cap_Amt_Emp_Children": null,
+                "RRPT1_HRA_Ann_Roll_Cap_Amt_Family": null,
+                "RRPT1_HRA_Employee_Funds_Rollover_Amounts": null,
+                "RRPT1_HRA_Employee_Funds_Rollover_Options": null,
+                "RRPT1_HRA_Max_Rollover_Amt_Cap_Tier": null,
+                "RRPT1_HRA_Min_Rollover_Amt": null,
+                "RRPT1_HRA_Rollover_Date_recommend_3_months": null,
+                "RRPT1_HRA_Unused_rollovrfund_diff_Adm_last_yr": null,
+                "RRPT1_Legacy_Lumenos_HRA": null
+            }
+        }
+    },
+    "Section_E2": {
+        "RRPT2_HRA1_Group_Suffix": null,
+        "RRPT2_HRA_Annual_Alloc_Amt_Emp_Adult": null,
+        "RRPT2_HRA_Annual_Alloc_Amt_Emp_Child": null,
+        "RRPT2_HRA_Annual_Alloc_Amt_Emp_Children": null,
+        "RRPT2_HRA_Annual_Alloc_Amt_Employee": null,
+        "RRPT2_HRA_Annual_Alloc_Amt_Family": null,
+        "RRPT2_HRA_Annual_Allocation_Tier_Selection": null,
+        "RRPT2_HRA_Claim_Run_Out_Date": null,
+        "RRPT2_HRA_Fund_Allocation": null,
+        "RRPT2_HRA_Funding_Pro_Rate": null,
+        "RRPT2_HRA_Health_Activities": null,
+        "RRPT2_HRA_Health_Activities_Options": null,
+        "RRPT2_HRA_Plan_End_Date": null,
+        "RRPT2_HRA_Plan_Start_Date": null,
+        "RRPT2_HRA_ProvPay_Opt_DebCd_Dental_Option": null,
+        "RRPT2_HRA_ProvPay_Opt_DebCd_INN_Med_Coins": null,
+        "RRPT2_HRA_ProvPay_Opt_DebCd_INN_Med_Copay": null,
+        "RRPT2_HRA_ProvPay_Opt_DebCd_INN_Med_Ded": null,
+        "RRPT2_HRA_ProvPay_Opt_DebCd_Medical": null,
+        "RRPT2_HRA_ProvPay_Opt_DebCd_ONN_Med_Coins": null,
+        "RRPT2_HRA_ProvPay_Opt_DebCd_ONN_Med_Copay": null,
+        "RRPT2_HRA_ProvPay_Opt_DebCd_ONN_Med_Ded": null,
+        "RRPT2_HRA_ProvPay_Opt_DebCd_Rx_Option": null,
+        "RRPT2_HRA_ProvPay_Opt_DebCd_Vision_Option": null,
+        "RRPT2_HRA_Termed_Emp_Claims_Run_out_Deadline": null,
+        "RRPT2_HRA_Terminated_Employees_Other_Value": null,
+        "bkroll2": {
+            "RRPT2_HRA_Rollover_Offer": null,
+            "bkrrpt2": {
+                "RRPT2_HRA_Ann_Roll_Cap_Amt_Emp": null,
+                "RRPT2_HRA_Ann_Roll_Cap_Amt_Emp_Adult": null,
+                "RRPT2_HRA_Ann_Roll_Cap_Amt_Emp_Child": null,
+                "RRPT2_HRA_Ann_Roll_Cap_Amt_Emp_Children": null,
+                "RRPT2_HRA_Ann_Roll_Cap_Amt_Family": null,
+                "RRPT2_HRA_Employee_Funds_Rollover_Amounts": null,
+                "RRPT2_HRA_Employee_Funds_Rollover_Options": null,
+                "RRPT2_HRA_Max_Rollover_Amt_Cap_Tier": null,
+                "RRPT2_HRA_Min_Rollover_Amt": null,
+                "RRPT2_HRA_Rollover_Date_recommend_3_months": null,
+                "RRPT2_HRA_Unused_rollovrfund_diff_Adm_last_yr": null,
+                "RRPT2_Legacy_Lumenos_HRA": null
+            }
+        }
+    },
+    "Section_E3": {
+        "RRPT3_HRA1_Group_Suffix": null,
+        "RRPT3_HRA_Annual_Alloc_Amt_Emp_Adult": null,
+        "RRPT3_HRA_Annual_Alloc_Amt_Emp_Child": null,
+        "RRPT3_HRA_Annual_Alloc_Amt_Emp_Children": null,
+        "RRPT3_HRA_Annual_Alloc_Amt_Employee": null,
+        "RRPT3_HRA_Annual_Alloc_Amt_Family": null,
+        "RRPT3_HRA_Annual_Allocation_Tier_Selection": null,
+        "RRPT3_HRA_Claim_Run_Out_Date": null,
+        "RRPT3_HRA_Embedded_Ded": null,
+        "RRPT3_HRA_Fund_Allocation": null,
+        "RRPT3_HRA_Funding_Pro_Rate": null,
+        "RRPT3_HRA_Health_Activities": null,
+        "RRPT3_HRA_Health_Activities_Options": null,
+        "RRPT3_HRA_Individual_Embedded_Ded_Amt": null,
+        "RRPT3_HRA_Plan_End_Date": null,
+        "RRPT3_HRA_Plan_Start_Date": null,
+        "RRPT3_HRA_ProvPay_Opt_DebCd_INN_Med_Coins": null,
+        "RRPT3_HRA_ProvPay_Opt_DebCd_INN_Med_Copay": null,
+        "RRPT3_HRA_ProvPay_Opt_DebCd_INN_Med_Ded": null,
+        "RRPT3_HRA_ProvPay_Opt_DebCd_Medical": null,
+        "RRPT3_HRA_ProvPay_Opt_DebCd_ONN_Med_Coins": null,
+        "RRPT3_HRA_ProvPay_Opt_DebCd_ONN_Med_Copay": null,
+        "RRPT3_HRA_ProvPay_Opt_DebCd_ONN_Med_Ded": null,
+        "RRPT3_HRA_ProvPay_Opt_DebCd_Rx_Option": null,
+        "RRPT3_HRA_Termed_Emp_Claims_Run_out_Deadline": null,
+        "RRPT3_HRA_Terminated_Employees_Other_Value": null,
+        "RRPT3_HRA_Tier5_Upfront_Ded_Amt": null,
+        "RRPT3_HRA_Upfront_Ded_Amt_Emp_Adult": null,
+        "RRPT3_HRA_Upfront_Ded_Amt_Emp_Child": null,
+        "RRPT3_HRA_Upfront_Ded_Amt_Emp_Children": null,
+        "RRPT3_HRA_Upfront_Ded_Amt_Family": null,
+        "RRPT3_HRA_Upfront_Deductible_Tier_Selection": null,
+        "bkroll3": {
+            "RRPT3_HRA_Rollover_Offer": null,
+            "bkrrpt3": {
+                "RRPT3_HRA_Ann_Roll_Cap_Amt_Emp": null,
+                "RRPT3_HRA_Ann_Roll_Cap_Amt_Emp_Adult": null,
+                "RRPT3_HRA_Ann_Roll_Cap_Amt_Emp_Child": null,
+                "RRPT3_HRA_Ann_Roll_Cap_Amt_Emp_Children": null,
+                "RRPT3_HRA_Ann_Roll_Cap_Amt_Family": null,
+                "RRPT3_HRA_Employee_Funds_Rollover_Amounts": null,
+                "RRPT3_HRA_Employee_Funds_Rollover_Options": null,
+                "RRPT3_HRA_Max_Rollover_Amt_Cap_Tier": null,
+                "RRPT3_HRA_Min_Rollover_Amt": null,
+                "RRPT3_HRA_Rollover_Date_recommend_3_months": null,
+                "RRPT3_HRA_Unused_rollovrfund_diff_Adm_last_yr": null,
+                "RRPT3_Legacy_Lumenos_HRA": null
+            }
+        }
+    },
+    "Section_E4": {
+        "RRPT4_HRA1_Group_Suffix": null,
+        "RRPT4_HRA_Annual_Alloc_Amt_Emp_Adult": null,
+        "RRPT4_HRA_Annual_Alloc_Amt_Emp_Child": null,
+        "RRPT4_HRA_Annual_Alloc_Amt_Emp_Children": null,
+        "RRPT4_HRA_Annual_Alloc_Amt_Employee": null,
+        "RRPT4_HRA_Annual_Alloc_Amt_Family": null,
+        "RRPT4_HRA_Annual_Allocation_Tier_Selection": null,
+        "RRPT4_HRA_Claim_Run_Out_Date": null,
+        "RRPT4_HRA_Fund_Allocation": null,
+        "RRPT4_HRA_Funding_Pro_Rate": null,
+        "RRPT4_HRA_Health_Activities": null,
+        "RRPT4_HRA_Health_Activities_Options": null,
+        "RRPT4_HRA_Member_Responsibility_by_Claim": null,
+        "RRPT4_HRA_Plan_End_Date": null,
+        "RRPT4_HRA_Plan_Start_Date": null,
+        "RRPT4_HRA_ProvPay_Opt_DebCd_INN_Med_Coins": null,
+        "RRPT4_HRA_ProvPay_Opt_DebCd_INN_Med_Copay": null,
+        "RRPT4_HRA_ProvPay_Opt_DebCd_INN_Med_Ded": null,
+        "RRPT4_HRA_ProvPay_Opt_DebCd_Medical": null,
+        "RRPT4_HRA_ProvPay_Opt_DebCd_ONN_Med_Coins": null,
+        "RRPT4_HRA_ProvPay_Opt_DebCd_ONN_Med_Copay": null,
+        "RRPT4_HRA_ProvPay_Opt_DebCd_ONN_Med_Ded": null,
+        "RRPT4_HRA_ProvPay_Opt_DebCd_Rx_Option": null,
+        "RRPT4_HRA_Termed_Emp_Claims_Run_out_Deadline": null,
+        "RRPT4_HRA_Terminated_Employees_Other_Value": null,
+        "bkroll4": {
+            "RRPT4_HRA_Rollover_Offer": null,
+            "bkrrpt4": {
+                "RRPT4_HRA_Ann_Roll_Cap_Amt_Emp": null,
+                "RRPT4_HRA_Ann_Roll_Cap_Amt_Emp_Adult": null,
+                "RRPT4_HRA_Ann_Roll_Cap_Amt_Emp_Child": null,
+                "RRPT4_HRA_Ann_Roll_Cap_Amt_Emp_Children": null,
+                "RRPT4_HRA_Ann_Roll_Cap_Amt_Family": null,
+                "RRPT4_HRA_Employee_Funds_Rollover_Amounts": null,
+                "RRPT4_HRA_Employee_Funds_Rollover_Options": null,
+                "RRPT4_HRA_Max_Rollover_Amt_Cap_Tier": null,
+                "RRPT4_HRA_Min_Rollover_Amt": null,
+                "RRPT4_HRA_Rollover_Date_recommend_3_months": null,
+                "RRPT4_HRA_Unused_rollovrfund_diff_Adm_last_yr": null,
+                "RRPT4_Legacy_Lumenos_HRA": null
+            }
+        }
+    },
+    "Section_E5": {
+        "RRPT5_HRA1_Group_Suffix": null,
+        "RRPT5_HRA_Annual_Alloc_Amt_Emp_Adult": null,
+        "RRPT5_HRA_Annual_Alloc_Amt_Emp_Child": null,
+        "RRPT5_HRA_Annual_Alloc_Amt_Emp_Children": null,
+        "RRPT5_HRA_Annual_Alloc_Amt_Employee": null,
+        "RRPT5_HRA_Annual_Alloc_Amt_Family": null,
+        "RRPT5_HRA_Annual_Allocation_Tier_Selection": null,
+        "RRPT5_HRA_Claim_Run_Out_Date": null,
+        "RRPT5_HRA_Fund_Allocation": null,
+        "RRPT5_HRA_Funding_Pro_Rate": null,
+        "RRPT5_HRA_Health_Activities": null,
+        "RRPT5_HRA_Health_Activities_Options": null,
+        "RRPT5_HRA_Plan_End_Date": null,
+        "RRPT5_HRA_Plan_Start_Date": null,
+        "RRPT5_HRA_ProvPay_Opt_DebCd_INN_Med_Coins": null,
+        "RRPT5_HRA_ProvPay_Opt_DebCd_INN_Med_Ded": null,
+        "RRPT5_HRA_ProvPay_Opt_DebCd_Medical": null,
+        "RRPT5_HRA_ProvPay_Opt_DebCd_ONN_Med_Coins": null,
+        "RRPT5_HRA_ProvPay_Opt_DebCd_ONN_Med_Ded": null,
+        "RRPT5_HRA_ProvPay_Opt_DebCd_Rx_Option": null,
+        "RRPT5_HRA_Termed_Emp_Claims_Run_out_Deadline": null,
+        "RRPT5_HRA_Terminated_Employees_Other_Value": null,
+        "bkroll5": {
+            "RRPT5_HRA_Rollover_Offer": null,
+            "bkrrpt5": {
+                "RRPT5_HRA_Ann_Roll_Cap_Amt_Emp": null,
+                "RRPT5_HRA_Ann_Roll_Cap_Amt_Emp_Adult": null,
+                "RRPT5_HRA_Ann_Roll_Cap_Amt_Emp_Child": null,
+                "RRPT5_HRA_Ann_Roll_Cap_Amt_Emp_Children": null,
+                "RRPT5_HRA_Ann_Roll_Cap_Amt_Family": null,
+                "RRPT5_HRA_Employee_Funds_Rollover_Amounts": null,
+                "RRPT5_HRA_Employee_Funds_Rollover_Options": null,
+                "RRPT5_HRA_Max_Rollover_Amt_Cap_Tier": null,
+                "RRPT5_HRA_Min_Rollover_Amt": null,
+                "RRPT5_HRA_Rollover_Date_recommend_3_months": null,
+                "RRPT5_HRA_Unused_rollovrfund_diff_Adm_last_yr": null,
+                "RRPT5_Legacy_Lumenos_HRA": null
+            }
+        }
+    },
+    "Section_E_HRA_Not_Avail_in_new_record": {
+    },
+    "Section_F": {
+        "BkPlanPriority": {
+            "ParentDetails_FSA_Priority": null,
+            "ParentDetails_HRA_Priority": null
+        },
+        "ParentDetails_Claim_Carrier_Selection_Dental": null,
+        "ParentDetails_Claim_Carrier_Selection_Other": null,
+        "ParentDetails_Claim_Carrier_Selection_Pharmacy": null,
+        "ParentDetails_Claim_Carrier_Selection_Vision": null,
+        "ParentDetails_Other_Claim_Carrier": null,
+        "ParentDetails_Substantiation_Non_HSA_Accounts_Only": null
+    },
+    "Section_G": {
+        "ParentDetails_Non_HSA_Frequency_of_Reserve": null
+    },
+    "Section_H": {
+        "ParentDetails_All_Non_HSA_Account_Funding": null,
+        "ParentDetails_Divisional_Funding2": null,
+        "ParentDetails_Non_HSA_Prefunding_Bank_Account": null,
+        "bkBank1": {
+            "bkBank1show": {
+                "bank1_Account_Type": null,
+                "bank1_Bank_Account_Number": null,
+                "bank1_Bank_Authorized_Signer": null,
+                "bank1_Bank_Authorized_Signer_Title": null,
+                "bank1_Bank_Name": null,
+                "bank1_DCA_Account_Funding": null,
+                "bank1_Email_Contact": null,
+                "bank1_FSA_Account_Funding": null,
+                "bank1_FSL_Account_Funding": null,
+                "bank1_HRA_Account_Funding": null,
+                "bank1_HSA_Account_Funding": null,
+                "bank1_Parking_Account_Funding": null,
+                "bank1_Routing_Number": null,
+                "bank1_Transit_Account_Funding": null,
+                "zzzTextSignature_1": null
+            }
+        },
+        "bkBank2": {
+            "bkBank2show": {
+                "bank2_Account_Type": null,
+                "bank2_Bank_Account_Number": null,
+                "bank2_Bank_Authorized_Signer": null,
+                "bank2_Bank_Authorized_Signer_Title": null,
+                "bank2_Bank_Name": null,
+                "bank2_DCA_Account_Funding": null,
+                "bank2_Email_Contact": null,
+                "bank2_FSA_Account_Funding": null,
+                "bank2_FSL_Account_Funding": null,
+                "bank2_HRA_Account_Funding": null,
+                "bank2_HSA_Account_Funding": null,
+                "bank2_Parking_Account_Funding": null,
+                "bank2_Routing_Number": null,
+                "bank2_Transit_Account_Funding": null,
+                "zzzTextSignature_2": null
+            }
+        },
+        "bkBank3": {
+            "bkBank3show": {
+                "bank3_Account_Type": null,
+                "bank3_Bank_Account_Number": null,
+                "bank3_Bank_Authorized_Signer": null,
+                "bank3_Bank_Authorized_Signer_Title": null,
+                "bank3_Bank_Name": null,
+                "bank3_DCA_Account_Funding": null,
+                "bank3_Email_Contact": null,
+                "bank3_FSA_Account_Funding": null,
+                "bank3_FSL_Account_Funding": null,
+                "bank3_HRA_Account_Funding": null,
+                "bank3_HSA_Account_Funding": null,
+                "bank3_Parking_Account_Funding": null,
+                "bank3_Routing_Number": null,
+                "bank3_Transit_Account_Funding": null,
+                "zzzTextSignature_3": null
+            }
+        },
+        "bkBank4": {
+            "bkBank4show": {
+                "bank4_Account_Type": null,
+                "bank4_Bank_Account_Number": null,
+                "bank4_Bank_Authorized_Signer": null,
+                "bank4_Bank_Authorized_Signer_Title": null,
+                "bank4_Bank_Name": null,
+                "bank4_DCA_Account_Funding": null,
+                "bank4_Email_Contact": null,
+                "bank4_FSA_Account_Funding": null,
+                "bank4_FSL_Account_Funding": null,
+                "bank4_HRA_Account_Funding": null,
+                "bank4_HSA_Account_Funding": null,
+                "bank4_Parking_Account_Funding": null,
+                "bank4_Routing_Number": null,
+                "bank4_Transit_Account_Funding": null,
+                "zzzTextSignature_4": null
+            }
+        },
+        "bkBank5": {
+            "bkBank5show": {
+                "bank5_Account_Type": null,
+                "bank5_Bank_Account_Number": null,
+                "bank5_Bank_Authorized_Signer": null,
+                "bank5_Bank_Authorized_Signer_Title": null,
+                "bank5_Bank_Name": null,
+                "bank5_DCA_Account_Funding": null,
+                "bank5_Email_Contact": null,
+                "bank5_FSA_Account_Funding": null,
+                "bank5_FSL_Account_Funding": null,
+                "bank5_HRA_Account_Funding": null,
+                "bank5_HSA_Account_Funding": null,
+                "bank5_Parking_Account_Funding": null,
+                "bank5_Routing_Number": null,
+                "bank5_Transit_Account_Funding": null,
+                "zzzTextSignature_5": null
+            }
+        },
+        "bkBank6": {
+            "bkBank6show": {
+                "bank6_Account_Type": null,
+                "bank6_Bank_Account_Number": null,
+                "bank6_Bank_Authorized_Signer": null,
+                "bank6_Bank_Authorized_Signer_Title": null,
+                "bank6_Bank_Name": null,
+                "bank6_DCA_Account_Funding": null,
+                "bank6_Email_Contact": null,
+                "bank6_FSA_Account_Funding": null,
+                "bank6_FSL_Account_Funding": null,
+                "bank6_HRA_Account_Funding": null,
+                "bank6_HSA_Account_Funding": null,
+                "bank6_Parking_Account_Funding": null,
+                "bank6_Routing_Number": null,
+                "bank6_Transit_Account_Funding": null,
+                "zzzTextSignature_6": null
+            }
+        },
+        "bkBank7": {
+            "bkBank7show": {
+                "bank7_Account_Type": null,
+                "bank7_Bank_Account_Number": null,
+                "bank7_Bank_Authorized_Signer": null,
+                "bank7_Bank_Authorized_Signer_Title": null,
+                "bank7_Bank_Name": null,
+                "bank7_DCA_Account_Funding": null,
+                "bank7_Email_Contact": null,
+                "bank7_FSA_Account_Funding": null,
+                "bank7_FSL_Account_Funding": null,
+                "bank7_HRA_Account_Funding": null,
+                "bank7_HSA_Account_Funding": null,
+                "bank7_Parking_Account_Funding": null,
+                "bank7_Routing_Number": null,
+                "bank7_Transit_Account_Funding": null,
+                "zzzTextSignature_7": null
+            }
+        }
+    },
+    "Section_H__6580_noBankMsg": {
+    },
+    "Section_H_bankInfoNoAvail_in_New_cdhp": {
+    },
+    "Section_I": {
+        "ParentDetails_Anthem_Addl_Serv_Non_Descrim_Test": null,
+        "ParentDetails_Anthem_Addl_Serv_Plan_Doc_Creation": null
+    },
+    "Section_J": {
+        "ParentDetails_Signature_Date": null,
+        "ParentDetails_Signature_Name": null,
+        "ParentDetails_Signature_Title": null,
+        "zzzSignature": null
+    },
+    "Section_K": {
+        "ParentDetails_Brand": null,
+        "ParentDetails_Customer_Phone_Number": null
+    },
+    "StepDisplay1": {
+        "Text9": null
+    },
+    "StepDisplay2": {
+    },
+    "StepEnd": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Appendix_1": null,
+        "DR-CDHPHRARepeatLists": null,
+        "DR-ExtractData": null,
+        "DR-LoadData": null,
+        "DataRaptorExtractAction1": null,
+        "DataRaptorPostAction1": null,
+        "DataRaptorPostAction2": null,
+        "DataRaptorPostAction3": null,
+        "DataRaptorPostAction4": null,
+        "DataRaptorPostAction5": null,
+        "DataRaptorPostAction6": null,
+        "DataRaptorPostAction7": null,
+        "DoneAction1": null,
+        "Section_A": null,
+        "Section_B": null,
+        "Section_C": null,
+        "Section_D": null,
+        "Section_E1": null,
+        "Section_E2": null,
+        "Section_E3": null,
+        "Section_E4": null,
+        "Section_E5": null,
+        "Section_E_HRA_Not_Avail_in_new_record": null,
+        "Section_F": null,
+        "Section_G": null,
+        "Section_H": null,
+        "Section_H__6580_noBankMsg": null,
+        "Section_H_bankInfoNoAvail_in_New_cdhp": null,
+        "Section_I": null,
+        "Section_J": null,
+        "Section_K": null,
+        "SetValuesAfterB": null,
+        "SetValuesAfterDRExtractData": null,
+        "SetValuesAllStepOff": null,
+        "SetValuesAllStepsOn": null,
+        "SetValuesAppendix1": null,
+        "SetValuesBeforePost": null,
+        "SetValuesC": null,
+        "SetValuesD": null,
+        "SetValuesF-apdx": null,
+        "SetValuesHRARepeat": null,
+        "SetValuesInit": null,
+        "SetValuesInitial": null,
+        "SetValuesSectionOnOff1": null,
+        "SetValuesSectionOnOff2": null,
+        "SetValuesStepOn_A_K": null,
+        "SetValues_after_extract": null,
+        "SetValues_disable_E_if_new_record": null,
+        "StepDisplay1": null,
+        "StepDisplay2": null,
+        "StepEnd": null,
+        "UpsertHRARepeatE1": null,
+        "UpsertHRARepeatE2": null,
+        "UpsertHRARepeatE3": null,
+        "UpsertHRARepeatE4": null,
+        "UpsertHRARepeatE5": null,
+        "zzzSetValuesJumpToSpecificStep": null
+    }
+}

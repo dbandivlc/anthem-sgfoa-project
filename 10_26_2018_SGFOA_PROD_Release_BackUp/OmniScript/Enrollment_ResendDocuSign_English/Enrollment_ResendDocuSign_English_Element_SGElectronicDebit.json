@@ -1,0 +1,191 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Resend Employer application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/ResendDocuSign/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 13,
+    "%vlocity_namespace%__PropertySet__c": {
+        "controlWidth": 4,
+        "dateFormat": "",
+        "dateTimeFormat": "",
+        "docuSignTemplatesGroup": [
+            {
+                "docuSignTemplate": "c9782ccb-7f79-49fe-8a19-252bd6eb1366",
+                "includeToSend": true,
+                "sendJSONNode": "",
+                "sendJSONPath": "",
+                "signerList": [
+                    {
+                        "routingOrder": "",
+                        "signerEmail": "%DocuSignEmail%",
+                        "signerName": "%DocuSignRecipient%",
+                        "templateRole": "Signer"
+                    }
+                ],
+                "templateRoleName": {
+                    "roles": [
+                        {
+                            "name": "Signer"
+                        },
+                        {
+                            "name": "Receives a copy"
+                        }
+                    ]
+                },
+                "transformBundle": "GenerateDocusignElectronicDebit"
+            }
+        ],
+        "emailBody": "Here is the Electronic Debit form for you to complete and for your signature.",
+        "emailSubject": "SG Electronic Debit Form",
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "label": "Send Initial Payment Form",
+        "postMessage": "Done",
+        "redirectNextLabel": "Next",
+        "redirectNextWidth": 3,
+        "redirectPageName": "",
+        "redirectPreviousLabel": "Previous",
+        "redirectPreviousWidth": 3,
+        "redirectTemplateUrl": "vlcAcknowledge.html",
+        "remoteTimeout": 30000,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "group": {
+                            "operator": "OR",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "Employer Application;HRA Form;Initial Payment Form",
+                                    "field": "DocumentsToSend-EBC-2017"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "HRA Form;Initial Payment Form",
+                                    "field": "DocumentsToSend-EBC-2017"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Employer Application;Initial Payment Form",
+                                    "field": "DocumentsToSend-EBC-2017"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Initial Payment Form",
+                                    "field": "DocumentsToSend-EBC-2017"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Employer Application;Initial Payment Form",
+                                    "field": "DocumentsToSend-EBCBS-2017"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Initial Payment Form",
+                                    "field": "DocumentsToSend-EBCBS-2017"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Employer Application;HRA Form;Initial Payment Form",
+                                    "field": "DocumentsToSend-EBC-2018"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "HRA Form;Initial Payment Form",
+                                    "field": "DocumentsToSend-EBC-2018"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Employer Application;Initial Payment Form",
+                                    "field": "DocumentsToSend-EBC-2018"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Initial Payment Form",
+                                    "field": "DocumentsToSend-EBC-2018"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Employer Application;Initial Payment Form",
+                                    "field": "DocumentsToSend-EBCBS-2018"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Initial Payment Form",
+                                    "field": "DocumentsToSend-EBCBS-2018"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Employer Application;HRA Form;Initial Payment Form",
+                                    "field": "DocumentsToSend-EBC-2019"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "HRA Form;Initial Payment Form",
+                                    "field": "DocumentsToSend-EBC-2019"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Employer Application;Initial Payment Form",
+                                    "field": "DocumentsToSend-EBC-2019"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Initial Payment Form",
+                                    "field": "DocumentsToSend-EBC-2019"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Employer Application;Initial Payment Form",
+                                    "field": "DocumentsToSend-EBCBS-2019"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "Initial Payment Form",
+                                    "field": "DocumentsToSend-EBCBS-2019"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "<>",
+                                    "data": null,
+                                    "field": "DocuSignRecipient"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": null,
+                                    "field": "DocuSignEmail"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "timeFormat": "",
+        "validationRequired": "None"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "DocuSign Envelope Action",
+    "Name": "SGElectronicDebit",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/ResendDocuSign/English/SGElectronicDebit"
+}

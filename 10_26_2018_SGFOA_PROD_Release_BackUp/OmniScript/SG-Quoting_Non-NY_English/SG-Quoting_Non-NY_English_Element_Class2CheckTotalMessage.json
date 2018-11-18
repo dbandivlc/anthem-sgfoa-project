@@ -1,0 +1,131 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "Message that displays to user if Benefit Levels do not add up correctly",
+    "%vlocity_namespace%__Level__c": 2,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Quoting - Non NY",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/SG Quoting/Non-NY/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 34,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/SG Quoting/Non-NY/English",
+        "Name": "Class1and2",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SG Quoting/Non-NY/English/Class1and2",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Class1and2",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "controlWidth": 12,
+        "currencySymbol": "$",
+        "dateFormat": "MM-dd-yyyy",
+        "documentNames": [
+            "Green"
+        ],
+        "hide": false,
+        "hideGroupSep": false,
+        "hideLabel": true,
+        "label": null,
+        "messages": [
+            {
+                "active": false,
+                "text": "Success",
+                "type": "Success",
+                "value": true
+            },
+            {
+                "active": true,
+                "text": "Total of Benefit Level 1 and Benefit Level 2 must equal the number of employees enrolling",
+                "type": "Requirement",
+                "value": false
+            }
+        ],
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "<>",
+                                    "data": null,
+                                    "field": "Class1NumberofSingles(EE)"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": null,
+                                    "field": "Class1NumberofEE+Spouse"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": null,
+                                    "field": "Class1NumberofEE+Children"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": null,
+                                    "field": "Class1NumberofFamily"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": null,
+                                    "field": "Class2NumberofSingles(EE)"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": null,
+                                    "field": "Class2NumberofEE+Spouse"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": null,
+                                    "field": "Class2NumberofEE+Children"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": null,
+                                    "field": "Class2NumberofFamily"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "OR",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "Two",
+                                    "field": "NumberClasses"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "validateExpression": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "Class2CheckTotal"
+                    }
+                ]
+            }
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Validation",
+    "Name": "Class2CheckTotalMessage",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SG Quoting/Non-NY/English/Class2CheckTotalMessage"
+}

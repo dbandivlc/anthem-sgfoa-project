@@ -1,0 +1,768 @@
+{
+    "AccountId": "0013B00000V7CZ2QAN",
+    "ActionButton": "quote",
+    "ActiveStatesEnrollment": [
+        "CA"
+    ],
+    "ActiveStatesQuoting": [
+        "KY",
+        "OH",
+        "WI",
+        "NH",
+        "NY"
+    ],
+    "AssociationSelect": "No",
+    "BenefitPeriod": "CalendarYear",
+    "Brand": "ABCBS",
+    "BrokerContactId": "0033B00000In3S5QAJ",
+    "BrokerProfile": "Anthem SG Broker",
+    "BrokerUserId": "BLANK",
+    "CategorySelection": {
+        "AllCoverageOptions": "Medical;Dental;Vision;Life",
+        "AllCoverageOptionsEnroll": null,
+        "ConnectName": "Anthem Connect ",
+        "CoverageEffectiveDate": "Sep 1 2018",
+        "CoverageOptions": "Medical;Dental;Vision;Life",
+        "DentalPlanType": true,
+        "Email": "connect@anthemdentaladmin.com",
+        "HealthCoverageOptions": null,
+        "HealthCoverageOptionsEnroll": null,
+        "IU-NY-NoBroker": "No",
+        "IU-NoBroker": "No",
+        "IU-NoBrokerCoverageOptions": null,
+        "IU-NoBrokerCoverageOptionsEnroll": null,
+        "IU-nonNY-NoBroker": "No",
+        "L&DErrorMsg": null,
+        "LAndDPlanType": true,
+        "LifeCoverageOptions": null,
+        "LifeCoverageOptionsEnroll": null,
+        "MedicalPlanType": true,
+        "Object_Id": "0013B00000V7CZ2QAN",
+        "PhoneNo": "866-956-8602",
+        "ReqEffDtFormula": "Q3_2018",
+        "ReqEffDtFormula-Monthly": "SEP_2018",
+        "ReqEffDtFormula-Year": "2018",
+        "RequestedCoverageEffectiveDate": "Sep 1 2018",
+        "RequestedCoverageNonBrokerDates": null,
+        "SaveForLaterName": "Quote No:00029907 Eff.Date:Sep 1 2018 Products:Medical;Dental;Vision;Life",
+        "VisionPlanType": true,
+        "selectPlantype": false
+    },
+    "CensusCount": 2,
+    "CensusId": "a313B000000FsOdQAK",
+    "CensusName": "a313B000000FsOd",
+    "CheckAccountQuoteSelected": false,
+    "CheckAccountTeamMemberUserId": "BLANK",
+    "CheckQuoteLaunchFromAccount": true,
+    "CheckQuoteSelected": false,
+    "Class1NumberofEE+Children": 0,
+    "Class1NumberofEE+Spouse": 0,
+    "Class1NumberofFamily": 0,
+    "Class1NumberofSingles(EE)": 0,
+    "Class2NumberofEE+Children": 0,
+    "Class2NumberofEE+Spouse": 0,
+    "Class2NumberofFamily": 0,
+    "Class2NumberofSingles(EE)": 0,
+    "Class3NumberofEE+Children": 0,
+    "Class3NumberofEE+Spouse": 0,
+    "Class3NumberofFamily": 0,
+    "Class3NumberofSingles (EE)": 0,
+    "ClassDistinction": "No",
+    "CompositeStates": true,
+    "ContextId": "",
+    "ContextZip": "",
+    "County1": "JEFFERSON",
+    "CountyCd": "059",
+    "CoverageOptionsForUpdate": "Medical;Dental;Vision;Life",
+    "DRId_Account": "0013B00000V7CZ2QAN",
+    "DRId_Opportunity": "0063B000007bSq6QAE",
+    "DRId_Quote": "0Q03B000000F40SSAS",
+    "DRId_SGA_QuoteEnrollmentStage__c": "a8B3B000000D1xAUAS",
+    "DentalEligibleEmployees": 2,
+    "DentalFilters": [
+        {
+            "categories": [
+                {
+                    "isAttribute": true,
+                    "name": "OON Reimbursement",
+                    "order": 11,
+                    "property": "OON Reimbursement",
+                    "tooltip": "Rates assume out-of-network payments are based on the selected plan (90th percentile or Prime Level of Reimbursement-MAC Plan). Dentists in our network agree not to charge more than their contractual agreement with us.",
+                    "value": "80th Percentile of FAIR Health;90th Percentile of FAIR Health;Maximum Allowable Charge (MAC);",
+                    "values": [
+                        {
+                            "name": "80th Percentile of FAIR Health",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "90th Percentile of FAIR Health",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Maximum Allowable Charge (MAC)",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": false,
+                    "name": "Endo/Perio/Oral Surgery",
+                    "order": 5,
+                    "property": "Endo/Perio/Oral",
+                    "tooltip": "Endodontic Services are most commonly known as Root Canals and similar services. Periodontal Services are most commonly known as Scaling and Root Planing, and treatment of Gum Disease. Oral Surgery is most commonly thought of as tooth extraction(i.e. removal of Wisdom Teeth). These services are covered by the same percentages as either the Basic Services or the Major Services. For information on how the Endo/Perio/Oral Services are covered on your selected plan, please refer to your Summary of Benefits.",
+                    "value": "All;Basic Service;Major Service;Not Covered;",
+                    "values": [
+                        {
+                            "name": "All",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Basic Service",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Major Service",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Not Covered",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": true,
+                    "name": "Deductible",
+                    "order": 6,
+                    "property": "Deductible",
+                    "tooltip": null,
+                    "value": "$50 per Individual or $150 per Family;$25 per Individual or $75 per Family;",
+                    "values": [
+                        {
+                            "name": "$50 per Individual or $150 per Family",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "$25 per Individual or $75 per Family",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": false,
+                    "name": "Product Design",
+                    "order": 3,
+                    "property": "ProductDesignCheckBox_Type",
+                    "tooltip": "Classic, Enhanced and Value products have no waiting periods. Voluntary plans have a 12 month waiting period applied to major, endo, perio, oral surgery and orthodontia services if applicable. Waiting periods are waived for all members enrolling during implementation if the group has prior comparable dental coverage.",
+                    "value": "All;Classic;Enhanced;Value;Voluntary;",
+                    "values": [
+                        {
+                            "name": "All",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Classic",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Enhanced",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Value",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Voluntary",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": false,
+                    "name": "Coinsurance Type",
+                    "order": 4,
+                    "property": "CoinsuranceTypeCheckBox_Type",
+                    "tooltip": null,
+                    "value": "Active;All;Passive;",
+                    "values": [
+                        {
+                            "name": "Active",
+                            "tooltip": "Active PPO plans are plans that have a richer co-insurance in-network versus out-of network; e.g., 100%/80%/50% in network and 80%/60%/50% out of network."
+                        },
+                        {
+                            "name": "All",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Passive",
+                            "tooltip": "Passive PPO plans have the same co-insurance in and out of network; e.g., 100%/80%/50% in and out of network."
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": false,
+                    "name": "Provider Network",
+                    "order": 2,
+                    "property": "Network",
+                    "tooltip": null,
+                    "value": "Dental Complete;Dental Prime;",
+                    "values": [
+                        {
+                            "name": "Dental Complete",
+                            "tooltip": "This is one of the nations largest dental preferred provider networks. Providers have agreed to accept certain fees (allowed amounts). Although the patient still may pay less out of pocket than seeing an out-of-network dentist, the discount is not as deep as with the Prime network."
+                        },
+                        {
+                            "name": "Dental Prime",
+                            "tooltip": "This is the smaller network, but with deeper discounts. Providers have agreed to accept lower fees (allowed amounts) than the Complete network, resulting in less out-of-pocket expense to the patient."
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": true,
+                    "name": "Annual Maximum",
+                    "order": 7,
+                    "property": "Annual Maximum",
+                    "tooltip": null,
+                    "value": "$1,000;$1,500;$2,000;$2,500;",
+                    "values": [
+                        {
+                            "name": "$1,000",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "$1,500",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "$2,000",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "$2,500",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": true,
+                    "name": "Posterior Composites",
+                    "order": 8,
+                    "property": "Posterior Composites",
+                    "tooltip": null,
+                    "value": "Benefit as Composite;",
+                    "values": [
+                        {
+                            "name": "Benefit as Composite",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": true,
+                    "name": "Orthodontics",
+                    "order": 10,
+                    "property": "Child Orthodontics",
+                    "tooltip": "Orthodontic plans require a minimum of 10+ enrolled.",
+                    "value": "50% / 50%;Not Covered;",
+                    "values": [
+                        {
+                            "name": "50% / 50%",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Not Covered",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": true,
+                    "name": "Dental Implants",
+                    "order": 9,
+                    "property": "Dental Implants",
+                    "tooltip": null,
+                    "value": "Covered;Not Covered;",
+                    "values": [
+                        {
+                            "name": "Covered",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Not Covered",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": false,
+                    "name": "Top 10 Plans",
+                    "order": 1,
+                    "property": "Top10PlanCheckBox_Type",
+                    "tooltip": null,
+                    "value": "Top 10 Plans;",
+                    "values": [
+                        {
+                            "name": "Top 10 Plans",
+                            "tooltip": null
+                        }
+                    ]
+                }
+            ],
+            "effectiveDateYear": "2018",
+            "productType": "Dental",
+            "state": "CO"
+        }
+    ],
+    "DisplayBrokerName": "REVA HAWK",
+    "DisplayZipCode": "80001",
+    "EffectiveDate": "2018-09-01",
+    "ExistingETINRO": "",
+    "ExistingGroupRO": "",
+    "GeneralAgencyContactId": "BLANK",
+    "GeneralAgencyContactUserId": "BLANK",
+    "IsContextIdExist": false,
+    "LAndDPlanType": "life",
+    "LCBrokerETIN": "",
+    "LCBrokerName": "",
+    "LCBrokerTypeAhead-Block": {
+        "Broker": "REVA HAWK",
+        "BrokerId": "0033B00000In3S5QAJ",
+        "BrokerTIN": "676736776"
+    },
+    "LCValidation": {
+        "ActiveEnrollmentStates": false,
+        "ActiveQuotingStates": false,
+        "BrokerProfile": "Anthem SG Broker",
+        "BrokerRequiredMessage": true,
+        "CheckZipCode": 1,
+        "County": "JEFFERSON",
+        "County_Select": null,
+        "ExtractState": "CO",
+        "InvalidZipMsg": true,
+        "LCBrokerTypeAhead-Block": {
+            "LCBrokerETIN": "676736776",
+            "LCBrokerId": "0033B00000In3S5QAJ",
+            "LCBrokerName": "REVA HAWK",
+            "LCBrokerTypeAhead": "REVA HAWK 676736776"
+        },
+        "LCZipCode": "80001",
+        "MultipleCountyMsg": null,
+        "Other Reason Description": null,
+        "QuoteErrMsg": true,
+        "QuotingonbehalfofaBroker?": null,
+        "Reason": null,
+        "Sizecheck": 1,
+        "TypeAHeadEmployee-Block": null,
+        "VAErrorMsg": null,
+        "VAWarningmsg": null
+    },
+    "LicenseStatus": "Valid",
+    "LoadCACOEnroll": false,
+    "LoadNYEnroll": false,
+    "MedicalFilters": [
+        {
+            "categories": [
+                {
+                    "isAttribute": false,
+                    "name": "Network Name",
+                    "order": 3,
+                    "property": "Network",
+                    "tooltip": null,
+                    "value": "Anthem PPO;Pathway;",
+                    "values": [
+                        {
+                            "name": "Anthem PPO",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Pathway",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": true,
+                    "name": "Metal Level",
+                    "order": 2,
+                    "property": "Metal Level",
+                    "tooltip": null,
+                    "value": "Platinum;Gold;Silver;Bronze;",
+                    "values": [
+                        {
+                            "name": "Platinum",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Gold",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Silver",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Bronze",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": false,
+                    "name": "Deductible",
+                    "order": 1,
+                    "property": "DeductibleRange",
+                    "tooltip": null,
+                    "value": "$0 - $1,000;$1,200 - $1,500;$1,750 - $2,750;$2,800 - $4,750;Above $5,000;",
+                    "values": [
+                        {
+                            "name": "$0 - $1,000",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "$1,200 - $1,500",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "$1,750 - $2,750",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "$2,800 - $4,750",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Above $5,000",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": false,
+                    "name": "Plan Type",
+                    "order": 4,
+                    "property": "ProductSubType",
+                    "tooltip": null,
+                    "value": "PPO;EPO;HMO;POS;",
+                    "values": [
+                        {
+                            "name": "PPO",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "EPO",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "HMO",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "POS",
+                            "tooltip": null
+                        }
+                    ]
+                }
+            ],
+            "effectiveDateYear": "2018",
+            "productType": "Medical",
+            "state": "CO"
+        }
+    ],
+    "MemberStates": false,
+    "MinInfo": {
+        "BenefitPeriod": "Calendar Year",
+        "BenefitPeriod_CY": null,
+        "BenefitPeriod_CYPY": "Plan Year",
+        "BenefitPeriod_PY": null,
+        "Class1and2": null,
+        "CoverageOptionsIncludeDental": true,
+        "CoverageOptionsIncludeMedical": true,
+        "Dental8021CheckMessage": true,
+        "Dental9999CheckMessage": true,
+        "DentalPriorCoverage": "X",
+        "DentalPriorCoverageFormula": false,
+        "DentalRateGuarantee": "X",
+        "DentalRateGuaranteeFormula": 12,
+        "Eligibility": {
+            "CensusEnrollFormula": true,
+            "CensusEnrollMsg": true,
+            "DefinitionWarningMsg": false,
+            "DefinitionWarningMsg1": null,
+            "DefinitionWarningMsg2": null,
+            "DefinitionWarningMsg3": null,
+            "DentalNoOrtho": true,
+            "DentalNoOrthoNY2018": null,
+            "DentalVisionPlansMinTwo": true,
+            "EligibleFormula": true,
+            "EligibleGreaterthanEnrolling": true,
+            "NumbEligFormula": "TwoToFour",
+            "NumbEnrollFormulaVision": "TwoToFour",
+            "NumberEligible": 2,
+            "NumberEligibleFormula": false,
+            "NumberEnrolling": 2,
+            "Participation": null,
+            "ParticipationMessage": null,
+            "ValidWaivers": 2,
+            "VisionParticipationMessage": true
+        },
+        "EmployerVision": null,
+        "InvalidSIC": true,
+        "InvalidSICAllPlans": true,
+        "LDCoverageScreen": true,
+        "NumberClasses": "One",
+        "SIC_life_STD": true,
+        "SIC_life_STD_Formula": "This industry is not eligible for Short Term Disability coverage",
+        "SIC_life_STD_Formula1": "NotSelected",
+        "SIC_life_STD_validation": false,
+        "SIC_life_STD_validation1": false,
+        "TypeAheadSIC-Block": {
+            "LDPlan": "life",
+            "SIC_TXT": "5551",
+            "TypeAheadSIC": "5551 BOAT DEALERS",
+            "groupSize": "2",
+            "lifeGroupSize": "(2-9);(10-19);(>=20)",
+            "stdGroupSize": null
+        },
+        "VisionRateGuarantee": "24 Months",
+        "VoluntaryVision": null
+    },
+    "MinState": "CO",
+    "NumberClasses": "One",
+    "OSFormulaEffectiveDate": "2018-01-20",
+    "OSFormulaEffectiveDateSBC": "20-Jan-2018",
+    "OSFormulaQuoteExpiryDate": "2018-01-15",
+    "OSFormulaQuoteExpiryDateSBC": "20-Jan-2018",
+    "OmniScriptState": "regular",
+    "PaidAgencyContactId": "BLANK",
+    "PaidAgencyContactUserId": "BLANK",
+    "PartyAccountId": "",
+    "ProductLicense": "Health & Life",
+    "QuoteCreatedDate": "2018-10-01T20:52:13.000Z",
+    "QuoteEnrollment": "Yes",
+    "QuoteGenerationComplete": false,
+    "QuoteMandatoryState": false,
+    "QuoteNumber": "00029907",
+    "QuoteOptionalState": true,
+    "QuoteOptionalStateList": [
+        "VA",
+        "IN",
+        "CA",
+        "CT",
+        "ME",
+        "NV",
+        "GA",
+        "MO",
+        "CO"
+    ],
+    "QuotePreparedFor": {
+        "qCloseDate": null,
+        "qCloseDateText": null,
+        "qContactName": null,
+        "qContactTitle": null,
+        "qEmail": null,
+        "qPhone": null,
+        "qReqEffectiveDate": null,
+        "qReqEffectiveDateDayOfMonth": null,
+        "qReqEffectiveDateDayOfMonth2Char": null,
+        "qReqEffectiveDateMonth": null,
+        "qReqEffectiveDateMonth2Char": null,
+        "qReqEffectiveDateText": null,
+        "qReqEffectiveDateYear": null,
+        "qUpdatedQuoteName": null,
+        "qUpdatedQuoteNameComposite": null,
+        "qUpdatedQuoteNameMember": null,
+        "quote_name_blk": {
+            "Address_blk": {
+                "qCityTown": null,
+                "qState": null,
+                "qStreetAddress": null,
+                "qZipCode": null
+            },
+            "qGroupName": null,
+            "qPrimaryPhone": null
+        }
+    },
+    "QuoteRequiredStateList": [
+        "KY",
+        "OH",
+        "WI",
+        "NH",
+        "NY"
+    ],
+    "QuotingonbehalfofaBroker?": "Yes",
+    "SICFilter": [
+    ],
+    "SelectedState": "CO",
+    "ShowHomeSelectQuote": false,
+    "ShowNYEnrollCategory": true,
+    "State": "",
+    "State1": "CO",
+    "Step": {
+        "AccountCreateMessage": true,
+        "AnthemBrand": "ABCBS",
+        "BrokerName": "REVA HAWK",
+        "CloseDatePrelim": "2018-10-01T05:00:00.000Z",
+        "ContextIdFormula": 1,
+        "CreateAcctCheckbox": false,
+        "CreateNewAccFormula": false,
+        "ETINFormula": null,
+        "ExistingAccount_Id": "0013B00000V7CZ2QAN",
+        "FormulaCounty": "JEFFERSON",
+        "FormulaState": "CO",
+        "FormulaZip": "80001",
+        "GeneralAgencyMessage": null,
+        "GroupName": null,
+        "GroupROFormula": null,
+        "InitialQuoteName": "NEW ACCOUNT 10012018 10/1/2018",
+        "IsPreExistingAccount": true,
+        "NYEnrollCheck": false,
+        "PaidAgencyMessage": null,
+        "TaxID": null,
+        "Today": "2018-10-01T05:00:00.000Z",
+        "TypeAheadAccount-Block": {
+            "ExistingAccountId": "0013B00000V7CZ2QAN",
+            "ExistingAccountName": "NEW ACCOUNT 10012018",
+            "GroupETIN": "000000004",
+            "TypeAheadAccount": "NEW ACCOUNT 10012018"
+        },
+        "TypeAheadAssociations-Block": null,
+        "TypeAheadBroker-Block": {
+            "Broker": "REVA HAWK",
+            "BrokerId": "0033B00000In3S5QAJ",
+            "BrokerTIN": "676736776",
+            "TypeAheadBroker": null
+        },
+        "TypeAheadETINRO": "000000004",
+        "TypeAheadGeneralAgency-Block": {
+            "GeneralAgency": null,
+            "GeneralAgencyId": null,
+            "GeneralAgencyTIN": null,
+            "TypeAheadGeneralAgency": null
+        },
+        "TypeAheadPaidAgency-Block": {
+            "PaidAgency": null,
+            "PaidAgencyId": null,
+            "PaidAgencyTIN": null,
+            "TypeAheadPaidAgency": null
+        },
+        "ZipCode1": "80001",
+        "qOpportunityName": "NEW ACCOUNT 10012018 Opportunity 10/1/2018"
+    },
+    "TypeAheadSIC-Block": {
+        "SICNO": 5551,
+        "SICName": "BOAT DEALERS"
+    },
+    "VisionEligibleEmployees": 2,
+    "ZipCode3": "80001",
+    "ZipCodeList": [
+        {
+            "Brand": "ABCBS",
+            "CountyCode": "059",
+            "MinCounty": "JEFFERSON",
+            "MinState": "CO",
+            "ZipCode": "80001"
+        }
+    ],
+    "ZipCodeListLength": 1,
+    "atleastOnePlanSelected": false,
+    "benefitPeriod": "Calendar Year",
+    "callDentalEligibility": true,
+    "callLAndDEligibility": true,
+    "callMedicalEligibility": true,
+    "callVisionEligibility": true,
+    "censusEmpCount": 2,
+    "censusId": "a313B000000FsOdQAK",
+    "communityRates": "",
+    "empCount": 2,
+    "enableRightPanel": true,
+    "error": "OK",
+    "fetchDental": true,
+    "fetchLAndD": true,
+    "fetchLife": true,
+    "fetchMedical": true,
+    "fetchVision": true,
+    "isBroker": true,
+    "isDentalPlansFetched": false,
+    "isMedicalPlansFetched": false,
+    "isVisionPlansFetched": false,
+    "noOfEligibleLivesDental": 2,
+    "noOfEligibleLivesVision": 2,
+    "noResultsError": false,
+    "omniCancelAction": "back",
+    "omniIframeEmbedded": true,
+    "planSelectionCount": {
+        "dental": 0,
+        "life": 0,
+        "medical": 0,
+        "vision": 0
+    },
+    "planType": "medical",
+    "productType": "Medical",
+    "ratingMethod": "4COMPOSIT",
+    "redirectToWithQuote": true,
+    "resetCoverageOptions": false,
+    "sInstanceId": "a3Y3B000000EdUpUAK",
+    "showLAndDPlanDetails": true,
+    "subscriberDetails": {
+        "censusId": "a313B000000FsOdQAK",
+        "noOfEligibleLivesCOBRA": 0,
+        "noOfEligibleLivesDental": 2,
+        "noOfEligibleLivesLD": 2,
+        "noOfEligibleLivesMedical": 2,
+        "noOfEligibleLivesVision": 2,
+        "subscriberList": [
+            {
+                "dependent": null,
+                "member": {
+                    "age": "27",
+                    "birthDate": "1990-11-11",
+                    "dentalTier": "EMP",
+                    "enrollmentTypeCode": "EMP",
+                    "genderCode": "M",
+                    "inTobaccoWellness": "0",
+                    "isBundled": "0",
+                    "isCobra": "0",
+                    "isDentalPriorCoverage": "0",
+                    "isTobaccoUser": "0",
+                    "memberRelationshipTypeCode": "SCRBR",
+                    "memberUniqueId": "a303B000000WEYtQAO",
+                    "rateGuarMonths": "12",
+                    "visionTier": "EMP"
+                }
+            },
+            {
+                "dependent": null,
+                "member": {
+                    "age": "27",
+                    "birthDate": "1990-11-11",
+                    "dentalTier": "EMP",
+                    "enrollmentTypeCode": "EMP",
+                    "genderCode": "M",
+                    "inTobaccoWellness": "0",
+                    "isBundled": "0",
+                    "isCobra": "0",
+                    "isDentalPriorCoverage": "0",
+                    "isTobaccoUser": "0",
+                    "memberRelationshipTypeCode": "SCRBR",
+                    "memberUniqueId": "a303B000000WEYyQAO",
+                    "rateGuarMonths": "12",
+                    "visionTier": "EMP"
+                }
+            }
+        ]
+    },
+    "success": true,
+    "targetSystem": "SALES",
+    "timeStamp": "2018-10-01T20:51:29.552Z",
+    "userContactId": "",
+    "userCurrencyCode": "USD",
+    "userId": "0053B000001dMpSQAU",
+    "userName": "arjun.bura@accenture.com",
+    "userProfile": "Anthem SG Broker",
+    "userTimeZone": null,
+    "userType": "External",
+    "vlcPersistentComponent": {
+    },
+    "zipCodeLength": 5
+}

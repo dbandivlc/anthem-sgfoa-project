@@ -1,0 +1,111 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 1,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Quoting - ACA",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/SG Quoting/StandardACA/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 29,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/SG Quoting/StandardACA/English",
+        "Name": "MinInfo",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SG Quoting/StandardACA/English/MinInfo",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "MinInfo",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "accessibleInFutureSteps": false,
+        "allowSaveForLater": true,
+        "autoSaveOnStepNext": false,
+        "collapse": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "documentNames": [
+            "Green"
+        ],
+        "elementTypeToHTMLTemplateMapping": {
+        },
+        "enableKnowledge": false,
+        "hide": false,
+        "includeCustomization": true,
+        "knowledgeArticleTypeQueryFieldsMap": {
+        },
+        "label": "Mini-Census",
+        "persistentComponent": [
+            {
+                "id": "vlcCart",
+                "itemsKey": "cartItems",
+                "label": "",
+                "modalConfigurationSetting": {
+                    "modalController": "ModalProductCtrl",
+                    "modalHTMLTemplateId": "vlcProductConfig.html",
+                    "modalSize": "lg"
+                },
+                "postTransformBundle": "",
+                "preTransformBundle": "",
+                "remoteClass": "",
+                "remoteMethod": "",
+                "remoteOptions": {
+                    "postTransformBundle": "",
+                    "preTransformBundle": ""
+                },
+                "remoteTimeout": 30000,
+                "render": false,
+                "responseJSONNode": "",
+                "responseJSONPath": "",
+                "sendJSONNode": "",
+                "sendJSONPath": ""
+            },
+            {
+                "id": "vlcKnowledge",
+                "itemsKey": "knowledgeItems",
+                "label": "",
+                "modalConfigurationSetting": {
+                    "modalController": "",
+                    "modalHTMLTemplateId": "",
+                    "modalSize": "lg"
+                },
+                "postTransformBundle": "",
+                "preTransformBundle": "",
+                "remoteClass": "",
+                "remoteMethod": "",
+                "remoteOptions": {
+                    "postTransformBundle": "",
+                    "preTransformBundle": ""
+                },
+                "remoteTimeout": 30000,
+                "render": false
+            }
+        ],
+        "repeat": false,
+        "repeatClone": false,
+        "saveContentEncoded": false,
+        "saveForLaterRedirectPageName": "sflRedirect",
+        "saveForLaterRedirectTemplateUrl": "vlcSaveForLaterAcknowledge.html",
+        "seedDataJSON": {
+        },
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "NY",
+                        "field": "SelectedState"
+                    }
+                ]
+            }
+        },
+        "timeTracking": true
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Block",
+    "Name": "Class1and2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SG Quoting/StandardACA/English/Class1and2"
+}

@@ -1,0 +1,1450 @@
+{
+    "Benefits": [
+        {
+            "benefitType": "currentProducts",
+            "bundling": "N",
+            "currentContractPlanCode": "2UXA",
+            "currentContractPlanName": "SV PPO 2700/25%/5000 2H97",
+            "currentRatingMethod": "MEMBER",
+            "enforceProdId1RateGuaranteeMonths": "12",
+            "isPNCCurrProduct1": "N",
+            "isPNCTarProduct1": "N",
+            "medLock": "N",
+            "productSubType": "PPO",
+            "productType": "MED",
+            "rateAdjustFactor": 1,
+            "rateGuaranteeEndDate": "2018-01-01T05:00:00.000",
+            "renewalDate": "2017-01-01T05:00:00.000"
+        },
+        {
+            "benefitType": "renewalProducts",
+            "currentContractPlanCode": "2UXA",
+            "currentContractPlanName": "SV PPO 2700/25%/5000 2H97",
+            "premium": [
+                {
+                    "monthlyPremium": 3158.53,
+                    "ratingMethod": "MEMBER"
+                }
+            ],
+            "productType": "MED",
+            "renewalContractPlanCode": "2UXB",
+            "renewalContractPlanName": ""
+        },
+        {
+            "benefitType": "renewalProducts",
+            "currentContractPlanCode": "2UXC",
+            "currentContractPlanName": "SV PPO 2700/25%/5000 2H97",
+            "premium": [
+                {
+                    "monthlyPremium": 3158.53,
+                    "ratingMethod": "MEMBER"
+                }
+            ],
+            "productType": "MED",
+            "renewalContractPlanCode": "2UXF",
+            "renewalContractPlanName": ""
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2UWV",
+            "lastUpdateDate": "2017-12-08T16:03:36.158",
+            "premium": [
+                {
+                    "monthlyPremium": "3493.21",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2UXR",
+            "lastUpdateDate": "2017-12-08T16:03:36.160",
+            "premium": [
+                {
+                    "monthlyPremium": "3493.21",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2UY8",
+            "lastUpdateDate": "2017-12-08T16:03:36.162",
+            "premium": [
+                {
+                    "monthlyPremium": "3884.53",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V5C",
+            "lastUpdateDate": "2017-12-08T16:03:36.165",
+            "premium": [
+                {
+                    "monthlyPremium": "2640.79",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2UY4",
+            "lastUpdateDate": "2017-12-08T16:03:36.166",
+            "premium": [
+                {
+                    "monthlyPremium": "3884.53",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2UXD",
+            "lastUpdateDate": "2017-12-08T16:03:36.168",
+            "premium": [
+                {
+                    "monthlyPremium": "2640.79",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2UXE",
+            "lastUpdateDate": "2017-12-08T16:03:36.170",
+            "premium": [
+                {
+                    "monthlyPremium": "2640.79",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2UYB",
+            "lastUpdateDate": "2017-12-08T16:03:36.172",
+            "premium": [
+                {
+                    "monthlyPremium": "3884.53",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1Y",
+            "lastUpdateDate": "2017-12-08T16:03:36.177",
+            "premium": [
+                {
+                    "monthlyPremium": "3884.53",
+                    "ratingMethod": "Member"
+                }
+            ]
+        },
+        {
+            "benefitType": "allPossibleProducts",
+            "contractPlanCode": "2V1X",
+            "lastUpdateDate": "2017-12-08T16:03:36.180",
+            "premium": [
+                {
+                    "monthlyPremium": "4083.01",
+                    "ratingMethod": "Member"
+                }
+            ]
+        }
+    ],
+    "ContextId": "",
+    "Data_Quality_Check": "passed",
+    "ID": "A66164",
+    "SIC": "8011",
+    "Version": "V1",
+    "_id": "5a29703f679334bbe2434bfd",
+    "accountManagerID": "CT104",
+    "agents": [
+        {
+            "agentID": "045400052S",
+            "name": "STEVEN A DUNPHY",
+            "product": "default",
+            "taxID": "UNKNOWN",
+            "taxIDType": "Writing"
+        }
+    ],
+    "allowNavigation": false,
+    "associationCode": null,
+    "billingEntity": "A66164",
+    "brokerFDocID": "3509527464",
+    "businessCode": "A",
+    "co_dentalPlanLimit": 10,
+    "co_lifePlanLimit": 10,
+    "co_medicalPlanLimit": 10,
+    "co_visionPlanLimit": 10,
+    "contactName": "MARGARET BASON MD",
+    "contacts": [
+        {
+            "addressLine1": "353 FIRETOWN RD",
+            "addressType": "billing",
+            "cityName": "SIMSBURY",
+            "countyCode": "003",
+            "postalCode": "06070",
+            "stateCode": "CT",
+            "stateName": "CT"
+        },
+        {
+            "addressLine1": "225 HOPMEADOW ST STE 300",
+            "addressType": "service",
+            "cityName": "WEATOGUE",
+            "countyCode": "003",
+            "postalCode": "06089",
+            "stateCode": "CT",
+            "stateName": "CT"
+        }
+    ],
+    "contractCodeList": {
+        "AllRenewals": [
+            {
+                "contractCode": "2UWV"
+            },
+            {
+                "contractCode": "2UXR"
+            },
+            {
+                "contractCode": "2UY8"
+            },
+            {
+                "contractCode": "2V5C"
+            },
+            {
+                "contractCode": "2UY4"
+            },
+            {
+                "contractCode": "2UXD"
+            },
+            {
+                "contractCode": "2UXE"
+            },
+            {
+                "contractCode": "2UYB"
+            },
+            {
+                "contractCode": "2V1Y"
+            },
+            {
+                "contractCode": "2V1X"
+            }
+        ],
+        "AlternateRenewals": [
+            {
+                "contractCode": "2UXB"
+            },
+            {
+                "contractCode": "2UXF"
+            }
+        ],
+        "CurrentRenewals": [
+            {
+                "contractCode": "2UXA"
+            },
+            {
+                "contractCode": "2UXA"
+            },
+            {
+                "contractCode": "2UXC"
+            }
+        ]
+    },
+    "effectiveDate": "2017-01-01T05:00:00.000",
+    "end-date": "9999-12-31 00:00:00:000",
+    "error": "OK",
+    "exchangeIndicator": "OF",
+    "groupFDocID": "3509527476",
+    "groupStatus": "0",
+    "id": "a3Z0R00000008BiUAI",
+    "layout": "lightning",
+    "medicalPage": {
+        "MedicalPlans": [
+            {
+                "$$hashKey": "object:341",
+                "Attributes": [
+                    {
+                        "Category": "Plan",
+                        "CategoryDisplaySequence": 1,
+                        "Description": "PDF",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyC",
+                        "Name": "Benefit Period",
+                        "Value": "PY",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Plan",
+                        "CategoryDisplaySequence": 1,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyG",
+                        "Name": "INN Coinsurance",
+                        "Value": "30%",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Plan",
+                        "CategoryDisplaySequence": 1,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyE",
+                        "Name": "Metal Level",
+                        "Value": "Bronze",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Plan",
+                        "CategoryDisplaySequence": 1,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyI",
+                        "Name": "OON Coinsurance",
+                        "Value": "50%",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyD",
+                        "Name": "INN Deductible Combined",
+                        "Value": "$6,350 per Individual or $12,700 per Family",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyH",
+                        "Name": "INN Deductible Family",
+                        "Value": "$12,700",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:392",
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyF",
+                        "Name": "INN Deductible Single",
+                        "Value": "$6,350",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyM",
+                        "Name": "INN OOP",
+                        "Value": "$7,150 per Individual or $14,300 per Family",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyO",
+                        "Name": "INN OOP Family",
+                        "Value": "$14,300",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:396",
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyN",
+                        "Name": "INN OOP Single",
+                        "Value": "$7,150",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyJ",
+                        "Name": "OON Deductible Combined",
+                        "Value": "$19,050 per Individual or $38,100 per Family",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyL",
+                        "Name": "OON Deductible Family",
+                        "Value": "$38,100",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyK",
+                        "Name": "OON Deductible Single",
+                        "Value": "$19,050",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyP",
+                        "Name": "OON OOP Combined",
+                        "Value": "$21,450 per Individual or $42,900 per Family",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyR",
+                        "Name": "OON OOP Family",
+                        "Value": "$42,900",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyQ",
+                        "Name": "OON OOP Single",
+                        "Value": "$21,450",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:400",
+                        "Category": "Office Visits",
+                        "CategoryDisplaySequence": 3,
+                        "Description": "PDF",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyU",
+                        "Name": "PCP / Specialist",
+                        "Value": "$35 / $35",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Office Visits",
+                        "CategoryDisplaySequence": 3,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyS",
+                        "Name": "PCP Visit",
+                        "Value": "$35 for the first 3 visits, then 30% after dedutible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Office Visits",
+                        "CategoryDisplaySequence": 3,
+                        "Description": "Both",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyT",
+                        "Name": "Specialist Visit",
+                        "Value": "$35 for the first 3 visits, then 30% after dedutible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Office Visits",
+                        "CategoryDisplaySequence": 3,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyW",
+                        "Name": "Telemedicine",
+                        "Value": "$35 for the first 3 visits, then 30% after dedutible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Office Visits",
+                        "CategoryDisplaySequence": 3,
+                        "Description": "Both",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyV",
+                        "Name": "Urgent Care",
+                        "Value": "30% after deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Prescription Drugs",
+                        "CategoryDisplaySequence": 4,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyc",
+                        "Name": "Formulary",
+                        "Value": "Select",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Prescription Drugs",
+                        "CategoryDisplaySequence": 4,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyd",
+                        "Name": "Formulary Link",
+                        "Value": "http://fm.formularynavigator.com/FBO/143/Select_3_Tier_NY_IND_PDF_05267NYMENEBS.pdf",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:404",
+                        "Category": "Prescription Drugs",
+                        "CategoryDisplaySequence": 4,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyX",
+                        "Name": "Rx",
+                        "Value": "$30 / $40 / $80 - NA",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Prescription Drugs",
+                        "CategoryDisplaySequence": 4,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyY",
+                        "Name": "Rx Deductible",
+                        "Value": "$0",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Prescription Drugs",
+                        "CategoryDisplaySequence": 4,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyZ",
+                        "Name": "Rx Tier 1",
+                        "Value": "$30",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Prescription Drugs",
+                        "CategoryDisplaySequence": 4,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hya",
+                        "Name": "Rx Tier 2",
+                        "Value": "$40",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Prescription Drugs",
+                        "CategoryDisplaySequence": 4,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyb",
+                        "Name": "Rx Tier 3",
+                        "Value": "$80",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Hospital",
+                        "CategoryDisplaySequence": 5,
+                        "Description": "Both",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyf",
+                        "Name": "Emergency Room",
+                        "Value": "$500 after deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Hospital",
+                        "CategoryDisplaySequence": 5,
+                        "Description": "PDF",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyg",
+                        "Name": "ER / Urgent Care",
+                        "Value": "$500 / 30%",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Hospital",
+                        "CategoryDisplaySequence": 5,
+                        "Description": "Both",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hye",
+                        "Name": "Inpatient Hospital",
+                        "Value": "30% after deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Embedded Pediatric Dental",
+                        "CategoryDisplaySequence": 1001,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyh",
+                        "Name": "Pediatric Dental",
+                        "Value": "Included",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Embedded  Pediatric Vision",
+                        "CategoryDisplaySequence": 1002,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyi",
+                        "Name": "Pediatric Vision",
+                        "Value": "Included",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Embedded Adult Vision",
+                        "CategoryDisplaySequence": 1003,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000qLY",
+                        "Name": "Adult Contact Lens Benefit and Frequency",
+                        "Value": "$80 allowance every 2 benefit periods",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Embedded Adult Vision",
+                        "CategoryDisplaySequence": 1003,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000qLV",
+                        "Name": "Adult Exam Copay and Frequency",
+                        "Value": "$20 once every benefit period",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Embedded Adult Vision",
+                        "CategoryDisplaySequence": 1003,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000qLX",
+                        "Name": "Adult Frame Benefit and Frequency",
+                        "Value": "$130 allowance every 2 benefit periods",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Embedded Adult Vision",
+                        "CategoryDisplaySequence": 1003,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000qLW",
+                        "Name": "Adult Prescription Lens Copay and Frequency",
+                        "Value": "$20 once every 2 benefit periods",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Riders",
+                        "CategoryDisplaySequence": 1060,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyj",
+                        "Name": "Dependent Age 29 Rider",
+                        "Value": "N/A",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Riders",
+                        "CategoryDisplaySequence": 1060,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000hyk",
+                        "Name": "HSA / HRA",
+                        "Value": null,
+                        "ValueDataType": "Text"
+                    }
+                ],
+                "FundingType": null,
+                "Name": "Anthem Bronze PPO 6350/30%/7150",
+                "ProductCode": "2UWV",
+                "ProductId": "01t0R000000f1meQAA",
+                "RenewalType": "All Renewals Plans",
+                "Type": "Medical",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:342",
+                "Attributes": [
+                    {
+                        "Category": "Plan",
+                        "CategoryDisplaySequence": 1,
+                        "Description": "PDF",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1a",
+                        "Name": "Benefit Period",
+                        "Value": "CY",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Plan",
+                        "CategoryDisplaySequence": 1,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1e",
+                        "Name": "INN Coinsurance",
+                        "Value": "20%",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Plan",
+                        "CategoryDisplaySequence": 1,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1c",
+                        "Name": "Metal Level",
+                        "Value": "Gold",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Plan",
+                        "CategoryDisplaySequence": 1,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1g",
+                        "Name": "OON Coinsurance",
+                        "Value": "50%",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1b",
+                        "Name": "INN Deductible Combined",
+                        "Value": "$1,000 per Individual or $3,000 per Family",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1f",
+                        "Name": "INN Deductible Family",
+                        "Value": "$3,000",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:432",
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1d",
+                        "Name": "INN Deductible Single",
+                        "Value": "$1,000",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1k",
+                        "Name": "INN OOP",
+                        "Value": "$4,000 per Individual or $8,000 per Family",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1m",
+                        "Name": "INN OOP Family",
+                        "Value": "$8,000",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:436",
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1l",
+                        "Name": "INN OOP Single",
+                        "Value": "$4,000",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1h",
+                        "Name": "OON Deductible Combined",
+                        "Value": "$3,000 per Individual or $6,000 per Family",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1j",
+                        "Name": "OON Deductible Family",
+                        "Value": "$6,000",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1i",
+                        "Name": "OON Deductible Single",
+                        "Value": "$3,000",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1n",
+                        "Name": "OON OOP Combined",
+                        "Value": "$12,000 per Individual or $24,000 per Family",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1p",
+                        "Name": "OON OOP Family",
+                        "Value": "$24,000",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1o",
+                        "Name": "OON OOP Single",
+                        "Value": "$12,000",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:440",
+                        "Category": "Office Visits",
+                        "CategoryDisplaySequence": 3,
+                        "Description": "PDF",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1s",
+                        "Name": "PCP / Specialist",
+                        "Value": "$25 / $50",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Office Visits",
+                        "CategoryDisplaySequence": 3,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1q",
+                        "Name": "PCP Visit",
+                        "Value": "$25",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Office Visits",
+                        "CategoryDisplaySequence": 3,
+                        "Description": "Both",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1r",
+                        "Name": "Specialist Visit",
+                        "Value": "$50",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Office Visits",
+                        "CategoryDisplaySequence": 3,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1u",
+                        "Name": "Telemedicine",
+                        "Value": "$25",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Office Visits",
+                        "CategoryDisplaySequence": 3,
+                        "Description": "Both",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1t",
+                        "Name": "Urgent Care",
+                        "Value": "$50",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Prescription Drugs",
+                        "CategoryDisplaySequence": 4,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i20",
+                        "Name": "Formulary",
+                        "Value": "Traditional Open",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Prescription Drugs",
+                        "CategoryDisplaySequence": 4,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i21",
+                        "Name": "Formulary Link",
+                        "Value": "http://fm.formularynavigator.com/FBO/143/Select_3_Tier_NY_IND_PDF_05267NYMENEBS.pdf",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:444",
+                        "Category": "Prescription Drugs",
+                        "CategoryDisplaySequence": 4,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1v",
+                        "Name": "Rx",
+                        "Value": "$20 / $40 / $80 - NA",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Prescription Drugs",
+                        "CategoryDisplaySequence": 4,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1w",
+                        "Name": "Rx Deductible",
+                        "Value": "$0",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Prescription Drugs",
+                        "CategoryDisplaySequence": 4,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1x",
+                        "Name": "Rx Tier 1",
+                        "Value": "$20",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Prescription Drugs",
+                        "CategoryDisplaySequence": 4,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1y",
+                        "Name": "Rx Tier 2",
+                        "Value": "$40",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Prescription Drugs",
+                        "CategoryDisplaySequence": 4,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i1z",
+                        "Name": "Rx Tier 3",
+                        "Value": "$80",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Hospital",
+                        "CategoryDisplaySequence": 5,
+                        "Description": "Both",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i23",
+                        "Name": "Emergency Room",
+                        "Value": "$250 after deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Hospital",
+                        "CategoryDisplaySequence": 5,
+                        "Description": "PDF",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i24",
+                        "Name": "ER / Urgent Care",
+                        "Value": "$250 / $50",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Hospital",
+                        "CategoryDisplaySequence": 5,
+                        "Description": "Both",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i22",
+                        "Name": "Inpatient Hospital",
+                        "Value": "20% after deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Embedded Pediatric Dental",
+                        "CategoryDisplaySequence": 1001,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i25",
+                        "Name": "Pediatric Dental",
+                        "Value": "Included",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Embedded  Pediatric Vision",
+                        "CategoryDisplaySequence": 1002,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i26",
+                        "Name": "Pediatric Vision",
+                        "Value": "Included",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Riders",
+                        "CategoryDisplaySequence": 1060,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i27",
+                        "Name": "Dependent Age 29 Rider",
+                        "Value": "N/A",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Riders",
+                        "CategoryDisplaySequence": 1060,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i28",
+                        "Name": "HSA / HRA",
+                        "Value": null,
+                        "ValueDataType": "Text"
+                    }
+                ],
+                "FundingType": null,
+                "Name": "Anthem Gold PPO 1000/20%/4000",
+                "ProductCode": "2UXD",
+                "ProductId": "01t0R000000f1n8QAA",
+                "RenewalType": "All Renewals Plans",
+                "Type": "Medical",
+                "vlcSelected": true
+            },
+            {
+                "$$hashKey": "object:343",
+                "Attributes": [
+                    {
+                        "Category": "Plan",
+                        "CategoryDisplaySequence": 1,
+                        "Description": "PDF",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i29",
+                        "Name": "Benefit Period",
+                        "Value": "CY",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Plan",
+                        "CategoryDisplaySequence": 1,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2D",
+                        "Name": "INN Coinsurance",
+                        "Value": "20%",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Plan",
+                        "CategoryDisplaySequence": 1,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2B",
+                        "Name": "Metal Level",
+                        "Value": "Gold",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Plan",
+                        "CategoryDisplaySequence": 1,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2F",
+                        "Name": "OON Coinsurance",
+                        "Value": "50%",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2A",
+                        "Name": "INN Deductible Combined",
+                        "Value": "$1,500 per Individual or $3,000 per Family",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2E",
+                        "Name": "INN Deductible Family",
+                        "Value": "$3,000",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:472",
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2C",
+                        "Name": "INN Deductible Single",
+                        "Value": "$1,500",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2J",
+                        "Name": "INN OOP",
+                        "Value": "$4,000 per Individual or $8,000 per Family",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2L",
+                        "Name": "INN OOP Family",
+                        "Value": "$8,000",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:476",
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2K",
+                        "Name": "INN OOP Single",
+                        "Value": "$4,000",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2G",
+                        "Name": "OON Deductible Combined",
+                        "Value": "$4,500 per Individual or $9,000 per Family",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2I",
+                        "Name": "OON Deductible Family",
+                        "Value": "$9,000",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2H",
+                        "Name": "OON Deductible Single",
+                        "Value": "$4,500",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2M",
+                        "Name": "OON OOP Combined",
+                        "Value": "$12,000 per Individual or $24,000 per Family",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2O",
+                        "Name": "OON OOP Family",
+                        "Value": "$24,000",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Deductible",
+                        "CategoryDisplaySequence": 2,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2N",
+                        "Name": "OON OOP Single",
+                        "Value": "$12,000",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:480",
+                        "Category": "Office Visits",
+                        "CategoryDisplaySequence": 3,
+                        "Description": "PDF",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2R",
+                        "Name": "PCP / Specialist",
+                        "Value": "$25 / $50",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Office Visits",
+                        "CategoryDisplaySequence": 3,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2P",
+                        "Name": "PCP Visit",
+                        "Value": "$25",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Office Visits",
+                        "CategoryDisplaySequence": 3,
+                        "Description": "Both",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2Q",
+                        "Name": "Specialist Visit",
+                        "Value": "$50",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Office Visits",
+                        "CategoryDisplaySequence": 3,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2T",
+                        "Name": "Telemedicine",
+                        "Value": "$25",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Office Visits",
+                        "CategoryDisplaySequence": 3,
+                        "Description": "Both",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2S",
+                        "Name": "Urgent Care",
+                        "Value": "$50",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Prescription Drugs",
+                        "CategoryDisplaySequence": 4,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2Z",
+                        "Name": "Formulary",
+                        "Value": "Traditional Open",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Prescription Drugs",
+                        "CategoryDisplaySequence": 4,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2a",
+                        "Name": "Formulary Link",
+                        "Value": "http://fm.formularynavigator.com/FBO/143/Select_3_Tier_NY_IND_PDF_05267NYMENEBS.pdf",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "$$hashKey": "object:484",
+                        "Category": "Prescription Drugs",
+                        "CategoryDisplaySequence": 4,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2U",
+                        "Name": "Rx",
+                        "Value": "$20 / $40 / $80 - NA",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Prescription Drugs",
+                        "CategoryDisplaySequence": 4,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2V",
+                        "Name": "Rx Deductible",
+                        "Value": "$0",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Prescription Drugs",
+                        "CategoryDisplaySequence": 4,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2W",
+                        "Name": "Rx Tier 1",
+                        "Value": "$20",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Prescription Drugs",
+                        "CategoryDisplaySequence": 4,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2X",
+                        "Name": "Rx Tier 2",
+                        "Value": "$40",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Prescription Drugs",
+                        "CategoryDisplaySequence": 4,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2Y",
+                        "Name": "Rx Tier 3",
+                        "Value": "$80",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Hospital",
+                        "CategoryDisplaySequence": 5,
+                        "Description": "Both",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2c",
+                        "Name": "Emergency Room",
+                        "Value": "$250 after deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Hospital",
+                        "CategoryDisplaySequence": 5,
+                        "Description": "PDF",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2d",
+                        "Name": "ER / Urgent Care",
+                        "Value": "$250 / $50",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Hospital",
+                        "CategoryDisplaySequence": 5,
+                        "Description": "Both",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2b",
+                        "Name": "Inpatient Hospital",
+                        "Value": "20% after deductible",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Embedded Pediatric Dental",
+                        "CategoryDisplaySequence": 1001,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2e",
+                        "Name": "Pediatric Dental",
+                        "Value": "Included",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Embedded  Pediatric Vision",
+                        "CategoryDisplaySequence": 1002,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2f",
+                        "Name": "Pediatric Vision",
+                        "Value": "Included",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Riders",
+                        "CategoryDisplaySequence": 1060,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2g",
+                        "Name": "Dependent Age 29 Rider",
+                        "Value": "N/A",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Riders",
+                        "CategoryDisplaySequence": 1060,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a250R0000000i2h",
+                        "Name": "HSA / HRA",
+                        "Value": null,
+                        "ValueDataType": "Text"
+                    }
+                ],
+                "FundingType": null,
+                "Name": "Anthem Gold PPO 1500/20%/4000",
+                "ProductCode": "2UXE",
+                "ProductId": "01t0R000000f1nDQAQ",
+                "RenewalType": "All Renewals Plans",
+                "Type": "Medical",
+                "vlcSelected": true
+            }
+        ],
+        "medicalPageHeaderSection": null,
+        "medicalStart": null
+    },
+    "module": "PlanBuilder",
+    "name": "MARGARET BASON MD",
+    "nextLabel": "Continue",
+    "noResultsError": false,
+    "planType": "medical",
+    "planTypePage": {
+        "planTypeBlock": {
+            "dentalInsuranceType": false,
+            "lifeInsurnceType": false,
+            "medicalInsuranceType": true,
+            "visionInsuranceType": false
+        },
+        "planTypeStart": null
+    },
+    "relationship": "GROUP",
+    "renewalDate": "2018-01-01T05:00:00.000",
+    "showAccountPage": false,
+    "size": "1",
+    "source": "WSGRS",
+    "source-path": "hdfs://mom9n90291.wellpoint.com:8020/apps/Renewals/WSGRS/GroupInfo/WSGRS_Group_Info_PROD_20171025120001.txt",
+    "start-date": "2017-12-07 15:33:22.867",
+    "status": "un-processed",
+    "timeStamp": "2018-03-15T12:39:59.086Z",
+    "type": "SG",
+    "userCurrencyCode": "USD",
+    "userId": "005310000086ODYAA2",
+    "userName": "dbandi@anthem.isg.sgapsdev1",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "GetRenewalsData": 3543,
+        "OmniScriptSessionToken": "d29c970d-37b1-4d4a-a6a7-f55a4d8a82b3",
+        "PlanLimit": 102,
+        "getProducts": 577,
+        "planTypePage": 1546,
+        "transformAllRenewalContractCodes": 1622,
+        "transformAlternateRenewalContractCodes": 1081,
+        "transformCurrentRenewalsContractCodes": 1307
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 2,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Enrollment-IN_KY_OH",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/IN_KY_OH/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 1,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Enrollment/IN_KY_OH/English",
+        "Name": "ReplaceExistingCoverage1",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/IN_KY_OH/English/ReplaceExistingCoverage1",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "ReplaceExistingCoverage1",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "Type__c": {
+            "label": "Text",
+            "type": "input"
+        },
+        "accessibleInFutureSteps": false,
+        "allowSaveForLater": true,
+        "autoFocus": false,
+        "autoSaveOnStepNext": false,
+        "cancelRedirectPageName": "OmniScriptCancelled",
+        "cancelRedirectTemplateUrl": "vlcCancelled.html",
+        "cancelSource": "%ContextId%",
+        "cancelType": "SObject",
+        "conditionType": "Hide if False",
+        "consoleTabLabel": "New",
+        "controlWidth": 3,
+        "debounceValue": 0,
+        "disOnTplt": false,
+        "elementTypeToHTMLTemplateMapping": {
+        },
+        "enableKnowledge": false,
+        "help": false,
+        "hide": false,
+        "inputWidth": 12,
+        "knowledgeArticleTypeQueryFieldsMap": {
+        },
+        "label": "Insurer",
+        "maxLength": 255,
+        "message": {
+        },
+        "minLength": 0,
+        "persistentComponent": [
+            {
+                "id": "vlcCart",
+                "itemsKey": "cartItems",
+                "label": "",
+                "modalConfigurationSetting": {
+                    "modalController": "ModalProductCtrl",
+                    "modalHTMLTemplateId": "vlcProductConfig.html",
+                    "modalSize": "lg"
+                },
+                "postTransformBundle": "",
+                "preTransformBundle": "",
+                "remoteClass": "",
+                "remoteMethod": "",
+                "remoteOptions": {
+                    "postTransformBundle": "",
+                    "preTransformBundle": ""
+                },
+                "remoteTimeout": 30000,
+                "render": false,
+                "responseJSONNode": "",
+                "responseJSONPath": "",
+                "sendJSONNode": "",
+                "sendJSONPath": ""
+            },
+            {
+                "id": "vlcKnowledge",
+                "itemsKey": "knowledgeItems",
+                "label": "",
+                "modalConfigurationSetting": {
+                    "modalController": "",
+                    "modalHTMLTemplateId": "",
+                    "modalSize": "lg"
+                },
+                "postTransformBundle": "",
+                "preTransformBundle": "",
+                "remoteClass": "",
+                "remoteMethod": "",
+                "remoteOptions": {
+                    "postTransformBundle": "",
+                    "preTransformBundle": ""
+                },
+                "remoteTimeout": 30000,
+                "render": false
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": true,
+        "saveContentEncoded": false,
+        "saveForLaterRedirectPageName": "sflRedirect",
+        "saveForLaterRedirectTemplateUrl": "vlcSaveForLaterAcknowledge.html",
+        "saveObjectId": "%ContextId%",
+        "saveURLPatterns": {
+        },
+        "seedDataJSON": {
+        },
+        "show": null,
+        "showInputWidth": false,
+        "ssm": false,
+        "timeTracking": true,
+        "trackingCustomData": {
+        },
+        "visualforcePagesAvailableInPreview": {
+        },
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text",
+    "Name": "DentalInsurer2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/IN_KY_OH/English/DentalInsurer2"
+}

@@ -1,0 +1,513 @@
+{
+    "AccountId": "0013B00000Q4WjQQAV",
+    "Brand": "Anthem",
+    "ContactId": "0033B00000Lv6MzQAJ",
+    "ContextId": "",
+    "DRId_Opportunity": "0063B000007I7F0QAK",
+    "MinCounty": "JEFFERSON",
+    "MinCountyCode": "059",
+    "MinState": "CO",
+    "OSFormulaEffectiveDate": "2018-06-01",
+    "OSFormulaQuoteExpiryDate": "2018-05-27",
+    "RatingArea": 5,
+    "RatingPage": {
+        "memComRating": "MEMBER",
+        "ratingType": "DEFAULT"
+    },
+    "SearchField": "80001 - JEFFERSON",
+    "State1": "CO",
+    "ZipCodeList": [
+    ],
+    "ZipCodeListLength": 1,
+    "allowNavigation": false,
+    "brokerPage": {
+        "workingWithBroker": "no"
+    },
+    "censusId": "a313B000000B8PoQAK",
+    "co_LAndDPlanLimit": 10,
+    "co_dentalPlanLimit": 10,
+    "co_hiddenAttributes": [
+        "Formulary",
+        "Formulary Link"
+    ],
+    "co_medicalPlanLimit": 10,
+    "co_visionPlanLimit": 10,
+    "contextId": "",
+    "coverageBeginsPage": {
+        "RequestedCoverageEffectiveDate": "Jun 1 2018",
+        "coverageStart": null
+    },
+    "dentalPage": {
+        "DentalPlans": [
+            {
+                "Attributes": [
+                    {
+                        "Category": "Dental Deductible",
+                        "CategoryDisplaySequence": 1004,
+                        "Description": "Both",
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SRtj",
+                        "Name": "Deductible",
+                        "Value": "$50 per Individual or $150 per Family",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Dental Plan",
+                        "CategoryDisplaySequence": 1006,
+                        "Description": "Both",
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SRtk",
+                        "Name": "Annual Maximum",
+                        "Value": "$1,000",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Dental Plan",
+                        "CategoryDisplaySequence": 1006,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SRtm",
+                        "Name": "Annual Maximum Carryover",
+                        "Value": "No",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Dental Plan",
+                        "CategoryDisplaySequence": 1006,
+                        "Description": "Both",
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SRtn",
+                        "Name": "OON Reimbursement",
+                        "Value": "90th Percentile of FAIR Health",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Dental Plan",
+                        "CategoryDisplaySequence": 1006,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SRtl",
+                        "Name": "Ortho Lifetime Maximum",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Dental Services",
+                        "CategoryDisplaySequence": 1007,
+                        "Description": "Both",
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SRtp",
+                        "Name": "Basic Services",
+                        "Value": "80% / 60%",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Dental Services",
+                        "CategoryDisplaySequence": 1007,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SRts",
+                        "Name": "Child Orthodontics",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Dental Services",
+                        "CategoryDisplaySequence": 1007,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SRtt",
+                        "Name": "Dental Implants",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Dental Services",
+                        "CategoryDisplaySequence": 1007,
+                        "Description": "Both",
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SRto",
+                        "Name": "Diagnostic & Preventive",
+                        "Value": "100% / 80%",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Dental Services",
+                        "CategoryDisplaySequence": 1007,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SRtr",
+                        "Name": "Endo/Perio/Oral Surgery",
+                        "Value": "80% / 60%",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Dental Services",
+                        "CategoryDisplaySequence": 1007,
+                        "Description": "Both",
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SRtq",
+                        "Name": "Major Services",
+                        "Value": "50% / 50%",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Dental Services",
+                        "CategoryDisplaySequence": 1007,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SRtx",
+                        "Name": "Orthodontics",
+                        "Value": "Not Covered",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Dental Services",
+                        "CategoryDisplaySequence": 1007,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SRtw",
+                        "Name": "Posterior Composites",
+                        "Value": "Benefit as Composite",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Dental Services",
+                        "CategoryDisplaySequence": 1007,
+                        "Description": "Both",
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SRtu",
+                        "Name": "Waiting Period - Major",
+                        "Value": "12 months",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Dental Services",
+                        "CategoryDisplaySequence": 1007,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SRtv",
+                        "Name": "Waiting Period - Ortho",
+                        "Value": "None",
+                        "ValueDataType": "Text"
+                    }
+                ],
+                "CDHIndicator": null,
+                "CoinsuranceType": "Active",
+                "FundingType": null,
+                "Name": "Classic Complete CO-2K",
+                "Network": "Dental Complete",
+                "ProductCode": "1RAF",
+                "ProductDesign": null,
+                "ProductId": "01t3B000001ydaGQAQ",
+                "ProductSubType": "TBD",
+                "Type": "Dental",
+                "discountRates": {
+                    "B": 33.4,
+                    "M": 31.97,
+                    "MB": 30.37,
+                    "S": 35.16
+                },
+                "groupRate": 35.16,
+                "hiosID": "N/A",
+                "memberRates": {
+                    "a303B000000btNCQAY": 35.16,
+                    "a303B000000btP3QAI": null
+                },
+                "tierDiscountRates": {
+                    "B": {
+                        "ECH": 75.76,
+                        "EMP": 33.4,
+                        "ESP": 68.15,
+                        "FAM": 115.15
+                    },
+                    "M": {
+                        "ECH": 68.87,
+                        "EMP": 31.97,
+                        "ESP": 65.21,
+                        "FAM": 104.68
+                    },
+                    "MB": {
+                        "ECH": 65.43,
+                        "EMP": 30.37,
+                        "ESP": 61.95,
+                        "FAM": 99.45
+                    },
+                    "S": {
+                        "ECH": 79.75,
+                        "EMP": 35.16,
+                        "ESP": 71.74,
+                        "FAM": 121.21
+                    }
+                },
+                "tierRates": {
+                    "ECH": 79.75,
+                    "EMP": 35.16,
+                    "ESP": 71.74,
+                    "FAM": 121.21
+                },
+                "topSellerOrder": 7,
+                "vlcSelected": true
+            }
+        ],
+        "dentalPageHeaderSection": null
+    },
+    "employeeCoveragePage": {
+        "MinimumEligible": true,
+        "MinimumEligibleEmployees": "Yes",
+        "allEmployees": 2,
+        "eligibleEmployees": 2,
+        "isEligibleOverAll": "Yes",
+        "isOverStateLimit": "Yes",
+        "moreElegThanAll": true,
+        "tooManyEligible": true
+    },
+    "enableRecaptcha": true,
+    "error": "OK",
+    "groupProfilePage": {
+        "createProfile": {
+            "cp_businessName": null,
+            "cp_emailAddress": null,
+            "cp_ext": null,
+            "cp_firstName": null,
+            "cp_lastName": null,
+            "cp_phoneNumber": null
+        }
+    },
+    "hideBrokerPage": false,
+    "isdtp": "p1",
+    "layout": "lightning",
+    "medicalPage": {
+        "MedicalPlans": [
+            {
+                "Attributes": [
+                    {
+                        "Category": "Plan",
+                        "CategoryDisplaySequence": 1,
+                        "Description": "PDF",
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SRS4",
+                        "Name": "Benefit Period",
+                        "Value": "CY",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Plan",
+                        "CategoryDisplaySequence": 1,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SRS8",
+                        "Name": "INN Coinsurance",
+                        "Value": "50%",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Plan",
+                        "CategoryDisplaySequence": 1,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SRS6",
+                        "Name": "Metal Level",
+                        "Value": "Bronze",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Plan",
+                        "CategoryDisplaySequence": 1,
+                        "Description": "Card Only",
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SRSA",
+                        "Name": "OON Coinsurance",
+                        "Value": "50%",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Embedded Adult Vision",
+                        "CategoryDisplaySequence": 1003,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SSnP",
+                        "Name": "Adult Exam Copay and Frequency",
+                        "Value": "$4,400 per Individual or $8,800 per Family",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Embedded Adult Vision",
+                        "CategoryDisplaySequence": 1003,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SSnR",
+                        "Name": "Adult Frame Benefit and Frequency",
+                        "Value": "$130 allowance every 2 benefit periods",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Embedded Adult Vision",
+                        "CategoryDisplaySequence": 1003,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SSnQ",
+                        "Name": "Adult Prescription Lens Copay and Frequency",
+                        "Value": "$20 once every 2 benefit periods",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Riders",
+                        "CategoryDisplaySequence": 1060,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SRSb",
+                        "Name": "Dependent Age 29 Rider",
+                        "Value": "N/A",
+                        "ValueDataType": "Text"
+                    },
+                    {
+                        "Category": "Riders",
+                        "CategoryDisplaySequence": 1060,
+                        "Description": null,
+                        "DisplaySequence": 1,
+                        "Id": "a253B000000SRSc",
+                        "Name": "HSA / HRA",
+                        "Value": "HSA",
+                        "ValueDataType": "Text"
+                    }
+                ],
+                "CDHIndicator": null,
+                "CoinsuranceType": null,
+                "FundingType": null,
+                "Name": "Anthem Bronze PPO 4400/50%/6550 w/HSA",
+                "Network": "Anthem PPO",
+                "ProductCode": "2UWA",
+                "ProductDesign": null,
+                "ProductId": "01t3B000001ydWJQAY",
+                "ProductSubType": "PPO",
+                "Type": "Medical",
+                "groupRate": 565.63,
+                "hiosID": "87269CO1060076",
+                "memberRates": {
+                    "a303B000000btNCQAY": 283.38,
+                    "a303B000000btP3QAI": 282.25
+                },
+                "topSellerOrder": 0,
+                "vlcSelected": true
+            }
+        ],
+        "medicalPageHeaderSection": null
+    },
+    "nextLabel": "Continue",
+    "noResultsError": false,
+    "omniCancelAction": "back",
+    "omniIframeEmbedded": true,
+    "planTypePage": {
+        "PlanTypeSelection Except Dental": null,
+        "dentalInsuranceType": true,
+        "lifeInsuranceType": false,
+        "medicalInsuranceType": true,
+        "planSelectionCount": 2,
+        "planTypeSelection": "medical;dental",
+        "planTypeStart": null,
+        "showModular": false,
+        "showModularLandD": false,
+        "visionInsuranceType": false
+    },
+    "sInstanceId": "a3Y3B0000005jiFUAQ",
+    "securityQuestionsResp": [
+        {
+            "name": "Mothers_Maiden",
+            "value": "What is your mother's maiden name?"
+        },
+        {
+            "name": "Birth_City",
+            "value": "In what city were you born?"
+        },
+        {
+            "name": "Childhood_Friend",
+            "value": "What is the name of your favorite childhood friend?"
+        },
+        {
+            "name": "Pet_Name",
+            "value": "What is your pet's name?"
+        },
+        {
+            "name": "Significant_Other_City",
+            "value": "In what city did you meet your spouse/significant other?"
+        },
+        {
+            "name": "Childhood_Nickname",
+            "value": "What was your childhood nickname?"
+        },
+        {
+            "name": "First_Job_City",
+            "value": "In what city was your first job?"
+        }
+    ],
+    "selectedCounty": "JEFFERSON",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://sgapsdev2-isg.cs50.force.com",
+    "sgapsdev1-isg.cs94.force.com": "6Lff60wUAAAAACAiN_ecEuSMgcoibfe2ls-7CwXg",
+    "sgapsdev2-isg.cs50.force.com": "6Lfu5kwUAAAAAKYeumw11Fk0jVC8h2yifRDIUgm5",
+    "showAccountPage": false,
+    "sicPage": {
+        "CheckSIC": false,
+        "CheckSIC8021": false,
+        "InvalidSIC": null,
+        "SIC8021ErrorMessage": true,
+        "TypeAheadSIC-Block": {
+            "SICName": "CIGARS",
+            "SIC_Code": "2121",
+            "TypeAheadSIC": "2121 CIGARS"
+        },
+        "sicPageHeaderGroup": null
+    },
+    "subscriberCounts": {
+        "censusId": "a313B000000B8PoQAK",
+        "noOfEligibleLivesCOBRA": 0,
+        "noOfEligibleLivesDental": 1,
+        "noOfEligibleLivesLD": 2,
+        "noOfEligibleLivesMedical": 2,
+        "noOfEligibleLivesVision": 1
+    },
+    "targetSystem": "APS",
+    "timeStamp": "2018-05-22T04:57:20.060Z",
+    "tour": "",
+    "userCurrencyCode": "USD",
+    "userId": "0053B000001c1IoQAI",
+    "userName": "gsaraswat@vlocity.comadsw.anthem",
+    "userProfile": "Employer Partner Profile",
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Create Opportunity": 3440,
+        "GetSecurityQuestions": 1120,
+        "OmniScriptSessionToken": "0b701f29-8879-4866-ad0f-8f187c71c680",
+        "PlanLimit": 126,
+        "RatingPage": 3750,
+        "Set Dates in SF Format": 41,
+        "Update Opportunity": 1836,
+        "brokerPage": 3481,
+        "censusPage": 3271,
+        "coverageBeginsPage": 2235,
+        "dentalPage": 3697,
+        "employeeCoveragePage": 8399,
+        "getAccountInfo": 1694,
+        "medicalPage": 2750,
+        "planTypePage": 2472,
+        "quoteSummaryPage": 4107,
+        "sicPage": 7979,
+        "zipPage": 323857
+    },
+    "zipCodeLength": 5,
+    "zipPage": {
+        "County_Select": "",
+        "StateNotActiveMsg": true,
+        "StateNotLicensed": true,
+        "ValidZipCode": true,
+        "zipBlock": {
+            "County": "JEFFERSON",
+            "County_Select": null,
+            "zipcode": null
+        }
+    },
+    "zipcode": "80001"
+}

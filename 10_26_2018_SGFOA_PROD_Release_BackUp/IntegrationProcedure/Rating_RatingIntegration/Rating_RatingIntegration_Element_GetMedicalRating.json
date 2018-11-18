@@ -1,0 +1,49 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "RatingIntegration",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Rating/RatingIntegration/Procedure",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 17,
+    "%vlocity_namespace%__PropertySet__c": {
+        "additionalInput": {
+            "ClassValues": "%MinInfo:Class1and2%",
+            "ClassValues:Class3NumberofSingles(EE)": "%MinInfo:Class1and2:Class3NumberofSingles (EE)%"
+        },
+        "additionalOutput": {
+        },
+        "disOnTplt": false,
+        "executionConditionalFormula": "ratingsCoverageType == 'medical'",
+        "extraPayload": {
+        },
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "RemoteAction4",
+        "remoteClass": "AP_DataIntegration",
+        "remoteMethod": "getMedicalTransformations",
+        "remoteOptions": {
+            "SelectedState": "%SelectedState%",
+            "ratingsCoverageType": "%ratingsCoverageType%"
+        },
+        "responseJSONNode": "response",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "TransformRatingOutput",
+        "sendJSONPath": "MedicalResponse",
+        "sendOnlyAdditionalInput": false,
+        "sendOnlyFailureResponse": false,
+        "useFormulas": true
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Remote Action",
+    "Name": "GetMedicalRating",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Rating/RatingIntegration/Procedure/GetMedicalRating"
+}

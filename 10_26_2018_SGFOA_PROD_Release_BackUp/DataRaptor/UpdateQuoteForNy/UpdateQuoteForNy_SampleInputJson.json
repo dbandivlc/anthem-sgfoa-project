@@ -1,0 +1,819 @@
+{
+    "ABFCoverageEffectiveDate": "",
+    "ABFPendingSpeciality": "",
+    "ACAEnrollFromABFCheck": false,
+    "AccountCounty": "",
+    "AccountId": "0013B00000WKjXoQAL",
+    "AccountIdForLicenseCheck": "",
+    "ActionButton": "quote",
+    "ActiveStatesEnrollment": [
+        "CA"
+    ],
+    "AssociationSelect": "No",
+    "BenefitLevelValue": "1",
+    "BenefitPeriod": "CalendarYear",
+    "Brand": "EBCBS",
+    "BrokerContactId": "0033B00000In3S5QAJ",
+    "BrokerProfile": "Anthem SG Broker",
+    "BrokerUserId": "BLANK",
+    "CallLDRatings": true,
+    "CategorySelection": {
+        "ABF-AllCoverageOptionsEnroll": null,
+        "ABF-HealthCoverageOptionsEnroll": null,
+        "AllCoverageOptions": "Dental",
+        "AllCoverageOptionsEnroll": null,
+        "ConnectName": "Empire Connect",
+        "CoverageEffectiveDate": "Dec 1 2018",
+        "CoverageEffectiveDateForABF": null,
+        "CoverageOptions": "Dental",
+        "DentalPlanType": true,
+        "Email": "EmpireConnect@empireblue.com",
+        "HealthCoverageOptions": null,
+        "HealthCoverageOptionsEnroll": null,
+        "IU-NY-NoBroker": "No",
+        "IU-NoBroker": "No",
+        "IU-NoBrokerCoverageOptions": null,
+        "IU-NoBrokerCoverageOptionsEnroll": null,
+        "IU-nonNY-NoBroker": "No",
+        "L&DErrorMsg": true,
+        "LAndDPlanType": false,
+        "LifeCoverageOptions": null,
+        "LifeCoverageOptionsEnroll": null,
+        "MedicalPlanType": false,
+        "Object_Id": "0013B00000WKjXoQAL",
+        "PhoneNo": "877-606-3407",
+        "ReqEffDtFormula": "Q4_2018",
+        "ReqEffDtFormula-Monthly": "DEC_2018",
+        "ReqEffDtFormula-Year": "2018",
+        "RequestedCoverageEffectiveDate": "Dec 1 2018",
+        "RequestedCoverageNonBrokerDates": null,
+        "SaveForLaterName": "Quote No: Eff.Date:Dec 1 2018 Products:Dental",
+        "VisionPlanType": false,
+        "selectPlantype": false
+    },
+    "CensusCount": 0,
+    "CensusId": "",
+    "CensusName": "",
+    "CheckABFEnrollFromAccount": false,
+    "CheckAccountQuoteSelected": false,
+    "CheckAccountTeamMemberUserId": "BLANK",
+    "CheckActiveQuotes": "No",
+    "CheckQuoteLaunchFromAccount": true,
+    "CheckQuoteSelected": false,
+    "Class1NumberofEE+Children": 0,
+    "Class1NumberofEE+Spouse": 0,
+    "Class1NumberofFamily": 0,
+    "Class1NumberofSingles(EE)": 0,
+    "Class2NumberofEE+Children": 0,
+    "Class2NumberofEE+Spouse": 0,
+    "Class2NumberofFamily": 0,
+    "Class2NumberofSingles(EE)": 0,
+    "Class3NumberofEE+Children": 0,
+    "Class3NumberofEE+Spouse": 0,
+    "Class3NumberofFamily": 0,
+    "Class3NumberofSingles (EE)": 0,
+    "ClassDistinction": "No",
+    "ComQuoteNo": "",
+    "CompositeQuoteId": "",
+    "CompositeStates": false,
+    "ConnectEmail": "Connect@anthem.com",
+    "ConnectPhone": "866-956-8602",
+    "ConnectTeam": "Connect",
+    "ContextId": "",
+    "ContextZip": "",
+    "County1": "NEW YORK",
+    "CountyCd": "061",
+    "CountyCode_Number": 61,
+    "CoverageOptions": "Dental",
+    "CoverageOptionsForUpdate": "Dental",
+    "CurrentQuoteStatus": "Draft",
+    "DRId_Account": "0013B00000WKjXoQAL",
+    "DRId_Opportunity": "0063B000007lZWYQA2",
+    "DRId_Quote": "0Q03B000000F9UeSAK",
+    "DRId_SGA_QuoteEnrollmentStage__c": "a8B3B000001QkYYUA0",
+    "DentalFilters": [
+        {
+            "categories": [
+                {
+                    "isAttribute": true,
+                    "name": "Dental Implants",
+                    "order": 9,
+                    "property": "Dental Implants",
+                    "tooltip": null,
+                    "value": "Covered;Not Covered;",
+                    "values": [
+                        {
+                            "name": "Covered",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Not Covered",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": false,
+                    "name": "Product Design",
+                    "order": 3,
+                    "property": "ProductDesignCheckBox_Type",
+                    "tooltip": "Classic, Enhanced and Value products have no waiting periods. Voluntary plans have a 12 month waiting period applied to major, endo, perio, oral surgery and orthodontia services if applicable. Waiting periods are waived for all members enrolling during implementation if the group has prior comparable dental coverage.",
+                    "value": "Classic;Enhanced;Value;Voluntary;",
+                    "values": [
+                        {
+                            "name": "Classic",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Enhanced",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Value",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Voluntary",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": true,
+                    "name": "Posterior Composites",
+                    "order": 8,
+                    "property": "Posterior Composites",
+                    "tooltip": null,
+                    "value": "Benefit as Amalgam;Benefit as Composite;",
+                    "values": [
+                        {
+                            "name": "Benefit as Amalgam",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Benefit as Composite",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": true,
+                    "name": "OON Reimbursement",
+                    "order": 11,
+                    "property": "OON Reimbursement",
+                    "tooltip": "Rates assume out-of-network payments are based on the selected plan (90th percentile or Prime Level of Reimbursement-MAC Plan). Dentists in our network agree not to charge more than their contractual agreement with us.",
+                    "value": "90th Percentile of FAIR Health;Maximum Allowable Charge (MAC);",
+                    "values": [
+                        {
+                            "name": "90th Percentile of FAIR Health",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Maximum Allowable Charge (MAC)",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": false,
+                    "name": "Coinsurance Type",
+                    "order": 4,
+                    "property": "CoinsuranceTypeCheckBox_Type",
+                    "tooltip": null,
+                    "value": "Active;Passive;",
+                    "values": [
+                        {
+                            "name": "Active",
+                            "tooltip": "Active PPO plans are plans that have a richer co-insurance in-network versus out-of network; e.g., 100%/80%/50% in network and 80%/60%/50% out of network."
+                        },
+                        {
+                            "name": "Passive",
+                            "tooltip": "Passive PPO plans have the same co-insurance in and out of network; e.g., 100%/80%/50% in and out of network."
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": true,
+                    "name": "Orthodontia",
+                    "order": 10,
+                    "property": "Child Orthodontics",
+                    "tooltip": null,
+                    "value": "50% / 50%;50% / 50% Adults included;Not Covered;",
+                    "values": [
+                        {
+                            "name": "50% / 50%",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "50% / 50% Adults included",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Not Covered",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": true,
+                    "name": "Annual Maximum",
+                    "order": 7,
+                    "property": "Annual Maximum",
+                    "tooltip": null,
+                    "value": "$1,000;$1,500;$2,000;$2,500;",
+                    "values": [
+                        {
+                            "name": "$1,000",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "$1,500",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "$2,000",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "$2,500",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": false,
+                    "name": "Provider Network",
+                    "order": 2,
+                    "property": "Network",
+                    "tooltip": null,
+                    "value": "Dental Complete;Dental Prime;",
+                    "values": [
+                        {
+                            "name": "Dental Complete",
+                            "tooltip": "This is one of the nations largest dental preferred provider networks. Providers have agreed to accept certain fees (allowed amounts). Although the patient still may pay less out of pocket than seeing an out-of-network dentist, the discount is not as deep as with the Prime network."
+                        },
+                        {
+                            "name": "Dental Prime",
+                            "tooltip": "This is the smaller network, but with deeper discounts. Providers have agreed to accept lower fees (allowed amounts) than the Complete network, resulting in less out-of-pocket expense to the patient."
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": false,
+                    "name": "Endo/Perio/Oral Surgery",
+                    "order": 5,
+                    "property": "Endo/Perio/Oral",
+                    "tooltip": "Endodontic Services are most commonly known as Root Canals and similar services. Periodontal Services are most commonly known as Scaling and Root Planing, and treatment of Gum Disease. Oral Surgery is most commonly thought of as tooth extraction(i.e. removal of Wisdom Teeth). These services are covered by the same percentages as either the Basic Services or the Major Services. For information on how the Endo/Perio/Oral Services are covered on your selected plan, please refer to your Summary of Benefits.",
+                    "value": "All;Basic Service;Major Service;Not Covered;",
+                    "values": [
+                        {
+                            "name": "All",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Basic Service",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Major Service",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "Not Covered",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": true,
+                    "name": "Deductible",
+                    "order": 6,
+                    "property": "Deductible",
+                    "tooltip": null,
+                    "value": "$50 per Individual or $150 per Family;$25 per Individual or $75 per Family;",
+                    "values": [
+                        {
+                            "name": "$50 per Individual or $150 per Family",
+                            "tooltip": null
+                        },
+                        {
+                            "name": "$25 per Individual or $75 per Family",
+                            "tooltip": null
+                        }
+                    ]
+                },
+                {
+                    "isAttribute": false,
+                    "name": "Top 10 Plans",
+                    "order": 1,
+                    "property": "Top10PlanCheckBox_Type",
+                    "tooltip": null,
+                    "value": "Top 10 Plans;",
+                    "values": [
+                        {
+                            "name": "Top 10 Plans",
+                            "tooltip": null
+                        }
+                    ]
+                }
+            ],
+            "effectiveDateYear": "2018",
+            "productType": "Dental",
+            "state": "NY"
+        }
+    ],
+    "DispalyEditableEffectiveDate": true,
+    "DisplayBrokerName": "REVA HAWK",
+    "DisplayZipCode": "10001",
+    "EffectiveDate": "2018-12-01",
+    "ExistingETINRO": "",
+    "ExistingGroupRO": "",
+    "ExternalActiveStates": [
+        "KY",
+        "VA",
+        "IN",
+        "OH",
+        "CA",
+        "CT",
+        "ME",
+        "NV",
+        "GA",
+        "WI",
+        "MO",
+        "CO",
+        "NH",
+        "NY"
+    ],
+    "ForOnlyABF": false,
+    "GeneralAgencyContactId": "BLANK",
+    "GeneralAgencyContactUserId": "BLANK",
+    "InternalActiveStates": [
+        "KY",
+        "VA",
+        "IN",
+        "OH",
+        "CA",
+        "CT",
+        "ME",
+        "NV",
+        "GA",
+        "WI",
+        "MO",
+        "CO",
+        "NH",
+        "NY"
+    ],
+    "IsContextIdExist": false,
+    "LAndDPlanType": "None",
+    "LCBrokerTypeAhead-Block": {
+        "Broker": "REVA HAWK",
+        "BrokerId": "0033B00000In3S5QAJ",
+        "BrokerTIN": "676736776"
+    },
+    "LCValidation": {
+        "ABFEnrollErrMsg": null,
+        "ActiveABFEnrollStates": false,
+        "ActiveABFQuoteStates": false,
+        "ActiveEnrollmentStates": false,
+        "ActiveQuotingStates": true,
+        "ActiveStatesQuoting": [
+            "KY",
+            "VA",
+            "IN",
+            "OH",
+            "CA",
+            "CT",
+            "ME",
+            "NV",
+            "GA",
+            "WI",
+            "MO",
+            "CO",
+            "NH",
+            "NY"
+        ],
+        "BrokerProfile": "Anthem SG Broker",
+        "BrokerRequiredMessage": true,
+        "CheckZipCode": 1,
+        "County": "NEW YORK",
+        "CountyOnAccount": null,
+        "County_Select": null,
+        "EnrollingonbehalfofaBroker?": null,
+        "ExtractState": "NY",
+        "InvalidStateError": true,
+        "InvalidZipMsg": true,
+        "LCBrokerTypeAhead-Block": {
+            "LCBrokerETIN": "676736776",
+            "LCBrokerId": "0033B00000In3S5QAJ",
+            "LCBrokerName": "REVA HAWK",
+            "LCBrokerTypeAhead": "REVA HAWK 676736776"
+        },
+        "LCZipCode": "10001",
+        "MultipleCountyMsg": null,
+        "Other Reason Description": null,
+        "QuotingonbehalfofaBroker?": null,
+        "Reason": null,
+        "Sizecheck": 1,
+        "TypeAHeadEmployee-Block": null,
+        "VAErrorMsg": null,
+        "VAWarningmsg": null,
+        "ZipCodeForLicenceCheck": "10001",
+        "ZipCodeOnAccountScreen": null,
+        "ZipcodeFailureError": true
+    },
+    "LicenseStatus": "Valid",
+    "LoadCACOEnroll": false,
+    "LoadNYEnroll": false,
+    "MedicalFilters": "",
+    "MemQuoteNo": "00031262",
+    "MemberQuoteId": "0Q03B000000F9UeSAK",
+    "MemberStates": false,
+    "MinInfo": {
+        "BenefitPeriod": null,
+        "BenefitPeriod_CY": null,
+        "BenefitPeriod_CYPY": null,
+        "BenefitPeriod_PY": null,
+        "Class1and2": {
+            "Class1CheckTotal": true,
+            "Class1CheckTotalMessage": true,
+            "Class1NumberofEE+Children": 4,
+            "Class1NumberofEE+Spouse": 1,
+            "Class1NumberofFamily": 3,
+            "Class1NumberofSingles(EE)": 2,
+            "Class1OnlyOneChildMessage": true,
+            "Class1OnlyOneChildValid": true,
+            "Class2CheckTotal": null,
+            "Class2CheckTotalMessage": null,
+            "Class2NumberofEE+Children": null,
+            "Class2NumberofEE+Spouse": null,
+            "Class2NumberofFamily": null,
+            "Class2NumberofSingles(EE)": null,
+            "Class2OnlyOneChildMessage": null,
+            "Class2OnlyOneChildValid": null,
+            "Class3CheckTotal": null,
+            "Class3CheckTotalMessage": null,
+            "Class3NumberofEE+Children": null,
+            "Class3NumberofEE+Spouse": null,
+            "Class3NumberofFamily": null,
+            "Class3NumberofSingles (EE)": null,
+            "Class3OnlyOneChildMessage": null,
+            "Class3OnlyOneChildValid": null,
+            "EmpWithOnlyOneChild": 2,
+            "TotalEE": 2,
+            "TotalEECh": 4,
+            "TotalEEFa": 3,
+            "TotalEESp": 1
+        },
+        "CoverageOptionsIncludeDental": true,
+        "CoverageOptionsIncludeMedical": false,
+        "Dental8021CheckMessage": true,
+        "Dental9999CheckMessage": true,
+        "DentalPriorCoverage": "X",
+        "DentalPriorCoverageFormula": false,
+        "DentalRateGuarantee": "X",
+        "DentalRateGuaranteeFormula": 12,
+        "Eligibility": {
+            "CensusEnrollFormula": false,
+            "CensusEnrollMsg": null,
+            "DefinitionWarningMsg": false,
+            "DefinitionWarningMsg1": null,
+            "DefinitionWarningMsg2": null,
+            "DefinitionWarningMsg3": null,
+            "DentalNoOrtho": null,
+            "DentalNoOrthoNY2018": false,
+            "DentalVisionPlansMinTwo": true,
+            "EligibleFormula": true,
+            "EligibleGreaterthanEnrolling": true,
+            "NumbEligFormula": "TenToTwentyFive",
+            "NumbEnrollFormulaVision": "TenToFifty",
+            "NumberEligible": 10,
+            "NumberEligibleFormula": true,
+            "NumberEnrolling": 10,
+            "Participation": 1,
+            "ParticipationMessage": null,
+            "ValidWaivers": 0,
+            "VisionParticipationMessage": null
+        },
+        "EmployerVision": null,
+        "InvalidSIC": true,
+        "InvalidSICAllPlans": true,
+        "LDCoverageScreen": false,
+        "NumberClasses": "One",
+        "SIC_life_STD": false,
+        "SIC_life_STD_Formula": "Nothing",
+        "SIC_life_STD_Formula1": "Nothing",
+        "SIC_life_STD_validation": false,
+        "SIC_life_STD_validation1": true,
+        "TypeAheadSIC-Block": {
+            "LDPlan": "None",
+            "SIC_TXT": "3552",
+            "TypeAheadSIC": "3552 TEXTILE MACHINERY",
+            "groupSize": "0",
+            "lifeGroupSize": "(2-9);(10-19);(>=20)",
+            "stdGroupSize": "(2-9);(10-19);(>=20)"
+        },
+        "VisionRateGuarantee": "24 Months",
+        "VoluntaryVision": null
+    },
+    "MinState": "NY",
+    "NodeRootName": "",
+    "NumberClasses": "One",
+    "OSFormulaEffectiveDate": "2018-12-01",
+    "OSFormulaEffectiveDateSBC": "20-Jan-2018",
+    "OSFormulaQuoteExpiryDate": "2018-01-15",
+    "OSFormulaQuoteExpiryDateSBC": "20-Jan-2018",
+    "OmniScriptState": "regular",
+    "OpportunityNameFormula": "d2018102001 Opportunity 12/1/2018",
+    "PaidAgencyContactId": "BLANK",
+    "PaidAgencyContactUserId": "BLANK",
+    "PartyAccountId": "",
+    "ProductLicense": "Health & Life",
+    "QuoteCreatedDate": "2018-10-20T16:47:04.000Z",
+    "QuoteEnrollment": "Yes",
+    "QuoteGenerationComplete": false,
+    "QuoteMandatoryState": true,
+    "QuoteNumber": "00031262",
+    "QuoteOptionalState": false,
+    "QuoteOptionalStateList": [
+        "VA",
+        "IN",
+        "CA",
+        "CT",
+        "ME",
+        "NV",
+        "GA",
+        "MO",
+        "CO"
+    ],
+    "QuotePreparedFor": {
+        "qCloseDate": "2018-11-26T08:00:00.000Z",
+        "qCloseDateText": "2018-11-26",
+        "qContactName": "James Bond",
+        "qContactTitle": null,
+        "qEmail": null,
+        "qPhone": null,
+        "qReqEffectiveDate": "2018-12-01T08:00:00.000Z",
+        "qReqEffectiveDateDayOfMonth": "1",
+        "qReqEffectiveDateDayOfMonth2Char": "01",
+        "qReqEffectiveDateMonth": "12",
+        "qReqEffectiveDateMonth2Char": "12",
+        "qReqEffectiveDateText": "2018-12-01",
+        "qReqEffectiveDateYear": "2018",
+        "qUpdatedQuoteName": "d2018102001 00031262 10/20/2018 Community Rating",
+        "qUpdatedQuoteNameComposite": "d2018102001 undefined 10/20/2018 ACA Composite Rating",
+        "qUpdatedQuoteNameMember": "d2018102001 undefined 10/20/2018 Per Member Rating",
+        "quote_name_blk": {
+            "Address_blk": {
+                "qCityTown": null,
+                "qState": "NY",
+                "qStreetAddress": null,
+                "qZipCode": "10001"
+            },
+            "qGroupName": "d2018102001",
+            "qPrimaryPhone": null
+        }
+    },
+    "QuoteRequiredStateList": [
+        "KY",
+        "OH",
+        "WI",
+        "NH",
+        "NY"
+    ],
+    "QuotingonbehalfofaBroker?": "Yes",
+    "RateQuoteId": "0Q03B000000F9UeSAK",
+    "SICCode_Number": 3552,
+    "SICFilter": [
+    ],
+    "SelectDentalPlans": {
+        "MinOnePlanForQuoteDental": true,
+        "output3": [
+            {
+                "C1DiscountTotal": 984.13,
+                "C1Total": 984.13,
+                "CDHIndicator": null,
+                "CDHPIndicator": "N",
+                "CoinsuranceType": "Passive",
+                "CommunityBaseRates": {
+                    "BaseECHMRate": 116.95,
+                    "BaseECHRate": 0,
+                    "BaseEMPRate": 53.7,
+                    "BaseESPRate": 109.55,
+                    "BaseFAMRate": 177.76,
+                    "ECHCOUNT": 0,
+                    "ECHMCOUNT": 4,
+                    "class1Total": 984.13
+                },
+                "EE_Bundled_Premium": 1157.12,
+                "Endo_Perio_Oral": "Basic Service",
+                "FundingType": null,
+                "Name": "Classic Complete NY-2B",
+                "Network": "Dental Complete",
+                "ProductCode": "1R2R",
+                "ProductDesign": null,
+                "ProductId": "01t0Z000008Te4aQAC",
+                "ProductSkuID": null,
+                "ProductSubType": "TBD",
+                "Type": "Dental",
+                "VoluntaryProduct": "N",
+                "bundling": null,
+                "bundlingDiscount": null,
+                "dentalFiveTier": false,
+                "hiosID": "N/A",
+                "linkId": "0680Z0000044pCgQAI",
+                "medlock": null,
+                "topSellerOrder": 5,
+                "vlcSelected": true
+            },
+            {
+                "C1DiscountTotal": 644.89,
+                "C1Total": 644.89,
+                "CDHIndicator": null,
+                "CDHPIndicator": "N",
+                "CoinsuranceType": "Active",
+                "CommunityBaseRates": {
+                    "BaseECHMRate": 76.5,
+                    "BaseECHRate": 0,
+                    "BaseEMPRate": 35.41,
+                    "BaseESPRate": 72.23,
+                    "BaseFAMRate": 116.28,
+                    "ECHCOUNT": 0,
+                    "ECHMCOUNT": 4,
+                    "class1Total": 644.89
+                },
+                "EE_Bundled_Premium": 758.03,
+                "Endo_Perio_Oral": "Basic Service",
+                "FundingType": null,
+                "Name": "Classic Complete NY-2E",
+                "Network": "Dental Complete",
+                "ProductCode": "1R2U",
+                "ProductDesign": null,
+                "ProductId": "01t0Z000008Te4pQAC",
+                "ProductSkuID": null,
+                "ProductSubType": "TBD",
+                "Type": "Dental",
+                "VoluntaryProduct": "N",
+                "bundling": null,
+                "bundlingDiscount": null,
+                "dentalFiveTier": false,
+                "hiosID": "N/A",
+                "linkId": "0680Z0000044pDiQAI",
+                "medlock": null,
+                "topSellerOrder": 7,
+                "vlcSelected": true
+            }
+        ]
+    },
+    "SelectableItem": "",
+    "SelectedState": "NY",
+    "ShowHomeSelectQuote": true,
+    "ShowNYEnrollCategory": true,
+    "State": "",
+    "State1": "NY",
+    "Step": {
+        "AccountCreateMessage": null,
+        "AccountCreateMessageForEnroll": null,
+        "AnthemBrand": "EBCBS",
+        "BrokerName": "REVA HAWK",
+        "CloseDatePrelim": "2018-10-20T07:00:00.000Z",
+        "ContextIdFormula": 1,
+        "CreateAcctCheckbox": true,
+        "CreateNewAccFormula": true,
+        "ETINFormula": null,
+        "ExistingAccount_Id": null,
+        "FormulaCounty": "NEW YORK",
+        "FormulaState": "NY",
+        "FormulaZip": "10001",
+        "GeneralAgencyMessage": null,
+        "GroupName": "d2018102001",
+        "GroupROFormula": null,
+        "InitialQuoteName": "d2018102001 10/20/2018",
+        "IsPreExistingAccount": false,
+        "NYEnrollCheck": false,
+        "PaidAgencyMessage": null,
+        "TaxID": "201810201",
+        "TaxIDNonQuote": null,
+        "TaxIDQuote": "201810201",
+        "Today": "2018-10-20T07:00:00.000Z",
+        "TypeAheadAccount-Block": {
+            "ExistingAccountId": null,
+            "ExistingAccountName": null,
+            "GroupETIN": null,
+            "TypeAheadAccount": null
+        },
+        "TypeAheadAssociations-Block": null,
+        "TypeAheadBroker-Block": {
+            "Broker": "REVA HAWK",
+            "BrokerId": "0033B00000In3S5QAJ",
+            "BrokerTIN": "676736776",
+            "TypeAheadBroker": null
+        },
+        "TypeAheadETINRO": null,
+        "TypeAheadGeneralAgency-Block": {
+            "GeneralAgency": null,
+            "GeneralAgencyId": null,
+            "GeneralAgencyTIN": null,
+            "TypeAheadGeneralAgency": null
+        },
+        "TypeAheadPaidAgency-Block": {
+            "PaidAgency": null,
+            "PaidAgencyId": null,
+            "PaidAgencyTIN": null,
+            "TypeAheadPaidAgency": null
+        },
+        "ZipCode1": "10001",
+        "qOpportunityName": "d2018102001 Opportunity 10/20/2018"
+    },
+    "TypeAheadSIC-Block": {
+        "SICNO": 3552,
+        "SICName": "TEXTILE MACHINERY"
+    },
+    "ZipCode3": "10001",
+    "ZipCodeList": [
+        {
+            "Brand": "EBCBS",
+            "CountyCode": "061",
+            "MinCounty": "NEW YORK",
+            "MinState": "NY",
+            "ZipCode": "10001"
+        }
+    ],
+    "ZipCodeListLength": 1,
+    "account": {
+        "businessName": "d2018102001"
+    },
+    "applicationId": "",
+    "atleastOnePlanSelected": true,
+    "benefitPeriod": "Benefit Year",
+    "callDentalEligibility": true,
+    "callLAndDEligibility": true,
+    "callMedicalEligibility": true,
+    "callVisionEligibility": true,
+    "censusId": "",
+    "communityRates": {
+        "contractCountForECH": 4,
+        "contractCountForEMP": 2,
+        "contractCountForESP": 1,
+        "contractCountForFAM": 3
+    },
+    "enableRightPanel": true,
+    "error": "OK",
+    "fetchDental": true,
+    "fetchLAndD": true,
+    "fetchLife": true,
+    "fetchMedical": true,
+    "fetchVision": true,
+    "groupProfilePage": {
+        "createProfile": {
+            "cp_businessName": "d2018102001"
+        }
+    },
+    "isBroker": true,
+    "isDentalPlansFetched": false,
+    "isMedicalPlansFetched": false,
+    "isVisionPlansFetched": false,
+    "noResultsError": false,
+    "omniCancelAction": "back",
+    "omniIframeEmbedded": true,
+    "planSelectionCount": {
+        "dental": 2
+    },
+    "planType": "dental",
+    "ratingMethod": "COMMUNITY",
+    "redirectToWithQuote": true,
+    "resetCoverageOptions": true,
+    "sInstanceId": "a3Y3B000000Ejh7UAC",
+    "showLAndDPlanDetails": true,
+    "sicPage": {
+        "SICCode_Number": 3552
+    },
+    "subscriberDetails": {
+        "censusId": "",
+        "noOfEligibleLivesCOBRA": 0,
+        "noOfEligibleLivesDental": 0,
+        "noOfEligibleLivesLD": 0,
+        "noOfEligibleLivesMedical": 0,
+        "noOfEligibleLivesVision": 0,
+        "subscriberList": null
+    },
+    "success": true,
+    "targetSystem": "SALES",
+    "timeStamp": "2018-10-20T16:45:57.267Z",
+    "userContactId": "",
+    "userCurrencyCode": "USD",
+    "userId": "0053B000001dMpSQAU",
+    "userName": "arjun.bura@accenture.com",
+    "userProfile": "Anthem SG Broker",
+    "userTimeZone": null,
+    "userType": "External",
+    "vlcPersistentComponent": {
+    },
+    "zipCodeLength": 5,
+    "zipPage": {
+        "CountyCode_Number": 61,
+        "zipBlock": {
+            "County": "NEW YORK"
+        }
+    },
+    "zipcode": "10001"
+}

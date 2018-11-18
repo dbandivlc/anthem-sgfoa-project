@@ -1,0 +1,86 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Questionnaire",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CDHP/SG_Questionnaire/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 88,
+    "%vlocity_namespace%__PropertySet__c": {
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementErrorMap": {
+            "tbSectionPNCNPageErrMsg": "Must have at least one  Internal Contact Type"
+        },
+        "label": "SetErrors1",
+        "message": {
+        },
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "varShow_Section_PNCN"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "Internal",
+                        "field": "SectionPNCN:pncn1_Type"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "Internal",
+                        "field": "SectionPNCN:pncn2_Type"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "Internal",
+                        "field": "SectionPNCN:pncn3_Type"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "Internal",
+                        "field": "SectionPNCN:pncn4_Type"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "Internal",
+                        "field": "SectionPNCN:pncn5_Type"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "Internal",
+                        "field": "SectionPNCN:pncn6_Type"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "Internal",
+                        "field": "SectionPNCN:pncn7_Type"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "Small Group",
+                        "field": "ParentDetails_Market_Segment"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Errors",
+    "Name": "sErr-SectionPNCN",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/CDHP/SG_Questionnaire/English/sErr-SectionPNCN"
+}

@@ -1,0 +1,54 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "communityRates:contractCountForECH",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "MinInfo:Class1and2:TotalEECh",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformMiniCensusForNYCustom6313",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformMiniCensusForNY",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "communityRates:contractCountForEMP",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "MinInfo:Class1and2:TotalEE",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformMiniCensusForNYCustom9588",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformMiniCensusForNY",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "communityRates:contractCountForESP",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "MinInfo:Class1and2:TotalEESp",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformMiniCensusForNYCustom5793",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformMiniCensusForNY",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "communityRates:contractCountForFAM",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "MinInfo:Class1and2:TotalEEFa",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformMiniCensusForNYCustom2695",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformMiniCensusForNY",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

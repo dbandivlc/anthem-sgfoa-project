@@ -1,0 +1,104 @@
+{
+    "HTMLTemplateId": "",
+    "accessibleInFutureSteps": false,
+    "allowSaveForLater": true,
+    "autoFocus": false,
+    "autoSaveOnStepNext": true,
+    "cancelRedirectPageName": "OmniScriptCancelled",
+    "cancelRedirectTemplateUrl": "vlcCancelled.html",
+    "cancelSource": "%ContextId%",
+    "cancelType": "SObject",
+    "conditionType": "Hide if False",
+    "consoleTabLabel": "New",
+    "controlWidth": 12,
+    "currencyCode": "",
+    "debounceValue": 0,
+    "disOnTplt": false,
+    "elementTypeToHTMLTemplateMapping": {
+        "Validation": "customValidation.html"
+    },
+    "enableKnowledge": false,
+    "help": false,
+    "helpText": "",
+    "hide": false,
+    "inputWidth": 12,
+    "knowledgeArticleTypeQueryFieldsMap": {
+    },
+    "label": null,
+    "mask": null,
+    "message": {
+    },
+    "pattern": "",
+    "persistentComponent": [
+        {
+            "id": "vlcCart",
+            "itemsKey": "cartItems",
+            "label": "",
+            "modalConfigurationSetting": {
+                "modalController": "ModalProductCtrl",
+                "modalHTMLTemplateId": "vlcProductConfig.html",
+                "modalSize": "lg"
+            },
+            "postTransformBundle": "",
+            "preTransformBundle": "",
+            "remoteClass": "",
+            "remoteMethod": "",
+            "remoteOptions": {
+                "postTransformBundle": "",
+                "preTransformBundle": ""
+            },
+            "remoteTimeout": 30000,
+            "render": false,
+            "responseJSONNode": "",
+            "responseJSONPath": "",
+            "sendJSONNode": "",
+            "sendJSONPath": ""
+        },
+        {
+            "id": "vlcKnowledge",
+            "itemsKey": "knowledgeItems",
+            "label": "",
+            "modalConfigurationSetting": {
+                "modalController": "",
+                "modalHTMLTemplateId": "",
+                "modalSize": "lg"
+            },
+            "postTransformBundle": "",
+            "preTransformBundle": "",
+            "remoteClass": "",
+            "remoteMethod": "",
+            "remoteOptions": {
+                "postTransformBundle": "",
+                "preTransformBundle": ""
+            },
+            "remoteTimeout": 30000,
+            "render": false
+        }
+    ],
+    "ptrnErrText": "",
+    "readOnly": false,
+    "repeat": false,
+    "repeatClone": false,
+    "required": false,
+    "saveContentEncoded": false,
+    "saveExpireInDays": 90,
+    "saveForLaterRedirectPageName": "CustomSave",
+    "saveForLaterRedirectTemplateUrl": "SaveABFSession.html",
+    "saveNameTemplate": "SmallGroup ABF Application for %EmployerInformation:EmployerLegalName%",
+    "saveObjectId": "%AccountId%",
+    "saveURLPatterns": {
+    },
+    "seedDataJSON": {
+        "Ptgsymbol": "%"
+    },
+    "show": null,
+    "showInputWidth": false,
+    "ssm": false,
+    "timeTracking": true,
+    "trackingCustomData": {
+    },
+    "visualforcePagesAvailableInPreview": {
+        "AnthemABFSGEnroll": "c__SGA_ABFEnrollment?verticalmode=true"
+    },
+    "wpm": false
+}

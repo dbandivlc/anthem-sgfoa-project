@@ -1,0 +1,39 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 1,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Enrollment-WI_CT_NV_ME_NH",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/WI_CT_NV_ME_NH/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 1,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Enrollment/WI_CT_NV_ME_NH/English",
+        "Name": "CalCOBRACOBRAQuestionnaire",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/WI_CT_NV_ME_NH/English/CalCOBRACOBRAQuestionnaire",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "CalCOBRACOBRAQuestionnaire",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "documentNames": [
+            "CABIADCJA1df5d015bef244b49e1aa5c19ba9dd16",
+            "CABIADCJA04cac2bc73b14b40b316d4646e7495e4"
+        ],
+        "label": null,
+        "show": null,
+        "text": "<p><strong>Cal-COBRA:</strong>&nbsp;For employers with 2-19 eligible employees, California law requires plans to offer continuation coverage to qualified beneficiaries under the contract when a qualifying event occurs. California law also requires plans to offer an enrollee who has exhausted continuation coverage under COBRA the opportunity to continue coverage for up to 36 months from the date enrollee's continuation coverage began, if the enrollee is entitled to less than 36 months of continuation coverage under COBRA.</p>\n<p><strong>COBRA:&nbsp;</strong>The Federal Consolidated Omnibus Budget Reconciliation Act (COBRA) requires most employers with 20 or more total employees to extend health coverage programs to former employees, spouses (widowed/divorced), and their dependents when a qualifying event occurs, unless the former employee, spouse or dependent was not eligible for continuation of coverage prior to January 1, 2005.</p>\n<p><strong>FMLA:&nbsp;</strong>The Family and Medical Leave Act of 1993 requires groups with 50 or more employees to provide up to 12 weeks of unpaid, job-protected leave to \"eligible\" employees for certain family and medical reasons.</p>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "Cal-COBRA/COBRA/FMLA-Definition",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/WI_CT_NV_ME_NH/English/Cal-COBRA/COBRA/FMLA-Definition"
+}

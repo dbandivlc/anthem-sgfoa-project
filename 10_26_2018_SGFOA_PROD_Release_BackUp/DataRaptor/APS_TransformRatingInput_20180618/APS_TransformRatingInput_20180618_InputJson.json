@@ -1,0 +1,139 @@
+{
+    "Brand": "Anthem",
+    "ContextId": "",
+    "MinCounty": "JEFFERSON",
+    "MinState": "CO",
+    "RatingArea": 5,
+    "RatingPage": {
+        "memComRating": "MEMBER"
+    },
+    "SearchField": "80001 - JEFFERSON",
+    "State1": "CO",
+    "ZipCodeList": [
+    ],
+    "ZipCodeListLength": 1,
+    "allowNavigation": false,
+    "brokerPage": {
+        "workingWithBroker": "no"
+    },
+    "co_dentalPlanLimit": 10,
+    "co_hiddenAttributes": [
+        "Formulary",
+        "Formulary Link"
+    ],
+    "co_lifePlanLimit": 10,
+    "co_medicalPlanLimit": 10,
+    "co_visionPlanLimit": 10,
+    "coverageBeginsPage": {
+        "RequestedCoverageEffectiveDate": "Apr 1 2018",
+        "coverageStart": null
+    },
+    "employeeCoveragePage": {
+        "allEmployees": 10,
+        "eligibleEmployees": 10,
+        "isEligibleOverAll": "Yes",
+        "isOverStateLimit": "Yes",
+        "moreElegThanAll": true,
+        "tooManyEligible": true
+    },
+    "id": "a3Z3B0000009aI9UAI",
+    "layout": "lightning",
+    "medicalPage": {
+        "MedicalPlans": null,
+        "medicalPageHeaderSection": null,
+        "medicalStart": null
+    },
+    "module": "PlanBuilder",
+    "nextLabel": "Continue",
+    "noResultsError": false,
+    "planType": "vision",
+    "planTypePage": {
+        "planTypeBlock": {
+            "dentalInsuranceType": true,
+            "lifeInsurnceType": false,
+            "medicalInsuranceType": true,
+            "visionInsuranceType": true
+        },
+        "planTypeStart": null
+    },
+    "securityQuestionsResp": [
+        {
+            "name": "Mothers_Maiden",
+            "value": "What is your mother's maiden name?"
+        },
+        {
+            "name": "Birth_City",
+            "value": "In what city were you born?"
+        },
+        {
+            "name": "Childhood_Friend",
+            "value": "What is the name of your favorite childhood friend?"
+        },
+        {
+            "name": "Pet_Name",
+            "value": "What is your pet's name?"
+        },
+        {
+            "name": "Significant_Other_City",
+            "value": "In what city did you meet your spouse/significant other?"
+        },
+        {
+            "name": "Childhood_Nickname",
+            "value": "What was your childhood nickname?"
+        },
+        {
+            "name": "First_Job_City",
+            "value": "In what city was your first job?"
+        }
+    ],
+    "selectedCounty": "JEFFERSON",
+    "showAccountPage": false,
+    "sicPage": {
+        "CheckSIC": false,
+        "CheckSIC8021": false,
+        "InvalidSIC": null,
+        "SIC8021ErrorMessage": true,
+        "TypeAheadSIC-Block": {
+            "SICName": "CIGARS",
+            "SIC_Code": "2121",
+            "TypeAheadSIC": "2121 CIGARS"
+        }
+    },
+    "timeStamp": "2018-03-31T01:53:25.123Z",
+    "userCurrencyCode": "USD",
+    "userId": "005310000086ODYAA2",
+    "userName": "dbandi@anthem.isg.sgapsdev2",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DefaultRating": 28,
+        "GetSecurityQuestions": 1640,
+        "OmniScriptSessionToken": "32239e99-51bc-4cef-a616-3375c9d7fc99",
+        "PlanLimit": 104,
+        "RatingPage": 1856,
+        "brokerPage": 1444,
+        "coverageBeginsPage": 1826,
+        "employeeCoveragePage": 2701,
+        "getMedical": 300,
+        "medicalPage": 8775,
+        "planTypePage": 2328,
+        "sicPage": 2870,
+        "zipPage": 3762
+    },
+    "zipCodeLength": 5,
+    "zipPage": {
+        "County_Select": "",
+        "StateNotActiveMsg": true,
+        "StateNotLicensed": true,
+        "ValidZipCode": true,
+        "zipBlock": {
+            "County": "JEFFERSON",
+            "County_Select": null,
+            "zipcode": null
+        },
+        "zipStart": null
+    },
+    "zipcode": "80001"
+}

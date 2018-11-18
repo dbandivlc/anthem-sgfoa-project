@@ -1,0 +1,91 @@
+<div ng-init="importedScope.setIndex(records.childProducts.records)">
+  <div class="vloc-attr-row slds-row"  ng-class="{'slds-border--bottom' : $index !== count}" data-card="card-{{cardIndex}}" data-popover-flyout="true" ng-click="$root.config.show = true; importedScope.setAttr(record, cardIndex)" ng-repeat="record in records.childProducts.records" ng-if="record[$root.nsPrefix + 'RecordTypeName__c'] === 'CoverageSpec' && record.isSelected">
+    <div class="slds-col slds-grid slds-wrap">
+      <div class="slds-small-show vloc-attr-cell slds-size--1-of-{{data.fields.length + 1}} slds-m-top--x-small" ng-repeat="field in data.fields" ng-show="key != 'attributes'">  
+          <div class="vloc-attr-title-cell slds-truncate slds-text-heading--label slds-m-top-x-small" title="{{field.label}}"  ng-class="{'slds-m-left--x-large slds-p-left--xx-small' : $index < 1}"> 
+              <div class="vloc-attrs-header-label slds-truncate">
+                {{field.label}} 
+            </div>
+          </div>
+        <div class="vloc-attr-data-cell slds-truncate slds-p-top--xx-small">
+          <span class="vloc-attr-index slds-m-horizontal--small" ng-if="$index === 0"> {{record.index}} </span> 
+          <span ng-if="field.label !== 'Value' && field.type !== 'BOOLEAN'"> {{record | getter: field | picker: field.type}}</span>
+           <span ng-if="field.label === 'Value'"> 
+                <span ng-if="record.valueType !== 'percent'"> {{record | getter: field | picker: record.valueType}}</span>
+                <span ng-if="importedScope.row.valueType === 'percent'"> {{record[$root.nsPrefix + 'Value__c']}}<span ng-if="importedScope.row[$root.nsPrefix + 'Value__c']">%</span></span>
+          </span>
+            <div class="slds-form-element__control slds-text-align--left slds-text-align--center" ng-if="field.type === 'BOOLEAN'">
+                  <span class="slds-checkbox">
+                      <input type="checkbox" name="checkbox-attrs-{{$index}}" id="checkbox-attrs-{{$index}}" ng-disabled="true" ng-model="record[field.name]"/>
+                      <label class="slds-checkbox__label slds-m-around--none" for="checkbox-attrs-{{$index}}">
+                          <span class="slds-checkbox--faux vloc-check"></span>
+                      </label>
+                  </span>
+              </div>
+          </div>
+        </div>
+        <div class="vloc-attrs-coloumn slds-size--1-of-{{data.fields.length + 2}} slds-grid slds-wrap">
+          <div ng-repeat="category in record.attributeCategories.records" class="slds-size--1-of-1">
+            <div ng-repeat="attr in category.productAttributes.records" class="slds-size--1-of-1" ng-if="!attr.hiddenByRule">
+              <div class="slds-small-show vloc-attr-cell slds-size--1-of-1 slds-m-top--x-small" ng-hide="($index !== 0 || $parent.$parent.$index !== 0) && !record.showMore">
+                <div class="vloc-attr-title-cell slds-truncate slds-text-heading--label slds-m-top-x-small slds-size--1-of-1" title="{{attr.label}}"> 
+                  <div class="vloc-attrs-header-label slds-truncate">
+                  {{attr.label}} <span class="slds-float--right slds-p-right--large">{{attr.userValues.label}}</span>
+                  </div>
+                </div>
+              <div class="vloc-attr-data-cell slds-truncate slds-p-top--xx-small">
+                <div ng-if="attr.inputType === 'dropdown'">
+                      <div class="slds-form-element__control slds-select_container slds-m-right--large slds-m-bottom--small slds-size--1-of-1">
+                        <div class="slds-select_container">
+                          <select ins-rules-evaluate="attr" ins-rules-product="record" ng-options="value.value as value.label for value in attr.values" ng-model="attr.userValues"  class="slds-select slds-m-right--xx-small" id="select-{{$index}}-{{$parent.$index}}-{{$parent.$parent.$index}}"  ng-disabled="true">
+                          </select>
+                      </div>
+                    </div> 
+                  </div>
+                  <div class="vloc-slider--container" ng-if="attr.inputType === 'range'">
+                    <div class="slds-form-element">
+                      <label class="slds-form-element__label" for="slider-id-01">
+                        <span class="slds-slider-label">
+                          <span class="slds-slider-label__range">{{attr.min}} - {{attr.max}}</span>
+                        </span>
+                      </label>
+                      <div class="slds-form-element__control">
+                        <div class="slds-slider slds-p-right--medium">
+                          <input type="range"  min="{{attr.min}}" max="{{attr.max}}" ins-rules-evaluate="attr" ins-rules-product="record"  id="attr-slider-{{$parent.$parent.$index}}-{{$parent.$index}}-{{$index}}" class="slds-slider__range" ng-disabled="true" ng-model="attr.userValues" />
+                          <span class="slds-slider__value" aria-hidden="true">{{attr.userValues}}</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slds-grid slds-p-bottom--x-small" ng-if="attr.inputType !== 'dropdown'  && attr.inputType !== 'checkbox' && attr.inputType !== 'range' && attr.inputType !== 'date' && attr.inputType !== 'datetime'">
+                        <div class="slds-size--1-of-1">
+                              <input class="slds-input" ins-rules-evaluate="attr" ins-rules-product="record"  ng-model="attr.userValues" ng-disabled="true"/>
+                        </div>
+                  </div>
+                   <div class="slds-form-element slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open slds-size--1-of-1" ng-if="attr.inputType === 'date'">
+                        <input class="slds-input slds-m-bottom--small" slds-date-picker ng-model="attr.userValues">
+                    </div>
+                    <div class="slds-form-element slds-dropdown-trigger slds-dropdown-trigger_click slds-grid slds-wrap slds-size--1-of-1" ng-if="attr.inputType === 'datetime'">
+                        <input class="slds-input slds-m-bottom--small slds-size--2-of-5 slds-m-right--medium" slds-date-picker ng-model="attr.userValues">
+                         <input class="slds-input slds-m-bottom--small slds-size--2-of-5" slds-time-picker ng-model="attr.userValues">
+                    </div>
+                  <div class="slds-form-element__control slds-text-align--left" ng-if="attr.inputType === 'checkbox'">
+                    <span class="slds-checkbox">
+                        <input ins-rules-evaluate="attr" ins-rules-product="record" type="checkbox" name="showmore-attrs-{{$index}}" id="showmore-attrs-{{$index}}" ng-model="attr.userValues"  ng-disabled="true"/>
+                        <label class="slds-checkbox__label slds-m-around--none" for="showmore-attrs-{{$index}}">
+                            <span class="slds-checkbox--faux vloc-check"></span>
+                        </label>
+                    </span>
+                </div>
+            </div>
+          </div>
+          <div class="slds-no-flex vloc-attr-showmore" ng-if="$index === 0 && $parent.$parent.$index === 0 && (category.productAttributes.records.length > 1 || record.attributeCategories.records.length > 1)">
+            <button class="slds-button slds-button--link vloc-attr-showmore-btn" ng-click="record.showMore = !record.showMore">Show <span ng-if="!record.showMore">More</span> 
+            <span ng-if="record.showMore">Less</span></button>
+          </div>
+        </div>
+      </div>
+      </div>
+  </div>
+  </div>
+ </div>

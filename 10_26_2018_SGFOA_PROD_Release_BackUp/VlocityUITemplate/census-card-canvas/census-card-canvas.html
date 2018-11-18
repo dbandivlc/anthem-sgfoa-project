@@ -1,0 +1,64 @@
+<div class="via-slds" ng-controller="censusController as vm">
+    <div class="slds-card slds-m-bottom--small">
+        <div class="slds-card__header slds-grid slds-grid--vertical-align-center">
+            <div class="slds-media slds-media--center slds-has-flexi-truncate">
+                <div class="slds-media__figure">
+                    <vloc-card-icon data="data" obj="obj" size="'medium'"></vloc-card-icon>
+                </div>
+                <div class="slds-media__body slds-truncate">
+                    <a href="javascript:void(0);" class="slds-text-link--reset" tooltip-placement="bottom" tooltip="{{layoutName}}">
+                        <span ng-show="session.title" class="slds-text-heading--small">{{layoutName}}</span>
+                        <span ng-show="!session.title" class="slds-text-heading--small">{{layoutName}}</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="slds-card__body cards-container">
+            <table class="slds-table slds-table--striped slds-no-row-hover slds-table--cell-buffer slds-max-medium-table--stacked-horizontal">
+                <thead>
+                    <tr class="slds-text-heading--label">
+                        <th ng-repeat="field in cards[0].states[0].fields"
+                            ng-if="::vm.getFieldVisibility(field, params)"
+                            scope="col">
+                            <div class="slds-truncate">{{field.label}}</div>
+                        </th>
+                        <th class="slds-cell-shrink"></th>
+                    </tr>
+                </thead>
+                <tbody vloc-card
+                    ng-repeat="card in cards | orderBy:order"
+                    ctrl="{{ctrl}}"
+                    ng-model="card"
+                    data="card"
+                    records="records"
+                    index="{{$index}}"
+                    session-id="{{sessionId}}"
+                    use-existing-element-type
+                ></tbody>
+            </table>
+        </div>
+        <div class="slds-card__footer">
+            <div class="slds-button-group">
+                <button ng-click="vm.addMember()" class="slds-button slds-button--action"><span class="fa fa-plus"></span> Add</button>
+            </div>
+        </div>
+    </div>
+    <section class="vloc-message_container">
+        <div
+            ng-repeat="message in vm.messages"
+            class="vloc-message slds-box slds-theme--{{::message.type || 'shade'}} slds-grid slds-m-bottom--small"
+        >
+            <div class="slds-col">
+                <p>{{::message.text}}</p>
+            </div>
+            <div class="slds-col--padded"></div>
+            <slds-svg-icon
+                ng-click="vm.removeMessage($index)"
+                size="'small'"
+                sprite="'utility'"
+                icon="'close'"
+                extra-classes="'slds-col slds-no-flex'"
+            ></slds-svg-icon>
+        </div>
+    </section>
+</div>

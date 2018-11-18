@@ -1,0 +1,153 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 3,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Enrollment-WI_CT_NV_ME_NH",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/WI_CT_NV_ME_NH/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 2,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Enrollment/WI_CT_NV_ME_NH/English",
+        "Name": "InnerSelectDental",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/WI_CT_NV_ME_NH/English/InnerSelectDental",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "InnerSelectDental",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "clearValue": true,
+        "conditionType": "Optional if False",
+        "controlWidth": 6,
+        "dataSource": {
+            "mapItems": {
+                "inputParameters": [
+                    {
+                        "element": "InputContractCodeDental|n",
+                        "inputParam": "DentalCCLookup"
+                    },
+                    {
+                        "element": "qState",
+                        "inputParam": "StateValue"
+                    }
+                ],
+                "phase1MapItems": [
+                    {
+                        "DomainObjectFieldAPIName__c": "Product",
+                        "FilterOperator__c": "LIKE",
+                        "FilterValue__c": "DentalCCLookup",
+                        "InterfaceFieldAPIName__c": "ProductCode",
+                        "InterfaceObjectLookupOrder__c": 1,
+                        "InterfaceObjectName__c": "Product2"
+                    },
+                    {
+                        "DomainObjectFieldAPIName__c": "Product",
+                        "FilterOperator__c": "=",
+                        "FilterValue__c": "\"Dental\"",
+                        "InterfaceFieldAPIName__c": "%vlocity_namespace%__Type__c",
+                        "InterfaceObjectLookupOrder__c": 1,
+                        "InterfaceObjectName__c": "Product2"
+                    },
+                    {
+                        "DomainObjectFieldAPIName__c": "Product",
+                        "FilterOperator__c": "=",
+                        "FilterValue__c": "\"Active\"",
+                        "InterfaceFieldAPIName__c": "%vlocity_namespace%__Status__c",
+                        "InterfaceObjectLookupOrder__c": 1,
+                        "InterfaceObjectName__c": "Product2"
+                    },
+                    {
+                        "DomainObjectFieldAPIName__c": "Product",
+                        "FilterOperator__c": "INCLUDES",
+                        "FilterValue__c": "StateValue",
+                        "InterfaceFieldAPIName__c": "%vlocity_namespace%__Availability__c",
+                        "InterfaceObjectLookupOrder__c": 1,
+                        "InterfaceObjectName__c": "Product2"
+                    },
+                    {
+                        "DomainObjectFieldAPIName__c": "Product",
+                        "FilterOperator__c": "LIKE",
+                        "FilterValue__c": "DentalCCLookup",
+                        "InterfaceFieldAPIName__c": "Name",
+                        "InterfaceObjectLookupOrder__c": 2,
+                        "InterfaceObjectName__c": "Product2"
+                    },
+                    {
+                        "DomainObjectFieldAPIName__c": "Product",
+                        "FilterOperator__c": "=",
+                        "FilterValue__c": "\"Dental\"",
+                        "InterfaceFieldAPIName__c": "%vlocity_namespace%__Type__c",
+                        "InterfaceObjectLookupOrder__c": 2,
+                        "InterfaceObjectName__c": "Product2"
+                    },
+                    {
+                        "DomainObjectFieldAPIName__c": "Product",
+                        "FilterOperator__c": "=",
+                        "FilterValue__c": "\"Active\"",
+                        "InterfaceFieldAPIName__c": "%vlocity_namespace%__Status__c",
+                        "InterfaceObjectLookupOrder__c": 2,
+                        "InterfaceObjectName__c": "Product2"
+                    },
+                    {
+                        "DomainObjectFieldAPIName__c": "Product",
+                        "FilterOperator__c": "INCLUDES",
+                        "FilterValue__c": "StateValue",
+                        "InterfaceFieldAPIName__c": "%vlocity_namespace%__Availability__c",
+                        "InterfaceObjectLookupOrder__c": 2,
+                        "InterfaceObjectName__c": "Product2"
+                    }
+                ],
+                "phase2MapItems": [
+                    {
+                        "DomainObjectAPIName__c": "JSON",
+                        "DomainObjectCreationOrder__c": 1,
+                        "DomainObjectFieldAPIName__c": "name",
+                        "InterfaceFieldAPIName__c": "Product:Tech_Prod_Code_Name__c"
+                    },
+                    {
+                        "DomainObjectAPIName__c": "JSON",
+                        "DomainObjectCreationOrder__c": 1,
+                        "DomainObjectFieldAPIName__c": "value",
+                        "InterfaceFieldAPIName__c": "Product:Name"
+                    }
+                ]
+            },
+            "source": "",
+            "type": "SObject"
+        },
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Click Here to Select Product",
+        "placeholder": "",
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": true,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "WI",
+                        "field": "qState"
+                    }
+                ]
+            }
+        },
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Lookup",
+    "Name": "SelectProductCodeLookupDental",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/WI_CT_NV_ME_NH/English/SelectProductCodeLookupDental"
+}

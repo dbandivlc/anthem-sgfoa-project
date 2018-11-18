@@ -1,0 +1,85 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "CACO_Resend Employer application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CACO_Enrollment/ResendDocuSign/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 5,
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "extraPayload": {
+        },
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "label": null,
+        "message": {
+        },
+        "postMessage": "Done",
+        "postTransformBundle": "",
+        "preTransformBundle": "",
+        "redirectNextLabel": "Next",
+        "redirectNextWidth": 3,
+        "redirectPageName": "",
+        "redirectPreviousLabel": "Previous",
+        "redirectPreviousWidth": 3,
+        "redirectTemplateUrl": "vlcAcknowledge.html",
+        "remoteClass": "SGA_AP88_TransformValues",
+        "remoteMethod": "transformCACOMedProducts",
+        "remoteOptions": {
+            "CA_MED_PROD1": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedical|1:SelectedMedicalPlan%",
+            "CA_MED_PROD2": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedical|2:SelectedMedicalPlan%",
+            "CA_MED_PROD3": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedical|3:SelectedMedicalPlan%",
+            "CA_MED_PROD4": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedical|4:SelectedMedicalPlan%",
+            "CA_MED_PROD5": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedical|5:SelectedMedicalPlan%",
+            "CA_MED_PROD6": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedical|6:SelectedMedicalPlan%",
+            "CO_MED_PROD1": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedical|1:SelectedMedicalPlan%",
+            "CO_MED_PROD2": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedical|2:SelectedMedicalPlan%",
+            "CO_MED_PROD3": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedical|3:SelectedMedicalPlan%",
+            "CO_MED_PROD4": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedical|4:SelectedMedicalPlan%",
+            "CO_MED_PROD5": "%MedicalCoverageNQ:SelectMedical:InnerSelectMedical|5:SelectedMedicalPlan%",
+            "TaskType": "%Task%",
+            "postTransformBundle": "",
+            "preTransformBundle": "",
+            "qState": "%qState%"
+        },
+        "remoteTimeout": 30000,
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "false",
+                        "field": "WithQuote"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "svgIcon": "",
+        "svgSprite": "",
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Remote Action",
+    "Name": "TransformMedProdWithOutQuote",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/CACO_Enrollment/ResendDocuSign/English/TransformMedProdWithOutQuote"
+}

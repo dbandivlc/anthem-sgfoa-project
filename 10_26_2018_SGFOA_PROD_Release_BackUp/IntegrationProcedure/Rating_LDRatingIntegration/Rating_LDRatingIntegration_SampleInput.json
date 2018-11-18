@@ -1,0 +1,167 @@
+{
+    "AccountId": "0013B00000RJ5IoQAL",
+    "ActiveStates": [
+        "CO"
+    ],
+    "Brand": "ABCBS",
+    "ContextId": "",
+    "DRId_Opportunity": "0063B000007RR0lQAG",
+    "DepLfPln": "5000/2500",
+    "LfMin": "15000",
+    "MinCounty": "JEFFERSON",
+    "MinCountyCode": "059",
+    "MinState": "CO",
+    "OSFormulaEffectiveDate": "2018-07-15",
+    "OSFormulaQuoteExpiryDate": "2018-07-10",
+    "RatingArea": 5,
+    "STDMin": "0",
+    "STDPln": "None",
+    "SearchField": "80001 - JEFFERSON",
+    "State1": "CO",
+    "ZipCodeList": [
+    ],
+    "ZipCodeListLength": 1,
+    "allowNavigation": false,
+    "brokerPage": {
+        "workingWithBroker": "no"
+    },
+    "censusId": "a313B000000B9qMQAS",
+    "co_LAndDPlanLimit": 10,
+    "co_dentalPlanLimit": 10,
+    "co_hiddenAttributes": [
+        "Formulary",
+        "Formulary Link"
+    ],
+    "co_medicalPlanLimit": 10,
+    "co_visionPlanLimit": 10,
+    "coverageBeginsPage": {
+        "RequestedCoverageEffectiveDate": "Jul 15 2018"
+    },
+    "deductiblePeriod": "Calendar Year",
+    "deductiblePeriodPage": {
+        "deductiblePeriod": "Calendar Year",
+        "deductiblePeriodHeaderGroup": null
+    },
+    "dentalGuarantee": "12months",
+    "dentalGuaranteePage": {
+        "dentalGuarantee": "12months",
+        "dentalGuaranteeHeaderGroup": null
+    },
+    "employeeCoveragePage": {
+        "MinimumEligible": true,
+        "MinimumEligibleEmployees": "Yes",
+        "allEmployees": 2,
+        "eligibleEmployees": 2,
+        "isEligibleOverAll": "Yes",
+        "isOverStateLimit": "Yes",
+        "moreElegThanAll": true,
+        "tooManyEligible": true
+    },
+    "enableRecaptcha": true,
+    "error": "OK",
+    "hideBrokerPage": false,
+    "id": "a3Z3B0000009cDxUAI",
+    "layout": "lightning",
+    "modularQuestionsReady": true,
+    "module": "PlanBuilder",
+    "nextLabel": "Continue",
+    "noResultsError": false,
+    "percentSign": "%",
+    "planTypePage": {
+        "PlanTypeSelection Except Dental": null,
+        "dentalInsuranceType": false,
+        "lifeInsuranceType": true,
+        "medicalInsuranceType": false,
+        "planSelectionCount": 1,
+        "planTypeSelection": "life",
+        "showModular": false,
+        "showModularLandD": true,
+        "visionInsuranceType": false
+    },
+    "sInstanceId": "a3Y3B0000005seiUAA",
+    "securityQuestionsResp": [
+        {
+            "name": "Mothers_Maiden",
+            "value": "What is your mother's maiden name?"
+        },
+        {
+            "name": "Birth_City",
+            "value": "In what city were you born?"
+        },
+        {
+            "name": "Childhood_Friend",
+            "value": "What is the name of your favorite childhood friend?"
+        },
+        {
+            "name": "Pet_Name",
+            "value": "What is your pet's name?"
+        },
+        {
+            "name": "Significant_Other_City",
+            "value": "In what city did you meet your spouse/significant other?"
+        },
+        {
+            "name": "Childhood_Nickname",
+            "value": "What was your childhood nickname?"
+        },
+        {
+            "name": "First_Job_City",
+            "value": "In what city was your first job?"
+        }
+    ],
+    "selectedCounty": "JEFFERSON",
+    "sgapsdev1-isg.cs94.force.com": "6Lff60wUAAAAACAiN_ecEuSMgcoibfe2ls-7CwXg",
+    "sgapsdev2-isg.cs50.force.com": "6Lfu5kwUAAAAAKYeumw11Fk0jVC8h2yifRDIUgm5",
+    "sicPage": {
+        "CheckSIC": false,
+        "CheckSIC8021": false,
+        "InvalidSIC": null,
+        "SIC8021ErrorMessage": true,
+        "TypeAheadSIC-Block": {
+            "SICName": "PACKAGED FROZEN FOODS",
+            "SIC_Code": "5142",
+            "TypeAheadSIC": "5142 PACKAGED FROZEN FOODS"
+        },
+        "sicPageHeaderGroup": null
+    },
+    "targetSystem": "APS",
+    "timeStamp": "2018-06-19T13:38:05.236Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053B000001bh2RQAQ",
+    "userName": "ribarra@anthem.isg.sgapsdev2",
+    "userProfile": "System Administrator",
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Create Opportunity": 2682,
+        "GetActiveStates": 651,
+        "GetSecurityQuestions": 273,
+        "OmniScriptSessionToken": "c68ee281-8c59-4521-91b8-3bc4ef2120e9",
+        "brokerPage": 5541,
+        "censusPage": 4232,
+        "coverageBeginsPage": 2031,
+        "employeeCoveragePage": 4408,
+        "getAccountInfo": 1771,
+        "modularReady": 24,
+        "planTypePage": 2567,
+        "setDatesInSFFormat": 100,
+        "setDefaultValues": 93,
+        "sicPage": 3685,
+        "updateOpportunity": 900,
+        "zipPage": 2789
+    },
+    "zipCodeLength": 5,
+    "zipPage": {
+        "CountyCode_Number": 59,
+        "StateNotLicensed": true,
+        "ValidState": true,
+        "ValidZipCode": true,
+        "zipBlock": {
+            "County": "JEFFERSON",
+            "County_Select": null,
+            "zipcode": "80001"
+        }
+    },
+    "zipcode": "80001"
+}

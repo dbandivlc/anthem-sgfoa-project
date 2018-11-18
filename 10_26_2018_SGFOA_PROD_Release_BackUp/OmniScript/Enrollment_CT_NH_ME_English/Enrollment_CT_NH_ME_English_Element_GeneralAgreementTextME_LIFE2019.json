@@ -1,0 +1,51 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 1,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Enrollment-CT_NH_ME",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/CT_NH_ME/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 11,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/Enrollment/CT_NH_ME/English",
+        "Name": "GeneralAgreement2019",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/CT_NH_ME/English/GeneralAgreement2019",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "GeneralAgreement2019",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "ME",
+                        "field": "qState"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "2019",
+                        "field": "EffectiveDateYear"
+                    }
+                ]
+            }
+        },
+        "text": "<p style=\"text-align: justify;\">Employer understands, and by way of its authorized representatives, agrees to the best of his knowledge and belief the entire application for Group Insurance has been reviewed, all answers contained herein are true and complete, and agrees :</p>\n<p style=\"text-align: justify;\"><strong>1.</strong>To comply with all terms and provisions of the Group Contract(s) issued, and trust agreements, if applicable, and also accepts enrollment under Anthem trust policy(ies), if applicable;<br /><strong>2.</strong>To make the insurance coverage available to all eligible employees and their eligible dependents and to distribute information and documents to enrolled employees as needed;<br /><strong>3.</strong>To maintain records and furnish to company or their designated agent(s), any information required in connection with administration of the insurance coverage;<br /><strong>4</strong> .To provide notice of applicable conversion rights to eligible employees and eligible dependents;<br /><strong>5.</strong>That statements of medical history will be required of employees and dependents when applying for coverage within or outside the time frames or amount of coverage limits established by Company for life and disability insurance;<br /><strong>6.</strong>That approval for this insurance may cancel any prior contracts and/or coverage with Company effective immediately preceding the effective date of the employer&rsquo;s coverage;<br /><strong>7.</strong>To pay Company by the premium due date, the premiums on behalf of each member covered under the contract, unless otherwise stated in any financial agreement between the parties, to submit applications of employees prior to their date of eligibility, to keep all necessary records regarding membership;<br /><strong>8.</strong>That claims filed by or on behalf of members may, at Company&rsquo;s option, be suspended if premiums are not received timely;<br /><strong>9.</strong>The employer will receive, on behalf of members, all notices delivered by Company, and immediately forward such notices to persons involved, at their last known address;<br /><strong>10.</strong>The advance premium check does not create temporary or interim insurance coverage and that receipt and deposit of that payment does not guarantee issuance of insurance coverage. Rather, issuance of insurance coverage is expressly conditioned on Company&rsquo;s determination that the group is an acceptable risk based on their current underwriting practices and procedures. Unless these Conditions are met, there shall be no liability on the part of Company, except to refund the payment. The employer will be responsible for returning to individual employees any part of the payment contributed by those employees;<br /><strong>11.</strong>That in order for Company to accept or decline this application, all the information requested on this application must be completed. In the event the application is not complete, Company, or its designated agent(s), is authorized to obtain the necessary information and to complete that information on this application. The employer understands that the coverage issued by Company may be different than the coverage applied for herein. In that event, Company shall notify the employer of such differences, and by payment of the appropriate premiums, the employer will accept the coverage as issued;<br /><strong>12.</strong>The premium rates calculated for the employer are contingent, based upon the accuracy of the eligibility data submitted on employees and covered dependents to Company by the employer. Company reserves the right to review such rates upon receipt of all individual applications and modify the rates, if the enrollment information so warrants. Any misstatements on employees&rsquo; applications or failure to report new medical information prior to the employees&rsquo; effective dates may result in a material change to the group&rsquo;s coverage or premium rate as of the effective date of coverage;<br /><strong>13.</strong>All employees applying for coverage are employees of the employer, receive salary or wages documented on state and/or federal payroll reports, work full-time (unless otherwise approved by Company in writing) and meet any other eligibility requirements for coverage;<br /><strong>14.</strong>that an employee not actively at work on the policy effective date or the employee&rsquo;s eligibility date will not be covered until such employee returns to active work.</p>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "GeneralAgreementTextME_LIFE2019",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/CT_NH_ME/English/GeneralAgreementTextME_LIFE2019"
+}

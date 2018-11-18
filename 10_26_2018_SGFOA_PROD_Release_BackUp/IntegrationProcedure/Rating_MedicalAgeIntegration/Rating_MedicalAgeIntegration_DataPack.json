@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "To create medical Age Band Records",
+    "%vlocity_namespace%__CustomJavaScript__c": "{}",
+    "%vlocity_namespace%__Element__c": [
+        "Rating_MedicalAgeIntegration_Element_CensusDataForRating.json",
+        "Rating_MedicalAgeIntegration_Element_InsertingAgeBand.json",
+        "Rating_MedicalAgeIntegration_Element_MakeRESTApiCall.json",
+        "Rating_MedicalAgeIntegration_Element_TransformMemberRates.json",
+        "Rating_MedicalAgeIntegration_Element_TransformRatingInput.json"
+    ],
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "Rating_MedicalAgeIntegration",
+    "%vlocity_namespace%__PropertySet__c": "Rating_MedicalAgeIntegration_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "MedicalAgeIntegration",
+    "%vlocity_namespace%__Type__c": "Rating",
+    "Name": "MedicalAgeRatingIntegration",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Rating/MedicalAgeIntegration/Procedure"
+}

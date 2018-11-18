@@ -1,0 +1,205 @@
+<div class="vloc-attr-config-grid slds-grid slds-wrap slds-p-bottom--small slds-p-horizontal--small" ng-init="$rootScope.index = cardIndex; $root.isLoaded = true;">
+    <!-- First Four Card Fields: --> 
+    <div class="vloc-attr-config-row slds-small-show slds-p-top--small slds-size--1-of-2" ng-repeat="field in data.fields.slice(0, 4)" ng-show="key != 'attributes'">
+        <div data.fields class="vloc-attr-title-cell slds-truncate slds-form-element__label" title="{{field.label}}"> 
+            <!-- <span ng-if="$root.config.fieldSet[field.name]">{{$root.config.fieldSet[field.name].label}}</span> -->
+            <span>{{field.label}}</span>
+        </div>
+        <input class="slds-input vloc-attrs-input" type="{{$root.config.attr.dataType}}" ng-model="$root.config.attr[field.name]" ng-if="field.type !== 'BOOLEAN'"/>
+        <div class="slds-form-element__control slds-text-align--left vloc-attrs-checkbox" ng-if="field.type === 'BOOLEAN'">
+            <span class="slds-checkbox">
+                <input type="checkbox" name="attrs-{{$index}}" id="attrs-{{$index}}" ng-model="$root.config.attr[field.name]"/>
+                <label class="slds-checkbox__label slds-m-around--none" for="attrs-{{$index}}">
+                    <span class="slds-checkbox--faux vloc-check"></span>
+                </label>
+            </span>
+        </div>
+    </div>
+
+    <!-- Control and Value Fields: 5, 6-->
+    <div class="vloc-attr-config-row  vloc-attr-config-row--value slds-small-show slds-p-top--small slds-size--1-of-1" ng-repeat="field in data.fields.slice(4, 6)" ng-show="key != 'attributes'">
+        <div class="vloc-attr-title-cell slds-truncate slds-form-element__label slds-size--1-of-2" title="{{field.label}}"  ng-if="field.name === $root.nsPrefix + 'ValueDataType__c'"><span>{{field.label}}</span></div>
+        <!-- Control -->
+        <div class="vloc-attrs-control slds-grid slds-wrap" ng-if="field.name === $root.nsPrefix + 'ValueDataType__c'">
+           <!--Normal Select --> 
+            <div ng-if="!importedScope.configurableTypeDict[$root.config.attr[field.name]].subType" class="slds-size--1-of-1">
+                 <select ng-options="control for control in importedScope.configurableTypeListStandard" ng-model="$root.config.attr[field.name]" class="slds-select vloc-attrs-select" id="select-01" ng-change="importedScope.setDataType(field)" ng-disabled="true">
+                </select>
+            </div>
+
+            <!-- Customizable Select --> 
+            <div ng-if="importedScope.configurableTypeDict[$root.config.attr[field.name]].subType" class="slds-size--1-of-1 slds-grid slds-wrap">
+                <select ng-options="control for control in importedScope.configurableTypeListCustomizable" ng-model="$root.config.attr[field.name]" class="slds-select vloc-attrs-select slds-size--1-of-2" id="select-01" ng-change="importedScope.setDataType(field);"  ng-disabled="true">
+                </select>
+                <div  ng-if="importedScope.configurableTypeDict[$root.config.attr[field.name]].subType" class="slds-p-left--xx-small slds-size--1-of-2">
+                    <select ng-options="displayType for displayType in importedScope.configurableTypeDict[$root.config.attr[field.name]].displayType" ng-model="$root.config.attr[$root.nsPrefix + 'UIDisplayType__c']" type="importedScope.configurableTypeDict[displayType]" ng-change="importedScope.setDisplayType(displayType)" class="slds-select vloc-attrs-select" id="select-01"  ng-disabled="true">
+                </select>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Values --> 
+        <div class="vloc-attrs-value slds-size--1-of-1"  ng-class="{'slds-size--1-of-2' : importedScope.configurableTypeDict[$root.config.attr[field.name]].subType}" ng-if="field.name !== $root.nsPrefix + 'ValueDataType__c'">
+
+            <!-- general input --> 
+             <div class="vloc-attrs-value-general">
+                <div class="vloc-attr-title-cell slds-truncate slds-form-element__label slds-size--1-of-1" title="{{field.label}}"> <span>{{field.label}}</span>
+                </div>
+                <input  ng-if="$root.config.attr[$root.nsPrefix + 'UIDisplayType__c'] !== 'Slider' && $root.config.attr[$root.nsPrefix + 'UIDisplayType__c'] !== 'Dropdown' && $root.config.attr[$root.nsPrefix + 'UIDisplayType__c'] !== 'Checkbox' && $root.config.attr[$root.nsPrefix + 'ValueDataType__c'] !== 'Checkbox' && $root.config.attr[$root.nsPrefix + 'UIDisplayType__c'] !== 'Radiobutton'" class="slds-input vloc-attrs-input" type="{{$root.config.attr.inputDisplayType}}" ng-model="$root.config.attr[field.name]" ng-class="{'disabled': $root.config.fieldSet[field.name].isUpdateable === false}" placeholder="Insert Value" ng-disabled="true"/>
+
+                <!-- slider -->
+                <div ng-if="$root.config.attr[$root.nsPrefix + 'UIDisplayType__c'] === 'Slider'" class="vloc-attrs-slider slds-grid slds-wrap slds-m-bottom--small" ng-init="importedScope.toNumber($root.config.attr[field.name])">
+
+                    <div class="slds-size--1-of-1 slds-wrap slds-grid">
+                    <input type="range" class="input-range-filter slds-m-bottom--x-small slds-size--1-of-1" id="scale" min="{{$root.config.attr[$root.nsPrefix + 'ValidValuesData__c'].min}}" max="{{$root.config.attr[$root.nsPrefix + 'ValidValuesData__c'].max}}" value="{{$root.config.attr[$root.nsPrefix + 'Value__c']}}" step="1" ng-model="$root.config.attr[$root.nsPrefix + 'Value__c']"> 
+                    </div>
+
+                    <div class="slds-size--1-of-1 slds-grid slds-wrap slds-p-right--small">
+                        <input class="slds-input vloc-attrs-input slds-size--1-of-3" type="number" ng-model="$root.config.attr[$root.nsPrefix + 'ValidValuesData__c'].min" placeholder="Enter Min"/>
+                        <input  class="slds-input vloc-attrs-input slds-size--1-of-3 slds-text-align--center" type="number" ng-model="$root.config.attr[field.name]" placeholder="Enter Start Value"/>
+                        <input class="slds-input vloc-attrs-input slds-size--1-of-3 slds-text-align--right slds-p-right--small"  type="number" ng-min="$root.config.attr[$root.nsPrefix + 'ValidValuesData__c'].min" ng-max="$root.config.attr[$root.nsPrefix + 'ValidValuesData__c'].max" ng-model="$root.config.attr[$root.nsPrefix + 'ValidValuesData__c'].max" placeholder="Enter Max"/>
+                        </div>
+                    <div class="vloc-attrs-slider-label slds-form-element__label slds-size--1-of-3">Min</div>
+                    <div class="vloc-attrs-slider-label slds-form-element__label slds-size--1-of-3 slds-text-align--center">Start Value</div>
+                    <div class="vloc-attrs-slider-label slds-form-element__label slds-size--1-of-3 slds-text-align--right slds-p-right--small">Max</div>
+                </div>
+
+                <!--picklists (Picklist, multi-picklist, dropdown)-->
+                <div ng-if="($root.config.attr.valueType === 'picklist' || $root.config.attr.valueType === 'currency'  || $root.config.attr[$root.nsPrefix + 'UIDisplayType__c'] === 'Dropdown' || $root.config.attr[$root.nsPrefix + 'UIDisplayType__c'] === 'Radiobutton' || $root.config.attr[$root.nsPrefix + 'ValueDataType__c'] === 'Multi Picklist')" class="vloc-attrs-picklist slds-grid slds-wrap slds-m-bottom--small">
+
+                    <div class="slds-grid slds-wrap slds-size--1-of-1" ng-if="$root.config.attr[$root.nsPrefix + 'ValidValuesData__c'].length > 0">
+                        <div class="vloc-attrs-picklist-label slds-form-element__label slds-size--1-of-8" >Default</div>
+                        <div class="vloc-attrs-picklist-label slds-form-element__label slds-size--1-of-3" >Display Value</div>
+                        <div class="vloc-attrs-picklist-label slds-form-element__label slds-size--1-of-4" >Value</div>
+                        <div class="vloc-attrs-picklist-label slds-form-element__label slds-size--1-of-8" >
+                            Available
+                        </div>
+                         <div class="vloc-attrs-picklist-label slds-form-element__label slds-size--1-of-8 slds-text-align--center">
+                            Rule
+                        </div>
+                    </div>
+                    <fieldset class="slds-form-element slds-size--1-of-1">
+                    <!-- Values: --> 
+                    <div class="vloc-attrs-picklist-values slds-m-bottom--medium">
+                        <div class="slds-form-element__control slds-grid slds-wrap slds-size--1-of-1 vloc-valid-values" ng-repeat="option in $root.config.attr[$root.nsPrefix + 'ValidValuesData__c']" ng-class="{'slds-box option-show-rule': option.showRules}">
+                            <div class="slds-size--1-of-8 slds-p-left--small" ng-init="option.id = $index">
+                               <span class="slds-radio slds-m-top--x-small" ng-if="$root.config.attr[$root.nsPrefix + 'ValueDataType__c'] === 'Picklist' || $root.config.attr[$root.nsPrefix + 'ValueDataType__c'] === 'Currency'">
+                                    <label class="slds-radio__label" for="radio-owner--{{$index}}">
+                                        <input type="radio" id="radio-owner--{{$index}}" name="radio-owner" ng-value="option.isDefault" ng-click="importedScope.setDefaultOptionCoverage(option.id)"/>
+                                        <span class="slds-radio--faux" ng-class="{'checked' : option.isDefault}"></span>
+                                    </label>
+                                </span>
+                                 <span class="slds-checkbox slds-m-top--x-small" ng-if="$root.config.attr[$root.nsPrefix + 'ValueDataType__c'] !== 'Picklist' && $root.config.attr[$root.nsPrefix + 'ValueDataType__c'] !== 'Currency'">
+                                    <input type="checkbox" name="opt-{{$index}}" id="opt-{{$index}}" ng-model="option.isDefault" value="{{option.value}}" ng-change="importedScope.setMultiPicklistCoverage(option)"/>
+                                    <label class="slds-checkbox__label slds-m-around--none" for="opt-{{$index}}">
+                                        <span class="slds-checkbox--faux vloc-check"></span>
+                                    </label>
+                                </span>
+                            </div>
+                            <div class="slds-size--1-of-3 slds-m-right--xx-small">
+                                <input ng-disabled="true" class="vloc-attrs-input vloc-attrs-picklist-input slds-input" type="text" placeholder="Enter Input" ng-model="option.displayText"/>
+                            </div>
+                            <div class="slds-size--1-of-4">
+                                   <input  ng-disabled="true" class="vloc-attrs-input vloc-attrs-picklist-input slds-input" type="text" placeholder="Enter Input" ng-model="option.value"/>
+                            </div>
+                             <div class="slds-size--1-of-8 slds-text-align--center vloc-attrs-delete">
+                              <span class="slds-checkbox slds-m-top--x-small">
+                                <input type="checkbox" name="isAvailable-{{$index}}" id="isAvailable-{{$index}}" ng-model="option.isAvailable" ng-value="option.isAvailable" ng-disabled="$root.config.attr[$root.nsPrefix + 'IsReadOnly__c'] && !option.isDefault"/>
+                                    <label class="slds-checkbox__label slds-m-around--none" for="isAvailable-{{$index}}">
+                                        <span class="slds-checkbox--faux vloc-check"></span>
+                                    </label>
+                                </span> 
+                            </div>
+                            <div class="vloc-attrs-picklist-label slds-form-element__label slds-size--1-of-8 slds-text-align--center vloc-rules-icon slds-p-top--x-small" ng-class="{'has-rules': option.rules.length > 0}" ng-init="option.showRules = false">
+                                <slds-button-svg-icon sprite="'custom'" icon="'custom90'" no-hint="true"  ng-click="importedScope.initOptionRules(option); option.showRules = !option.showRules" extra-classes="'slds-button__icon--large'"></slds-button-svg-icon>
+                            </div>
+                            <div class="slds-size--1-of-1 vloc-ins-rules-box" ng-class="{'showRules' : option.showRules}">
+                             <ins-rules product-id="params.id" rules="option.rules" rules-options="importedScope.rulesOptions"></ins-rules>
+                        </div>
+                        </div>
+                    </div>
+                    </fieldset>
+                </div>
+            </div>
+
+            <!-- checkbox --> 
+            <div class="slds-form-element__control slds-text-align--left  vloc-attrs-checkbox" ng-if="$root.config.attr[$root.nsPrefix + 'ValueDataType__c'] === 'Checkbox'" ng-init="$root.config.attr[field.name] === 'true' ? $root.config.attr[field.name] = true : $root.config.attr[field.name] = false">
+                <span class="slds-checkbox">
+                    <input type="checkbox" name="checkbox-attrs-{{$index}}" id="checkbox-attrs-{{$index}}" ng-model="$root.config.attr[field.name]"/>
+                    <label class="slds-checkbox__label slds-m-around--none" for="checkbox-attrs-{{$index}}">
+                        <span class="slds-checkbox--faux vloc-check"></span>
+                    </label>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!--  Description: field 7 --> 
+    <div class="vloc-attr-config-row vloc-attr-config-row--description slds-small-show slds-p-top--small slds-size--1-of-1" ng-repeat="field in data.fields.slice(6, 7)" ng-show="key != 'attributes'">
+        <div data.fields class="vloc-attr-title-cell slds-truncate slds-form-element__label" title="{{field.label}}"> 
+            <!-- <span ng-if="$root.config.fieldSet[field.name]">{{$root.config.fieldSet[field.name].label}}</span> -->
+            <span>{{field.label}}</span>
+        </div>
+        <input class="slds-input vloc-attrs-input" type="{{field.type}}" ng-model="$root.config.attr[field.name]" ng-if="field.type !== 'BOOLEAN' && field.type !== 'boolean'"/>
+
+        <div class="slds-form-element__control slds-text-align--left  vloc-attrs-checkbox" ng-if="field.type === 'BOOLEAN' || field.type === 'boolean'">
+        <span class="slds-checkbox">
+            <input type="checkbox" name="attrs-{{$index}}" id="attrs-{{$index}}" ng-model="$root.config.attr[field.name]"/>
+            <label class="slds-checkbox__label slds-m-around--none" for="attrs-{{$index}}">
+                <span class="slds-checkbox--faux vloc-check"></span>
+            </label>
+        </span>
+        </div>
+    </div>
+    <!-- Rest of card fields --> 
+    <div class="vloc-attr-config-row slds-small-show slds-p-top--small slds-size--1-of-2" ng-repeat="field in data.fields.slice(7, data.fields.length)" ng-show="key != 'attributes'">
+        <div data.fields class="vloc-attr-title-cell slds-truncate slds-form-element__label" title="{{field.label}}"> 
+            <!-- <span ng-if="$root.config.fieldSet[field.name]">{{$root.config.fieldSet[field.name].label}}</span> -->
+        <span>{{field.label}}</span>
+        </div>
+        <!-- editable -->
+        <span ng-if="field.name !== $root.nsPrefix + 'IsRatingAttribute__c'  && field.name !== $root.nsPrefix + 'RatingInput__c' && field.name !== $root.nsPrefix + 'IsReadOnly__c' && !field.name === $root.nsPrefix + 'IsConfigurable__c'">
+            <input  class="slds-input vloc-attrs-input" type="{{$root.config.attr.dataType}}" ng-model="$root.config.attr[field.name]" ng-if="field.type !== 'BOOLEAN' && field.type !== 'boolean'"/>
+            <div class="slds-form-element__control slds-text-align--left vloc-attrs-checkbox" ng-if="field.type === 'BOOLEAN' || field.type === 'boolean'">
+                <span class="slds-checkbox">
+                    <input type="checkbox" name="config-attrs-{{$index}}" id="config-attrs-{{$index}}" ng-model="$root.config.attr[field.name]"/>
+                    <label class="slds-checkbox__label slds-m-around--none" for="config-attrs-{{$index}}">
+                        <span class="slds-checkbox--faux vloc-check"></span>
+                    </label>
+                </span>
+            </div>
+        </span>
+        <span ng-if="field.name === $root.nsPrefix + 'IsConfigurable__c'">
+            <div class="slds-form-element__control slds-text-align--left vloc-attrs-checkbox">
+                <span class="slds-checkbox">
+                    <input type="checkbox" name="config-attrs-{{$index}}" id="config-attrs-{{$index}}" ng-model="$root.config.attr[field.name]" ng-disabled="true"/>
+                    <label class="slds-checkbox__label slds-m-around--none" for="config-attrs-{{$index}}">
+                        <span class="slds-checkbox--faux vloc-check"></span>
+                    </label>
+                </span>
+            </div>
+        </span>
+         <span ng-if="field.name === $root.nsPrefix + 'IsReadOnly__c'">
+            <div class="slds-form-element__control slds-text-align--left vloc-attrs-checkbox">
+                <span class="slds-checkbox">
+                    <input type="checkbox" name="config-attrs-{{$index}}" id="config-attrs-{{$index}}" ng-model="$root.config.attr[field.name]" ng-change="importedScope.updateOptionsReadOnly()"/>
+                    <label class="slds-checkbox__label slds-m-around--none" for="config-attrs-{{$index}}">
+                        <span class="slds-checkbox--faux vloc-check"></span>
+                    </label>
+                </span>
+            </div>
+        </span>
+        <span ng-if="field.name === $root.nsPrefix + 'IsRatingAttribute__c' || field.name ===  $root.nsPrefix + 'RatingInput__c' ||  field.name ===  $root.nsPrefix + 'RatingOutput__c'">
+            <input class="slds-input vloc-attrs-input" type="{{$root.config.attr.dataType}}" ng-model="$root.config.attr[field.name]" ng-if="field.type !== 'BOOLEAN' && field.type !== 'boolean'"/>
+            <div class="slds-form-element__control slds-text-align--left vloc-attrs-checkbox" ng-if="field.type === 'BOOLEAN' || field.type === 'boolean'">
+                <span class="slds-checkbox">
+                    <input type="checkbox" name="config-attrs-{{$index}}" id="config-attrs-{{$index}}" ng-model="$root.config.attr[field.name]"/>
+                    <label class="slds-checkbox__label slds-m-around--none" for="config-attrs-{{$index}}">
+                        <span class="slds-checkbox--faux vloc-check"></span>
+                    </label>
+                </span>
+            </div>
+        </span>
+    </div>
+</div>

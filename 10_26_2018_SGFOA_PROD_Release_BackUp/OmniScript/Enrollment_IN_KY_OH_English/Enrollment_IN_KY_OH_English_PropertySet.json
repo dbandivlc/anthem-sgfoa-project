@@ -1,0 +1,160 @@
+{
+    "HTMLTemplateId": "",
+    "Language": "",
+    "Sub Type": "",
+    "Type": "",
+    "accessibleInFutureSteps": false,
+    "allowSaveForLater": true,
+    "autoFocus": false,
+    "autoSaveOnStepNext": true,
+    "cancelRedirectPageName": "OmniScriptCancelled",
+    "cancelRedirectTemplateUrl": "vlcCancelled.html",
+    "cancelSource": "%DRId_Account%",
+    "cancelType": "SObject",
+    "collapse": false,
+    "conditionType": "Hide if False",
+    "consoleTabLabel": "New",
+    "controlWidth": 12,
+    "controllingField": {
+        "element": "",
+        "source": "",
+        "type": ""
+    },
+    "currencyCode": "",
+    "dataJSON": false,
+    "dataType": null,
+    "dateFormat": "",
+    "dateTimeFormat": "",
+    "debounceValue": 0,
+    "disOnTplt": false,
+    "docuSignReturnUrl": "",
+    "docuSignTemplatesGroupSig": [
+    ],
+    "elementTypeToHTMLTemplateMapping": {
+        "Validation": "customValidation.html"
+    },
+    "emailSubject": "",
+    "enableKnowledge": false,
+    "expression": "",
+    "failureAbortLabel": "Abort",
+    "failureAbortMessage": "Are you sure?",
+    "failureNextLabel": "Continue",
+    "help": false,
+    "helpText": "",
+    "hide": false,
+    "hideGroupSep": false,
+    "inProgressMessage": "In Progress",
+    "includeCustomization": true,
+    "inputWidth": 12,
+    "knowledgeArticleTypeQueryFieldsMap": {
+    },
+    "label": null,
+    "mask": "",
+    "maxLength": 255,
+    "message": {
+    },
+    "minLength": 0,
+    "optionSource": {
+        "source": "",
+        "type": ""
+    },
+    "options": [
+        {
+            "name": "",
+            "value": ""
+        }
+    ],
+    "pattern": "",
+    "persistentComponent": [
+        {
+            "id": "vlcCart",
+            "itemsKey": "cartItems",
+            "label": "",
+            "modalConfigurationSetting": {
+                "modalController": "ModalProductCtrl",
+                "modalHTMLTemplateId": "vlcProductConfig.html",
+                "modalSize": "lg"
+            },
+            "postTransformBundle": "",
+            "preTransformBundle": "",
+            "remoteClass": "",
+            "remoteMethod": "",
+            "remoteOptions": {
+                "postTransformBundle": "",
+                "preTransformBundle": ""
+            },
+            "remoteTimeout": 30000,
+            "render": false,
+            "responseJSONNode": "",
+            "responseJSONPath": "",
+            "sendJSONNode": "",
+            "sendJSONPath": ""
+        },
+        {
+            "id": "vlcKnowledge",
+            "itemsKey": "knowledgeItems",
+            "label": "",
+            "modalConfigurationSetting": {
+                "modalController": "",
+                "modalHTMLTemplateId": "",
+                "modalSize": "lg"
+            },
+            "postTransformBundle": "",
+            "preTransformBundle": "",
+            "remoteClass": "",
+            "remoteMethod": "",
+            "remoteOptions": {
+                "postTransformBundle": "",
+                "preTransformBundle": ""
+            },
+            "remoteTimeout": 30000,
+            "render": false
+        }
+    ],
+    "postMessage": "Done",
+    "ptrnErrText": "",
+    "readOnly": false,
+    "remoteTimeout": 30000,
+    "repeat": false,
+    "repeatClone": false,
+    "required": false,
+    "saveContentEncoded": false,
+    "saveExpireInDays": null,
+    "saveForLaterRedirectPageName": "CustomSave",
+    "saveForLaterRedirectTemplateUrl": "SaveSession.html",
+    "saveNameTemplate": "Small Group Enrollment for %CompanyName%",
+    "saveObjectId": "%QuoteAccountId%",
+    "saveURLPatterns": {
+    },
+    "seedDataJSON": {
+        "ContainsHSA": false,
+        "ShowUploadDocuments": "No",
+        "isCalendarYear": false,
+        "isDuplicatePlanDental": false,
+        "isDuplicatePlanMedical": false,
+        "isDuplicatePlanVision": false,
+        "isOrthoPlan": false,
+        "isPlanYear": false,
+        "isRider29Limit": false,
+        "isVoluntaryPlanDental": false,
+        "isVoluntaryPlanVision": false,
+        "textNode": "%"
+    },
+    "show": null,
+    "showInputWidth": false,
+    "signerInformation": {
+        "signerEmail": "",
+        "signerName": ""
+    },
+    "ssm": false,
+    "text": "",
+    "timeFormat": "",
+    "timeTracking": false,
+    "trackingCustomData": {
+    },
+    "validationRequired": "Step",
+    "visualforcePagesAvailableInPreview": {
+        "AnthemEnrollment_IN_KY_OH": "c__AnthemEnrollment_IN_KY_OH?verticalmode=true"
+    },
+    "wpm": false
+}

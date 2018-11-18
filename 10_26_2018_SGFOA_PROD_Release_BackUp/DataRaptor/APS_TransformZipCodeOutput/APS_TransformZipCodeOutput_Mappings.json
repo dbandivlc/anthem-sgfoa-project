@@ -1,0 +1,67 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "County_Code__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "getZipCodeCounty:resJSON:countyList:countyCode",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "APS_TransformZipCodeOutputCustom4134",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "APS_TransformZipCodeOutput",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "County__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "getZipCodeCounty:resJSON:countyList:countyName",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "APS_TransformZipCodeOutputCustom3156",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "APS_TransformZipCodeOutput",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Name",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "getZipCodeCounty:resJSON:countyList:brand",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "APS_TransformZipCodeOutputCustom5717",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "APS_TransformZipCodeOutput",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "State__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "getZipCodeCounty:resJSON:stateCode",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "APS_TransformZipCodeOutputCustom6979",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "APS_TransformZipCodeOutput",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Zip_Code__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "getZipCodeCounty:resJSON:zipcode",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "APS_TransformZipCodeOutputCustom1398",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "APS_TransformZipCodeOutput",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

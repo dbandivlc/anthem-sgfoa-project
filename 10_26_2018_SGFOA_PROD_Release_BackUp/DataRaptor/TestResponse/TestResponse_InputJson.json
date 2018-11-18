@@ -1,0 +1,1159 @@
+{
+    "Envelope": {
+        "Body": {
+            "RateCalculationResponse": {
+                "GroupResponse": {
+                    "GroupRates": {
+                        "ContResponse": {
+                            "FamilyPremiums": {
+                                "TotPrem": "15.64",
+                                "TotPremAfterSubsidy": "15.64",
+                                "TotSubsidyApplied": "0"
+                            },
+                            "Fees": {
+                                "Fee": [
+                                    {
+                                        "": null,
+                                        "id": "0",
+                                        "type": "VISACA",
+                                        "unit": "$",
+                                        "value": "0.58"
+                                    },
+                                    {
+                                        "": null,
+                                        "id": "1",
+                                        "type": "VISXHG",
+                                        "unit": "$",
+                                        "value": "0"
+                                    }
+                                ]
+                            },
+                            "contractCode": "24ND"
+                        }
+                    },
+                    "Subscribers": {
+                        "SubResponse": [
+                            {
+                                "Dependents": {
+                                    "DepResponse": {
+                                        "RatedContResponses": {
+                                            "ContResponse": {
+                                                "Rates": {
+                                                    "Facs": {
+                                                        "Fac": [
+                                                            {
+                                                                "": null,
+                                                                "id": "1",
+                                                                "type": "FCTRTM - Rating Method",
+                                                                "unit": "$",
+                                                                "value": "1.0000"
+                                                            },
+                                                            {
+                                                                "": null,
+                                                                "id": "2",
+                                                                "type": "FCTACD Rating Area",
+                                                                "unit": "C",
+                                                                "value": "0"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "TotRate": "0"
+                                                },
+                                                "contractCode": "24ND"
+                                            }
+                                        },
+                                        "billable": "false",
+                                        "memberUniqueId": "Dependent01"
+                                    }
+                                },
+                                "FamilyDetails": {
+                                    "ContResponse": {
+                                        "Discounts": {
+                                            "Discount": [
+                                                {
+                                                    "": null,
+                                                    "id": "1",
+                                                    "type": "DISMLV Medlock Vision",
+                                                    "unit": "$",
+                                                    "value": "0.39"
+                                                },
+                                                {
+                                                    "": null,
+                                                    "id": "2",
+                                                    "type": "DISBUN Bundling Discount",
+                                                    "unit": "$",
+                                                    "value": "0.37"
+                                                }
+                                            ]
+                                        },
+                                        "FamilyPremiums": {
+                                            "TotPrem": "7.06",
+                                            "TotPremAfterSubsidy": "7.06",
+                                            "TotSubsidyApplied": "0"
+                                        },
+                                        "Fees": {
+                                            "Fee": [
+                                                {
+                                                    "": null,
+                                                    "id": "0",
+                                                    "type": "VISACA",
+                                                    "unit": "$",
+                                                    "value": "0.27"
+                                                },
+                                                {
+                                                    "": null,
+                                                    "id": "1",
+                                                    "type": "VISXHG",
+                                                    "unit": "$",
+                                                    "value": "0"
+                                                }
+                                            ]
+                                        },
+                                        "contractCode": "24ND"
+                                    }
+                                },
+                                "RatedContResponses": {
+                                    "ContResponse": [
+                                        {
+                                            "Discounts": {
+                                                "Discount": [
+                                                    {
+                                                        "": null,
+                                                        "id": "1",
+                                                        "type": "DISMLV Medlock Vision",
+                                                        "unit": "$",
+                                                        "value": "0.39"
+                                                    },
+                                                    {
+                                                        "": null,
+                                                        "id": "2",
+                                                        "type": "DISBUN Bundling Discount",
+                                                        "unit": "$",
+                                                        "value": "0.37"
+                                                    }
+                                                ]
+                                            },
+                                            "Fees": {
+                                                "Fee": [
+                                                    {
+                                                        "": null,
+                                                        "id": "0",
+                                                        "type": "VISACA",
+                                                        "unit": "$",
+                                                        "value": "0.27"
+                                                    },
+                                                    {
+                                                        "": null,
+                                                        "id": "1",
+                                                        "type": "VISXHG",
+                                                        "unit": "$",
+                                                        "value": "0"
+                                                    }
+                                                ]
+                                            },
+                                            "Rates": {
+                                                "Facs": {
+                                                    "Fac": [
+                                                        {
+                                                            "": null,
+                                                            "id": "1",
+                                                            "type": "FCTRTM - Rating Method",
+                                                            "unit": "Contract",
+                                                            "value": "1.0000"
+                                                        },
+                                                        {
+                                                            "": null,
+                                                            "id": "2",
+                                                            "type": "FCTACD Rating Area",
+                                                            "unit": "C",
+                                                            "value": "0"
+                                                        },
+                                                        {
+                                                            "": null,
+                                                            "id": "3",
+                                                            "type": "ALPVER -Version",
+                                                            "unit": "D",
+                                                            "value": "180316.000"
+                                                        }
+                                                    ]
+                                                },
+                                                "TotRate": "7.06"
+                                            },
+                                            "contractCode": "24ND"
+                                        }
+                                    ]
+                                },
+                                "billable": "true",
+                                "memberUniqueId": "Subscriber1",
+                                "responseType": "MB"
+                            },
+                            {
+                                "Dependents": {
+                                    "DepResponse": {
+                                        "RatedContResponses": {
+                                            "ContResponse": {
+                                                "Rates": {
+                                                    "Facs": {
+                                                        "Fac": [
+                                                            {
+                                                                "": null,
+                                                                "id": "1",
+                                                                "type": "FCTRTM - Rating Method",
+                                                                "unit": "$",
+                                                                "value": "1.0000"
+                                                            },
+                                                            {
+                                                                "": null,
+                                                                "id": "2",
+                                                                "type": "FCTACD Rating Area",
+                                                                "unit": "C",
+                                                                "value": "0"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "TotRate": "0"
+                                                },
+                                                "contractCode": "24ND"
+                                            }
+                                        },
+                                        "billable": "false",
+                                        "memberUniqueId": "Dependent01"
+                                    }
+                                },
+                                "FamilyDetails": {
+                                    "ContResponse": {
+                                        "Discounts": {
+                                            "Discount": {
+                                                "": null,
+                                                "id": "1",
+                                                "type": "DISMLV Medlock Vision",
+                                                "unit": "$",
+                                                "value": "0.39"
+                                            }
+                                        },
+                                        "FamilyPremiums": {
+                                            "TotPrem": "7.43",
+                                            "TotPremAfterSubsidy": "7.43",
+                                            "TotSubsidyApplied": "0"
+                                        },
+                                        "Fees": {
+                                            "Fee": [
+                                                {
+                                                    "": null,
+                                                    "id": "0",
+                                                    "type": "VISACA",
+                                                    "unit": "$",
+                                                    "value": "0.28"
+                                                },
+                                                {
+                                                    "": null,
+                                                    "id": "1",
+                                                    "type": "VISXHG",
+                                                    "unit": "$",
+                                                    "value": "0"
+                                                }
+                                            ]
+                                        },
+                                        "contractCode": "24ND"
+                                    }
+                                },
+                                "RatedContResponses": {
+                                    "ContResponse": [
+                                        {
+                                            "Discounts": {
+                                                "Discount": {
+                                                    "": null,
+                                                    "id": "1",
+                                                    "type": "DISMLV Medlock Vision",
+                                                    "unit": "$",
+                                                    "value": "0.39"
+                                                }
+                                            },
+                                            "Fees": {
+                                                "Fee": [
+                                                    {
+                                                        "": null,
+                                                        "id": "0",
+                                                        "type": "VISACA",
+                                                        "unit": "$",
+                                                        "value": "0.28"
+                                                    },
+                                                    {
+                                                        "": null,
+                                                        "id": "1",
+                                                        "type": "VISXHG",
+                                                        "unit": "$",
+                                                        "value": "0"
+                                                    }
+                                                ]
+                                            },
+                                            "Rates": {
+                                                "Facs": {
+                                                    "Fac": [
+                                                        {
+                                                            "": null,
+                                                            "id": "1",
+                                                            "type": "FCTRTM - Rating Method",
+                                                            "unit": "Contract",
+                                                            "value": "1.0000"
+                                                        },
+                                                        {
+                                                            "": null,
+                                                            "id": "2",
+                                                            "type": "FCTACD Rating Area",
+                                                            "unit": "C",
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "TotRate": "7.43"
+                                            },
+                                            "contractCode": "24ND"
+                                        }
+                                    ]
+                                },
+                                "billable": "true",
+                                "memberUniqueId": "Subscriber1",
+                                "responseType": "M"
+                            },
+                            {
+                                "Dependents": {
+                                    "DepResponse": {
+                                        "RatedContResponses": {
+                                            "ContResponse": {
+                                                "Rates": {
+                                                    "Facs": {
+                                                        "Fac": [
+                                                            {
+                                                                "": null,
+                                                                "id": "1",
+                                                                "type": "FCTRTM - Rating Method",
+                                                                "unit": "$",
+                                                                "value": "1.0000"
+                                                            },
+                                                            {
+                                                                "": null,
+                                                                "id": "2",
+                                                                "type": "FCTACD Rating Area",
+                                                                "unit": "C",
+                                                                "value": "0"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "TotRate": "0"
+                                                },
+                                                "contractCode": "24ND"
+                                            }
+                                        },
+                                        "billable": "false",
+                                        "memberUniqueId": "Dependent01"
+                                    }
+                                },
+                                "FamilyDetails": {
+                                    "ContResponse": {
+                                        "FamilyPremiums": {
+                                            "TotPrem": "7.82",
+                                            "TotPremAfterSubsidy": "7.82",
+                                            "TotSubsidyApplied": "0"
+                                        },
+                                        "Fees": {
+                                            "Fee": [
+                                                {
+                                                    "": null,
+                                                    "id": "0",
+                                                    "type": "VISACA",
+                                                    "unit": "$",
+                                                    "value": "0.29"
+                                                },
+                                                {
+                                                    "": null,
+                                                    "id": "1",
+                                                    "type": "VISXHG",
+                                                    "unit": "$",
+                                                    "value": "0"
+                                                }
+                                            ]
+                                        },
+                                        "contractCode": "24ND"
+                                    }
+                                },
+                                "RatedContResponses": {
+                                    "ContResponse": [
+                                        {
+                                            "Fees": {
+                                                "Fee": [
+                                                    {
+                                                        "": null,
+                                                        "id": "0",
+                                                        "type": "VISACA",
+                                                        "unit": "$",
+                                                        "value": "0.29"
+                                                    },
+                                                    {
+                                                        "": null,
+                                                        "id": "1",
+                                                        "type": "VISXHG",
+                                                        "unit": "$",
+                                                        "value": "0"
+                                                    }
+                                                ]
+                                            },
+                                            "Rates": {
+                                                "Facs": {
+                                                    "Fac": [
+                                                        {
+                                                            "": null,
+                                                            "id": "1",
+                                                            "type": "FCTRTM - Rating Method",
+                                                            "unit": "Contract",
+                                                            "value": "1.0000"
+                                                        },
+                                                        {
+                                                            "": null,
+                                                            "id": "2",
+                                                            "type": "FCTACD Rating Area",
+                                                            "unit": "C",
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "TotRate": "7.82"
+                                            },
+                                            "contractCode": "24ND"
+                                        }
+                                    ]
+                                },
+                                "billable": "true",
+                                "memberUniqueId": "Subscriber1",
+                                "responseType": "S"
+                            },
+                            {
+                                "Dependents": {
+                                    "DepResponse": {
+                                        "RatedContResponses": {
+                                            "ContResponse": {
+                                                "Rates": {
+                                                    "Facs": {
+                                                        "Fac": [
+                                                            {
+                                                                "": null,
+                                                                "id": "1",
+                                                                "type": "FCTRTM - Rating Method",
+                                                                "unit": "$",
+                                                                "value": "1.0000"
+                                                            },
+                                                            {
+                                                                "": null,
+                                                                "id": "2",
+                                                                "type": "FCTACD Rating Area",
+                                                                "unit": "C",
+                                                                "value": "0"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "TotRate": "0"
+                                                },
+                                                "contractCode": "24ND"
+                                            }
+                                        },
+                                        "billable": "false",
+                                        "memberUniqueId": "Dependent01"
+                                    }
+                                },
+                                "FamilyDetails": {
+                                    "ContResponse": {
+                                        "Discounts": {
+                                            "Discount": {
+                                                "": null,
+                                                "id": "1",
+                                                "type": "DISBUN Bundling Discount",
+                                                "unit": "$",
+                                                "value": "0.39"
+                                            }
+                                        },
+                                        "FamilyPremiums": {
+                                            "TotPrem": "7.43",
+                                            "TotPremAfterSubsidy": "7.43",
+                                            "TotSubsidyApplied": "0"
+                                        },
+                                        "Fees": {
+                                            "Fee": [
+                                                {
+                                                    "": null,
+                                                    "id": "0",
+                                                    "type": "VISACA",
+                                                    "unit": "$",
+                                                    "value": "0.28"
+                                                },
+                                                {
+                                                    "": null,
+                                                    "id": "1",
+                                                    "type": "VISXHG",
+                                                    "unit": "$",
+                                                    "value": "0"
+                                                }
+                                            ]
+                                        },
+                                        "contractCode": "24ND"
+                                    }
+                                },
+                                "RatedContResponses": {
+                                    "ContResponse": [
+                                        {
+                                            "Discounts": {
+                                                "Discount": {
+                                                    "": null,
+                                                    "id": "1",
+                                                    "type": "DISBUN Bundling Discount",
+                                                    "unit": "$",
+                                                    "value": "0.39"
+                                                }
+                                            },
+                                            "Fees": {
+                                                "Fee": [
+                                                    {
+                                                        "": null,
+                                                        "id": "0",
+                                                        "type": "VISACA",
+                                                        "unit": "$",
+                                                        "value": "0.28"
+                                                    },
+                                                    {
+                                                        "": null,
+                                                        "id": "1",
+                                                        "type": "VISXHG",
+                                                        "unit": "$",
+                                                        "value": "0"
+                                                    }
+                                                ]
+                                            },
+                                            "Rates": {
+                                                "Facs": {
+                                                    "Fac": [
+                                                        {
+                                                            "": null,
+                                                            "id": "1",
+                                                            "type": "FCTRTM - Rating Method",
+                                                            "unit": "Contract",
+                                                            "value": "1.0000"
+                                                        },
+                                                        {
+                                                            "": null,
+                                                            "id": "2",
+                                                            "type": "FCTACD Rating Area",
+                                                            "unit": "C",
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "TotRate": "7.43"
+                                            },
+                                            "contractCode": "24ND"
+                                        }
+                                    ]
+                                },
+                                "billable": "true",
+                                "memberUniqueId": "Subscriber1",
+                                "responseType": "B"
+                            },
+                            {
+                                "Dependents": {
+                                    "DepResponse": {
+                                        "RatedContResponses": {
+                                            "ContResponse": {
+                                                "Rates": {
+                                                    "Facs": {
+                                                        "Fac": [
+                                                            {
+                                                                "": null,
+                                                                "id": "1",
+                                                                "type": "FCTRTM - Rating Method",
+                                                                "unit": "$",
+                                                                "value": "1.0000"
+                                                            },
+                                                            {
+                                                                "": null,
+                                                                "id": "2",
+                                                                "type": "FCTACD Rating Area",
+                                                                "unit": "C",
+                                                                "value": "0"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "TotRate": "0"
+                                                },
+                                                "contractCode": "24ND"
+                                            }
+                                        },
+                                        "billable": "false",
+                                        "memberUniqueId": "Dependent01"
+                                    }
+                                },
+                                "FamilyDetails": {
+                                    "ContResponse": {
+                                        "FamilyPremiums": {
+                                            "TotPrem": "7.82",
+                                            "TotPremAfterSubsidy": "7.82",
+                                            "TotSubsidyApplied": "0"
+                                        },
+                                        "Fees": {
+                                            "Fee": [
+                                                {
+                                                    "": null,
+                                                    "id": "0",
+                                                    "type": "VISACA",
+                                                    "unit": "$",
+                                                    "value": "0.29"
+                                                },
+                                                {
+                                                    "": null,
+                                                    "id": "1",
+                                                    "type": "VISXHG",
+                                                    "unit": "$",
+                                                    "value": "0"
+                                                }
+                                            ]
+                                        },
+                                        "contractCode": "24ND"
+                                    }
+                                },
+                                "RatedContResponses": {
+                                    "ContResponse": [
+                                        {
+                                            "Fees": {
+                                                "Fee": [
+                                                    {
+                                                        "": null,
+                                                        "id": "0",
+                                                        "type": "VISACA",
+                                                        "unit": "$",
+                                                        "value": "0.29"
+                                                    },
+                                                    {
+                                                        "": null,
+                                                        "id": "1",
+                                                        "type": "VISXHG",
+                                                        "unit": "$",
+                                                        "value": "0"
+                                                    }
+                                                ]
+                                            },
+                                            "Rates": {
+                                                "Facs": {
+                                                    "Fac": [
+                                                        {
+                                                            "": null,
+                                                            "id": "1",
+                                                            "type": "FCTRTM - Rating Method",
+                                                            "unit": "Contract",
+                                                            "value": "1.0000"
+                                                        },
+                                                        {
+                                                            "": null,
+                                                            "id": "2",
+                                                            "type": "FCTACD Rating Area",
+                                                            "unit": "C",
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "TotRate": "7.82"
+                                            },
+                                            "contractCode": "24ND"
+                                        }
+                                    ]
+                                },
+                                "billable": "true",
+                                "memberUniqueId": "Subscriber1"
+                            },
+                            {
+                                "FamilyDetails": {
+                                    "ContResponse": {
+                                        "Discounts": {
+                                            "Discount": [
+                                                {
+                                                    "": null,
+                                                    "id": "1",
+                                                    "type": "DISMLV Medlock Vision",
+                                                    "unit": "$",
+                                                    "value": "0.39"
+                                                },
+                                                {
+                                                    "": null,
+                                                    "id": "2",
+                                                    "type": "DISBUN Bundling Discount",
+                                                    "unit": "$",
+                                                    "value": "0.37"
+                                                }
+                                            ]
+                                        },
+                                        "FamilyPremiums": {
+                                            "TotPrem": "7.06",
+                                            "TotPremAfterSubsidy": "7.06",
+                                            "TotSubsidyApplied": "0"
+                                        },
+                                        "Fees": {
+                                            "Fee": [
+                                                {
+                                                    "": null,
+                                                    "id": "0",
+                                                    "type": "VISACA",
+                                                    "unit": "$",
+                                                    "value": "0.27"
+                                                },
+                                                {
+                                                    "": null,
+                                                    "id": "1",
+                                                    "type": "VISXHG",
+                                                    "unit": "$",
+                                                    "value": "0"
+                                                }
+                                            ]
+                                        },
+                                        "contractCode": "24ND"
+                                    }
+                                },
+                                "RatedContResponses": {
+                                    "ContResponse": [
+                                        {
+                                            "Discounts": {
+                                                "Discount": [
+                                                    {
+                                                        "": null,
+                                                        "id": "1",
+                                                        "type": "DISMLV Medlock Vision",
+                                                        "unit": "$",
+                                                        "value": "0.39"
+                                                    },
+                                                    {
+                                                        "": null,
+                                                        "id": "2",
+                                                        "type": "DISBUN Bundling Discount",
+                                                        "unit": "$",
+                                                        "value": "0.37"
+                                                    }
+                                                ]
+                                            },
+                                            "Fees": {
+                                                "Fee": [
+                                                    {
+                                                        "": null,
+                                                        "id": "0",
+                                                        "type": "VISACA",
+                                                        "unit": "$",
+                                                        "value": "0.27"
+                                                    },
+                                                    {
+                                                        "": null,
+                                                        "id": "1",
+                                                        "type": "VISXHG",
+                                                        "unit": "$",
+                                                        "value": "0"
+                                                    }
+                                                ]
+                                            },
+                                            "Rates": {
+                                                "Facs": {
+                                                    "Fac": [
+                                                        {
+                                                            "": null,
+                                                            "id": "1",
+                                                            "type": "FCTRTM - Rating Method",
+                                                            "unit": "Contract",
+                                                            "value": "1.0000"
+                                                        },
+                                                        {
+                                                            "": null,
+                                                            "id": "2",
+                                                            "type": "FCTACD Rating Area",
+                                                            "unit": "C",
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "TotRate": "7.06"
+                                            },
+                                            "contractCode": "24ND"
+                                        }
+                                    ]
+                                },
+                                "billable": "true",
+                                "memberUniqueId": "Subscriber2",
+                                "responseType": "MB"
+                            },
+                            {
+                                "FamilyDetails": {
+                                    "ContResponse": {
+                                        "Discounts": {
+                                            "Discount": {
+                                                "": null,
+                                                "id": "1",
+                                                "type": "DISMLV Medlock Vision",
+                                                "unit": "$",
+                                                "value": "0.39"
+                                            }
+                                        },
+                                        "FamilyPremiums": {
+                                            "TotPrem": "7.43",
+                                            "TotPremAfterSubsidy": "7.43",
+                                            "TotSubsidyApplied": "0"
+                                        },
+                                        "Fees": {
+                                            "Fee": [
+                                                {
+                                                    "": null,
+                                                    "id": "0",
+                                                    "type": "VISACA",
+                                                    "unit": "$",
+                                                    "value": "0.28"
+                                                },
+                                                {
+                                                    "": null,
+                                                    "id": "1",
+                                                    "type": "VISXHG",
+                                                    "unit": "$",
+                                                    "value": "0"
+                                                }
+                                            ]
+                                        },
+                                        "contractCode": "24ND"
+                                    }
+                                },
+                                "RatedContResponses": {
+                                    "ContResponse": [
+                                        {
+                                            "Discounts": {
+                                                "Discount": {
+                                                    "": null,
+                                                    "id": "1",
+                                                    "type": "DISMLV Medlock Vision",
+                                                    "unit": "$",
+                                                    "value": "0.39"
+                                                }
+                                            },
+                                            "Fees": {
+                                                "Fee": [
+                                                    {
+                                                        "": null,
+                                                        "id": "0",
+                                                        "type": "VISACA",
+                                                        "unit": "$",
+                                                        "value": "0.28"
+                                                    },
+                                                    {
+                                                        "": null,
+                                                        "id": "1",
+                                                        "type": "VISXHG",
+                                                        "unit": "$",
+                                                        "value": "0"
+                                                    }
+                                                ]
+                                            },
+                                            "Rates": {
+                                                "Facs": {
+                                                    "Fac": [
+                                                        {
+                                                            "": null,
+                                                            "id": "1",
+                                                            "type": "FCTRTM - Rating Method",
+                                                            "unit": "Contract",
+                                                            "value": "1.0000"
+                                                        },
+                                                        {
+                                                            "": null,
+                                                            "id": "2",
+                                                            "type": "FCTACD Rating Area",
+                                                            "unit": "C",
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "TotRate": "7.43"
+                                            },
+                                            "contractCode": "24ND"
+                                        }
+                                    ]
+                                },
+                                "billable": "true",
+                                "memberUniqueId": "Subscriber2",
+                                "responseType": "M"
+                            },
+                            {
+                                "FamilyDetails": {
+                                    "ContResponse": {
+                                        "FamilyPremiums": {
+                                            "TotPrem": "7.82",
+                                            "TotPremAfterSubsidy": "7.82",
+                                            "TotSubsidyApplied": "0"
+                                        },
+                                        "Fees": {
+                                            "Fee": [
+                                                {
+                                                    "": null,
+                                                    "id": "0",
+                                                    "type": "VISACA",
+                                                    "unit": "$",
+                                                    "value": "0.29"
+                                                },
+                                                {
+                                                    "": null,
+                                                    "id": "1",
+                                                    "type": "VISXHG",
+                                                    "unit": "$",
+                                                    "value": "0"
+                                                }
+                                            ]
+                                        },
+                                        "contractCode": "24ND"
+                                    }
+                                },
+                                "RatedContResponses": {
+                                    "ContResponse": [
+                                        {
+                                            "Fees": {
+                                                "Fee": [
+                                                    {
+                                                        "": null,
+                                                        "id": "0",
+                                                        "type": "VISACA",
+                                                        "unit": "$",
+                                                        "value": "0.29"
+                                                    },
+                                                    {
+                                                        "": null,
+                                                        "id": "1",
+                                                        "type": "VISXHG",
+                                                        "unit": "$",
+                                                        "value": "0"
+                                                    }
+                                                ]
+                                            },
+                                            "Rates": {
+                                                "Facs": {
+                                                    "Fac": [
+                                                        {
+                                                            "": null,
+                                                            "id": "1",
+                                                            "type": "FCTRTM - Rating Method",
+                                                            "unit": "Contract",
+                                                            "value": "1.0000"
+                                                        },
+                                                        {
+                                                            "": null,
+                                                            "id": "2",
+                                                            "type": "FCTACD Rating Area",
+                                                            "unit": "C",
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "TotRate": "7.82"
+                                            },
+                                            "contractCode": "24ND"
+                                        }
+                                    ]
+                                },
+                                "billable": "true",
+                                "memberUniqueId": "Subscriber2",
+                                "responseType": "S"
+                            },
+                            {
+                                "FamilyDetails": {
+                                    "ContResponse": {
+                                        "Discounts": {
+                                            "Discount": {
+                                                "": null,
+                                                "id": "1",
+                                                "type": "DISBUN Bundling Discount",
+                                                "unit": "$",
+                                                "value": "0.39"
+                                            }
+                                        },
+                                        "FamilyPremiums": {
+                                            "TotPrem": "7.43",
+                                            "TotPremAfterSubsidy": "7.43",
+                                            "TotSubsidyApplied": "0"
+                                        },
+                                        "Fees": {
+                                            "Fee": [
+                                                {
+                                                    "": null,
+                                                    "id": "0",
+                                                    "type": "VISACA",
+                                                    "unit": "$",
+                                                    "value": "0.28"
+                                                },
+                                                {
+                                                    "": null,
+                                                    "id": "1",
+                                                    "type": "VISXHG",
+                                                    "unit": "$",
+                                                    "value": "0"
+                                                }
+                                            ]
+                                        },
+                                        "contractCode": "24ND"
+                                    }
+                                },
+                                "RatedContResponses": {
+                                    "ContResponse": [
+                                        {
+                                            "Discounts": {
+                                                "Discount": {
+                                                    "": null,
+                                                    "id": "1",
+                                                    "type": "DISBUN Bundling Discount",
+                                                    "unit": "$",
+                                                    "value": "0.39"
+                                                }
+                                            },
+                                            "Fees": {
+                                                "Fee": [
+                                                    {
+                                                        "": null,
+                                                        "id": "0",
+                                                        "type": "VISACA",
+                                                        "unit": "$",
+                                                        "value": "0.28"
+                                                    },
+                                                    {
+                                                        "": null,
+                                                        "id": "1",
+                                                        "type": "VISXHG",
+                                                        "unit": "$",
+                                                        "value": "0"
+                                                    }
+                                                ]
+                                            },
+                                            "Rates": {
+                                                "Facs": {
+                                                    "Fac": [
+                                                        {
+                                                            "": null,
+                                                            "id": "1",
+                                                            "type": "FCTRTM - Rating Method",
+                                                            "unit": "Contract",
+                                                            "value": "1.0000"
+                                                        },
+                                                        {
+                                                            "": null,
+                                                            "id": "2",
+                                                            "type": "FCTACD Rating Area",
+                                                            "unit": "C",
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "TotRate": "7.43"
+                                            },
+                                            "contractCode": "24ND"
+                                        }
+                                    ]
+                                },
+                                "billable": "true",
+                                "memberUniqueId": "Subscriber2",
+                                "responseType": "B"
+                            },
+                            {
+                                "FamilyDetails": {
+                                    "ContResponse": {
+                                        "FamilyPremiums": {
+                                            "TotPrem": "7.82",
+                                            "TotPremAfterSubsidy": "7.82",
+                                            "TotSubsidyApplied": "0"
+                                        },
+                                        "Fees": {
+                                            "Fee": [
+                                                {
+                                                    "": null,
+                                                    "id": "0",
+                                                    "type": "VISACA",
+                                                    "unit": "$",
+                                                    "value": "0.29"
+                                                },
+                                                {
+                                                    "": null,
+                                                    "id": "1",
+                                                    "type": "VISXHG",
+                                                    "unit": "$",
+                                                    "value": "0"
+                                                }
+                                            ]
+                                        },
+                                        "contractCode": "24ND"
+                                    }
+                                },
+                                "RatedContResponses": {
+                                    "ContResponse": [
+                                        {
+                                            "Fees": {
+                                                "Fee": [
+                                                    {
+                                                        "": null,
+                                                        "id": "0",
+                                                        "type": "VISACA",
+                                                        "unit": "$",
+                                                        "value": "0.29"
+                                                    },
+                                                    {
+                                                        "": null,
+                                                        "id": "1",
+                                                        "type": "VISXHG",
+                                                        "unit": "$",
+                                                        "value": "0"
+                                                    }
+                                                ]
+                                            },
+                                            "Rates": {
+                                                "Facs": {
+                                                    "Fac": [
+                                                        {
+                                                            "": null,
+                                                            "id": "1",
+                                                            "type": "FCTRTM - Rating Method",
+                                                            "unit": "Contract",
+                                                            "value": "1.0000"
+                                                        },
+                                                        {
+                                                            "": null,
+                                                            "id": "2",
+                                                            "type": "FCTACD Rating Area",
+                                                            "unit": "C",
+                                                            "value": "0"
+                                                        }
+                                                    ]
+                                                },
+                                                "TotRate": "7.82"
+                                            },
+                                            "contractCode": "24ND"
+                                        }
+                                    ]
+                                },
+                                "billable": "true",
+                                "memberUniqueId": "Subscriber2"
+                            }
+                        ]
+                    }
+                },
+                "calculatedOn": "2018-02-08T17:09:19.855-05:00",
+                "calculationRequestId": "**JMHSpecialtySMG",
+                "ratingMethod": "Member"
+            }
+        },
+        "Header": {
+            "ESBHeader": {
+                "ESBProps": {
+                    "Property": {
+                        "name": "?",
+                        "value": "?"
+                    }
+                },
+                "operName": "?",
+                "senderApp": "?",
+                "srvcName": "?",
+                "srvcVersion": "?",
+                "transId": "?"
+            }
+        }
+    }
+}

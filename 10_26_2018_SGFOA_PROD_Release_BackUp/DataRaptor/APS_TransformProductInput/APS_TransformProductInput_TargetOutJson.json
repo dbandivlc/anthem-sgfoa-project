@@ -1,0 +1,16 @@
+{
+    "reqJSON": {
+        "association": "",
+        "benefitPeriod": "Calendar Year",
+        "countyCode": "229",
+        "effectiveDate": "2018-01-01",
+        "eligibleLives": 5,
+        "exchangeFlag": "OF",
+        "productType": "Dental",
+        "renewalOnly": "N",
+        "state": "KY",
+        "targetSystem": "APS",
+        "userType": "Both",
+        "zipCode": "40008"
+    }
+}

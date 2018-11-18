@@ -1,0 +1,93 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "output:GroupResponse:GroupRates:TotRate",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Envelope:Body:RateCalculationResponse:GroupResponse:GroupRates:ContResponse:FamilyPremiums:TotPrem",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TestResponseCustom7960",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TestResponse",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "output:GroupResponse:GroupRates:contractCode",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Envelope:Body:RateCalculationResponse:GroupResponse:GroupRates:ContResponse:contractCode",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TestResponseCustom9982",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TestResponse",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "output:GroupResponse:Subscribers:Dependents:TotRate",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Envelope:Body:RateCalculationResponse:GroupResponse:Subscribers:SubResponse:Dependents:DepResponse:RatedContResponses:ContResponse:Rates:TotRate",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TestResponseCustom1291",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TestResponse",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "output:GroupResponse:Subscribers:Dependents:memberUniqueId",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Envelope:Body:RateCalculationResponse:GroupResponse:Subscribers:SubResponse:Dependents:DepResponse:memberUniqueId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TestResponseCustom3427",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TestResponse",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "output:GroupResponse:Subscribers:TotRate",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Envelope:Body:RateCalculationResponse:GroupResponse:Subscribers:SubResponse:RatedContResponses:ContResponse:Rates:TotRate",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TestResponseCustom4646",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TestResponse",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "output:GroupResponse:Subscribers:contractCode",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Envelope:Body:RateCalculationResponse:GroupResponse:Subscribers:SubResponse:RatedContResponses:ContResponse:contractCode",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TestResponseCustom2663",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TestResponse",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "output:GroupResponse:Subscribers:memberUniqueId",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Envelope:Body:RateCalculationResponse:GroupResponse:Subscribers:SubResponse:memberUniqueId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TestResponseCustom735",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TestResponse",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

@@ -1,0 +1,27 @@
+{
+    "ContextId": "",
+    "HRAProductIds": [
+    ],
+    "HRAProducts": {
+    },
+    "OmniScriptState": "regular",
+    "Payment": {
+        "Checkbox4": false,
+        "SelectableItems2": null
+    },
+    "Radio1": true,
+    "id": "a3Z0R00000006k3UAA",
+    "timeStamp": "2018-03-09T07:36:35.623Z",
+    "userCurrencyCode": "USD",
+    "userId": "0050R000000TXT5QAO",
+    "userName": "arjun.bura@accenture.com.pwm.sgapsdev1",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "verticalmode": true,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "OmniScriptSessionToken": "b2fffbf3-e022-46d3-9ee6-497295132e4c",
+        "SetValues3": 49
+    }
+}

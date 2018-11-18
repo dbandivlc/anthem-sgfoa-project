@@ -1,0 +1,122 @@
+{
+    "2ndProdSelection": {
+    },
+    "Census": {
+    },
+    "ContextId": null,
+    "FinalProdSelection": {
+    },
+    "GRQPage": {
+        "ExternalQuote": null,
+        "PrelimQuote": null
+    },
+    "IHQPage": {
+    },
+    "MUWQuote": {
+        "UWNotUploaded": null
+    },
+    "MinInfo": {
+        "Class1and2": {
+            "Class1CheckTotal": null,
+            "Class1CheckTotalMessage": null,
+            "Class1NumberofEE+Children": null,
+            "Class1NumberofEE+Spouse": null,
+            "Class1NumberofFamily": null,
+            "Class1NumberofSingles(EE)": null,
+            "Class2CheckTotal": null,
+            "Class2CheckTotalMessage": null,
+            "Class2NumberofEE+Children": null,
+            "Class2NumberofEE+Spouse": null,
+            "Class2NumberofFamily": null,
+            "Class2NumberofSingles(EE)": null,
+            "Class3CheckTotal": null,
+            "Class3CheckTotalMessage": null,
+            "Class3NumberofEE+Children": null,
+            "Class3NumberofEE+Spouse": null,
+            "Class3NumberofFamily": null,
+            "Class3NumberofSingles (EE)": null,
+            "TotalEE": null,
+            "TotalEECh": null,
+            "TotalEEFa": null,
+            "TotalEESp": null
+        },
+        "CoverageOptionsIncludeDental": null,
+        "CoverageOptionsIncludeMedical": null,
+        "Dental8021CheckMessage": null,
+        "DentalPriorCoverage": null,
+        "DentalPriorCoverageFormula": null,
+        "DentalRateGuarantee": null,
+        "DentalRateGuaranteeFormula": null,
+        "Eligibility": {
+            "CensusEnrollFormula": null,
+            "DefinitionWarningMsg": null,
+            "DefinitionWarningMsg1": null,
+            "DefinitionWarningMsg2": null,
+            "DentalNoOrtho": null,
+            "DentalPlanUnavailableOver50": null,
+            "DentalVisionPlansMinTwo": null,
+            "EligibleFormula": null,
+            "EligibleGreaterthanEnrolling": null,
+            "NumbEligFormula": null,
+            "NumbEnrollFormulaVision": null,
+            "NumberEligible": null,
+            "NumberEligibleFormula": null,
+            "NumberEnrolling": null,
+            "Participation": null,
+            "ParticipationMessage": null,
+            "ValidWaivers": null,
+            "VisionParticipationMessage": null
+        },
+        "EmployerVision": null,
+        "InvalidSIC": null,
+        "NumberClasses": null,
+        "SelectedSICIs8021": null,
+        "TypeAheadSIC-Block": {
+            "SIC_TXT": null,
+            "TypeAheadSIC": null
+        },
+        "VisionRateGuarantee": null,
+        "VoluntaryVision": null
+    },
+    "PQProdSelection": {
+    },
+    "ViewPrelimQt": {
+        "PQNotUploaded": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "2ndProdSelection": null,
+        "BenefitLevelValue": null,
+        "Census": null,
+        "CensusId": null,
+        "DataRaptor from account": null,
+        "ExtractCensusFromAccount": null,
+        "ExtractEmpCountFromCensus": null,
+        "ExtractPQUploadStatus": null,
+        "FetchQuote": null,
+        "FetchQuoteComposite": null,
+        "FetchQuoteMember": null,
+        "FinalProdSelection": null,
+        "GRQPage": null,
+        "GetCurrentStatusofCompositeQuote": null,
+        "GetCurrentStatusofMemberQuote": null,
+        "GetCurrentStatusofQuote": null,
+        "IHQPage": null,
+        "MUWQuote": null,
+        "MinInfo": null,
+        "MiniCensusTranformAction": null,
+        "PQProdSelection": null,
+        "SetValuesforMultipleZipcode": null,
+        "SetqZipCode": null,
+        "UpdateABFStatusToMUW": null,
+        "ViewPrelimQt": null,
+        "censusEmpCount": null,
+        "ratingInputs": null
+    }
+}

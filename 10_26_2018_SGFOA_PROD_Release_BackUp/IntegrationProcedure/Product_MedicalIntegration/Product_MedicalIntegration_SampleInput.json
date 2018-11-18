@@ -1,0 +1,18 @@
+{
+    "CountyCode": "059",
+    "EffectiveDate": "2018-03-15",
+    "MinInfo": {
+        "Eligibility": {
+            "NumberEnrolling": 2
+        }
+    },
+    "SelectedState": "CO",
+    "ZipCode3": "80001",
+    "association": "",
+    "benefitPeriod": "Calendar Year",
+    "exchangeFlag": "OF",
+    "productType": "Medical",
+    "renewalOnly": "N",
+    "targetSystem": "SALES",
+    "userType": "Internal"
+}

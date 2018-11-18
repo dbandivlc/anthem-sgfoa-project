@@ -1,0 +1,233 @@
+{
+    "ExtractedResponse": {
+        "ProductToAgeRateBandSheetMember": [
+            {
+                "Age__c": "Under 25",
+                "Female_Rate__c": "0.07",
+                "L_D_Product_Sub_Type__c": "Basic Term Life",
+                "Name": "AgeRateBandMap - 24",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK",
+                "Rate__c": "0.15"
+            },
+            {
+                "Age__c": "All",
+                "L_D_Product_Sub_Type__c": "AD&D",
+                "Name": "AgeRateBandMap - 24",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK",
+                "Rate__c": "0.04"
+            },
+            {
+                "Age__c": "25-29",
+                "Female_Rate__c": "0.07",
+                "L_D_Product_Sub_Type__c": "Basic Term Life",
+                "Name": "AgeRateBandMap - 29",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK",
+                "Rate__c": "0.15"
+            },
+            {
+                "Age__c": "30-34",
+                "Female_Rate__c": "0.09",
+                "L_D_Product_Sub_Type__c": "Basic Term Life",
+                "Name": "AgeRateBandMap - 34",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK",
+                "Rate__c": "0.16"
+            },
+            {
+                "Age__c": "35-39",
+                "Female_Rate__c": "0.13",
+                "L_D_Product_Sub_Type__c": "Basic Term Life",
+                "Name": "AgeRateBandMap - 39",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK",
+                "Rate__c": "0.20"
+            },
+            {
+                "Age__c": "40-44",
+                "Female_Rate__c": "0.18",
+                "L_D_Product_Sub_Type__c": "Basic Term Life",
+                "Name": "AgeRateBandMap - 44",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK",
+                "Rate__c": "0.31"
+            },
+            {
+                "Age__c": "45-49",
+                "Female_Rate__c": "0.28",
+                "L_D_Product_Sub_Type__c": "Basic Term Life",
+                "Name": "AgeRateBandMap - 49",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK",
+                "Rate__c": "0.47"
+            },
+            {
+                "Age__c": "50-54",
+                "Female_Rate__c": "0.45",
+                "L_D_Product_Sub_Type__c": "Basic Term Life",
+                "Name": "AgeRateBandMap - 54",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK",
+                "Rate__c": "0.74"
+            },
+            {
+                "Age__c": "55-59",
+                "Female_Rate__c": "0.69",
+                "L_D_Product_Sub_Type__c": "Basic Term Life",
+                "Name": "AgeRateBandMap - 59",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK",
+                "Rate__c": "1.19"
+            },
+            {
+                "Age__c": "60-64",
+                "Female_Rate__c": "1.01",
+                "L_D_Product_Sub_Type__c": "Basic Term Life",
+                "Name": "AgeRateBandMap - 64",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK",
+                "Rate__c": "1.72"
+            },
+            {
+                "Age__c": "65-69",
+                "Female_Rate__c": "1.68",
+                "L_D_Product_Sub_Type__c": "Basic Term Life",
+                "Name": "AgeRateBandMap - 69",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK",
+                "Rate__c": "3.04"
+            },
+            {
+                "Age__c": "70-74",
+                "Female_Rate__c": "3.17",
+                "L_D_Product_Sub_Type__c": "Basic Term Life",
+                "Name": "AgeRateBandMap - 74",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK",
+                "Rate__c": "5.38"
+            },
+            {
+                "Age__c": "Over 74",
+                "Female_Rate__c": "5.75",
+                "L_D_Product_Sub_Type__c": "Basic Term Life",
+                "Name": "AgeRateBandMap - 200",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK",
+                "Rate__c": "8.59"
+            }
+        ],
+        "QuoteID": "0Q03B0000001aUoSAI",
+        "SRQVERSION": "SRQ Version 7.2.11",
+        "productToGroupPlanSummaryList": [
+            {
+                "MemberPremium__c": "2.85",
+                "Name": "MemberRateSheet - 1",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK",
+                "Volume__c": "15000"
+            },
+            {
+                "MemberPremium__c": "2.85",
+                "Name": "MemberRateSheet - 2",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK",
+                "Volume__c": "15000"
+            }
+        ],
+        "productToMemberRateSheetRecordList": [
+            {
+                "MemberPremium__c": "2.85",
+                "Name": "MemberRateSheet - 1",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK",
+                "Volume__c": "15000"
+            },
+            {
+                "MemberPremium__c": "2.85",
+                "Name": "MemberRateSheet - 2",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK",
+                "Volume__c": "15000"
+            }
+        ],
+        "productToQuoteLineItemMap": [
+            {
+                "L_D_C1_SOB_AD_D__c": "Equal to Term Life",
+                "L_D_C1_SOB_Dependent_Life__c": "N/A",
+                "L_D_C1_SOB_STD__c": "N/A",
+                "L_D_C1_SOB_Term_Life__c": "$15,000",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK"
+            }
+        ],
+        "productTobenifitPlanHighlightsList": [
+            {
+                "Benefit_Highlight__c": "- Employee eligibility is defined as permanent full-time employees working a minimum of 30 hours per week.",
+                "Name": "01",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK"
+            },
+            {
+                "Benefit_Highlight__c": "- The proposed Guaranteed Issue amounts cannot exceed the prior carrier's Guaranteed Issue amounts. A copy of the prior carrier's certificate will be required.",
+                "Name": "02",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK"
+            },
+            {
+                "Benefit_Highlight__c": "- Term Life Guaranteed Issue Limit is $15,000 for all ages.",
+                "Name": "03",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK"
+            },
+            {
+                "Benefit_Highlight__c": "- Accelerated Death Benefit standard: Benefit may be up to 75% of the Group Term Life face amount to a maximum of $125,000.",
+                "Name": "04",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK"
+            },
+            {
+                "Benefit_Highlight__c": "- Premiums can be waived for employees who become totally disabled before age 60, after the 6 month elimination period. Coverage terminates at age 65 or retirement, whichever is earlier.",
+                "Name": "05",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK"
+            },
+            {
+                "Benefit_Highlight__c": "- Term Life benefits include conversion.",
+                "Name": "06",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK"
+            },
+            {
+                "Benefit_Highlight__c": "- Reduction Schedule for class(es) 1: Term Life and AD&D benefits reduce by the following percents: 35% at age 65; 50% at age 70. Benefits terminate at retirement.",
+                "Name": "07",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK"
+            },
+            {
+                "Benefit_Highlight__c": "- The Term Life rate provided is based on a non-contributory plan. However, if the coverage is contributory, 75% participation will be required of those eligible to enroll, and the rate may need to be adjusted.",
+                "Name": "08",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK"
+            },
+            {
+                "Benefit_Highlight__c": "- AD&D benefits include Seat Belt benefit, Airbag benefit, Child Education benefit, Repatriation benefit, Common Carrier and Coma.",
+                "Name": "09",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK"
+            },
+            {
+                "Benefit_Highlight__c": "- Employees whose wages are reported on Form 1099 in lieu of Form W-2 are not eligible for coverage.",
+                "Name": "10",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK"
+            },
+            {
+                "Benefit_Highlight__c": "- Employees must be actively at work, at least 17 years of age and working in the United States, in order to become insured. Employees not actively at work on their effective date will become eligible for insurance after completing the waiting period specified in the policy unless otherwise noted on the schedule of benefits.",
+                "Name": "11",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK"
+            },
+            {
+                "Benefit_Highlight__c": "- The Resource Advisor phone/web member assistance program is included in this proposal.",
+                "Name": "12",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK"
+            },
+            {
+                "Benefit_Highlight__c": "- Travel Assistance is included in this proposal.",
+                "Name": "13",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK"
+            },
+            {
+                "Benefit_Highlight__c": "- Open enrollment for any line of coverage is not permitted.",
+                "Name": "14",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK"
+            },
+            {
+                "Benefit_Highlight__c": "- Term Life and AD&D Rate(s) are guaranteed for 2 years.",
+                "Name": "15",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK"
+            },
+            {
+                "Benefit_Highlight__c": "- Rates have been calculated using standard Underwriting guidelines.  Insurer reserves the right to review rates and costs based on final enrollment data, effective date and plan indicated on your signed enrollment materials.",
+                "Name": "16",
+                "QuoteLineItemId": "0QL3B000000TgCeWAK"
+            }
+        ],
+        "uniqueSelectedProducts": {
+            "LAndD-15000-None": "01t3B000001zkgGQAQ"
+        }
+    }
+}

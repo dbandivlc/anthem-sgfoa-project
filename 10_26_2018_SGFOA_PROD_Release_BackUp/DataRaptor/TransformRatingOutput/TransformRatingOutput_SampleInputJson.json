@@ -1,0 +1,17 @@
+{
+    "MakeRESTAPICall": null,
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "GetCensusData": null,
+        "GetProductData": null,
+        "MakeRESTAPICall": null,
+        "TransformRatingInput": null,
+        "TransformRatingOutput": null
+    }
+}

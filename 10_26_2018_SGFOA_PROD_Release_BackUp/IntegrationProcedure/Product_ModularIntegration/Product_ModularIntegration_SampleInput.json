@@ -1,0 +1,205 @@
+{
+    "ActiveStates": [
+        "CO"
+    ],
+    "Brand": "ABCBS",
+    "ContactId": "",
+    "ContextId": "",
+    "DRId_Account": "0013B00000SWEORQA5",
+    "DRId_Opportunity": "0063B000007RsQoQAK",
+    "MinCounty": "JEFFERSON",
+    "MinCountyCode": "059",
+    "MinState": "CO",
+    "OSFormulaEffectiveDate": "2018-07-15",
+    "OSFormulaEffectiveDateSBC": "15-Jul-2018",
+    "OSFormulaQuoteExpiryDate": "2018-07-10",
+    "OSFormulaQuoteExpiryDateSBC": "15-Jul-2018",
+    "ProductTypeList": [
+        {
+            "benefitLevel": "Low",
+            "censusEnrolledEligibleCount": 2,
+            "contributionTypeCd": "ES",
+            "productType": "Dental"
+        },
+        {
+            "benefitLevel": "Low",
+            "censusEnrolledEligibleCount": 2,
+            "contributionTypeCd": "ES",
+            "productType": "Vision"
+        },
+        {
+            "censusEnrolledEligibleCount": 2,
+            "contributionTypeCd": "ES",
+            "coverageAmount": 15000,
+            "productType": "Life"
+        },
+        {
+            "censusEnrolledEligibleCount": 2,
+            "contributionTypeCd": "ES",
+            "productType": "STD"
+        }
+    ],
+    "RatingPage": {
+        "memComRating": null,
+        "ratingType": null
+    },
+    "State1": "CO",
+    "ZipCodeList": [
+    ],
+    "ZipCodeListLength": 1,
+    "allowNavigation": false,
+    "benefitLevelPage": {
+        "BenefitLevel": "Low",
+        "benefitLevelPageGroupHeader": null
+    },
+    "brokerPage": {
+        "workingWithBroker": "no"
+    },
+    "businessMaturityPage": {
+        "BusinessMaturity": "true"
+    },
+    "co_LAndDPlanLimit": 10,
+    "co_dentalPlanLimit": 10,
+    "co_hiddenAttributes": [
+        "Formulary",
+        "Formulary Link"
+    ],
+    "co_medicalPlanLimit": 10,
+    "co_visionPlanLimit": 10,
+    "coverageAmtPage": {
+        "CoverageAmt": "15000",
+        "coverageAmtPageGroupHeader": null
+    },
+    "coverageBeginsPage": {
+        "RequestedCoverageEffectiveDate": "07/15/2018"
+    },
+    "deductiblePeriod": "Calendar Year",
+    "deductiblePeriodPage": {
+        "deductiblePeriod": "Calendar Year",
+        "deductiblePeriodHeaderGroup": null
+    },
+    "dentalCoveragePage": {
+        "dentalCoverage": "Yes",
+        "dentalCoveragePageHeaderGroup": null
+    },
+    "dentalGuarantee": "12months",
+    "dentalGuaranteePage": {
+        "dentalGuarantee": "12months",
+        "dentalGuaranteeHeaderGroup": null
+    },
+    "employeeCoveragePage": {
+        "MinimumEligible": true,
+        "MinimumEligibleEmployees": "Yes",
+        "allEmployees": 2,
+        "eligibleEmployees": 2,
+        "isEligibleOverAll": "Yes",
+        "isOverStateLimit": "Yes",
+        "moreElegThanAll": true,
+        "tooManyEligible": true
+    },
+    "employerSponsoredPage": {
+        "ContributionTypeCd": "ES",
+        "employerSponsoredPageHeaderGroup": null
+    },
+    "enableRecaptcha": true,
+    "error": "OK",
+    "groupProfilePage": {
+        "createProfile": {
+            "cp_businessName": "John",
+            "cp_emailAddress": "jdo36@mail.com",
+            "cp_ext": null,
+            "cp_firstName": "John",
+            "cp_lastName": "Doe",
+            "cp_phoneNumber": ""
+        }
+    },
+    "hideBrokerPage": false,
+    "id": "a3Z3B0000009cZUUAY",
+    "layout": "lightning",
+    "modularQuestionsReady": true,
+    "module": "PlanBuilder",
+    "nextLabel": "Continue",
+    "noResultsError": false,
+    "percentSign": "%",
+    "planTypePage": {
+        "PlanTypeSelection Except Dental": null,
+        "dentalInsuranceType": true,
+        "lifeInsuranceType": true,
+        "medicalInsuranceType": true,
+        "planSelectionCount": 4,
+        "planTypeSelection": "medical;dental;vision;life",
+        "showModular": true,
+        "showModularLandD": true,
+        "visionInsuranceType": true
+    },
+    "sInstanceId": "a3Y3B0000005tWkUAI",
+    "securityQuestionsResp": [
+        {
+            "name": "Mothers_Maiden",
+            "value": "What is your mother's maiden name?"
+        },
+        {
+            "name": "Birth_City",
+            "value": "In what city were you born?"
+        },
+        {
+            "name": "Childhood_Friend",
+            "value": "What is the name of your favorite childhood friend?"
+        },
+        {
+            "name": "Pet_Name",
+            "value": "What is your pet's name?"
+        },
+        {
+            "name": "Significant_Other_City",
+            "value": "In what city did you meet your spouse/significant other?"
+        },
+        {
+            "name": "Childhood_Nickname",
+            "value": "What was your childhood nickname?"
+        },
+        {
+            "name": "First_Job_City",
+            "value": "In what city was your first job?"
+        }
+    ],
+    "selectedCounty": "JEFFERSON",
+    "sgapsdev1-isg.cs94.force.com": "6Lff60wUAAAAACAiN_ecEuSMgcoibfe2ls-7CwXg",
+    "sgapsdev2-isg.cs50.force.com": "6Lfu5kwUAAAAAKYeumw11Fk0jVC8h2yifRDIUgm5",
+    "showDetail": false,
+    "sicPage": {
+        "CheckSIC": false,
+        "CheckSIC8021": false,
+        "InvalidSIC": null,
+        "SIC8021ErrorMessage": true,
+        "SICCode_Number": 1231,
+        "TypeAheadSIC-Block": {
+            "SICName": "ANTHRACITE MINING",
+            "SIC_Code": "1231",
+            "TypeAheadSIC": "1231 ANTHRACITE MINING"
+        },
+        "sicPageHeaderGroup": null
+    },
+    "targetSystem": "APS",
+    "timeStamp": "2018-06-22T21: 43: 06.357Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053B000001bh2RQAQ",
+    "userName": "ribarra@anthem.isg.sgapsdev2",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    },
+    "zipCodeLength": 5,
+    "zipPage": {
+        "CountyCode_Number": 59,
+        "StateNotLicensed": true,
+        "ValidState": true,
+        "ValidZipCode": true,
+        "zipBlock": {
+            "County": "JEFFERSON",
+            "County_Select": null,
+            "zipcode": "80001"
+        }
+    },
+    "zipcode": "80001"
+}

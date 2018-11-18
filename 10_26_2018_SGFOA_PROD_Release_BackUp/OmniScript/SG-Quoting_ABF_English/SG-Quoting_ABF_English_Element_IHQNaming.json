@@ -1,0 +1,35 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__Level__c": 1,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Quoting -ABF",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/SG Quoting/ABF/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 6,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/SG Quoting/ABF/English",
+        "Name": "IHQPage",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SG Quoting/ABF/English/IHQPage",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "IHQPage",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "show": null,
+        "text": "<p>How to Upload:</p>\n<p></p>\n<p></p>\n<p>&bull; Name each completed IHQ with the prefix \"IHQ_\"<br /> &bull; Upload in batches in zipped (compressed) folders</p>\n<p></p>\n<p></p>\n<p></p>\n<p>Maximum folder size:<strong> 7MB each (roughly 7 IHQs)<br /> </strong>Maximum # of folders:<strong> 17</strong></p>\n<p><br /><br /></p>\n<p></p>\n<p></p>\n<p>Need a refresher on zipping files?</p>\n<p></p>\n<p></p>\n<p>First, find and select the files (up to 0.5MB total) and right click on the group.<strong><strong><br /></strong>PC: </strong>Choose Send to, then Compressed (zipped) folder.<strong><br /> Mac:</strong> Choose Compress (#) Items.<strong><br /> <br /></strong>The zipped folder will be created in the same folder next to the files.<strong><br /></strong></p>"
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "Name": "IHQNaming",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/SG Quoting/ABF/English/IHQNaming"
+}

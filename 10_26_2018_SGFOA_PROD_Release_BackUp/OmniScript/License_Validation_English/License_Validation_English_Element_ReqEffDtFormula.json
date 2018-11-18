@@ -1,0 +1,42 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "The date selected is converted to a value so it can be used by the pricing procedures. This formula field also combines the output of the 2 Request Coverage Effective Date fields into 1",
+    "%vlocity_namespace%__Level__c": 1,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG License Validation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/License/Validation/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 36,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/License/Validation/English",
+        "Name": "CategorySelection",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/License/Validation/English/CategorySelection",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "CategorySelection",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "controlWidth": 12,
+        "currencySymbol": "$",
+        "dataType": "Text",
+        "dateFormat": "MM-dd-yyyy",
+        "disOnTplt": false,
+        "expression": "CONCATENATE(IF(%BrokerProfile% = 'Anthem SG Broker', IF(CONTAINS(SPLIT(%RequestedCoverageEffectiveDate%, ' ', 3)[0], 'Jan') || CONTAINS(SPLIT(%RequestedCoverageEffectiveDate%, ' ', 3)[0], 'Feb') || CONTAINS(SPLIT(%RequestedCoverageEffectiveDate%, ' ', 3)[0], 'Mar'), 'Q1', IF(CONTAINS(SPLIT(%RequestedCoverageEffectiveDate%, ' ', 3)[0], 'Apr') || CONTAINS(SPLIT(%RequestedCoverageEffectiveDate%, ' ', 3)[0], 'May') || CONTAINS(SPLIT(%RequestedCoverageEffectiveDate%, ' ', 3)[0], 'Jun'), 'Q2', IF(CONTAINS(SPLIT(%RequestedCoverageEffectiveDate%, ' ', 3)[0], 'Jul') || CONTAINS(SPLIT(%RequestedCoverageEffectiveDate%, ' ', 3)[0], 'Aug') || CONTAINS(SPLIT(%RequestedCoverageEffectiveDate%, ' ', 3)[0], 'Sep'), 'Q3', IF(CONTAINS(SPLIT(%RequestedCoverageEffectiveDate%, ' ', 3)[0], 'Oct') || CONTAINS(SPLIT(%RequestedCoverageEffectiveDate%, ' ', 3)[0], 'Nov') || CONTAINS(SPLIT(%RequestedCoverageEffectiveDate%, ' ', 3)[0], 'Dec'), 'Q4')))),\nIF(CONTAINS(SPLIT(%RequestedCoverageNonBrokerDates%, ' ', 3)[0], 'Jan') || CONTAINS(SPLIT(%RequestedCoverageNonBrokerDates%, ' ', 3)[0], 'Feb') || CONTAINS(SPLIT(%RequestedCoverageNonBrokerDates%, ' ', 3)[0], 'Mar'), 'Q1', IF(CONTAINS(SPLIT(%RequestedCoverageNonBrokerDates%, ' ', 3)[0], 'Apr') || CONTAINS(SPLIT(%RequestedCoverageNonBrokerDates%, ' ', 3)[0], 'May') || CONTAINS(SPLIT(%RequestedCoverageNonBrokerDates%, ' ', 3)[0], 'Jun'), 'Q2', IF(CONTAINS(SPLIT(%RequestedCoverageNonBrokerDates%, ' ', 3)[0], 'Jul') || CONTAINS(SPLIT(%RequestedCoverageNonBrokerDates%, ' ', 3)[0], 'Aug') || CONTAINS(SPLIT(%RequestedCoverageNonBrokerDates%, ' ', 3)[0], 'Sep'), 'Q3', IF(CONTAINS(SPLIT(%RequestedCoverageNonBrokerDates%, ' ', 3)[0], 'Oct') || CONTAINS(SPLIT(%RequestedCoverageNonBrokerDates%, ' ', 3)[0], 'Nov') || CONTAINS(SPLIT(%RequestedCoverageNonBrokerDates%, ' ', 3)[0], 'Dec'), 'Q4'))))),'_',\nIF(%BrokerProfile% = 'Anthem SG Broker', SPLIT(%RequestedCoverageEffectiveDate%, ' ', 3)[2], SPLIT(%RequestedCoverageNonBrokerDates%, ' ', 3)[2]))",
+        "hide": true,
+        "hideGroupSep": false,
+        "inputWidth": 12,
+        "label": null,
+        "mask": null,
+        "show": null,
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Formula",
+    "Name": "ReqEffDtFormula",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/License/Validation/English/ReqEffDtFormula"
+}

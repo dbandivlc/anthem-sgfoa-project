@@ -1,0 +1,443 @@
+{
+    "BenefitLevelValue": "1",
+    "Brand": "EBCBS",
+    "CategorySelection": {
+        "CoverageOptions": "Medical;Dental",
+        "Object_Id": "001Q0000017G5WkIAK",
+        "ReqEffDtFormula": "Q1_2017",
+        "RequestedCoverageEffectiveDate": null,
+        "RequestedCoverageNonBrokerDates": "Feb 1 2017",
+        "SaveForLaterName": "Quote No:00004231 Eff.Date:Feb 1 2017 Products:Medical;Dental"
+    },
+    "Class2NumberofEE+Children": 0,
+    "Class2NumberofEE+Spouse": 0,
+    "Class2NumberofFamily": 0,
+    "Class2NumberofSingles(EE)": 0,
+    "Class3NumberofEE+Children": 0,
+    "Class3NumberofEE+Spouse": 0,
+    "Class3NumberofFamily": 0,
+    "Class3NumberofSingles (EE)": 0,
+    "ClassDistinction": "No",
+    "ContextId": "001Q0000017G5WkIAK",
+    "County1": "NEW YORK",
+    "DRId_%vlocity_namespace%__OmniScriptInstance__c": "a3YQ0000001hRQ2MAM",
+    "DRId_Account": "001Q0000017G5WkIAK",
+    "DRId_Opportunity": "006Q000000FAwJlIAL",
+    "DRId_Quote": "0Q0Q0000000RHY4KAO",
+    "ExistingETINRO": "650300000",
+    "ExistingGroupRO": "RSJUN15ACC30",
+    "MappedCode": "101",
+    "MinCounty": "NEW YORK",
+    "MinInfo": {
+        "Class1and2": {
+            "Class1CheckTotal": true,
+            "Class1CheckTotalMessage": true,
+            "Class1NumberofEE+Children": 0,
+            "Class1NumberofEE+Spouse": 0,
+            "Class1NumberofFamily": 0,
+            "Class1NumberofSingles(EE)": 10,
+            "Class2CheckTotal": null,
+            "Class2CheckTotalMessage": null,
+            "Class2NumberofEE+Children": null,
+            "Class2NumberofEE+Spouse": null,
+            "Class2NumberofFamily": null,
+            "Class2NumberofSingles(EE)": null,
+            "Class3CheckTotal": null,
+            "Class3CheckTotalMessage": null,
+            "Class3NumberofEE+Children": null,
+            "Class3NumberofEE+Spouse": null,
+            "Class3NumberofFamily": null,
+            "Class3NumberofSingles (EE)": null,
+            "TotalEE": 10,
+            "TotalEECh": 0,
+            "TotalEEFa": 0,
+            "TotalEESp": 0
+        },
+        "CoverageOptionsIncludeDental": true,
+        "CoverageOptionsIncludeMedical": true,
+        "Dental8021CheckMessage": true,
+        "DentalPriorCoverage": "X",
+        "DentalPriorCoverageFormula": 0,
+        "DentalRateGuarantee": "X",
+        "DentalRateGuaranteeFormula": 12,
+        "Eligibility": {
+            "DentalNoOrtho": false,
+            "DentalPlanUnavailableOver50": true,
+            "DentalVisionPlansMinTwo": true,
+            "EligibleFormula": true,
+            "EligibleGreaterthanEnrolling": true,
+            "NumbEligFormula": "TenToTwentyFive",
+            "NumbEnrollFormulaVision": "TenToFifty",
+            "NumberEligible": 10,
+            "NumberEnrolling": 10,
+            "Participation": 1,
+            "ParticipationMessage": false,
+            "ValidWaivers": 0
+        },
+        "EmployerVision": null,
+        "InvalidSIC": true,
+        "NumberClasses": "One",
+        "SelectedSICIs8021": false,
+        "TypeAheadSIC-Block": {
+            "SIC_TXT": "7376",
+            "TypeAheadSIC": "7376 COMPUTER FACILITIES MANAGEMENT"
+        },
+        "VisionRateGuarantee": "24 Months",
+        "VoluntaryVision": null
+    },
+    "MinState": "NY",
+    "PartyAccountId": "a3kQ0000000hwk8IAA",
+    "QuoteCreatedDate": "2017-06-26T06:03:47.000Z",
+    "QuoteGenerationComplete": false,
+    "QuoteNumber": "00004231",
+    "QuotePreparedFor": {
+        "qCloseDate": null,
+        "qContactFax": null,
+        "qContactName": null,
+        "qContactTitle": null,
+        "qEmail": null,
+        "qPhone": null,
+        "qReqEffectiveDate": null,
+        "qUpdatedQuoteName": null,
+        "quote_name_blk": {
+            "Address_blk": {
+                "qCityTown": null,
+                "qState": "NY",
+                "qStreetAddress": null,
+                "qZipCode": null
+            },
+            "qFax": null,
+            "qGroupName": null,
+            "qPrimaryPhone": null
+        }
+    },
+    "RatingArea": 4,
+    "SaveForLaterStep1Name": "Quote No:00004231",
+    "SearchField": "10002 - NEW YORK",
+    "SelectMedicalCoverage": {
+        "MinOneMedicalPlan": false,
+        "output2": null
+    },
+    "State": "NY",
+    "Step": {
+        "AccountCreateMessage": null,
+        "AnthemBrand": "EBCBS",
+        "AssociationSelect": "No",
+        "BrokerProfile": "System Administrator",
+        "BrokerRequiredMessage": null,
+        "CheckZipCode": 1,
+        "CloseDatePrelim": "2017-06-26T04:00:00.000Z",
+        "ContextIdFormula": 2,
+        "County": "NEW YORK",
+        "CreateAcctCheckbox": null,
+        "ETINFormula": "650300000",
+        "ExistingAccount_Id": "001Q0000017G5WkIAK",
+        "GeneralAgencyMessage": null,
+        "GroupName": null,
+        "GroupROFormula": "RSJUN15ACC30",
+        "InitialQuoteName": "RSJUN15ACC30 6/26/2017",
+        "InvalidZipMsg": true,
+        "IsPreExistingAccount": true,
+        "Other Reason Description": null,
+        "PaidAgencyMessage": null,
+        "QuotingonbehalfofaBroker?": "Yes",
+        "Reason": "Testing",
+        "Sizecheck": 1,
+        "StateFormula": "NEW YORK",
+        "TaxID": null,
+        "Today": "2017-06-26T04:00:00.000Z",
+        "TypeAHeadEmployee-Block": {
+            "EmployeeId": null,
+            "TypeAHeadEmployee": null
+        },
+        "TypeAheadAccount-Block": null,
+        "TypeAheadAssociations-Block": null,
+        "TypeAheadBroker-Block": {
+            "Broker": null,
+            "BrokerId": null,
+            "BrokerTIN": null,
+            "TypeAheadBroker": null
+        },
+        "TypeAheadETINRO": null,
+        "TypeAheadGeneralAgency-Block": {
+            "GeneralAgency": null,
+            "GeneralAgencyId": null,
+            "GeneralAgencyTIN": null,
+            "TypeAheadGeneralAgency": null
+        },
+        "TypeAheadPaidAgency-Block": {
+            "PaidAgency": null,
+            "PaidAgencyId": null,
+            "PaidAgencyTIN": null,
+            "TypeAheadPaidAgency": null
+        },
+        "TypeAheadZip-Block": {
+            "Brand": "EBCBS",
+            "MappedCode": "101",
+            "MinCounty": "NEW YORK",
+            "MinState": "NY",
+            "RatingArea": 4,
+            "SearchField": "10002 - NEW YORK",
+            "ZipCode": "10002"
+        },
+        "ZipCode1": null,
+        "qOpportunityName": "RSJUN15ACC30 Opportunity 6/26/2017"
+    },
+    "TypeAheadSIC-Block": {
+        "SICName": "COMPUTER FACILITIES MANAGEMENT",
+        "SIC_NO": 7376
+    },
+    "TypeAheadZip-Block": {
+    },
+    "ZipCode": "10002",
+    "ZipCode3": "10002",
+    "ZipCodeList": [
+        {
+            "Brand": "EBCBS",
+            "MappedCode": "101",
+            "MinCounty": "NEW YORK",
+            "MinState": "NY",
+            "RatingArea": 4,
+            "SearchField": "10002 - NEW YORK",
+            "ZipCode": "10002"
+        }
+    ],
+    "error": "OK",
+    "id": "a3ZQ0000001ApDsMAK",
+    "layout": "lightning",
+    "plan": [
+        {
+            "PlanID": "2KJW",
+            "ProductId": "01t31000007XZIMAA4"
+        },
+        {
+            "PlanID": "2KJY",
+            "ProductId": "01t31000007XZINAA4"
+        },
+        {
+            "PlanID": "2KK4",
+            "ProductId": "01t31000007XZISAA4"
+        },
+        {
+            "PlanID": "2MWF",
+            "ProductId": "01t31000007XZIUAA4"
+        },
+        {
+            "PlanID": "2KK6",
+            "ProductId": "01t31000007XZIZAA4"
+        },
+        {
+            "PlanID": "2KKC",
+            "ProductId": "01t31000007XZIbAAO"
+        },
+        {
+            "PlanID": "2KKE",
+            "ProductId": "01t31000007XZIcAAO"
+        },
+        {
+            "PlanID": "2KJ8",
+            "ProductId": "01t31000007XZIdAAO"
+        },
+        {
+            "PlanID": "2KHS",
+            "ProductId": "01t31000007XZIeAAO"
+        },
+        {
+            "PlanID": "2KHY",
+            "ProductId": "01t31000007XZIfAAO"
+        },
+        {
+            "PlanID": "2KJE",
+            "ProductId": "01t31000007XZIgAAO"
+        },
+        {
+            "PlanID": "2KGL",
+            "ProductId": "01t31000007XZIhAAO"
+        },
+        {
+            "PlanID": "2KGS",
+            "ProductId": "01t31000007XZIiAAO"
+        },
+        {
+            "PlanID": "2KJ0",
+            "ProductId": "01t31000007XZIjAAO"
+        },
+        {
+            "PlanID": "2KGU",
+            "ProductId": "01t31000007XZIkAAO"
+        },
+        {
+            "PlanID": "2KJ6",
+            "ProductId": "01t31000007XZIlAAO"
+        },
+        {
+            "PlanID": "2KH0",
+            "ProductId": "01t31000007XZImAAO"
+        },
+        {
+            "PlanID": "2KH2",
+            "ProductId": "01t31000007XZInAAO"
+        },
+        {
+            "PlanID": "2KH8",
+            "ProductId": "01t31000007XZIoAAO"
+        },
+        {
+            "PlanID": "2KKL",
+            "ProductId": "01t31000007XZIqAAO"
+        },
+        {
+            "PlanID": "2KKW",
+            "ProductId": "01t31000007XZIrAAO"
+        },
+        {
+            "PlanID": "2KL2",
+            "ProductId": "01t31000007XZItAAO"
+        },
+        {
+            "PlanID": "2KL4",
+            "ProductId": "01t31000007XZIvAAO"
+        },
+        {
+            "PlanID": "1KTU",
+            "ProductId": "01t31000007XZIyAAO"
+        },
+        {
+            "PlanID": "2KGJ",
+            "ProductId": "01t31000007XZJ0AAO"
+        },
+        {
+            "PlanID": "1KTV",
+            "ProductId": "01t31000007XZJ1AAO"
+        },
+        {
+            "PlanID": "1ZW2",
+            "ProductId": "01t31000007XZJ2AAO"
+        },
+        {
+            "PlanID": "1ZW5",
+            "ProductId": "01t31000007XZJ3AAO"
+        },
+        {
+            "PlanID": "1ZWT",
+            "ProductId": "01t31000007XZJ4AAO"
+        },
+        {
+            "PlanID": "2KHA",
+            "ProductId": "01t31000007XZJEAA4"
+        },
+        {
+            "PlanID": "2KHG",
+            "ProductId": "01t31000007XZJHAA4"
+        },
+        {
+            "PlanID": "2KHJ",
+            "ProductId": "01t31000007XZJIAA4"
+        },
+        {
+            "PlanID": "2KHQ",
+            "ProductId": "01t31000007XZJLAA4"
+        },
+        {
+            "PlanID": "2KJQ",
+            "ProductId": "01t31000007XZJQAA4"
+        },
+        {
+            "PlanID": "1ZX7",
+            "ProductId": "01t31000007XZJRAA4"
+        },
+        {
+            "PlanID": "1ZX9",
+            "ProductId": "01t31000007XZJSAA4"
+        },
+        {
+            "PlanID": "2KJG",
+            "ProductId": "01t31000007XZJTAA4"
+        },
+        {
+            "PlanID": "1ZWZ",
+            "ProductId": "01t31000007XZJUAA4"
+        },
+        {
+            "PlanID": "2KJN",
+            "ProductId": "01t31000007XZJVAA4"
+        },
+        {
+            "PlanID": "1ZX1",
+            "ProductId": "01t31000007XZJWAA4"
+        },
+        {
+            "PlanID": "2KNQ",
+            "ProductId": "01t31000007XZJXAA4"
+        },
+        {
+            "PlanID": "2KNW",
+            "ProductId": "01t31000007XZJYAA4"
+        },
+        {
+            "PlanID": "2KNN",
+            "ProductId": "01t31000007XZJaAAO"
+        },
+        {
+            "PlanID": "2KMQ",
+            "ProductId": "01t31000007XZJbAAO"
+        },
+        {
+            "PlanID": "2KMY",
+            "ProductId": "01t31000007XZJcAAO"
+        },
+        {
+            "PlanID": "2KN8",
+            "ProductId": "01t31000007XZJdAAO"
+        },
+        {
+            "PlanID": "2KNE",
+            "ProductId": "01t31000007XZJeAAO"
+        },
+        {
+            "PlanID": "2KNG",
+            "ProductId": "01t31000007XZJfAAO"
+        },
+        {
+            "PlanID": "2KLU",
+            "ProductId": "01t31000007XZJgAAO"
+        },
+        {
+            "PlanID": "2KLA",
+            "ProductId": "01t31000007XZJhAAO"
+        },
+        {
+            "PlanID": "2KLC",
+            "ProductId": "01t31000007XZJiAAO"
+        },
+        {
+            "PlanID": "2KLJ",
+            "ProductId": "01t31000007XZJjAAO"
+        },
+        {
+            "PlanID": "2KM0",
+            "ProductId": "01t31000007XZJkAAO"
+        },
+        {
+            "PlanID": "2KMA",
+            "ProductId": "01t31000007XZJlAAO"
+        },
+        {
+            "PlanID": "2KMG",
+            "ProductId": "01t31000007XZJmAAO"
+        },
+        {
+            "PlanID": "2KMJ",
+            "ProductId": "01t31000007XZJnAAO"
+        }
+    ],
+    "sInstanceId": "a3YQ0000001hRQ2MAM",
+    "testContextId": "001Q0000017G5WkIAK",
+    "timeStamp": "2017-06-26T05:55:53.181Z",
+    "userId": "005Q000000PTrl4IAD",
+    "userName": "rsirisena@vlocity.com.isg.config",
+    "userProfile": "System Administrator",
+    "verticalMode": false,
+    "vlcPersistentComponent": {
+    }
+}

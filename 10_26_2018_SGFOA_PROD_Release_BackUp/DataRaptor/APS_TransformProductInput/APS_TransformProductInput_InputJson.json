@@ -1,0 +1,256 @@
+{
+    "ActiveStates": [
+        "CA",
+        "CO",
+        "NH",
+        "ME",
+        "KY",
+        "NY",
+        "CT",
+        "IN",
+        "NV",
+        "OH",
+        "VA",
+        "MO",
+        "GA",
+        "WI"
+    ],
+    "Brand": "ABCBS",
+    "ContactId": "0030R00000TbZqqQAF",
+    "ContextId": "",
+    "DRId_Account": "0010R00000R0mq8QAB",
+    "DRId_Opportunity": "0060R000006pj45QAA",
+    "MinCounty": "CUYAHOGA",
+    "MinCountyCode": "035",
+    "MinState": "OH",
+    "OSFormulaEffectiveDate": "2018-11-15",
+    "OSFormulaEffectiveDateSBC": "15-Nov-2018",
+    "OSFormulaQuoteExpiryDate": "2018-11-10",
+    "OSFormulaQuoteExpiryDateSBC": "15-Nov-2018",
+    "State1": "OH",
+    "ZipCodeList": [
+    ],
+    "ZipCodeListLength": 1,
+    "allowNavigation": false,
+    "associationStates": [
+        "OH",
+        "IN",
+        "KY",
+        "VA"
+    ],
+    "brokerPage": {
+        "workingWithBroker": "no"
+    },
+    "censusId": "a310R0000008nT2QAI",
+    "co_LAndDPlanLimit": 10,
+    "co_dentalPlanLimit": 10,
+    "co_hiddenAttributes": [
+        "Formulary",
+        "Formulary Link"
+    ],
+    "co_medicalPlanLimit": 10,
+    "co_visionPlanLimit": 10,
+    "coverageBeginsPage": {
+        "RequestedCoverageEffectiveDate": "Nov 15 2018"
+    },
+    "deductiblePeriodPage": {
+        "deductiblePeriod": [
+            "Calendar Year",
+            "Calendar Year"
+        ],
+        "deductiblePeriodHeaderGroup": null
+    },
+    "dentalGuarantee": "12months",
+    "dentalGuaranteePage": {
+        "dentalGuarantee": "12months",
+        "dentalGuaranteeHeaderGroup": null
+    },
+    "eligible1Min": "[\"CA\", \"NH\", \"NV\", \"NY\", \"VA\", \"WI\"]",
+    "eligible50Max": "[\"GA\", \"IN\", \"KY\", \"ME\", \"MO\", \"NH\", \"NV\", \"OH\", \"VA\", \"WI\"]",
+    "employeeCoveragePage": {
+        "MinimumEligible": true,
+        "MinimumEligibleEmployees": "Yes",
+        "allEmployees": 10,
+        "eligibleEmployees": 2,
+        "isEligibleOverAll": "Yes",
+        "isOverStateLimit": "Yes",
+        "moreElegThanAll": true,
+        "singleEligibleMessage": false,
+        "stateLimit": 50,
+        "stateMin": 2,
+        "tooManyEligible": true
+    },
+    "enableRecaptcha": true,
+    "error": "OK",
+    "groupProfilePage": {
+        "createProfile": {
+            "cp_businessName": "Hilel David",
+            "cp_emailAddress": "tonacu@mailinator.net",
+            "cp_ext": 82,
+            "cp_firstName": "Myles",
+            "cp_lastName": "Willis",
+            "cp_phoneNumber": ""
+        }
+    },
+    "isdtp": "p1",
+    "layout": "lightning",
+    "modularQuestionsReady": false,
+    "needsRecalculation": true,
+    "noResultsError": false,
+    "omniCancelAction": "back",
+    "omniIframeEmbedded": true,
+    "percentSign": "%",
+    "planContractList": {
+        "planContractList": [
+            {
+                "contractCode": "2UGP"
+            }
+        ]
+    },
+    "planSelectionReady": true,
+    "planTypePage": {
+        "dentalInsuranceType": false,
+        "hideUpSellFormula": false,
+        "lifeInsuranceType": false,
+        "medicalInsuranceType": true,
+        "planSelectionCount": 1,
+        "planTypeSelection": "medical",
+        "showModular": false,
+        "showModularLandD": false,
+        "singleMemberGroupMessage": false,
+        "visionInsuranceType": false
+    },
+    "ratingsCoverageType": "medical",
+    "sInstanceId": "a3Y0R000000DBnFUAW",
+    "securityQuestionsResp": [
+        {
+            "name": "Childhood_Nickname",
+            "value": "What was your childhood nickname?"
+        },
+        {
+            "name": "First_Job_City",
+            "value": "In what city was your first job?"
+        },
+        {
+            "name": "Significant_Other_City",
+            "value": "In what city did you meet your spouse/significant other?"
+        },
+        {
+            "name": "Pet_Name",
+            "value": "What is your pet's name?"
+        },
+        {
+            "name": "Childhood_Friend",
+            "value": "What is the name of your favorite childhood friend?"
+        },
+        {
+            "name": "Birth_City",
+            "value": "In what city were you born?"
+        },
+        {
+            "name": "Mothers_Maiden",
+            "value": "What is your mother's maiden name?"
+        }
+    ],
+    "selectedAssociation": {
+        "AssociationId": 846,
+        "Searchfield": "846 - Ohio Manufacturers Association 846 Dental and D&L ONLY"
+    },
+    "selectedCounty": "CUYAHOGA",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://sgapsdev1-isg.cs94.force.com",
+    "sgapsdev1-isg.cs94.force.com": "6Lff60wUAAAAACAiN_ecEuSMgcoibfe2ls-7CwXg",
+    "sgapsdev2-isg.cs50.force.com": "6Lfu5kwUAAAAAKYeumw11Fk0jVC8h2yifRDIUgm5",
+    "sicPage": {
+        "CheckSIC": false,
+        "CheckSIC8021": false,
+        "InvalidSIC": null,
+        "SIC8021ErrorMessage": true,
+        "SICCode_Number": 5551,
+        "TypeAheadSIC-Block": {
+            "SICName": "BOAT DEALERS",
+            "SIC_Code": "5551",
+            "TypeAheadSIC": "5551 BOAT DEALERS"
+        },
+        "sicPageHeaderGroup": null
+    },
+    "subscriberCounts": {
+        "censusId": "a310R0000008nT2QAI",
+        "noOfEligibleLivesCOBRA": 2,
+        "noOfEligibleLivesDental": 0,
+        "noOfEligibleLivesLD": 0,
+        "noOfEligibleLivesMedical": 2,
+        "noOfEligibleLivesVision": 0
+    },
+    "subscriberDetails": {
+        "censusId": "a310R0000008nT2QAI",
+        "noOfEligibleLivesCOBRA": 2,
+        "noOfEligibleLivesDental": 0,
+        "noOfEligibleLivesLD": 0,
+        "noOfEligibleLivesMedical": 2,
+        "noOfEligibleLivesVision": 0,
+        "subscriberList": [
+            {
+                "dependent": null,
+                "member": {
+                    "age": "28",
+                    "birthDate": "1990-11-02",
+                    "dentalTier": null,
+                    "enrollmentTypeCode": "EMP",
+                    "genderCode": null,
+                    "inTobaccoWellness": "0",
+                    "isBundled": "0",
+                    "isCobra": "1",
+                    "isDentalPriorCoverage": "0",
+                    "isTobaccoUser": "0",
+                    "memberRelationshipTypeCode": "SCRBR",
+                    "memberUniqueId": "a300R0000008pqaQAA",
+                    "rateGuarMonths": "12",
+                    "visionTier": null
+                }
+            },
+            {
+                "dependent": null,
+                "member": {
+                    "age": "28",
+                    "birthDate": "1990-11-02",
+                    "dentalTier": null,
+                    "enrollmentTypeCode": "EMP",
+                    "genderCode": null,
+                    "inTobaccoWellness": "0",
+                    "isBundled": "0",
+                    "isCobra": "1",
+                    "isDentalPriorCoverage": "0",
+                    "isTobaccoUser": "0",
+                    "memberRelationshipTypeCode": "SCRBR",
+                    "memberUniqueId": "a300R0000008pqfQAA",
+                    "rateGuarMonths": "12",
+                    "visionTier": null
+                }
+            }
+        ]
+    },
+    "targetSystem": "APS",
+    "timeStamp": "2018-10-11T10:08:16.311Z",
+    "tour": "",
+    "userCurrencyCode": "USD",
+    "userId": "0050R000000TiVmQAK",
+    "userName": "employer_portal@sgapsdev1-isg.cs94.force.com",
+    "userProfile": "Employer Portal Profile",
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "zipCodeLength": 5,
+    "zipPage": {
+        "CountyCode_Number": 35,
+        "StateNotLicensed": true,
+        "ValidState": true,
+        "ValidZipCode": true,
+        "zipBlock": {
+            "County": "CUYAHOGA",
+            "County_Select": null,
+            "zipcode": "44101"
+        }
+    },
+    "zipcode": "44101"
+}

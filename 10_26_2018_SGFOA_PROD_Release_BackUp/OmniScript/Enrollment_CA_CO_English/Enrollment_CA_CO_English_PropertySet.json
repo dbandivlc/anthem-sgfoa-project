@@ -1,0 +1,159 @@
+{
+    "HTMLTemplateId": "",
+    "Language": "",
+    "Sub Type": "",
+    "Type": "",
+    "accessibleInFutureSteps": false,
+    "allowSaveForLater": true,
+    "autoFocus": false,
+    "autoSaveOnStepNext": true,
+    "cancelLabel": "Cancel",
+    "cancelMessage": "Are you sure?",
+    "cancelRedirectPageName": "OmniScriptCancelled",
+    "cancelRedirectTemplateUrl": "vlcCancelled.html",
+    "cancelSource": "%DRId_Account%",
+    "cancelType": "SObject",
+    "completeLabel": "Complete",
+    "completeMessage": "Are you sure you want to complete the script?",
+    "conditionType": "Hide if False",
+    "consoleTabLabel": "New",
+    "controlWidth": 12,
+    "currencyCode": "",
+    "dataJSON": false,
+    "dataType": null,
+    "dateFormat": "",
+    "dateTimeFormat": "",
+    "debounceValue": 0,
+    "disOnTplt": false,
+    "docuSignReturnUrl": "",
+    "docuSignTemplatesGroupSig": [
+    ],
+    "elementTypeToHTMLTemplateMapping": {
+        "Validation": "customValidation.html"
+    },
+    "elementValueMap": {
+    },
+    "emailSubject": "",
+    "enableKnowledge": false,
+    "expression": "",
+    "failureAbortLabel": "Abort",
+    "failureAbortMessage": "Are you sure?",
+    "failureNextLabel": "Continue",
+    "help": false,
+    "helpText": "",
+    "hide": false,
+    "hideGroupSep": false,
+    "inProgressMessage": "In Progress",
+    "includeCustomization": true,
+    "inputWidth": 12,
+    "instruction": "",
+    "knowledgeArticleTypeQueryFieldsMap": {
+    },
+    "label": null,
+    "mask": "",
+    "maxLength": 255,
+    "message": {
+    },
+    "minLength": 0,
+    "nextLabel": "Next",
+    "nextWidth": 3,
+    "pattern": "",
+    "persistentComponent": [
+        {
+            "id": "vlcCart",
+            "itemsKey": "cartItems",
+            "label": "",
+            "modalConfigurationSetting": {
+                "modalController": "ModalProductCtrl",
+                "modalHTMLTemplateId": "vlcProductConfig.html",
+                "modalSize": "lg"
+            },
+            "postTransformBundle": "",
+            "preTransformBundle": "",
+            "remoteClass": "",
+            "remoteMethod": "",
+            "remoteOptions": {
+                "postTransformBundle": "",
+                "preTransformBundle": ""
+            },
+            "remoteTimeout": 30000,
+            "render": false,
+            "responseJSONNode": "",
+            "responseJSONPath": "",
+            "sendJSONNode": "",
+            "sendJSONPath": ""
+        },
+        {
+            "id": "vlcKnowledge",
+            "itemsKey": "knowledgeItems",
+            "label": "",
+            "modalConfigurationSetting": {
+                "modalController": "",
+                "modalHTMLTemplateId": "",
+                "modalSize": "lg"
+            },
+            "postTransformBundle": "",
+            "preTransformBundle": "",
+            "remoteClass": "",
+            "remoteMethod": "",
+            "remoteOptions": {
+                "postTransformBundle": "",
+                "preTransformBundle": ""
+            },
+            "remoteTimeout": 30000,
+            "render": false
+        }
+    ],
+    "postMessage": "Done",
+    "previousLabel": "Previous",
+    "previousWidth": 3,
+    "ptrnErrText": "",
+    "readOnly": false,
+    "remoteTimeout": 30000,
+    "repeat": false,
+    "repeatClone": false,
+    "required": false,
+    "saveContentEncoded": false,
+    "saveExpireInDays": null,
+    "saveForLaterRedirectPageName": "CustomSave",
+    "saveForLaterRedirectTemplateUrl": "SaveACASession.html",
+    "saveLabel": "Save for later",
+    "saveMessage": "Are you sure you want to save it for later?",
+    "saveNameTemplate": "Small Group Enrollment for %CompanyName%",
+    "saveObjectId": "%QuoteAccountId%",
+    "saveURLPatterns": {
+    },
+    "seedDataJSON": {
+        "ContainsHSA": false,
+        "ShowUploadDocuments": "No",
+        "isCalendarYear": false,
+        "isDuplicatePlanDental": false,
+        "isDuplicatePlanMedical": false,
+        "isDuplicatePlanVision": false,
+        "isPlanYear": false,
+        "isVoluntaryPlanDental": false,
+        "isVoluntaryPlanVision": false,
+        "noMedicalNetworkPlan": false,
+        "noMedicalRiderPlan": false,
+        "textNode": "%",
+        "voluntaryDentalPlanError": "No",
+        "voluntaryVisionPlanError": "No"
+    },
+    "show": null,
+    "showInputWidth": false,
+    "signerInformation": {
+        "signerEmail": "",
+        "signerName": ""
+    },
+    "ssm": false,
+    "text": "",
+    "timeFormat": "",
+    "timeTracking": true,
+    "trackingCustomData": {
+    },
+    "validationRequired": "Step",
+    "visualforcePagesAvailableInPreview": {
+        "AnthemEnrollment_CA_CO": "c__AnthemEnrollment_CA_CO?verticalmode=true"
+    },
+    "wpm": false
+}

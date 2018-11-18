@@ -1,0 +1,60 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "will NOT go through Section A",
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Questionnaire",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CDHP/SG_Questionnaire/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 76,
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "var_ParentDetails_All_Non_HSA_Account_Funding": "=%ParentDetails_All_Non_HSA_Account_Funding%",
+            "var_bank1_DCA_Account_Funding": "=IF(%ParentDetails_FSA_Account_Type% & %FSADetails_Dependent_Care_FSA_Plan%,true,false)",
+            "var_bank1_FSA_Account_Funding": "=IF(%ParentDetails_FSA_Account_Type% & %FSADetails_FSA_Section_213_d_Plan%,true,false)",
+            "var_bank1_FSL_Account_Funding": "=IF(%ParentDetails_FSA_Account_Type% & %FSADetails_Limited_Purpose_FSA_Plan%,true,false)",
+            "var_bank1_HRA_Account_Funding": "=%ParentDetails_HRA_Account_Type%",
+            "var_bank1_HSA_Account_Funding": "=%ParentDetails_HSA_Account_Type%",
+            "var_bank1_Parking_Account_Funding": "=IF(%ParentDetails_Commuter_Account_Type% &  %Section_D:CommuterDetails_Parking_Plan_Option%,true,false)",
+            "var_bank1_Transit_Account_Funding": "=IF(%ParentDetails_Commuter_Account_Type% &  %Section_D:CommuterDetails_Transit_Plan_Option%,true,false)"
+        },
+        "label": "SvBank1_If_Not_SpecificPlan_Cmmty",
+        "message": {
+        },
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "Specific plan(s)",
+                        "field": "ParentDetails_All_Non_HSA_Account_Funding"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "",
+                        "field": "actionType"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SvBank1_If_Not_SpecificPlan_Cmmty",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/CDHP/SG_Questionnaire/English/SvBank1_If_Not_SpecificPlan_Cmmty"
+}

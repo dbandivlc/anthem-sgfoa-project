@@ -1,0 +1,54 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__Level__c": 0,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG Enrollment-WI_NV",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Enrollment/WI_NV/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 40,
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "Agent/producer/brokerIDno.1": "%WI_BrokerETIN_Formula%",
+            "Writer1City": "%WI_BrokerCity_Formula%",
+            "Writer1Email": "%WI_BrokerEmail_Formula%",
+            "Writer1Faxno.": "%WI_BrokerFax_Formula%",
+            "Writer1Phone": "%WI_BrokerPhone_Formula%",
+            "Writer1State": "%WI_BrokerState_Formula%",
+            "Writer1Streetaddress": "%WI_BrokerStreet_Formula%",
+            "Writer1ZipCode": "%WI_BrokerZipCode_Formula%"
+        },
+        "label": null,
+        "message": {
+        },
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "WI",
+                        "field": "qState"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "WI_ResetAgentDetailsFromFormula",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Enrollment/WI_NV/English/WI_ResetAgentDetailsFromFormula"
+}

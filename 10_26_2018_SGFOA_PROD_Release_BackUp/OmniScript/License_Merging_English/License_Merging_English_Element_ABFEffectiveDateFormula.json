@@ -1,0 +1,53 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__InternalNotes__c": "This is a formula field of type text that contains just the date portion of the ABF Effective Date, eg. 2017-05-01, without the time component.  Needed to prevent timezone differential problems when the CreateQuoteDR writes this data to the quote record.",
+    "%vlocity_namespace%__Level__c": 1,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "SG License Validation",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/License/Merging/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__Order__c": 16,
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": "%vlocity_namespace%__OmniScript__c/License/Merging/English",
+        "Name": "ABFScreen",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/License/Merging/English/ABFScreen",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "ABFScreen",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataType": "Text",
+        "dateFormat": "MM-dd-yyyy",
+        "disOnTplt": false,
+        "expression": "CONCATENATE(YEAR(%ABFRequestedCoverageEffectiveDate%),'-',IF(MONTH(%ABFRequestedCoverageEffectiveDate%) = '1', '01', \nIF(MONTH(%ABFRequestedCoverageEffectiveDate%) = '2', '02',\nIF(MONTH(%ABFRequestedCoverageEffectiveDate%) = '3', '03',\nIF(MONTH(%ABFRequestedCoverageEffectiveDate%) = '4', '04',\nIF(MONTH(%ABFRequestedCoverageEffectiveDate%) = '5', '05',\nIF(MONTH(%ABFRequestedCoverageEffectiveDate%) = '6', '06',\nIF(MONTH(%ABFRequestedCoverageEffectiveDate%) = '7', '07',\nIF(MONTH(%ABFRequestedCoverageEffectiveDate%) = '8', '08',\nIF(MONTH(%ABFRequestedCoverageEffectiveDate%) = '9', '09',\nMONTH(%ABFRequestedCoverageEffectiveDate%)))))))))),'-',IF(DAYOFMONTH(%ABFRequestedCoverageEffectiveDate%) = '1', '01', \nIF(DAYOFMONTH(%ABFRequestedCoverageEffectiveDate%) = '2', '02',\nIF(DAYOFMONTH(%ABFRequestedCoverageEffectiveDate%) = '3', '03',\nIF(DAYOFMONTH(%ABFRequestedCoverageEffectiveDate%) = '4', '04',\nIF(DAYOFMONTH(%ABFRequestedCoverageEffectiveDate%) = '5', '05',\nIF(DAYOFMONTH(%ABFRequestedCoverageEffectiveDate%) = '6', '06',\nIF(DAYOFMONTH(%ABFRequestedCoverageEffectiveDate%) = '7', '07',\nIF(DAYOFMONTH(%ABFRequestedCoverageEffectiveDate%) = '8', '08',\nIF(DAYOFMONTH(%ABFRequestedCoverageEffectiveDate%) = '9', '09',\nDAYOFMONTH(%ABFRequestedCoverageEffectiveDate%)))))))))))",
+        "hide": true,
+        "hideGroupSep": false,
+        "inputWidth": 12,
+        "label": null,
+        "mask": null,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "ABFRequestedCoverageEffectiveDate"
+                    }
+                ]
+            }
+        },
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Formula",
+    "Name": "ABFEffectiveDateFormula",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/License/Merging/English/ABFEffectiveDateFormula"
+}

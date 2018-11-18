@@ -1,0 +1,36 @@
+@import "ins-product-attributes-variables";
+@import "ins-product-tags-mixin";
+
+.via-slds{
+    .vloc-rating-map-container {
+        position: relative;
+
+    }
+    .vloc-divider{
+        &:last-child{
+            display: none;
+        }
+    }
+    .vloc-simulation-column{
+        margin: 0;
+        position: -webkit-sticky;
+        top: -1px;
+        width: 22.5%;
+
+        .vloc-feed{
+            position: absolute;
+            right: 23%;
+            top: 11px;
+
+            .slds-button__icon{
+                height: 1.25rem;
+                width: 1.25rem;
+            }
+        }
+    }
+    .vloc-pointer{
+        &:hover{
+            cursor: pointer
+        }
+    }
+}
